@@ -29,9 +29,7 @@ const currentLists = {
 const ajv = new Ajv({ allErrors: true, format: "full" });
 const validate = ajv.compile(schema);
 
-const pathToImages = process.env.CI
-  ? path.join(process.env.GITHUB_WORKSPACE, "packages", "token-lists", "lists", "images")
-  : path.join(path.resolve(), "lists", "images");
+const pathToImages = path.join(path.resolve(), "lists", "images");
 const logoFiles = fs.readdirSync(pathToImages);
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get

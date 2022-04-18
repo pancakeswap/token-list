@@ -4,9 +4,7 @@ import { request, gql } from "graphql-request";
 import { getAddress } from "@ethersproject/address";
 import slugify from "slugify";
 
-const pathToImages = process.env.CI
-  ? path.join(process.env.GITHUB_WORKSPACE, "packages", "token-lists", "lists", "images")
-  : path.join(path.resolve(), "lists", "images");
+const pathToImages = path.join(path.resolve(), "lists", "images")
 const logoFiles = fs.readdirSync(pathToImages);
 
 // Interface for Bitquery GraphQL response.
