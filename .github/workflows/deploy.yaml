@@ -30,6 +30,7 @@ jobs:
           path: "lists"
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
+          verbose: true
 
       - name: Update DNS with new IPFS hash
         env:
