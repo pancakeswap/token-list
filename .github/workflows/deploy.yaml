@@ -27,10 +27,11 @@ jobs:
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.3
         with:
           pin-name: PancakeSwap Token Lists
-          path: "lists"
+          path: "./lists"
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
           verbose: true
+          remove-old: true
 
       - name: Update DNS with new IPFS hash
         env:
