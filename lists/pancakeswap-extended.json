@@ -1,13 +1,16 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-05-05T02:01:59.791Z",
+  "timestamp": "2022-05-11T09:48:25.221Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 90
+    "patch": 91
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancakeswap", "extended"],
+  "keywords": [
+    "pancakeswap",
+    "extended"
+  ],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -2208,6 +2211,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x431e0cD023a32532BF3969CddFc002c00E98429d.png"
+    },
+    {
+      "name": "Chain",
+      "symbol": "XCN",
+      "address": "0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b.png"
     },
     {
       "name": "XCarnival",
