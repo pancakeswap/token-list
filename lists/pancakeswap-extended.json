@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-05-11T09:48:25.221Z",
+  "timestamp": "2022-05-16T08:36:13.166Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 91
+    "patch": 92
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1371,6 +1371,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xacb2d47827C9813AE26De80965845D80935afd0B.png"
+    },
+    {
+      "name": "Metis Token",
+      "symbol": "Metis",
+      "address": "0xe552Fb52a4F19e44ef5A967632DBc320B0820639",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xe552Fb52a4F19e44ef5A967632DBc320B0820639.png"
     },
     {
       "name": "Mirror GOOGL Token",
