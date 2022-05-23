@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-05-16T08:36:13.166Z",
+  "timestamp": "2022-05-23T01:48:48.453Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 92
+    "patch": 93
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1403,6 +1403,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xB67754f5b4C704A24d2db68e661b2875a4dDD197.png"
+    },
+    {
+      "name": "MixMarvel Token",
+      "symbol": "MIX",
+      "address": "0x398f7827DcCbeFe6990478876bBF3612D93baF05",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x398f7827DcCbeFe6990478876bBF3612D93baF05.png"
     },
     {
       "name": "Mirror NFLX Token",
