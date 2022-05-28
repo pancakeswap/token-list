@@ -45,7 +45,7 @@ const getTokensChainData = async (listName: string, addressArray?: string[]): Pr
       address,
       chainId: 56,
       decimals: tokenInfoResponse[i * 3 + 2][0],
-      logoURI: `https://assets.trustwalletapp.com/blockchains/smartchain/assets/${address}/logo.png`,
+      logoURI: `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${address}/logo.png`,
     }));
     tokensWithChainData.push(...data);
   }

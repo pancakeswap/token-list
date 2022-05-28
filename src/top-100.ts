@@ -113,7 +113,7 @@ const getTokenLogo = (address: string): string => {
     return `https://tokens.pancakeswap.finance/images/${address}.png`;
   }
 
-  return `https://assets.trustwalletapp.com/blockchains/smartchain/assets/${address}/logo.png`;
+  return `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${address}/logo.png`;
 };
 
 /**
