@@ -1,13 +1,18 @@
 {
   "name": "PancakeSwap Mini",
-  "timestamp": "2022-03-09T22:55:34.170Z",
+  "timestamp": "2022-05-28T04:52:37.543Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancakeswap", "binance", "mini program", "mini"],
+  "keywords": [
+    "pancakeswap",
+    "binance",
+    "mini program",
+    "mini"
+  ],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -23,7 +28,7 @@
       "address": "0x111111111117dC0aa78b770fA6A738034120C302",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png"
     },
     {
       "name": "Aave Token",
@@ -31,7 +36,7 @@
       "address": "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xfb6115445Bff7b52FeB98650C87f44907E58f802/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xfb6115445Bff7b52FeB98650C87f44907E58f802/logo.png"
     },
     {
       "name": "Alchemy Token",
@@ -87,7 +92,7 @@
       "address": "0x287880Ea252b52b63Cc5f40a2d3E5A44aa665a76",
       "chainId": 56,
       "decimals": 8,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x287880Ea252b52b63Cc5f40a2d3E5A44aa665a76/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x287880Ea252b52b63Cc5f40a2d3E5A44aa665a76/logo.png"
     },
     {
       "name": "Ankr",
@@ -135,7 +140,7 @@
       "address": "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9/logo.png"
     },
     {
       "name": "Avalanche",
@@ -143,7 +148,7 @@
       "address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1CE0c2827e2eF14D5C4f29a091d735A204794041/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x1CE0c2827e2eF14D5C4f29a091d735A204794041/logo.png"
     },
     {
       "name": "Axie Infinity Shard",
@@ -223,7 +228,7 @@
       "address": "0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97/logo.png"
     },
     {
       "name": "Binance Pegged Bitcoin",
@@ -279,7 +284,7 @@
       "address": "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163/logo.png"
     },
     {
       "name": "Tranchess",
@@ -303,7 +308,7 @@
       "address": "0x09E889BB4D5b474f561db0491C38702F367A4e4d",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x09E889BB4D5b474f561db0491C38702F367A4e4d/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x09E889BB4D5b474f561db0491C38702F367A4e4d/logo.png"
     },
     {
       "name": "Compound Finance",
@@ -319,7 +324,7 @@
       "address": "0xAdBAF88B39D37Dc68775eD1541F1bf83A5A45feB",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xAdBAF88B39D37Dc68775eD1541F1bf83A5A45feB/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xAdBAF88B39D37Dc68775eD1541F1bf83A5A45feB/logo.png"
     },
     {
       "name": "Cream",
@@ -343,7 +348,7 @@
       "address": "0x8dA443F84fEA710266C8eB6bC34B71702d033EF2",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x8dA443F84fEA710266C8eB6bC34B71702d033EF2/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x8dA443F84fEA710266C8eB6bC34B71702d033EF2/logo.png"
     },
     {
       "name": "Binance Pegged DAI",
@@ -383,7 +388,7 @@
       "address": "0x4A9A2b2b04549C3927dd2c9668A5eF3fCA473623",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x4A9A2b2b04549C3927dd2c9668A5eF3fCA473623/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x4A9A2b2b04549C3927dd2c9668A5eF3fCA473623/logo.png"
     },
     {
       "name": "Dodo",
@@ -431,7 +436,7 @@
       "address": "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9/logo.png"
     },
     {
       "name": "EOS Token",
@@ -455,7 +460,7 @@
       "address": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x3d6545b08693daE087E957cb1180ee38B9e3c25E/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x3d6545b08693daE087E957cb1180ee38B9e3c25E/logo.png"
     },
     {
       "name": "Binance Pegged ETH",
@@ -479,7 +484,7 @@
       "address": "0x031b41e504677879370e9DBcF937283A8691Fa7f",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x031b41e504677879370e9DBcF937283A8691Fa7f/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x031b41e504677879370e9DBcF937283A8691Fa7f/logo.png"
     },
     {
       "name": "Filecoin",
@@ -495,7 +500,7 @@
       "address": "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD",
       "chainId": 56,
       "decimals": 8,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD/logo.png"
     },
     {
       "name": "Flux",
@@ -503,7 +508,7 @@
       "address": "0xaFF9084f2374585879e8B434C399E29E80ccE635",
       "chainId": 56,
       "decimals": 8,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xaFF9084f2374585879e8B434C399E29E80ccE635/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xaFF9084f2374585879e8B434C399E29E80ccE635/logo.png"
     },
     {
       "name": "ForTube",
@@ -527,7 +532,7 @@
       "address": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xAD29AbB318791D579433D831ed122aFeAf29dcfe/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xAD29AbB318791D579433D831ed122aFeAf29dcfe/logo.png"
     },
     {
       "name": "pTokens GALA",
@@ -535,7 +540,7 @@
       "address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x7dDEE176F665cD201F93eEDE625770E2fD911990/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x7dDEE176F665cD201F93eEDE625770E2fD911990/logo.png"
     },
     {
       "name": "Highstreet Token",
@@ -559,7 +564,7 @@
       "address": "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782",
       "chainId": 56,
       "decimals": 6,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782/logo.png"
     },
     {
       "name": "IoTeX",
@@ -575,7 +580,7 @@
       "address": "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b/logo.png"
     },
     {
       "name": "FC Lazio Fan Token",
@@ -607,7 +612,7 @@
       "address": "0xE6Ce27025F13f5213bBc560dC275e292965a392F",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xE6Ce27025F13f5213bBc560dC275e292965a392F/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xE6Ce27025F13f5213bBc560dC275e292965a392F/logo.png"
     },
     {
       "name": "Litecoin Token",
@@ -639,7 +644,7 @@
       "address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xCC42724C6683B7E57334c4E856f4c9965ED682bD/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xCC42724C6683B7E57334c4E856f4c9965ED682bD/logo.png"
     },
     {
       "name": "Mobox",
@@ -655,7 +660,7 @@
       "address": "0x9C65AB58d8d978DB963e63f2bfB7121627e3a739",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x9C65AB58d8d978DB963e63f2bfB7121627e3a739/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x9C65AB58d8d978DB963e63f2bfB7121627e3a739/logo.png"
     },
     {
       "name": "Mirror Finance",
@@ -671,7 +676,7 @@
       "address": "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350/logo.png"
     },
     {
       "name": "NEAR Protocol",
@@ -679,7 +684,7 @@
       "address": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63/logo.png"
     },
     {
       "name": "Nuls",
@@ -695,7 +700,7 @@
       "address": "0xF78D2e7936F5Fe18308A3B2951A93b6c4a41F5e2",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xF78D2e7936F5Fe18308A3B2951A93b6c4a41F5e2/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xF78D2e7936F5Fe18308A3B2951A93b6c4a41F5e2/logo.png"
     },
     {
       "name": "Ontology Token",
@@ -719,7 +724,7 @@
       "address": "0x0409633A72D846fc5BBe2f98D88564D35987904D",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0409633A72D846fc5BBe2f98D88564D35987904D/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x0409633A72D846fc5BBe2f98D88564D35987904D/logo.png"
     },
     {
       "name": "PNT",
@@ -735,7 +740,7 @@
       "address": "0x7e624FA0E1c4AbFD309cC15719b7E2580887f570",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x7e624FA0E1c4AbFD309cC15719b7E2580887f570/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x7e624FA0E1c4AbFD309cC15719b7E2580887f570/logo.png"
     },
     {
       "name": "FC Porto Fan Token",
@@ -799,7 +804,7 @@
       "address": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x2859e4544C4bB03966803b044A93563Bd2D0DD4D/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x2859e4544C4bB03966803b044A93563Bd2D0DD4D/logo.png"
     },
     {
       "name": "Synthetix Network Token",
@@ -807,7 +812,7 @@
       "address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x9Ac983826058b8a9C7Aa1C9171441191232E8404/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x9Ac983826058b8a9C7Aa1C9171441191232E8404/logo.png"
     },
     {
       "name": "SPARTAN PROTOCOL TOKEN",
@@ -823,7 +828,7 @@
       "address": "0x51BA0b044d96C3aBfcA52B64D733603CCC4F0d4D",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x51BA0b044d96C3aBfcA52B64D733603CCC4F0d4D/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x51BA0b044d96C3aBfcA52B64D733603CCC4F0d4D/logo.png"
     },
     {
       "name": "Sushi",
@@ -847,7 +852,7 @@
       "address": "0xCA0a9Df6a8cAD800046C1DDc5755810718b65C44",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xCA0a9Df6a8cAD800046C1DDc5755810718b65C44/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xCA0a9Df6a8cAD800046C1DDc5755810718b65C44/logo.png"
     },
     {
       "name": "TokoCrypto",
@@ -871,7 +876,7 @@
       "address": "0x1bA8D3C4c219B124d351F603060663BD1bcd9bbF",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1bA8D3C4c219B124d351F603060663BD1bcd9bbF/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x1bA8D3C4c219B124d351F603060663BD1bcd9bbF/logo.png"
     },
     {
       "name": "Tron",
@@ -903,7 +908,7 @@
       "address": "0x2645d5f59D952ef2317C8e0AaA5A61c392cCd44d",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x2645d5f59D952ef2317C8e0AaA5A61c392cCd44d/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x2645d5f59D952ef2317C8e0AaA5A61c392cCd44d/logo.png"
     },
     {
       "name": "Unifi Token",
@@ -951,7 +956,7 @@
       "address": "0x3f515f0a8e93F2E2f891ceeB3Db4e62e202d7110",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x3f515f0a8e93F2E2f891ceeB3Db4e62e202d7110/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x3f515f0a8e93F2E2f891ceeB3Db4e62e202d7110/logo.png"
     },
     {
       "name": "Vite",
@@ -959,7 +964,7 @@
       "address": "0x2794DAD4077602eD25A88d03781528D1637898B4",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x2794DAD4077602eD25A88d03781528D1637898B4/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x2794DAD4077602eD25A88d03781528D1637898B4/logo.png"
     },
     {
       "name": "WBNB Token",
@@ -991,7 +996,7 @@
       "address": "0x8e17ed70334C87eCE574C9d537BC153d8609e2a3",
       "chainId": 56,
       "decimals": 8,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x8e17ed70334C87eCE574C9d537BC153d8609e2a3/logo.png"
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x8e17ed70334C87eCE574C9d537BC153d8609e2a3/logo.png"
     },
     {
       "name": "XRP Token",
