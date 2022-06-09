@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-05-23T01:48:48.453Z",
+  "timestamp": "2022-06-09T04:47:02.237Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 93
+    "patch": 94
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1579,6 +1579,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xbcf39F0EDDa668C58371E519AF37CA705f2bFcbd.png"
+    },
+    {
+      "name": "PEAKDEFI",
+      "symbol": "PEAK",
+      "address": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78.png"
     },
     {
       "name": "ConstitutionDAO",
