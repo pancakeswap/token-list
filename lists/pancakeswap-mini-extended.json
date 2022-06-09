@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-05-28T04:52:24.521Z",
+  "timestamp": "2022-06-09T04:46:45.345Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 6
+    "patch": 7
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1502,6 +1502,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xbcf39F0EDDa668C58371E519AF37CA705f2bFcbd/logo.png"
+    },
+    {
+      "name": "PEAKDEFI",
+      "symbol": "PEAK",
+      "address": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78.png"
     },
     {
       "name": "ConstitutionDAO",
