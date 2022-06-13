@@ -1,6 +1,6 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-06-09T04:47:02.237Z",
+  "timestamp": "2022-06-13T08:02:02.237Z",
   "version": {
     "major": 2,
     "minor": 16,
@@ -731,6 +731,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png"
+    },
+    {
+      "name": "Domex Coin",
+      "symbol": "DMX",
+      "address": "0xE3260a5A05b523cF7FCa30328b648696CB6C1912",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xE3260a5A05b523cF7FCa30328b648696CB6C1912.png"
     },
     {
       "name": "Polkadot Token",
