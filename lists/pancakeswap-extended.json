@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-06-09T04:47:02.237Z",
+  "timestamp": "2022-06-23T02:08:19.537Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 94
+    "patch": 95
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1467,6 +1467,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x758d08864fB6cCE3062667225ca10b8F00496cc2.png"
+    },
+    {
+      "name": "NanoByte Token",
+      "symbol": "NBT",
+      "address": "0x1D3437E570e93581Bd94b2fd8Fbf202d4a65654A",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1D3437E570e93581Bd94b2fd8Fbf202d4a65654A.png"
     },
     {
       "name": "APENFT",

@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-06-09T04:46:45.345Z",
+  "timestamp": "2022-06-23T02:08:05.265Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 7
+    "patch": 8
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1390,6 +1390,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x758d08864fB6cCE3062667225ca10b8F00496cc2/logo.png"
+    },
+    {
+      "name": "NanoByte Token",
+      "symbol": "NBT",
+      "address": "0x1D3437E570e93581Bd94b2fd8Fbf202d4a65654A",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1D3437E570e93581Bd94b2fd8Fbf202d4a65654A.png"
     },
     {
       "name": "APENFT",
