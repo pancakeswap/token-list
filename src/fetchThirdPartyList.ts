@@ -33,6 +33,7 @@ const CMC_BAD_TOKENS = [
   "0x58b8e295fc5b705bcbb48c5978b2b389332e0414", // unverified
   "0x6636F7B89f64202208f608DEFFa71293EEF7b466", // bad symbol
   "0xb8e3399d81b76362b76453799c95fee868c728ea", // bad symbol
+  "0x92CfbEC26C206C90aeE3b7C66A9AE673754FaB7e", // unverified
 ].map((a) => a.toLowerCase());
 
 const badTokens = {
