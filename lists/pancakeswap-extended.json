@@ -7,10 +7,7 @@
     "patch": 95
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": [
-    "pancakeswap",
-    "extended"
-  ],
+  "keywords": ["pancakeswap", "extended"],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -1867,6 +1864,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x154A9F9cbd3449AD22FDaE23044319D6eF2a1Fab.png"
+    },
+    {
+      "name": "Soakmont V2",
+      "symbol": "SKMT",
+      "address": "0x1B2fdB1626285B94782af2Fda8e270E95cEbC3b4",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1B2fdB1626285B94782af2Fda8e270E95cEbC3b4.png"
     },
     {
       "name": "SPARTAN PROTOCOL TOKEN",
