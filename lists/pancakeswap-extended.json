@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-06-23T02:08:19.537Z",
+  "timestamp": "2022-07-04T08:05:09.052Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 95
+    "patch": 96
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2035,6 +2035,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x7af173F350D916358AF3e218Bdf2178494Beb748.png"
+    },
+    {
+      "name": "Trivian Token",
+      "symbol": "TRIVIA",
+      "address": "0xb465f3cb6Aba6eE375E12918387DE1eaC2301B05",
+      "chainId": 56,
+      "decimals": 3,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xb465f3cb6Aba6eE375E12918387DE1eaC2301B05.png"
     },
     {
       "name": "Tron",
