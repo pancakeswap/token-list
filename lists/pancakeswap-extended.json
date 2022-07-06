@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-07-04T08:05:09.052Z",
+  "timestamp": "2022-07-06T04:23:53.860Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 96
+    "patch": 97
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1387,6 +1387,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f.png"
+    },
+    {
+      "name": "MetaShooter",
+      "symbol": "MHUNT",
+      "address": "0x2C717059b366714d267039aF8F59125CAdce6D8c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x2C717059b366714d267039aF8F59125CAdce6D8c.png"
     },
     {
       "name": "Mirror Finance",
