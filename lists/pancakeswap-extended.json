@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-07-06T04:23:53.860Z",
+  "timestamp": "2022-07-06T17:23:32.899Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 97
+    "patch": 98
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1547,6 +1547,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x658E64FFcF40D240A43D52CA9342140316Ae44fA.png"
+    },
+    {
+      "name": "OpenLeverage",
+      "symbol": "OLE",
+      "address": "0xa865197A84E780957422237B5D152772654341F3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xa865197A84E780957422237B5D152772654341F3.png"
     },
     {
       "name": "Harmony One",

@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-07-06T04:23:40.833Z",
+  "timestamp": "2022-07-06T17:23:48.360Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 10
+    "patch": 11
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1470,6 +1470,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x658E64FFcF40D240A43D52CA9342140316Ae44fA/logo.png"
+    },
+    {
+      "name": "OpenLeverage",
+      "symbol": "OLE",
+      "address": "0xa865197A84E780957422237B5D152772654341F3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xa865197A84E780957422237B5D152772654341F3.png"
     },
     {
       "name": "Harmony ONE",
