@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-07-06T04:23:53.860Z",
+  "timestamp": "2022-07-21T03:57:50.964Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 97
+    "patch": 98
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1867,6 +1867,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x232FB065D9d24c34708eeDbF03724f2e95ABE768.png"
+    },
+    {
+      "name": "Meta Apes Shell",
+      "symbol": "SHELL",
+      "address": "0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272.png"
     },
     {
       "name": "CryptoBlades Skill Token",
