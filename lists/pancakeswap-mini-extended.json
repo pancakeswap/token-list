@@ -1,6 +1,6 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-07-06T17:23:48.360Z",
+  "timestamp": "2022-07-21T06:16:22.209Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -1790,6 +1790,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x232FB065D9d24c34708eeDbF03724f2e95ABE768/logo.png"
+    },
+    {
+      "name": "Meta Apes Shell",
+      "symbol": "SHELL",
+      "address": "0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272.png"
     },
     {
       "name": "CryptoBlades Skill Token",
