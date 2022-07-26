@@ -93,7 +93,7 @@ expect.extend({
 
     // TW logos are always checksummed
     const hasTWLogo =
-      token.logoURI === `${TWLogo[56]}/${token.address}/logo.png`;
+      token.logoURI === `${TWLogo[token.chainId]}/${token.address}/logo.png`;
     let hasLocalLogo = false;
     const refersToLocalLogo = token.logoURI === `https://tokens.pancakeswap.finance/images/${token.chainId}/${token.address}.png`;
     if (refersToLocalLogo) {
