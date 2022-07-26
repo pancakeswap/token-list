@@ -14,6 +14,7 @@ import currentPancakeswapMiniList from "../lists/pancakeswap-mini.json";
 import currentPancakeswapMiniExtendedList from "../lists/pancakeswap-mini-extended.json";
 import { buildList, VersionBump } from "../src/buildList";
 import getTokenChainData from "../src/utils/getTokensChainData";
+import { getTokenUrl } from "../src/utils/getTokenUrl";
 
 const currentLists = {
   "pancakeswap-default": currentPancakeswapDefaultList,
@@ -88,14 +89,16 @@ expect.extend({
     };
   },
   toBeValidLogo(token) {
-    const pathToImages = path.join(path.resolve(), "lists", "images", token.chainId.toString());
+    const pathToImages = token.chainId === 56
+      ? path.join(path.resolve(), "lists", "images")
+      : path.join(path.resolve(), "lists", "images", token.chainId.toString());
     const logoFiles = fs.readdirSync(pathToImages);
 
     // TW logos are always checksummed
     const hasTWLogo =
-      token.logoURI === `${TWLogo[token.chainId]}/${token.address}/logo.png`;
+    token.logoURI === `${TWLogo[token.chainId]}/${token.address}/logo.png`;
     let hasLocalLogo = false;
-    const refersToLocalLogo = token.logoURI === `https://tokens.pancakeswap.finance/images/${token.chainId}/${token.address}.png`;
+    const refersToLocalLogo = token.logoURI === getTokenUrl({ address: token.address, chainId: token.chainId });
     if (refersToLocalLogo) {
       const fileName = token.logoURI.split("/").pop();
       // Note: fs.existsSync can't be used here because its not case sensetive
@@ -167,7 +170,9 @@ describe.each([
 
   it("all logos addresses are valid and checksummed", async () => {
     for (const token of defaultTokenList.tokens) {
-      const pathToImages = path.join(path.resolve(), "lists", "images", token.chainId.toString());
+      const pathToImages = token.chainId === 56
+        ? path.join(path.resolve(), "lists", "images")
+        : path.join(path.resolve(), "lists", "images", token.chainId.toString());
       const logoFiles = fs.readdirSync(pathToImages);
 
       for (const logo of logoFiles) {

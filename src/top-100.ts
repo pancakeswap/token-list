@@ -5,7 +5,7 @@ import { getAddress } from "@ethersproject/address";
 import slugify from "slugify";
 import { TWLogo } from "../test/default.test"
 
-const pathToImages = path.join(path.resolve(), "lists", "images", "56")
+const pathToImages = path.join(path.resolve(), "lists", "images")
 const logoFiles = fs.readdirSync(pathToImages);
 
 // Interface for Bitquery GraphQL response.
@@ -111,7 +111,7 @@ const getTokens = async (): Promise<BitqueryEntity[]> => {
 const getTokenLogo = (address: string): string => {
   // Note: fs.existsSync can't be used here because its not case sensetive
   if (logoFiles.includes(`${address}.png`)) {
-    return `https://tokens.pancakeswap.finance/images/56/${address}.png`;
+    return `https://tokens.pancakeswap.finance/images/${address}.png`;
   }
 
   return `${TWLogo[56]}/${address}/logo.png`;
