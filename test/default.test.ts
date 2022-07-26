@@ -26,11 +26,12 @@ const currentLists = {
   "pancakeswap-mini-extended": currentPancakeswapMiniExtendedList,
 };
 
+export const TWLogo = {
+  56: 'https://assets-cdn.trustwallet.com/blockchains/smartchain/assets'
+}
+
 const ajv = new Ajv({ allErrors: true, format: "full" });
 const validate = ajv.compile(schema);
-
-const pathToImages = path.join(path.resolve(), "lists", "images");
-const logoFiles = fs.readdirSync(pathToImages);
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
 const getByAjvPath = (obj, propertyPath: string, defaultValue = undefined) => {
@@ -87,11 +88,14 @@ expect.extend({
     };
   },
   toBeValidLogo(token) {
+    const pathToImages = path.join(path.resolve(), "lists", "images", token.chainId.toString());
+    const logoFiles = fs.readdirSync(pathToImages);
+
     // TW logos are always checksummed
     const hasTWLogo =
-      token.logoURI === `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${token.address}/logo.png`;
+      token.logoURI === `${TWLogo[56]}/${token.address}/logo.png`;
     let hasLocalLogo = false;
-    const refersToLocalLogo = token.logoURI === `https://tokens.pancakeswap.finance/images/${token.address}.png`;
+    const refersToLocalLogo = token.logoURI === `https://tokens.pancakeswap.finance/images/${token.chainId}/${token.address}.png`;
     if (refersToLocalLogo) {
       const fileName = token.logoURI.split("/").pop();
       // Note: fs.existsSync can't be used here because its not case sensetive
@@ -162,9 +166,14 @@ describe.each([
   });
 
   it("all logos addresses are valid and checksummed", async () => {
-    for (const logo of logoFiles) {
-      const sanitizedLogo = logo.split(".")[0];
-      expect(sanitizedLogo).toBe(getAddress(sanitizedLogo));
+    for (const token of defaultTokenList.tokens) {
+      const pathToImages = path.join(path.resolve(), "lists", "images", token.chainId.toString());
+      const logoFiles = fs.readdirSync(pathToImages);
+
+      for (const logo of logoFiles) {
+        const sanitizedLogo = logo.split(".")[0];
+        expect(sanitizedLogo).toBe(getAddress(sanitizedLogo));
+      }
     }
   });
 
