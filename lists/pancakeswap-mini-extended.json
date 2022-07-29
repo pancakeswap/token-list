@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-07-29T03:12:41.328Z",
+  "timestamp": "2022-07-29T03:30:44.269Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 12
+    "patch": 13
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1534,6 +1534,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78.png"
+    },
+    {
+      "name": "Meta Apes Peel",
+      "symbol": "PEEL",
+      "address": "0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB.png"
     },
     {
       "name": "ConstitutionDAO",
