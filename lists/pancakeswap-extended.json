@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-07-29T03:30:26.553Z",
+  "timestamp": "2022-08-08T04:00:44.081Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 100
+    "patch": 101
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1723,6 +1723,14 @@
       "chainId": 56,
       "decimals": 2,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xBc5609612b7C44BEf426De600B5fd1379DB2EcF1.png"
+    },
+    {
+      "name": "pStake Finance",
+      "symbol": "PSTAKE",
+      "address": "0x4C882ec256823eE773B25b414d36F92ef58a7c0C",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x4C882ec256823eE773B25b414d36F92ef58a7c0C.png"
     },
     {
       "name": "Qubit Token",
