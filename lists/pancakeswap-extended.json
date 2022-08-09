@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-07-29T03:30:26.553Z",
+  "timestamp": "2022-08-09T03:34:35.134Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 100
+    "patch": 101
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1725,6 +1725,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0xBc5609612b7C44BEf426De600B5fd1379DB2EcF1.png"
     },
     {
+      "name": "pStake Finance",
+      "symbol": "PSTAKE",
+      "address": "0x4C882ec256823eE773B25b414d36F92ef58a7c0C",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x4C882ec256823eE773B25b414d36F92ef58a7c0C.png"
+    },
+    {
       "name": "Qubit Token",
       "symbol": "QBT",
       "address": "0x17B7163cf1Dbd286E262ddc68b553D899B93f526",
@@ -1915,6 +1923,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1633b7157e7638C4d6593436111Bf125Ee74703F.png"
+    },
+    {
+      "name": "Staked BNB",
+      "symbol": "stkBNB",
+      "address": "0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16.png"
     },
     {
       "name": "Sushi",

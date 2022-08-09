@@ -2286,5 +2286,21 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB.png"
+  },
+  {
+    "name": "pStake Finance",
+    "symbol": "PSTAKE",
+    "address": "0x4C882ec256823eE773B25b414d36F92ef58a7c0C",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x4C882ec256823eE773B25b414d36F92ef58a7c0C.png"
+  },
+  {
+    "name": "Staked BNB",
+    "symbol": "stkBNB",
+    "address": "0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16.png"
   }
 ]
