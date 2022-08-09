@@ -1,6 +1,6 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-08-08T04:00:55.942Z",
+  "timestamp": "2022-08-09T03:34:21.230Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -1838,6 +1838,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x1633b7157e7638C4d6593436111Bf125Ee74703F/logo.png"
+    },
+    {
+      "name": "Staked BNB",
+      "symbol": "stkBNB",
+      "address": "0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16.png"
     },
     {
       "name": "SushiToken",

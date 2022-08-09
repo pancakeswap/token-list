@@ -1,6 +1,6 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-08-08T04:00:44.081Z",
+  "timestamp": "2022-08-09T03:34:35.134Z",
   "version": {
     "major": 2,
     "minor": 16,
@@ -1923,6 +1923,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1633b7157e7638C4d6593436111Bf125Ee74703F.png"
+    },
+    {
+      "name": "Staked BNB",
+      "symbol": "stkBNB",
+      "address": "0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16.png"
     },
     {
       "name": "Sushi",
