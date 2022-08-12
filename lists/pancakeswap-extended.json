@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-08-09T03:34:35.134Z",
+  "timestamp": "2022-08-12T05:48:12.853Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 101
+    "patch": 102
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1973,12 +1973,12 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x71DE20e0C4616E7fcBfDD3f875d568492cBE4739.png"
     },
     {
-      "name": "Switcheo",
+      "name": "Carbon Protocol",
       "symbol": "SWTH",
-      "address": "0x250b211EE44459dAd5Cd3bCa803dD6a7EcB5d46C",
+      "address": "0xC0ECB8499D8dA2771aBCbF4091DB7f65158f1468",
       "chainId": 56,
       "decimals": 8,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x250b211EE44459dAd5Cd3bCa803dD6a7EcB5d46C.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xC0ECB8499D8dA2771aBCbF4091DB7f65158f1468.png"
     },
     {
       "name": "Swipe",
