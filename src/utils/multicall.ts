@@ -39,7 +39,10 @@ const multicallv2 = async <T = any>(
   const returnData = await multi.tryAggregate(requireSuccess, calldata);
   const res = returnData.map((call, i) => {
     const [result, data] = call;
-    return result ? itf.decodeFunctionResult(calls[i].name, data) : null;
+    if (data === "0x") {
+      console.error(data, i, calls[i]);
+    }
+    return result && data !== "0x" ? itf.decodeFunctionResult(calls[i].name, data) : null;
   });
 
   return res as any;
