@@ -15,6 +15,26 @@ import currentPancakeswapMiniExtendedList from "../lists/pancakeswap-mini-extend
 import { buildList, VersionBump } from "../src/buildList";
 import getTokenChainData from "../src/utils/getTokensChainData";
 
+const listArgs = process.argv
+  ?.find((arg) => arg.includes("--list="))
+  ?.split("--list=")
+  .pop();
+
+const CASES = [
+  ["pancakeswap-default"],
+  ["pancakeswap-extended"],
+  ["pancakeswap-top-100"],
+  ["pancakeswap-top-15"],
+  ["coingecko", { skipLogo: true }],
+  ["cmc", { skipLogo: true }],
+  ["pancakeswap-mini"],
+  ["pancakeswap-mini-extended"],
+] as const;
+
+console.log(listArgs, "listArgs");
+
+const cases = listArgs ? CASES.filter((c) => c[0] === listArgs) : CASES;
+
 const currentLists = {
   "pancakeswap-default": currentPancakeswapDefaultList,
   "pancakeswap-extended": currentPancakeswapExtendedtList,
@@ -110,16 +130,7 @@ expect.extend({
   },
 });
 
-describe.each([
-  ["pancakeswap-default"],
-  ["pancakeswap-extended"],
-  ["pancakeswap-top-100"],
-  ["pancakeswap-top-15"],
-  ["coingecko", { skipLogo: true }],
-  ["cmc", { skipLogo: true }],
-  ["pancakeswap-mini"],
-  ["pancakeswap-mini-extended"],
-])("buildList %s", (listName, opt = undefined) => {
+describe.each(cases)("buildList %s", (listName, opt = undefined) => {
   const defaultTokenList = buildList(listName);
 
   it("validates", () => {
@@ -184,7 +195,7 @@ describe.each([
         (t) => t.address.toLowerCase() === token.address.toLowerCase()
       )?.decimals;
       expect(token.decimals).toBeGreaterThanOrEqual(0);
-      expect(token.decimals).toBeLessThanOrEqual(18);
+      expect(token.decimals).toBeLessThanOrEqual(255);
       expect(token.decimals).toEqual(realDecimals);
     }
   });
