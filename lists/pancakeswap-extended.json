@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-08-12T05:48:12.853Z",
+  "timestamp": "2022-08-23T02:38:03.755Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 102
+    "patch": 103
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2259,6 +2259,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x7e396BfC8a2f84748701167c2d622F041A1D7a17.png"
+    },
+    {
+      "name": "Wombat Token",
+      "symbol": "WOM",
+      "address": "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1.png"
     },
     {
       "name": "Wootrade",
