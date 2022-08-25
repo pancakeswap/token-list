@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-08-23T02:38:36.776Z",
+  "timestamp": "2022-08-25T04:00:59.375Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 15
+    "patch": 16
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -934,6 +934,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xf79037F6f6bE66832DE4E7516be52826BC3cBcc4/logo.png"
+    },
+    {
+      "name": "Hay Stablecoin",
+      "symbol": "HAY",
+      "address": "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5.png"
     },
     {
       "name": "Helmet.insure Governance Token",
