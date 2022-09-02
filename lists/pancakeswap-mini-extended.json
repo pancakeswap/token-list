@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-08-25T04:00:59.375Z",
+  "timestamp": "2022-09-02T04:18:38.663Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 16
+    "patch": 17
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1838,6 +1838,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x3910db0600eA925F63C36DdB1351aB6E2c6eb102/logo.png"
+    },
+    {
+      "name": "Spintop",
+      "symbol": "SPIN",
+      "address": "0x6AA217312960A21aDbde1478DC8cBCf828110A67",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x6AA217312960A21aDbde1478DC8cBCf828110A67.png"
     },
     {
       "name": "Splintershards",
