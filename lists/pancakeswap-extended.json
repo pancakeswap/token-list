@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-08-25T04:00:43.745Z",
+  "timestamp": "2022-09-02T04:18:22.888Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 104
+    "patch": 105
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1923,6 +1923,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x3910db0600eA925F63C36DdB1351aB6E2c6eb102.png"
+    },
+    {
+      "name": "Spintop",
+      "symbol": "SPIN",
+      "address": "0x6AA217312960A21aDbde1478DC8cBCf828110A67",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x6AA217312960A21aDbde1478DC8cBCf828110A67.png"
     },
     {
       "name": "Splintershards",
