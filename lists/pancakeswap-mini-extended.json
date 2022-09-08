@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-09-02T04:18:38.663Z",
+  "timestamp": "2022-09-08T02:54:21.752Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 17
+    "patch": 18
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -902,6 +902,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x84e9a6F9D240FdD33801f7135908BfA16866939A/logo.png"
+    },
+    {
+      "name": "Galactic Quadrant",
+      "symbol": "GQ",
+      "address": "0xF700D4c708C2be1463E355F337603183D20E0808",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xF700D4c708C2be1463E355F337603183D20E0808.png"
     },
     {
       "name": "GourmetGalaxy",
