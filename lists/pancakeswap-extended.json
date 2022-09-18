@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-09-07T06:50:35.251Z",
+  "timestamp": "2022-09-18T07:34:24.102Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 106
+    "patch": 107
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1067,6 +1067,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xE1d1F66215998786110Ba0102ef558b22224C016.png"
+    },
+    {
+      "name": "Primal Hoop",
+      "symbol": "HOOP",
+      "address": "0xF19cfb40B3774dF6Eed83169Ad5aB0Aaf6865F25",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xF19cfb40B3774dF6Eed83169Ad5aB0Aaf6865F25.png"
     },
     {
       "name": "Hot Cross Token",
