@@ -2328,11 +2328,19 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/0x6AA217312960A21aDbde1478DC8cBCf828110A67.png"
   },
   {
+    "name": "Galactic Quadrant",
+    "symbol": "GQ",
+    "address": "0xF700D4c708C2be1463E355F337603183D20E0808",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xF700D4c708C2be1463E355F337603183D20E0808.png"
+  },
+  {
     "name": "Primal Hoop",
     "symbol": "HOOP",
     "address": "0xF19cfb40B3774dF6Eed83169Ad5aB0Aaf6865F25",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0xF19cfb40B3774dF6Eed83169Ad5aB0Aaf6865F25.png"
-  }
+  },
 ]
