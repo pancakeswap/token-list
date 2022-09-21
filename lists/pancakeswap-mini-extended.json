@@ -1,6 +1,6 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-09-08T02:54:21.752Z",
+  "timestamp": "2022-09-18T07:34:09.583Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -998,6 +998,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xE1d1F66215998786110Ba0102ef558b22224C016/logo.png"
+    },
+    {
+      "name": "Chibi Dinos",
+      "symbol": "HOOP",
+      "address": "0xF19cfb40B3774dF6Eed83169Ad5aB0Aaf6865F25",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xF19cfb40B3774dF6Eed83169Ad5aB0Aaf6865F25.png"
     },
     {
       "name": "Hot Cross Token",
