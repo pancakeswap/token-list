@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-09-18T07:34:24.102Z",
+  "timestamp": "2022-09-23T05:55:19.558Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 107
+    "patch": 108
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -587,6 +587,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xf9CeC8d50f6c8ad3Fb6dcCEC577e05aA32B224FE.png"
+    },
+    {
+      "name": "CO",
+      "symbol": "CO",
+      "address": "0x936B6659Ad0C1b244Ba8Efe639092acae30dc8d6",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x936B6659Ad0C1b244Ba8Efe639092acae30dc8d6.png"
     },
     {
       "name": "Compound Finance",
