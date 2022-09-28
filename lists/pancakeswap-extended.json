@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-09-23T05:55:19.558Z",
+  "timestamp": "2022-09-28T14:22:49.186Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 108
+    "patch": 109
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1029,7 +1029,7 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0xf79037F6f6bE66832DE4E7516be52826BC3cBcc4.png"
     },
     {
-      "name": "Hay Stablecoin",
+      "name": "Hay Destablecoin",
       "symbol": "HAY",
       "address": "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5",
       "chainId": 56,
