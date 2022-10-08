@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-09-28T14:23:05.182Z",
+  "timestamp": "2022-10-08T14:17:02.981Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 20
+    "patch": 21
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1134,6 +1134,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x5F88AB06e8dfe89DF127B2430Bba4Af600866035/logo.png"
+    },
+    {
+      "name": "Kingdom Raids",
+      "symbol": "KRS",
+      "address": "0x37b53894e7429f794B56F22a32E1695567Ee9913",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x37b53894e7429f794B56F22a32E1695567Ee9913.png"
     },
     {
       "name": "Kattana",
