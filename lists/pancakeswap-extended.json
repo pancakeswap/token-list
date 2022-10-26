@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-10-17T03:24:51.310Z",
+  "timestamp": "2022-10-26T04:27:09.352Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 111
+    "patch": 112
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1427,6 +1427,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f.png"
+    },
+    {
+      "name": "Magpie Token",
+      "symbol": "MGP",
+      "address": "0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa.png"
     },
     {
       "name": "MetaShooter",
