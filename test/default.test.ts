@@ -139,7 +139,7 @@ expect.extend({
     if (refersToLocalLogo) {
       const fileName = token.logoURI.split("/").pop();
       // Note: fs.existsSync can't be used here because its not case sensetive
-      hasLocalLogo = logoFiles.includes(fileName);
+      hasLocalLogo = logoFiles.map((f) => f.name).includes(fileName);
     }
     if (hasTWLogo || hasLocalLogo) {
       return {
