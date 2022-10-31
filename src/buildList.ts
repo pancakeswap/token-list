@@ -5,10 +5,12 @@ import { version as pancakeswapDefaultVersion } from "../lists/pancakeswap-defau
 import { version as pancakeswapExtendedVersion } from "../lists/pancakeswap-extended.json";
 import { version as pancakeswapTop15Version } from "../lists/pancakeswap-top-15.json";
 import { version as pancakeswapTop100Version } from "../lists/pancakeswap-top-100.json";
+import { version as pancakeswapAptosVersion } from "../lists/pancakeswap-aptos.json";
 import { version as coingeckoVersion } from "../lists/coingecko.json";
 import { version as cmcVersion } from "../lists/cmc.json";
 import { version as pancakeswapMiniVersion } from "../lists/pancakeswap-mini.json";
 import { version as pancakeswapMiniExtendedVersion } from "../lists/pancakeswap-mini-extended.json";
+import pancakeswapAptos from "./tokens/pancakeswap-aptos.json";
 import pancakeswapDefault from "./tokens/pancakeswap-default.json";
 import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
 import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
@@ -31,6 +33,14 @@ type Version = {
 };
 
 const lists = {
+  "pancakeswap-aptos": {
+    list: pancakeswapAptos,
+    name: "PancakeSwap Aptos",
+    keywords: ["pancakeswap", "aptos"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+    currentVersion: pancakeswapAptosVersion,
+  },
   "pancakeswap-default": {
     list: pancakeswapDefault,
     name: "PancakeSwap Default",
