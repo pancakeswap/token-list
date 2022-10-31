@@ -7,8 +7,10 @@
   "private": true,
   "scripts": {
     "build": "rm -rf ./dist && rollup -c",
+    "generate:pcs-aptos": "yarn build && node ./dist generate pancakeswap-aptos",
+    "makelist:pcs-aptos": "yarn test --list=pancakeswap-aptos && yarn generate:pcs-aptos",
     "checksum:pcs-default": "yarn build && node ./dist checksum pancakeswap-default",
-    "generate:pcs-default": "yarn test && yarn build && node ./dist generate pancakeswap-default",
+    "generate:pcs-default": "yarn test --list=pancakeswap-default && yarn build && node ./dist generate pancakeswap-default",
     "makelist:pcs-default": "yarn checksum:pcs-default && yarn generate:pcs-default",
     "checksum:pcs-extended": "yarn build && node ./dist checksum pancakeswap-extended",
     "generate:pcs-extended": "yarn test --list=pancakeswap-extended && yarn build && node ./dist generate pancakeswap-extended",
@@ -43,9 +45,11 @@
   },
   "dependencies": {
     "@ethersproject/address": "^5.1.0",
+    "@pancakeswap/awgmi": "^0.0.5",
     "@typechain/ethers-v5": "^9.0.0",
     "@uniswap/token-lists": "^1.0.0-beta.21",
     "ajv": "6.12.2",
+    "aptos": "^1.3.16",
     "axios": "^0.26.0",
     "ethers": "^5.5.4",
     "graphql": "^15.5.0",
