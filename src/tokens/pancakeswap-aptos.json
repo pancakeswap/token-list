@@ -48,54 +48,6 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
   },
   {
-    "name": "Wormhole - USD Coin",
-    "symbol": "USDC",
-    "chainId": 1,
-    "decimals": 6,
-    "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
-    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
-  },
-  {
-    "name": "Wormhole - Tether USD",
-    "symbol": "USDT",
-    "chainId": 1,
-    "decimals": 6,
-    "address": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
-    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
-  },
-  {
-    "name": "Wormhole Solana - USD Coin",
-    "symbol": "USDCso",
-    "chainId": 1,
-    "decimals": 6,
-    "address": "0xc91d826e29a3183eb3b6f6aa3a722089fdffb8e9642b94c5fcd4c48d035c0080::coin::T",
-    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
-  },
-  {
-    "name": "Wormhole - Solana",
-    "symbol": "SOL",
-    "chainId": 1,
-    "decimals": 8,
-    "address": "0xdd89c0e695df0692205912fb69fc290418bed0dbe6e4573d744a6d5e6bab6c13::coin::T",
-    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/sol.png"
-  },
-  {
-    "name": "Wormhole - Wrapped Ether",
-    "symbol": "WETH",
-    "chainId": 1,
-    "decimals": 8,
-    "address": "0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T",
-    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
-  },
-  {
-    "name": "Wormhole - Wrapped BTC",
-    "symbol": "WBTC",
-    "chainId": 1,
-    "decimals": 8,
-    "address": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
-    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
-  },
-  {
     "name": "Celer - USD Coin",
     "symbol": "USDC",
     "chainId": 1,
