@@ -63,7 +63,10 @@ delete cloneSchema.definitions.TokenInfo.properties.address.pattern;
 const validateAptos = ajv.compile(cloneSchema);
 
 const pathToImages = path.join(path.resolve(), "lists", "images");
-const logoFiles = fs.readdirSync(pathToImages);
+const logoFiles = fs
+  .readdirSync(pathToImages, { withFileTypes: true })
+  .filter((f) => f.isFile())
+  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
 const getByAjvPath = (obj, propertyPath: string, defaultValue = undefined) => {
@@ -103,7 +106,6 @@ expect.extend({
   toBeValidTokenList(tokenList, isAptos) {
     let isValid;
     if (isAptos) {
-      console.log(tokenList, "tokenList");
       isValid = validateAptos(tokenList);
     } else {
       isValid = validateEvm(tokenList);
@@ -199,7 +201,7 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
   it("all logos addresses are valid and checksummed", async () => {
     if (!opt || !opt.skipLogo) {
       for (const logo of logoFiles) {
-        const sanitizedLogo = logo.split(".")[0];
+        const sanitizedLogo = logo.name.split(".")[0];
         expect(sanitizedLogo).toBe(getAddress(sanitizedLogo));
       }
     }
