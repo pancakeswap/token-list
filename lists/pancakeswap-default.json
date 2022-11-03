@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Default",
-  "timestamp": "2022-03-01T08:37:04.410Z",
+  "timestamp": "2022-11-03T20:21:51.115Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 5
+    "patch": 6
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -115,6 +115,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "BOB Token",
+      "symbol": "BOB",
+      "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B.png"
     }
   ]
 }

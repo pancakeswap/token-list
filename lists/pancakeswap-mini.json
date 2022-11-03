@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini",
-  "timestamp": "2022-05-28T04:52:37.543Z",
+  "timestamp": "2022-11-03T20:24:36.666Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -229,6 +229,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97/logo.png"
+    },
+    {
+      "name": "BOB Token",
+      "symbol": "BOB",
+      "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B.png"
     },
     {
       "name": "Binance Pegged Bitcoin",
