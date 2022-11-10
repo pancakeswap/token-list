@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-10-26T04:27:09.352Z",
+  "timestamp": "2022-11-10T04:33:40.808Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 112
+    "patch": 116
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1196,6 +1196,14 @@
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x4BA0057f784858a48fe351445C672FF2a3d43515.png"
     },
+ {
+    "name": "KodexPay",
+    "symbol": "KXP",
+    "address": "0x02a655942Dbb886c77bb22B270060c561300B0E2",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x02a655942Dbb886c77bb22B270060c561300B0E2.png"
+  },
     {
       "name": "Dragon Kart",
       "symbol": "KART",
@@ -2507,14 +2515,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1D229B958D5DDFca92146585a8711aECbE56F095.png"
-    },
-      {
-    "name": "KodexPay",
-    "symbol": "KXP",
-    "address": "0x02a655942Dbb886c77bb22B270060c561300B0E2",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0x02a655942Dbb886c77bb22B270060c561300B0E2.png"
-  }
+    }
   ]
 }
