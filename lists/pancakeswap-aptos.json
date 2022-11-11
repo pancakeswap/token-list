@@ -1,16 +1,17 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2022-10-31T06:46:09.624Z",
+  "timestamp": "2022-11-11T07:00:31.412Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 4
+    "patch": 5
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
     "pancakeswap",
     "aptos"
   ],
+  "schema": "aptos",
   "tokens": [
     {
       "name": "Aptos Coin",
