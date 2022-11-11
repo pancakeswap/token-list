@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { TokenList } from "@uniswap/token-lists";
+import { TokenList } from "@pancakeswap/token-lists";
 import { version as pancakeswapDefaultVersion } from "../lists/pancakeswap-default.json";
 import { version as pancakeswapExtendedVersion } from "../lists/pancakeswap-extended.json";
 import { version as pancakeswapTop15Version } from "../lists/pancakeswap-top-15.json";
@@ -40,6 +40,7 @@ const lists = {
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: true,
     currentVersion: pancakeswapAptosVersion,
+    schema: "aptos",
   },
   "pancakeswap-default": {
     list: pancakeswapDefault,
@@ -122,7 +123,7 @@ const getNextVersion = (currentVersion: Version, versionBump?: VersionBump) => {
 };
 
 export const buildList = (listName: string, versionBump?: VersionBump): TokenList => {
-  const { list, name, keywords, logoURI, sort, currentVersion } = lists[listName];
+  const { list, name, keywords, logoURI, sort, currentVersion, schema } = lists[listName];
   const version = getNextVersion(currentVersion, versionBump);
   return {
     name,
@@ -130,6 +131,8 @@ export const buildList = (listName: string, versionBump?: VersionBump): TokenLis
     version,
     logoURI,
     keywords,
+    // @ts-ignore
+    schema,
     // sort them by symbol for easy readability (not applied to default list)
     tokens: sort
       ? list.sort((t1, t2) => {

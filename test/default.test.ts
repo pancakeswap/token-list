@@ -3,7 +3,7 @@ import Ajv from "ajv";
 import fs from "fs";
 import path from "path";
 import { getAddress } from "@ethersproject/address";
-import { schema } from "@uniswap/token-lists";
+import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json";
 import currentPancakeswapDefaultList from "../lists/pancakeswap-default.json";
 import currentPancakeswapExtendedtList from "../lists/pancakeswap-extended.json";
 import currentPancakeswapTop15List from "../lists/pancakeswap-top-15.json";
@@ -55,12 +55,7 @@ const APTOS_COIN_ALIAS = {
 };
 
 const ajv = new Ajv({ allErrors: true, format: "full" });
-const validateEvm = ajv.compile(schema);
-
-const cloneSchema = JSON.parse(JSON.stringify(schema));
-delete cloneSchema.$id;
-delete cloneSchema.definitions.TokenInfo.properties.address.pattern;
-const validateAptos = ajv.compile(cloneSchema);
+const validate = ajv.compile(pancakeswapSchema);
 
 const pathToImages = path.join(path.resolve(), "lists", "images");
 const logoFiles = fs
@@ -84,7 +79,7 @@ declare global {
   namespace jest {
     interface Matchers<R> {
       toBeDeclaredOnce(type: string, parameter: string, chainId: number): CustomMatcherResult;
-      toBeValidTokenList(isAptos?: boolean): CustomMatcherResult;
+      toBeValidTokenList(): CustomMatcherResult;
       toBeValidLogo(): CustomMatcherResult;
     }
   }
@@ -103,13 +98,8 @@ expect.extend({
       pass: false,
     };
   },
-  toBeValidTokenList(tokenList, isAptos) {
-    let isValid;
-    if (isAptos) {
-      isValid = validateAptos(tokenList);
-    } else {
-      isValid = validateEvm(tokenList);
-    }
+  toBeValidTokenList(tokenList) {
+    const isValid = validate(tokenList);
     if (isValid) {
       return {
         message: () => ``,
@@ -117,14 +107,12 @@ expect.extend({
       };
     }
 
-    const validationSummary = isAptos
-      ? validateAptos.errors
-      : validateEvm?.errors
-          ?.map((error) => {
-            const value = getByAjvPath(tokenList, error.dataPath);
-            return `- ${error.dataPath.split(".").pop()} ${value} ${error.message}`;
-          })
-          .join("\n");
+    const validationSummary = validate.errors
+      ?.map((error) => {
+        const value = getByAjvPath(tokenList, error.dataPath);
+        return `- ${error.dataPath.split(".").pop()} ${value} ${error.message}`;
+      })
+      .join("\n");
     return {
       message: () => `Validation failed:\n${validationSummary}`,
       pass: false,
@@ -158,7 +146,7 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
   const defaultTokenList = buildList(listName);
 
   it("validates", () => {
-    expect(defaultTokenList).toBeValidTokenList(opt?.aptos);
+    expect(defaultTokenList).toBeValidTokenList();
   });
 
   it("contains no duplicate addresses", () => {
