@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { TokenList } from "@uniswap/token-lists";
+import { TokenList } from "@pancakeswap/token-lists";
 import { version as pancakeswapDefaultVersion } from "../lists/pancakeswap-default.json";
 import { version as pancakeswapExtendedVersion } from "../lists/pancakeswap-extended.json";
 import { version as pancakeswapTop15Version } from "../lists/pancakeswap-top-15.json";
