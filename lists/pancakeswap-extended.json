@@ -4,7 +4,7 @@
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 112
+    "patch": 120
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -899,6 +899,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x25A528af62e56512A19ce8c3cAB427807c28CC19.png"
+    },
+    {
+      "name": "Fairspin Token",
+      "symbol": "TFS",
+      "address": "0xf4bea2c219eb95c6745983b68185c7340c319d9e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xf4bea2c219eb95c6745983b68185c7340c319d9e.png"
     },
     {
       "name": "Frontier Token",
