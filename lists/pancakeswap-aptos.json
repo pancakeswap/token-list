@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2022-11-11T09:21:29.320Z",
+  "timestamp": "2022-11-16T03:09:17.574Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 6
+    "patch": 8
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -44,6 +44,14 @@
       "decimals": 8,
       "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::DaiCoin",
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/dai.png"
+    },
+    {
+      "name": "Meeiro",
+      "symbol": "MEE",
+      "chainId": 1,
+      "decimals": 6,
+      "address": "0xe9c192ff55cffab3963c695cff6dbf9dad6aff2bb5ac19a6415cad26a81860d9::mee_coin::MeeCoin",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xe9c192ff55cffab3963c695cff6dbf9dad6aff2bb5ac19a6415cad26a81860d9::mee_coin::MeeCoin.png"
     },
     {
       "name": "Mojito",
