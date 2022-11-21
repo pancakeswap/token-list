@@ -74,23 +74,23 @@ const lists = {
     sort: true,
     currentVersion: pancakeswapTop15Version,
   },
-  // coingecko: {
-  //   list: coingecko,
-  //   name: "CoinGecko",
-  //   keywords: ["defi"],
-  //   logoURI:
-  //     "https://www.coingecko.com/assets/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png",
-  //   sort: true,
-  //   currentVersion: coingeckoVersion,
-  // },
-  // cmc: {
-  //   list: cmc,
-  //   name: "CoinMarketCap",
-  //   keywords: ["defi"],
-  //   logoURI: "https://ipfs.io/ipfs/QmQAGtNJ2rSGpnP6dh6PPKNSmZL8RTZXmgFwgTdy5Nz5mx",
-  //   sort: true,
-  //   currentVersion: cmcVersion,
-  // },
+  coingecko: {
+    list: coingecko,
+    name: "CoinGecko",
+    keywords: ["defi"],
+    logoURI:
+      "https://www.coingecko.com/assets/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png",
+    sort: true,
+    currentVersion: coingeckoVersion,
+  },
+  cmc: {
+    list: cmc,
+    name: "CoinMarketCap",
+    keywords: ["defi"],
+    logoURI: "https://ipfs.io/ipfs/QmQAGtNJ2rSGpnP6dh6PPKNSmZL8RTZXmgFwgTdy5Nz5mx",
+    sort: true,
+    currentVersion: cmcVersion,
+  },
   "pancakeswap-mini": {
     list: pancakeswapMini,
     name: "PancakeSwap Mini",
