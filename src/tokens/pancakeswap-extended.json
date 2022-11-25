@@ -2494,5 +2494,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa.png"
-  }
+  },
+  {
+    "name": "WB-Mining",
+    "symbol": "WBM",
+    "address": "0x19575B407e2dd49cb2BA46375A7fba37c8EC553a",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x19575B407e2dd49cb2BA46375A7fba37c8EC553a.png"
+  }   
 ]
