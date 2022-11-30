@@ -124,6 +124,14 @@
       "decimals": 8,
       "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::WethCoin",
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+    },
+    {
+        "name": "Doglaika Coin",
+        "symbol": "DLC",
+        "chainId": 1,
+        "decimals": 8,
+        "address": "0x84edd115c901709ef28f3cb66a82264ba91bfd24789500b6fd34ab9e8888e272::coin::DLC",
+        "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x84edd115c901709ef28f3cb66a82264ba91bfd24789500b6fd34ab9e8888e272::coin::DLC"
     }
   ]
 }
