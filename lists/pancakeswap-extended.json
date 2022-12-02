@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-10-26T04:27:09.352Z",
+  "timestamp": "2022-12-02T09:21:45.827Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 112
+    "patch": 113
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1083,6 +1083,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xE1d1F66215998786110Ba0102ef558b22224C016.png"
+    },
+    {
+      "name": "Hook Token",
+      "symbol": "HOOK",
+      "address": "0xa260E12d2B924cb899AE80BB58123ac3fEE1E2F0",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xa260E12d2B924cb899AE80BB58123ac3fEE1E2F0.png"
     },
     {
       "name": "Chibi Dinos",
