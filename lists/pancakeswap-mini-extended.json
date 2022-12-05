@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-12-02T09:20:26.754Z",
+  "timestamp": "2022-12-05T08:54:38.422Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 24
+    "patch": 25
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -982,6 +982,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xE8176d414560cFE1Bf82Fd73B986823B89E4F545/logo.png"
+    },
+    {
+      "name": "Hashflow",
+      "symbol": "HFT",
+      "address": "0x44Ec807ce2F4a6F2737A92e985f318d035883e47",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x44Ec807ce2F4a6F2737A92e985f318d035883e47.png"
     },
     {
       "name": "Hedget",
