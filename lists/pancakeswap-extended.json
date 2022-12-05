@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-12-02T09:21:45.827Z",
+  "timestamp": "2022-12-05T08:56:37.097Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 113
+    "patch": 114
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1059,6 +1059,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xE8176d414560cFE1Bf82Fd73B986823B89E4F545.png"
+    },
+    {
+      "name": "Hashflow",
+      "symbol": "HFT",
+      "address": "0x44Ec807ce2F4a6F2737A92e985f318d035883e47",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x44Ec807ce2F4a6F2737A92e985f318d035883e47.png"
     },
     {
       "name": "Hedget",
