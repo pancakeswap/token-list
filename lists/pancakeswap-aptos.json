@@ -1,6 +1,6 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2022-12-12T03:30:00.190Z",
+  "timestamp": "2022-12-12T08:35:23.221Z",
   "version": {
     "major": 0,
     "minor": 0,
@@ -13,6 +13,14 @@
   ],
   "schema": "aptos",
   "tokens": [
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT.png"
+    },
     {
       "name": "Aptos Coin",
       "symbol": "APT",
