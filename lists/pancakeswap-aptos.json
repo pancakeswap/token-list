@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2022-12-12T02:42:24.502Z",
+  "timestamp": "2022-12-12T08:35:23.221Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 9
+    "patch": 10
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -13,6 +13,14 @@
   ],
   "schema": "aptos",
   "tokens": [
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT.png"
+    },
     {
       "name": "Aptos Coin",
       "symbol": "APT",
@@ -91,6 +99,14 @@
       "chainId": 1,
       "decimals": 6,
       "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::UsdcCoin",
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+    },
+    {
+      "name": "Wormhole - USD Coin",
+      "symbol": "USDC",
+      "chainId": 1,
+      "decimals": 6,
+      "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
     },
     {

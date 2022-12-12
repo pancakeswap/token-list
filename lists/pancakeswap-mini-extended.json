@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-12-05T08:54:38.422Z",
+  "timestamp": "2022-12-12T03:15:48.228Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 25
+    "patch": 26
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1910,6 +1910,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x1633b7157e7638C4d6593436111Bf125Ee74703F/logo.png"
+    },
+    {
+      "name": "Token SQUAD",
+      "symbol": "SQUAD",
+      "address": "0x724A32dFFF9769A0a0e1F0515c0012d1fB14c3bd",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x724A32dFFF9769A0a0e1F0515c0012d1fB14c3bd.png"
     },
     {
       "name": "Staked BNB",
