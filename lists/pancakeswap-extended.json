@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-12-05T08:56:37.097Z",
+  "timestamp": "2022-12-12T03:16:00.328Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 114
+    "patch": 115
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1995,6 +1995,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1633b7157e7638C4d6593436111Bf125Ee74703F.png"
+    },
+    {
+      "name": "Token SQUAD",
+      "symbol": "SQUAD",
+      "address": "0x724A32dFFF9769A0a0e1F0515c0012d1fB14c3bd",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x724A32dFFF9769A0a0e1F0515c0012d1fB14c3bd.png"
     },
     {
       "name": "Staked BNB",
