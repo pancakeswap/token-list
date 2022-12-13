@@ -51,7 +51,20 @@ const currentLists = {
 };
 
 const APTOS_COIN_ALIAS = {
-  USDCso: "USDC",
+  CAKE: "Cake",
+  ceBNB: "BNB",
+  ceBUSD: "BUSD",
+  ceDAI: "DAI",
+  ceUSDC: "USDC",
+  ceUSDT: "USDT",
+  ceWBTC: "WBTC",
+  ceWETH: "WETH",
+  lzUSDC: "USDC",
+  lzUSDT: "USDT",
+  lzWETH: "WETH",
+  whBUSD: "BUSD",
+  whUSDC: "USDC",
+  whWETH: "WETH"
 };
 
 const ajv = new Ajv({ allErrors: true, format: "full" });
@@ -212,7 +225,7 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
         expect(token.decimals).toBeGreaterThanOrEqual(0);
         expect(token.decimals).toBeLessThanOrEqual(30); // should be much more less
         expect(token.decimals).toEqual(coinData?.decimals);
-        // expect(APTOS_COIN_ALIAS[token.symbol] || token.symbol).toEqual(coinData?.symbol); // Seem we will change layerZero USDC to lzUSDC so we no need check the aptos side symbol.
+        expect(APTOS_COIN_ALIAS[token.symbol] || token.symbol).toEqual(coinData?.symbol);
       }
     } else {
       const tokensChainData = await getTokenChainData("test", addressArray);
