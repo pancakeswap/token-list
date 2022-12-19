@@ -27,14 +27,12 @@ const CASES = [
   ["pancakeswap-extended"],
   ["pancakeswap-top-100"],
   ["pancakeswap-top-15"],
-  // ["coingecko", { skipLogo: true, aptos: false }],
-  // ["cmc", { skipLogo: true, aptos: false }],
+  ["coingecko", { skipLogo: true, aptos: false }],
+  ["cmc", { skipLogo: true, aptos: false }],
   ["pancakeswap-mini"],
   ["pancakeswap-mini-extended"],
   ["pancakeswap-aptos", { skipLogo: true, aptos: true }],
 ] as const;
-
-console.log(listArgs, "listArgs");
 
 const cases = listArgs ? CASES.filter((c) => c[0] === listArgs) : CASES;
 
