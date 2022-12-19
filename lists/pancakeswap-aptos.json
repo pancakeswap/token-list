@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2022-12-13T07:11:30.941Z",
+  "timestamp": "2022-12-19T00:58:22.038Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 12
+    "patch": 13
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -19,7 +19,7 @@
       "chainId": 1,
       "decimals": 8,
       "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
-      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/cake.png"
     },
     {
       "name": "Aptos Coin",
@@ -115,7 +115,7 @@
       "chainId": 1,
       "decimals": 6,
       "address": "0xe9c192ff55cffab3963c695cff6dbf9dad6aff2bb5ac19a6415cad26a81860d9::mee_coin::MeeCoin",
-      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xe9c192ff55cffab3963c695cff6dbf9dad6aff2bb5ac19a6415cad26a81860d9::mee_coin::MeeCoin.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/meecoin.png"
     },
     {
       "name": "Mojito",
@@ -123,7 +123,7 @@
       "chainId": 1,
       "decimals": 8,
       "address": "0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO",
-      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/mojo.png"
     },
     {
       "name": "Ditto Staked Aptos",
@@ -131,7 +131,7 @@
       "chainId": 1,
       "decimals": 8,
       "address": "0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos",
-      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/stapt.png"
     },
     {
       "name": "Wormhole - Binance USD",
