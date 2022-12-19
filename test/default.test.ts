@@ -9,6 +9,7 @@ import currentPancakeswapExtendedtList from "../lists/pancakeswap-extended.json"
 import currentPancakeswapTop15List from "../lists/pancakeswap-top-15.json";
 import currentPancakeswapTop100tList from "../lists/pancakeswap-top-100.json";
 import currentCoingeckoList from "../lists/coingecko.json";
+import currentCoingeckoUniList from "../lists/coingeckoUni.json";
 import currentCmcList from "../lists/cmc.json";
 import currentPancakeswapMiniList from "../lists/pancakeswap-mini.json";
 import currentPancakeswapMiniExtendedList from "../lists/pancakeswap-mini-extended.json";
@@ -28,6 +29,7 @@ const CASES = [
   ["pancakeswap-top-100"],
   ["pancakeswap-top-15"],
   ["coingecko", { skipLogo: true, aptos: false }],
+  ["coingeckoUni", { skipLogo: true, aptos: false }],
   ["cmc", { skipLogo: true, aptos: false }],
   ["pancakeswap-mini"],
   ["pancakeswap-mini-extended"],
@@ -43,6 +45,7 @@ const currentLists = {
   "pancakeswap-top-15": currentPancakeswapTop15List,
   coingecko: currentCoingeckoList,
   cmc: currentCmcList,
+  coingeckoUni: currentCoingeckoUniList,
   "pancakeswap-mini": currentPancakeswapMiniList,
   "pancakeswap-mini-extended": currentPancakeswapMiniExtendedList,
   "pancakeswap-aptos": currentPancakeswapAptosList,
@@ -62,7 +65,7 @@ const APTOS_COIN_ALIAS = {
   lzWETH: "WETH",
   whBUSD: "BUSD",
   whUSDC: "USDC",
-  whWETH: "WETH"
+  whWETH: "WETH",
 };
 
 const ajv = new Ajv({ allErrors: true, format: "full" });

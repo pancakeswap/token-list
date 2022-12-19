@@ -18,15 +18,14 @@ interface Token {
 const getTokens = async (listName: string): Promise<Token[]> => {
   const urls = {
     coingecko: "https://tokens.coingecko.com/binance-smart-chain/all.json",
+    coingeckoUni: "https://tokens.coingecko.com/uniswap/all.json",
     cmc: "https://s3.coinmarketcap.com/generated/dex/tokens/bsc-tokens-all.json",
   };
   const { data } = await axios.get(urls[listName]);
   return data.tokens;
 };
 
-const COINGEKKO_BAD_TOKENS = [
-  '0x92a0d359c87b8f3fe383aa0a42c19d1a2afe6be0'
-]
+const COINGEKKO_BAD_TOKENS = ["0x92a0d359c87b8f3fe383aa0a42c19d1a2afe6be0"];
 
 const CMC_BAD_TOKENS = [
   "0x6B8C76b277Eb34A22e24d603ef0448D9ad1c5a7d", // self destruct
@@ -34,11 +33,12 @@ const CMC_BAD_TOKENS = [
   "0x6636F7B89f64202208f608DEFFa71293EEF7b466", // bad symbol
   "0xb8e3399d81b76362b76453799c95fee868c728ea", // bad symbol
   "0x92CfbEC26C206C90aeE3b7C66A9AE673754FaB7e", // unverified
-  "0xdD53Ba070c0A177fb923984c3720eD07B1247078" // no a token
+  "0xdD53Ba070c0A177fb923984c3720eD07B1247078", // no a token
 ].map((a) => a.toLowerCase());
 
 const badTokens = {
   coingecko: COINGEKKO_BAD_TOKENS,
+  coingeckoUni: [],
   cmc: CMC_BAD_TOKENS,
 };
 

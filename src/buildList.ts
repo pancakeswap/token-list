@@ -7,6 +7,7 @@ import { version as pancakeswapTop15Version } from "../lists/pancakeswap-top-15.
 import { version as pancakeswapTop100Version } from "../lists/pancakeswap-top-100.json";
 import { version as pancakeswapAptosVersion } from "../lists/pancakeswap-aptos.json";
 import { version as coingeckoVersion } from "../lists/coingecko.json";
+import { version as coingeckoUniVersion } from "../lists/coingeckoUni.json";
 import { version as cmcVersion } from "../lists/cmc.json";
 import { version as pancakeswapMiniVersion } from "../lists/pancakeswap-mini.json";
 import { version as pancakeswapMiniExtendedVersion } from "../lists/pancakeswap-mini-extended.json";
@@ -16,6 +17,7 @@ import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
 import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
 import pancakeswapTop15 from "./tokens/pancakeswap-top-15.json";
 import coingecko from "./tokens/coingecko.json";
+import coingeckoUni from "./tokens/coingeckoUni.json";
 import cmc from "./tokens/cmc.json";
 import pancakeswapMini from "./tokens/pancakeswap-mini.json";
 import pancakeswapMiniExtended from "./tokens/pancakeswap-mini-extended.json";
@@ -82,6 +84,15 @@ const lists = {
       "https://www.coingecko.com/assets/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png",
     sort: true,
     currentVersion: coingeckoVersion,
+  },
+  coingeckoUni: {
+    list: coingeckoUni,
+    name: "CoinGecko Uniswap",
+    keywords: ["defi"],
+    logoURI:
+      "https://www.coingecko.com/assets/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png",
+    sort: true,
+    currentVersion: coingeckoUniVersion,
   },
   cmc: {
     list: cmc,
