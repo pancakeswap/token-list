@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-12-12T03:16:00.328Z",
+  "timestamp": "2022-12-19T06:48:16.581Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 115
+    "patch": 116
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2499,6 +2499,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x7F70642d88cf1C4a3a7abb072B53B929b653edA5.png"
+    },
+    {
+      "name": "ZEBEC",
+      "symbol": "ZBC",
+      "address": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x37a56cdcD83Dce2868f721De58cB3830C44C6303.png"
     },
     {
       "name": "Zcash Token",
