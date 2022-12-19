@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2022-12-12T03:15:48.228Z",
+  "timestamp": "2022-12-19T06:48:29.565Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 26
+    "patch": 27
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2382,6 +2382,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x7F70642d88cf1C4a3a7abb072B53B929b653edA5/logo.png"
+    },
+    {
+      "name": "ZEBEC",
+      "symbol": "ZBC",
+      "address": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x37a56cdcD83Dce2868f721De58cB3830C44C6303.png"
     },
     {
       "name": "Zcash Token",
