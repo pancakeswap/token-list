@@ -840,6 +840,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3158.png"
   },
   {
+    "name": "YoloCash",
+    "symbol": "YLC",
+    "address": "0x75b133c19518A479A9eA94876b558C091BEf621d",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3162.png"
+  },
+  {
     "name": "Mainstream For The Underground",
     "symbol": "MFTU",
     "address": "0xd399359683c1cD5267f611261eDE08F22cE9729F",
@@ -44168,9 +44176,9 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/17927.png"
   },
   {
-    "name": "DaddyBabyDoge",
-    "symbol": "DBDOGE",
-    "address": "0x13D9c4DD5Fd9323ff1BC8E3bC087070cbf64F025",
+    "name": "DBDT TOKEN",
+    "symbol": "DBDT",
+    "address": "0x000C7603Cc3de5360c56bb5429f371932675CEc7",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/17931.png"
@@ -59112,6 +59120,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22410.png"
   },
   {
+    "name": "Balto Token",
+    "symbol": "BALTO",
+    "address": "0xe5977835A013e3A5a52f44f8422734bd2dc545F0",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22411.png"
+  },
+  {
     "name": "BULL BTC CLUB",
     "symbol": "BBC",
     "address": "0x37e5da11b6A4DC6d2f7Abe232cDd30B0B8Fc63B1",
@@ -59178,7 +59194,7 @@
   {
     "name": "PalmPay",
     "symbol": "PALM",
-    "address": "0xAe9A270567dCAee18A909830b1c7F6Ec8A4243f8",
+    "address": "0xF85BE0902a16fb87D447021d6e4517b38a15087d",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22442.png"
@@ -59546,7 +59562,7 @@
   {
     "name": "Univaults",
     "symbol": "UNVT",
-    "address": "0xBb551B0AF0B4cDb4d7A013BD3282edB304b22945",
+    "address": "0xE03bc8DadcE77F41150004a8AA15AB6b8bDC3c1f",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22590.png"
@@ -60256,6 +60272,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22910.png"
   },
   {
+    "name": "ByTrade",
+    "symbol": "BTT",
+    "address": "0xFDcb304BeF77B5d4b70381B0A1812C43814fB87B",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22912.png"
+  },
+  {
     "name": "Dives Defi",
     "symbol": "DDF",
     "address": "0xBAe9DC9231aCD7F06C64d298f347338313352CBD",
@@ -60526,5 +60550,53 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23010.png"
+  },
+  {
+    "name": "CEASports",
+    "symbol": "CSPT",
+    "address": "0x4819C2e71eBdd5E3c91D8B735CCea8FD37f89BE5",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23013.png"
+  },
+  {
+    "name": "BITCONEY",
+    "symbol": "BITCONEY",
+    "address": "0x5b3790e08920A1A5B6b26c7Fc6807653090ab88e",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23020.png"
+  },
+  {
+    "name": "Cryptosroom",
+    "symbol": "CROOM",
+    "address": "0xf939CcE5b35fB465C920B6602d0DE7d40498d5a8",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23023.png"
+  },
+  {
+    "name": "CHRISTMAS SHIBA",
+    "symbol": "XSHIB",
+    "address": "0xe916EaD212CcbD0dF36D0328891300aDC9096021",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23025.png"
+  },
+  {
+    "name": "Propland",
+    "symbol": "PROP",
+    "address": "0x58784CA627e15E4A1A2B80444CCAA6320526E21b",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23028.png"
+  },
+  {
+    "name": "Fintoken Coin",
+    "symbol": "FTC",
+    "address": "0x8a8a6930eA308042D6D2d4676444D2af9b35A418",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23030.png"
   }
 ]
