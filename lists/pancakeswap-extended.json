@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-12-19T06:48:16.581Z",
+  "timestamp": "2022-12-28T07:03:46.409Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 116
+    "patch": 117
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1755,6 +1755,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x3Fcca8648651E5b974DD6d3e50F61567779772A8.png"
+    },
+    {
+      "name": "PRIMAL Token",
+      "symbol": "PRIMAL",
+      "address": "0xCb5327Ed4649548e0d73E70b633cdfd99aF6Da87",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xCb5327Ed4649548e0d73E70b633cdfd99aF6Da87.png"
     },
     {
       "name": "Parallel Token",
