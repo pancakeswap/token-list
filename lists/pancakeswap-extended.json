@@ -1,16 +1,13 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2022-12-28T07:03:46.409Z",
+  "timestamp": "2023-01-04T11:23:29.974Z",
   "version": {
     "major": 2,
     "minor": 16,
     "patch": 117
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": [
-    "pancakeswap",
-    "extended"
-  ],
+  "keywords": ["pancakeswap", "extended"],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -27,14 +24,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xFeea0bDd3D07eb6FE305938878C0caDBFa169042.png"
-    },
-    {
-      "name": "Ankr BNB Reward Bearing Certificate",
-      "symbol": "aBNBc",
-      "address": "0xE85aFCcDaFBE7F2B096f268e31ccE3da8dA2990A",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0xE85aFCcDaFBE7F2B096f268e31ccE3da8dA2990A.png"
     },
     {
       "name": "Alchemy Token",
@@ -107,6 +96,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xf307910A4c7bbc79691fD374889b36d8531B08e3.png"
+    },
+    {
+      "name": "Ankr Staked BNB",
+      "symbol": "ankrBNB",
+      "address": "0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827.png"
     },
     {
       "name": "Antex",
