@@ -1,16 +1,13 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-01-13T16:02:55.414Z",
+  "timestamp": "2023-01-04T11:23:29.974Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 118
+    "patch": 117
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": [
-    "pancakeswap",
-    "extended"
-  ],
+  "keywords": ["pancakeswap", "extended"],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -155,14 +152,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x37dfACfaeDA801437Ff648A1559d73f4C40aAcb7.png"
-    },
-    {
-      "name": "ESPL ARENA",
-      "symbol": "ARENA",
-      "address": "0xCfFD4D3B517b77BE32C76DA768634dE6C738889B",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0xCfFD4D3B517b77BE32C76DA768634dE6C738889B.png"
     },
     {
       "name": "ARPA",
