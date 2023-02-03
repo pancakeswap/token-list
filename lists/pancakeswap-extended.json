@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-01-13T16:02:55.414Z",
+  "timestamp": "2023-02-03T09:46:15.958Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 118
+    "patch": 119
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -579,6 +579,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2.png"
+    },
+    {
+      "name": "Ultimate Champions Token",
+      "symbol": "CHAMP",
+      "address": "0x7e9AB560d37E62883E882474b096643caB234B65",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x7e9AB560d37E62883E882474b096643caB234B65.png"
     },
     {
       "name": "Tranchess",
