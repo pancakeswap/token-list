@@ -1904,6 +1904,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5068.png"
   },
   {
+    "name": "Belifex",
+    "symbol": "BEFX",
+    "address": "0xFcab93b4b98Ac0F9C65A724B10cd5Ed1892bB9D7",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5095.png"
+  },
+  {
     "name": "onLEXpa",
     "symbol": "onLEXpa",
     "address": "0x4d48A73bd08dD20f17111c41a8d2B7dD5012eefd",
@@ -5078,6 +5086,14 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/8552.png"
+  },
+  {
+    "name": "PRivaCY Coin",
+    "symbol": "BPRCY",
+    "address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
+    "chainId": 56,
+    "decimals": 8,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/8554.png"
   },
   {
     "name": "Viking Swap",
@@ -10120,6 +10136,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9839.png"
   },
   {
+    "name": "Pleasure Coin",
+    "symbol": "NSFW",
+    "address": "0xaA076B62EFC6f357882E07665157A271aB46A063",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9840.png"
+  },
+  {
     "name": "Nami Corporation",
     "symbol": "NAMI",
     "address": "0x42Fa9f0a91Cd338f5Ad277Aa0BebD5f2cCd50643",
@@ -13208,14 +13232,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/10463.png"
   },
   {
-    "name": "Wrapped PRCY Coin",
-    "symbol": "BPRCY",
-    "address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
-    "chainId": 56,
-    "decimals": 8,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/10464.png"
-  },
-  {
     "name": "Polytrade",
     "symbol": "TRADE",
     "address": "0x6Ba7a8f9063c712C1c8CabC776B1dA7126805f3b",
@@ -14200,7 +14216,7 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/10662.png"
   },
   {
-    "name": "Catoshi",
+    "name": "Catoshi DAO",
     "symbol": "CZATS",
     "address": "0x56747Ed2fca81B25FAe112C7a9D4465E947Aac56",
     "chainId": 56,
@@ -17678,6 +17694,14 @@
     "chainId": 56,
     "decimals": 8,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11408.png"
+  },
+  {
+    "name": "Tarot",
+    "symbol": "TAROT",
+    "address": "0xA8CD6E4Bf45724d3ac27f9e31E47Ba4e399A7b52",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11409.png"
   },
   {
     "name": "INUCEPTION",
@@ -23838,14 +23862,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/12762.png"
-  },
-  {
-    "name": "KAINET",
-    "symbol": "KAINET",
-    "address": "0x723B6795be37Ad8a0376aCfb50034fa21912b439",
-    "chainId": 56,
-    "decimals": 9,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/12764.png"
   },
   {
     "name": "FODL Finance",
@@ -39000,6 +39016,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/16542.png"
   },
   {
+    "name": "Avocado DAO Token",
+    "symbol": "AVG",
+    "address": "0xa41F142b6eb2b164f8164CAE0716892Ce02f311f",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/16543.png"
+  },
+  {
     "name": "EVERSOL",
     "symbol": "ESOL",
     "address": "0x727F7B75BfB83Dfe10A54744dAe887843CEB673F",
@@ -46824,7 +46848,7 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/18674.png"
   },
   {
-    "name": "Chain",
+    "name": "Onyxcoin",
     "symbol": "XCN",
     "address": "0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b",
     "chainId": 56,
@@ -49530,7 +49554,7 @@
   {
     "name": "Gagarin",
     "symbol": "GGR",
-    "address": "0xD9EfA1725111244f330ac12fD70965a6561322dE",
+    "address": "0xA90Da9e3c71DDFcC2D793F80029aCBd21A4A0Db6",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/19568.png"
@@ -55585,8 +55609,8 @@
   },
   {
     "name": "Custodiy",
-    "symbol": "CTY",
-    "address": "0x188173379AC8963048Afe01C5d3D5998FEe67254",
+    "symbol": "$CTY",
+    "address": "0x5cF1661A741B7f051214b097f84F2E5B11845018",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/21273.png"
@@ -60818,7 +60842,7 @@
   {
     "name": "Kylon Project",
     "symbol": "KYLN",
-    "address": "0xf4465469397806cf5Cc3e9bAc5dd3c102AD1fe66",
+    "address": "0xb2d7DCD9834c37E2Be9e41855DaFd86898E06D17",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23107.png"
@@ -60854,6 +60878,14 @@
     "chainId": 56,
     "decimals": 9,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23113.png"
+  },
+  {
+    "name": "Web3Camp",
+    "symbol": "3P",
+    "address": "0xB806FA32eBDC04E5Dbdd2ad83E75C8F7D8E8ef8b",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23118.png"
   },
   {
     "name": "Level Finance",
@@ -61030,6 +61062,14 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23199.png"
+  },
+  {
+    "name": "Genius",
+    "symbol": "GENI",
+    "address": "0x444444444444C1a66F394025Ac839A535246FCc8",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23204.png"
   },
   {
     "name": "TIPO Token",
@@ -61262,5 +61302,181 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23335.png"
+  },
+  {
+    "name": "Future AI",
+    "symbol": "Future-AI",
+    "address": "0x0FF534801E98A4976246D1f418E441783fc9aa15",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23342.png"
+  },
+  {
+    "name": "Fantaverse",
+    "symbol": "UT",
+    "address": "0x39dC1F91fee49C03a0Db558254707116101518bf",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23347.png"
+  },
+  {
+    "name": "Anito Legends",
+    "symbol": "GINTO",
+    "address": "0xDae4722ECdc7A01FE417D76F09B0D18f558Ce412",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23350.png"
+  },
+  {
+    "name": "YourWallet",
+    "symbol": "YourWallet",
+    "address": "0x4AAF59deE18eCc1BbD2BF68b3f7Ba3AF47Eb9CfC",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23352.png"
+  },
+  {
+    "name": "LiveGreen Coin",
+    "symbol": "LGC",
+    "address": "0x3496212eC43Cc49F5151ec4405efD4975e036f89",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23360.png"
+  },
+  {
+    "name": "Cryptegrity DAO",
+    "symbol": "ESCROW",
+    "address": "0x7764Bdfc4Ab0203A7d4e3eDF33b181f395458870",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23363.png"
+  },
+  {
+    "name": "Coinlocally Coin",
+    "symbol": "CLYC",
+    "address": "0xa43d3E03d001492Eb586DB0990cb90d0c3bbe511",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23367.png"
+  },
+  {
+    "name": "Waifu",
+    "symbol": "Waifu",
+    "address": "0xd0aa796e2160ED260c668E90aC5f237b4eBd4b0d",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23368.png"
+  },
+  {
+    "name": "ZK Cross Chain Bridge",
+    "symbol": "ZKB",
+    "address": "0x2770b104374F8130e5a25a203b63C79436B11A0d",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23372.png"
+  },
+  {
+    "name": "UnityMeta",
+    "symbol": "UMT",
+    "address": "0xca861e289f04cB9C67fd6b87ca7EAFa59192f164",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23377.png"
+  },
+  {
+    "name": "Green Block Token",
+    "symbol": "GBT",
+    "address": "0xd7D5d7BCD0680CD8AA5aFC34bC7037c3040f8210",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23381.png"
+  },
+  {
+    "name": "Digi Sign Chain",
+    "symbol": "DSC",
+    "address": "0x5EfF42fFb14DC5f840A6BD13266eC815a75B4449",
+    "chainId": 56,
+    "decimals": 12,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23387.png"
+  },
+  {
+    "name": "Wallax",
+    "symbol": "WLX",
+    "address": "0x1C8F79EF0A9502c382DF9ED96e138613A814AF19",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23390.png"
+  },
+  {
+    "name": "D3D Social",
+    "symbol": "D3D",
+    "address": "0xd3c7e51CAaB1089002eC05569A04D14bCC478bC4",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23391.png"
+  },
+  {
+    "name": "Tarmex",
+    "symbol": "TARM",
+    "address": "0xBfff3571F9FD637aE7cfb63Ac2112Fd18264Ce62",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23394.png"
+  },
+  {
+    "name": "Sheikh Inu",
+    "symbol": "SHINU",
+    "address": "0xE5b5d4Bea7468B4994FA676949308a79497aa24c",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23398.png"
+  },
+  {
+    "name": "OdysseyWallet",
+    "symbol": "ODYS",
+    "address": "0x54e951E513bC09abaFf971641947Bc69e31068bD",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23402.png"
+  },
+  {
+    "name": "ShibAI Labs",
+    "symbol": "SLAB",
+    "address": "0x4FDe90E783ABaA07996eFF44f10edB132dE15Dd4",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23403.png"
+  },
+  {
+    "name": "Dynamic",
+    "symbol": "DYNA",
+    "address": "0x5c0d0111ffc638802c9EfCcF55934D5C63aB3f79",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23406.png"
+  },
+  {
+    "name": "Vcash",
+    "symbol": "VC",
+    "address": "0xC0072e8cA3CD11FD02897e4984ECa35b6f4AcFEF",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23407.png"
+  },
+  {
+    "name": "BSC PAYMENTS",
+    "symbol": "BSCPAY",
+    "address": "0xc4D2928cbb5516c34656636e0Fb4EF3b99d20877",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23408.png"
+  },
+  {
+    "name": "Navis",
+    "symbol": "NVS",
+    "address": "0x43a8a925c1930A313D283359184A64c51a2bc0E9",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23409.png"
   }
 ]
