@@ -1,4 +1,5 @@
 import srcDefault from "./tokens/pancakeswap-default.json";
+import srcEthDefault from "./tokens/pancakeswap-eth-default.json";
 import srcExtended from "./tokens/pancakeswap-extended.json";
 import srcTop100 from "./tokens/pancakeswap-top-100.json";
 import srcTop15 from "./tokens/pancakeswap-top-15.json";
@@ -7,6 +8,7 @@ import srcCmc from "./tokens/cmc.json";
 import srcMini from "./tokens/pancakeswap-mini.json";
 import srcMiniExtended from "./tokens/pancakeswap-mini-extended.json";
 import defaultList from "../lists/pancakeswap-default.json";
+import defaultEthList from "../lists/pancakeswap-eth-default.json";
 import extendedtList from "../lists/pancakeswap-extended.json";
 import top15List from "../lists/pancakeswap-top-15.json";
 import top100tList from "../lists/pancakeswap-top-100.json";
@@ -20,6 +22,11 @@ const lists = [
     name: "pancakeswap-default",
     src: srcDefault,
     actual: defaultList,
+  },
+  {
+    name: "pancakeswap-eth-default",
+    src: srcEthDefault,
+    actual: defaultEthList,
   },
   {
     name: "pancakeswap-extended",
