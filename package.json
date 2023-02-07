@@ -13,7 +13,7 @@
     "generate:pcs-default": "yarn test --list=pancakeswap-default && yarn build && node ./dist generate pancakeswap-default",
     "makelist:pcs-default": "yarn checksum:pcs-default && yarn generate:pcs-default",
     "checksum:pcs-eth-default": "yarn build && node ./dist checksum pancakeswap-eth-default",
-    "generate:pcs-eth-default": "yarn build && node ./dist generate pancakeswap-eth-default",
+    "generate:pcs-eth-default": "yarn test --list=pancakeswap-eth-default && yarn build && node ./dist generate pancakeswap-eth-default",
     "makelist:pcs-eth-default": "yarn checksum:pcs-eth-default && yarn generate:pcs-eth-default",
     "checksum:pcs-extended": "yarn build && node ./dist checksum pancakeswap-extended",
     "generate:pcs-extended": "yarn test --list=pancakeswap-extended && yarn build && node ./dist generate pancakeswap-extended",

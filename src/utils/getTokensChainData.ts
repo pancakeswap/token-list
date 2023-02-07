@@ -9,7 +9,7 @@ const rawLists = {
   "pcs-mini-extended": rawMiniExtended,
 };
 
-const getTokensChainData = async (listName: string, addressArray?: string[]): Promise<any[]> => {
+const getTokensChainData = async (listName: string, addressArray?: string[], chainId?: number): Promise<any[]> => {
   const isTest = addressArray && addressArray.length > 0;
   const tokens = isTest ? addressArray : rawLists[listName];
   if (!tokens) {
@@ -38,12 +38,12 @@ const getTokensChainData = async (listName: string, addressArray?: string[]): Pr
       },
     ]);
     // eslint-disable-next-line no-await-in-loop
-    const tokenInfoResponse = await multicallv2(erc20, tokenInfoCalls);
+    const tokenInfoResponse = await multicallv2(erc20, tokenInfoCalls, undefined, chainId);
     const data = chunk.map((address, i) => ({
-      name: tokenInfoResponse[i * 3 + 1][0],
-      symbol: tokenInfoResponse[i * 3][0],
+      name: tokenInfoResponse?.[i * 3 + 1]?.[0] ?? "",
+      symbol: tokenInfoResponse?.[i * 3]?.[0] ?? "",
       address,
-      chainId: 56,
+      chainId,
       decimals: tokenInfoResponse[i * 3 + 2][0],
       logoURI: `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${address}/logo.png`,
     }));

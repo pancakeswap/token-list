@@ -1,13 +1,17 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-02-06T10:11:47.274Z",
+  "timestamp": "2023-02-07T02:44:40.664Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancakeswap", "default", "ethereum"],
+  "keywords": [
+    "pancakeswap",
+    "default",
+    "ethereum"
+  ],
   "tokens": [
     {
       "name": "Wrapped Ether",

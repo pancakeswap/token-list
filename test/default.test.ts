@@ -144,7 +144,9 @@ expect.extend({
     const hasTWLogo =
       token.logoURI === `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${token.address}/logo.png`;
     let hasLocalLogo = false;
-    const refersToLocalLogo = token.logoURI === `https://tokens.pancakeswap.finance/images/${token.address}.png`;
+    const refersToLocalLogo =
+      token.logoURI === `https://tokens.pancakeswap.finance/images/${token.address}.png` ||
+      token.logoURI === `https://tokens.pancakeswap.finance/images/eth/${token.address}.png`;
     if (refersToLocalLogo) {
       const fileName = token.logoURI.split("/").pop();
       // Note: fs.existsSync can't be used here because its not case sensetive
@@ -166,7 +168,6 @@ expect.extend({
 
 describe.each(cases)("buildList %s", (listName, opt = undefined) => {
   const defaultTokenList = buildList(listName);
-
   it("validates", () => {
     expect(defaultTokenList).toBeValidTokenList();
   });
@@ -227,6 +228,7 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
 
   it("all tokens have correct decimals", async () => {
     const addressArray = defaultTokenList.tokens.map((token) => token.address);
+    const chainId = defaultTokenList.tokens[0].chainId ?? 56;
     if (opt?.aptos === true) {
       const coinsData = await getAptosCoinsChainData(addressArray);
       for (const token of defaultTokenList.tokens) {
@@ -237,7 +239,7 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
         expect(APTOS_COIN_ALIAS[token.symbol] || token.symbol).toEqual(coinData?.symbol);
       }
     } else {
-      const tokensChainData = await getTokenChainData("test", addressArray);
+      const tokensChainData = await getTokenChainData("test", addressArray, chainId);
       for (const token of defaultTokenList.tokens) {
         const realDecimals = tokensChainData.find(
           (t) => t.address.toLowerCase() === token.address.toLowerCase()
