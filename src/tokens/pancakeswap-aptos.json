@@ -131,7 +131,7 @@
     "name": "Wormhole - USD Coin",
     "symbol": "whUSDC",
     "chainId": 1,
-    "decimals": 6,
+    "decimals": 6,ii
     "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
     "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
   },
@@ -150,5 +150,13 @@
     "decimals": 8,
     "address": "0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin",
     "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin.png"
+  },
+  {
+    "name": "Doglaika Coin",
+    "symbol": "DLC",
+    "chainId": 1,
+    "decimals": 8,
+    "address": "0x84edd115c901709ef28f3cb66a82264ba91bfd24789500b6fd34ab9e8888e272::coin::DLC",
+    "logoURI": https://tokens.pancakeswap.finance/images/aptos/0x84edd115c901709ef28f3cb66a82264ba91bfd24789500b6fd34ab9e8888e272::coin::DLC.png"
   }
 ]
