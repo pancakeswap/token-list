@@ -5,6 +5,7 @@ import path from "path";
 import { getAddress } from "@ethersproject/address";
 import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json";
 import currentPancakeswapDefaultList from "../lists/pancakeswap-default.json";
+import currentPancakeswapEthDefaultList from "../lists/pancakeswap-eth-default.json";
 import currentPancakeswapExtendedtList from "../lists/pancakeswap-extended.json";
 import currentPancakeswapTop15List from "../lists/pancakeswap-top-15.json";
 import currentPancakeswapTop100tList from "../lists/pancakeswap-top-100.json";
@@ -24,6 +25,7 @@ const listArgs = process.argv
 
 const CASES = [
   ["pancakeswap-default"],
+  ["pancakeswap-eth-default"],
   ["pancakeswap-extended"],
   ["pancakeswap-top-100"],
   ["pancakeswap-top-15"],
@@ -38,6 +40,7 @@ const cases = listArgs ? CASES.filter((c) => c[0] === listArgs) : CASES;
 
 const currentLists = {
   "pancakeswap-default": currentPancakeswapDefaultList,
+  "pancakeswap-eth-default": currentPancakeswapEthDefaultList,
   "pancakeswap-extended": currentPancakeswapExtendedtList,
   "pancakeswap-top-100": currentPancakeswapTop100tList,
   "pancakeswap-top-15": currentPancakeswapTop15List,
@@ -62,15 +65,22 @@ const APTOS_COIN_ALIAS = {
   lzWETH: "WETH",
   whBUSD: "BUSD",
   whUSDC: "USDC",
-  whWETH: "WETH"
+  whWETH: "WETH",
 };
 
 const ajv = new Ajv({ allErrors: true, format: "full" });
 const validate = ajv.compile(pancakeswapSchema);
 
 const pathToImages = path.join(path.resolve(), "lists", "images");
+const pathToEthImages = path.join(path.resolve(), "lists", "images", "eth");
+
 const logoFiles = fs
   .readdirSync(pathToImages, { withFileTypes: true })
+  .filter((f) => f.isFile())
+  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
+
+const ethLogoFiles = fs
+  .readdirSync(pathToEthImages, { withFileTypes: true })
   .filter((f) => f.isFile())
   .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
 
@@ -134,11 +144,14 @@ expect.extend({
     const hasTWLogo =
       token.logoURI === `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${token.address}/logo.png`;
     let hasLocalLogo = false;
-    const refersToLocalLogo = token.logoURI === `https://tokens.pancakeswap.finance/images/${token.address}.png`;
+    const refersToLocalLogo =
+      token.logoURI === `https://tokens.pancakeswap.finance/images/${token.address}.png` ||
+      token.logoURI === `https://tokens.pancakeswap.finance/images/eth/${token.address}.png`;
     if (refersToLocalLogo) {
       const fileName = token.logoURI.split("/").pop();
       // Note: fs.existsSync can't be used here because its not case sensetive
-      hasLocalLogo = logoFiles.map((f) => f.name).includes(fileName);
+      hasLocalLogo =
+        logoFiles.map((f) => f.name).includes(fileName) || ethLogoFiles.map((f) => f.name).includes(fileName);
     }
     if (hasTWLogo || hasLocalLogo) {
       return {
@@ -155,7 +168,6 @@ expect.extend({
 
 describe.each(cases)("buildList %s", (listName, opt = undefined) => {
   const defaultTokenList = buildList(listName);
-
   it("validates", () => {
     expect(defaultTokenList).toBeValidTokenList();
   });
@@ -216,6 +228,7 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
 
   it("all tokens have correct decimals", async () => {
     const addressArray = defaultTokenList.tokens.map((token) => token.address);
+    const chainId = defaultTokenList.tokens[0].chainId ?? 56;
     if (opt?.aptos === true) {
       const coinsData = await getAptosCoinsChainData(addressArray);
       for (const token of defaultTokenList.tokens) {
@@ -226,7 +239,7 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
         expect(APTOS_COIN_ALIAS[token.symbol] || token.symbol).toEqual(coinData?.symbol);
       }
     } else {
-      const tokensChainData = await getTokenChainData("test", addressArray);
+      const tokensChainData = await getTokenChainData("test", addressArray, chainId);
       for (const token of defaultTokenList.tokens) {
         const realDecimals = tokensChainData.find(
           (t) => t.address.toLowerCase() === token.address.toLowerCase()

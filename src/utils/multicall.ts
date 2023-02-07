@@ -3,6 +3,11 @@ import { Multicall as MulticallAbiType } from "./abi/types";
 import MulticalAbi from "./abi/Multicall.json";
 import simpleRpcProvider from "./simpleRpcProvider";
 
+const multicall = {
+  [1]: "0xcA11bde05977b3631167028862bE2a173976CA11",
+  [56]: "0xcA11bde05977b3631167028862bE2a173976CA11",
+};
+
 interface MultiCall {
   address: string; // Address of the contract
   name: string; // Function name on the contract (example: balanceOf)
@@ -22,27 +27,28 @@ interface MultiCallOptions {
 const multicallv2 = async <T = any>(
   abi: any[],
   calls: MultiCall[],
-  options: MultiCallOptions = { requireSuccess: true }
+  options: MultiCallOptions = { requireSuccess: true },
+  chainId: number = 56
 ): Promise<T> => {
   const { requireSuccess } = options;
-  const multi = new ethers.Contract(
-    "0xfF6FD90A470Aaa0c1B8A54681746b07AcdFedc9B",
-    MulticalAbi,
-    simpleRpcProvider
-  ) as MulticallAbiType;
+  const multi = new ethers.Contract(multicall[chainId], MulticalAbi, simpleRpcProvider[chainId]) as MulticallAbiType;
   const itf = new ethers.utils.Interface(abi);
 
   const calldata = calls.map((call) => ({
     target: call.address.toLowerCase(),
     callData: itf.encodeFunctionData(call.name, call.params),
   }));
-  const returnData = await multi.tryAggregate(requireSuccess, calldata);
+  const returnData = await multi.callStatic.tryAggregate(requireSuccess, calldata);
   const res = returnData.map((call, i) => {
     const [result, data] = call;
     if (data === "0x") {
       console.error(data, i, calls[i]);
     }
-    return result && data !== "0x" ? itf.decodeFunctionResult(calls[i].name, data) : null;
+    try {
+      return result && data !== "0x" ? itf.decodeFunctionResult(calls[i].name, data) : null;
+    } catch {
+      return null;
+    }
   });
 
   return res as any;
