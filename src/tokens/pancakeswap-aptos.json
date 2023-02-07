@@ -142,5 +142,13 @@
     "decimals": 8,
     "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
     "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT.png"
+  },
+  {
+    "name": "BlueMove",
+    "symbol": "MOVE",
+    "chainId": 1,
+    "decimals": 8,
+    "address": "0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin",
+    "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin.png"
   }
 ]

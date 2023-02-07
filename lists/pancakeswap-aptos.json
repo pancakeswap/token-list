@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2022-12-13T07:11:30.941Z",
+  "timestamp": "2023-02-04T10:35:40.877Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 12
+    "patch": 13
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -124,6 +124,14 @@
       "decimals": 8,
       "address": "0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO",
       "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO.png"
+    },
+    {
+      "name": "BlueMove",
+      "symbol": "MOVE",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin.png"
     },
     {
       "name": "Ditto Staked Aptos",
