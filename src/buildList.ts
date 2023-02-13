@@ -3,6 +3,7 @@ import path from "path";
 import { TokenList } from "@pancakeswap/token-lists";
 import { version as pancakeswapDefaultVersion } from "../lists/pancakeswap-default.json";
 import { version as pancakeswapEthDefaultVersion } from "../lists/pancakeswap-eth-default.json";
+import { version as pancakeswapEthMMVersion } from "../lists/pancakeswap-eth-mm.json";
 import { version as pancakeswapExtendedVersion } from "../lists/pancakeswap-extended.json";
 import { version as pancakeswapTop15Version } from "../lists/pancakeswap-top-15.json";
 import { version as pancakeswapTop100Version } from "../lists/pancakeswap-top-100.json";
@@ -14,6 +15,7 @@ import { version as pancakeswapMiniExtendedVersion } from "../lists/pancakeswap-
 import pancakeswapAptos from "./tokens/pancakeswap-aptos.json";
 import pancakeswapDefault from "./tokens/pancakeswap-default.json";
 import pancakeswapEthDefault from "./tokens/pancakeswap-eth-default.json";
+import pancakeswapEthMM from "./tokens/pancakeswap-eth-mm.json";
 import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
 import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
 import pancakeswapTop15 from "./tokens/pancakeswap-top-15.json";
@@ -51,6 +53,14 @@ const lists = {
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: false,
     currentVersion: pancakeswapEthDefaultVersion,
+  },
+  "pancakeswap-eth-mm": {
+    list: pancakeswapEthMM,
+    name: "PancakeSwap Ethereum MM",
+    keywords: ["pancakeswap", "mm", "ethereum"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+    currentVersion: pancakeswapEthMMVersion,
   },
   "pancakeswap-default": {
     list: pancakeswapDefault,

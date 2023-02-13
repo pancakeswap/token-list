@@ -6,6 +6,7 @@ import { getAddress } from "@ethersproject/address";
 import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json";
 import currentPancakeswapDefaultList from "../lists/pancakeswap-default.json";
 import currentPancakeswapEthDefaultList from "../lists/pancakeswap-eth-default.json";
+import currentPancakeswapEthMMList from "../lists/pancakeswap-eth-mm.json";
 import currentPancakeswapExtendedtList from "../lists/pancakeswap-extended.json";
 import currentPancakeswapTop15List from "../lists/pancakeswap-top-15.json";
 import currentPancakeswapTop100tList from "../lists/pancakeswap-top-100.json";
@@ -26,6 +27,7 @@ const listArgs = process.argv
 const CASES = [
   ["pancakeswap-default"],
   ["pancakeswap-eth-default"],
+  ["pancakeswap-eth-mm"],
   ["pancakeswap-extended"],
   ["pancakeswap-top-100"],
   ["pancakeswap-top-15"],
@@ -40,6 +42,7 @@ const cases = listArgs ? CASES.filter((c) => c[0] === listArgs) : CASES;
 
 const currentLists = {
   "pancakeswap-default": currentPancakeswapDefaultList,
+  "pancakeswap-eth-mm": currentPancakeswapEthMMList,
   "pancakeswap-eth-default": currentPancakeswapEthDefaultList,
   "pancakeswap-extended": currentPancakeswapExtendedtList,
   "pancakeswap-top-100": currentPancakeswapTop100tList,
