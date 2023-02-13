@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-02-08T09:01:02.922Z",
+  "timestamp": "2023-02-13T08:44:17.498Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 3
+    "patch": 4
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -180,6 +180,22 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
+    },
+    {
+      "name": "Fuse Token",
+      "symbol": "FUSE",
+      "address": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d.png"
+    },
+    {
+      "name": "Singularity Dao",
+      "symbol": "SDAO",
+      "address": "0x993864E43Caa7F7F12953AD6fEb1d1Ca635B875F",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x993864E43Caa7F7F12953AD6fEb1d1Ca635B875F.png"
     }
   ]
 }
