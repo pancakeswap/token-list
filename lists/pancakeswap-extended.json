@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-02-03T09:46:15.958Z",
+  "timestamp": "2023-02-15T08:32:51.867Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 119
+    "patch": 120
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -219,6 +219,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xa184088a740c695E156F91f5cC086a06bb78b827.png"
+    },
+    {
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "address": "0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3.png"
     },
     {
       "name": "Axie Infinity Shard",
