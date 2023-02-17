@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-02-15T08:33:04.785Z",
+  "timestamp": "2023-02-17T10:41:57.532Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 31
+    "patch": 32
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -622,6 +622,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888/logo.png"
+    },
+    {
+      "name": "Carbon",
+      "symbol": "CSIX",
+      "address": "0x04756126F044634C9a0f0E985e60c88a51ACC206",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x04756126F044634C9a0f0E985e60c88a51ACC206.png"
     },
     {
       "name": "CertiK Token",

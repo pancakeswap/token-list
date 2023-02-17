@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-02-15T08:32:51.867Z",
+  "timestamp": "2023-02-17T10:41:38.420Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 120
+    "patch": 121
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -643,6 +643,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888.png"
+    },
+    {
+      "name": "Carbon",
+      "symbol": "CSIX",
+      "address": "0x04756126F044634C9a0f0E985e60c88a51ACC206",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x04756126F044634C9a0f0E985e60c88a51ACC206.png"
     },
     {
       "name": "CertiK Token",
