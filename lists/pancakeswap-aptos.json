@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2023-02-04T10:35:40.877Z",
+  "timestamp": "2023-02-21T06:09:26.713Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 13
+    "patch": 14
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -140,6 +140,14 @@
       "decimals": 8,
       "address": "0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos",
       "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos.png"
+    },
+    {
+      "name": "Tortuga Staked APT",
+      "symbol": "tAPT",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin.png"
     },
     {
       "name": "Wormhole - Binance USD",

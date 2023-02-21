@@ -150,5 +150,13 @@
     "decimals": 8,
     "address": "0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin",
     "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin.png"
+  },
+  {
+    "name": "Tortuga Staked APT",
+    "symbol": "tAPT",
+    "chainId": 1,
+    "decimals": 8,
+    "address": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
+    "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin.png"
   }
 ]
