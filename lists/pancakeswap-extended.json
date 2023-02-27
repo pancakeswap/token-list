@@ -1,16 +1,13 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-02-17T10:41:38.420Z",
+  "timestamp": "2023-02-27T07:41:38.420Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 121
+    "patch": 122
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": [
-    "pancakeswap",
-    "extended"
-  ],
+  "keywords": ["pancakeswap", "extended"],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -2539,6 +2536,22 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x7F70642d88cf1C4a3a7abb072B53B929b653edA5.png"
+    },
+    {
+      "name": "BOUNTYKINDS YU",
+      "symbol": "YU",
+      "address": "0x3e098C23DCFBbE0A3f468A6bEd1cf1a59DC1770D",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x3e098C23DCFBbE0A3f468A6bEd1cf1a59DC1770D.png"
+    },
+    {
+      "name": "FORBIDDEN FRUIT ENERGY",
+      "symbol": "FFE",
+      "address": "0x9E0335fb61958Fe19Bb120F3F8408B4297921820",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x9E0335fb61958Fe19Bb120F3F8408B4297921820.png"
     },
     {
       "name": "ZEBEC",
