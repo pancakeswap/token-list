@@ -4,6 +4,7 @@ import { TokenList } from "@pancakeswap/token-lists";
 import { version as pancakeswapDefaultVersion } from "../lists/pancakeswap-default.json";
 import { version as pancakeswapEthDefaultVersion } from "../lists/pancakeswap-eth-default.json";
 import { version as pancakeswapEthMMVersion } from "../lists/pancakeswap-eth-mm.json";
+import { version as pancakeswapBnbMMVersion } from "../lists/pancakeswap-bnb-mm.json";
 import { version as pancakeswapExtendedVersion } from "../lists/pancakeswap-extended.json";
 import { version as pancakeswapTop15Version } from "../lists/pancakeswap-top-15.json";
 import { version as pancakeswapTop100Version } from "../lists/pancakeswap-top-100.json";
@@ -19,6 +20,7 @@ import pancakeswapEthMM from "./tokens/pancakeswap-eth-mm.json";
 import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
 import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
 import pancakeswapTop15 from "./tokens/pancakeswap-top-15.json";
+import pancakeswapBnbMM from "./tokens/pancakeswap-bnb-mm.json";
 import coingecko from "./tokens/coingecko.json";
 import cmc from "./tokens/cmc.json";
 import pancakeswapMini from "./tokens/pancakeswap-mini.json";
@@ -61,6 +63,14 @@ const lists = {
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: false,
     currentVersion: pancakeswapEthMMVersion,
+  },
+  "pancakeswap-bnb-mm": {
+    list: pancakeswapBnbMM,
+    name: "PancakeSwap BNB Chain MM",
+    keywords: ["pancakeswap", "mm", "bnb"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+    currentVersion: pancakeswapBnbMMVersion,
   },
   "pancakeswap-default": {
     list: pancakeswapDefault,
