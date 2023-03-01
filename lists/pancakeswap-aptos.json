@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2023-02-21T06:09:26.713Z",
+  "timestamp": "2023-03-01T02:42:20.774Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 14
+    "patch": 15
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -84,6 +84,14 @@
       "decimals": 8,
       "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::WethCoin",
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+    },
+    {
+      "name": "Eternal Token",
+      "symbol": "ETERN",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x25a64579760a4c64be0d692327786a6375ec80740152851490cfd0b53604cf95::coin::ETERN",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x25a64579760a4c64be0d692327786a6375ec80740152851490cfd0b53604cf95::coin::ETERN.png"
     },
     {
       "name": "LayerZero - USD Coin",

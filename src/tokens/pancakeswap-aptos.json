@@ -158,5 +158,13 @@
     "decimals": 8,
     "address": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
     "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin.png"
+  },
+  {
+    "name": "Eternal Token",
+    "symbol": "ETERN",
+    "chainId": 1,
+    "decimals": 8,
+    "address": "0x25a64579760a4c64be0d692327786a6375ec80740152851490cfd0b53604cf95::coin::ETERN",
+    "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x25a64579760a4c64be0d692327786a6375ec80740152851490cfd0b53604cf95::coin::ETERN.png"
   }
 ]
