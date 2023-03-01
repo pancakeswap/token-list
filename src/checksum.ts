@@ -4,6 +4,7 @@ import { getAddress } from "@ethersproject/address";
 import pancakeswapDefault from "./tokens/pancakeswap-default.json";
 import pancakeswapEthDefault from "./tokens/pancakeswap-eth-default.json";
 import pancakeswapEthMM from "./tokens/pancakeswap-eth-mm.json";
+import pancakeswapBnbMM from "./tokens/pancakeswap-bnb-mm.json";
 import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
 import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
 import pancakeswapTop15 from "./tokens/pancakeswap-top-15.json";
@@ -16,6 +17,7 @@ const lists = {
   "pancakeswap-default": pancakeswapDefault,
   "pancakeswap-eth-default": pancakeswapEthDefault,
   "pancakeswap-eth-mm": pancakeswapEthMM,
+  "pancakeswap-bnb-mm": pancakeswapBnbMM,
   "pancakeswap-extended": pancakeswapExtended,
   "pancakeswap-top-100": pancakeswapTop100,
   "pancakeswap-top-15": pancakeswapTop15,

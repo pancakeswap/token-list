@@ -7,6 +7,7 @@ import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json"
 import currentPancakeswapDefaultList from "../lists/pancakeswap-default.json";
 import currentPancakeswapEthDefaultList from "../lists/pancakeswap-eth-default.json";
 import currentPancakeswapEthMMList from "../lists/pancakeswap-eth-mm.json";
+import currentPancakeswapBnbMMList from "../lists/pancakeswap-bnb-mm.json";
 import currentPancakeswapExtendedtList from "../lists/pancakeswap-extended.json";
 import currentPancakeswapTop15List from "../lists/pancakeswap-top-15.json";
 import currentPancakeswapTop100tList from "../lists/pancakeswap-top-100.json";
@@ -36,6 +37,7 @@ const CASES = [
   ["pancakeswap-mini"],
   ["pancakeswap-mini-extended"],
   ["pancakeswap-aptos", { skipLogo: true, aptos: true }],
+  ["pancakeswap-bnb-mm"],
 ] as const;
 
 const cases = listArgs ? CASES.filter((c) => c[0] === listArgs) : CASES;
@@ -43,6 +45,7 @@ const cases = listArgs ? CASES.filter((c) => c[0] === listArgs) : CASES;
 const currentLists = {
   "pancakeswap-default": currentPancakeswapDefaultList,
   "pancakeswap-eth-mm": currentPancakeswapEthMMList,
+  "pancakeswap-bnb-mm": currentPancakeswapBnbMMList,
   "pancakeswap-eth-default": currentPancakeswapEthDefaultList,
   "pancakeswap-extended": currentPancakeswapExtendedtList,
   "pancakeswap-top-100": currentPancakeswapTop100tList,
