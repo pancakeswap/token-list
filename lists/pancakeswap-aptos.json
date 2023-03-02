@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2023-03-01T02:42:20.774Z",
+  "timestamp": "2023-03-02T07:09:23.938Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 15
+    "patch": 16
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -28,6 +28,14 @@
       "decimals": 8,
       "address": "0x1::aptos_coin::AptosCoin",
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/apt.png"
+    },
+    {
+      "name": "Blocto Token",
+      "symbol": "BLT",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0xfbab9fb68bd2103925317b6a540baa20087b1e7a7a4eb90badee04abb6b5a16f::blt::Blt",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xfbab9fb68bd2103925317b6a540baa20087b1e7a7a4eb90badee04abb6b5a16f::blt::Blt.png"
     },
     {
       "name": "Celer - Binance Coin",
