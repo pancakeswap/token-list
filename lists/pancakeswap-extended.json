@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-03-01T02:43:42.358Z",
+  "timestamp": "2023-03-02T07:20:47.548Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 122
+    "patch": 123
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -395,14 +395,6 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x63870A18B6e42b01Ef1Ad8A2302ef50B7132054F.png"
-    },
-    {
-      "name": "BloctoToken",
-      "symbol": "BLT",
-      "address": "0x02Bdf640fba368E7Ba5c6429cCaF251512273865",
-      "chainId": 56,
-      "decimals": 8,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x02Bdf640fba368E7Ba5c6429cCaF251512273865.png"
     },
     {
       "name": "Binamon",
