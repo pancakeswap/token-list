@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-03-02T07:20:47.548Z",
+  "timestamp": "2023-03-03T04:34:11.654Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 123
+    "patch": 124
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -411,6 +411,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x4131b87F74415190425ccD873048C708F8005823.png"
+    },
+    {
+      "name": "Liquid Staking BNB",
+      "symbol": "BNBx",
+      "address": "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275.png"
     },
     {
       "name": "Bondly",
