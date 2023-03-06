@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-03-06T03:51:44.659Z",
+  "timestamp": "2023-03-06T06:55:39.812Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 36
+    "patch": 37
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1894,6 +1894,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xA64455a4553C9034236734FadDAddbb64aCE4Cc7/logo.png"
+    },
+    {
+      "name": "Stader (Wormhole)",
+      "symbol": "SD",
+      "address": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8.png"
     },
     {
       "name": "Singularity Dao",
