@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-03-03T04:34:11.654Z",
+  "timestamp": "2023-03-06T03:51:29.491Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 124
+    "patch": 125
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -51,6 +51,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819.png"
+    },
+    {
+      "name": "agEUR",
+      "symbol": "agEUR",
+      "address": "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89.png"
     },
     {
       "name": "My Neigbor Alice",
