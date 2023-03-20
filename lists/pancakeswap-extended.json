@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-03-14T10:13:43.432Z",
+  "timestamp": "2023-03-20T09:00:48.199Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 127
+    "patch": 128
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1403,6 +1403,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e.png"
+    },
+    {
+      "name": "Level Token",
+      "symbol": "LVL",
+      "address": "0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149.png"
     },
     {
       "name": "Mirror AMZN Token",
