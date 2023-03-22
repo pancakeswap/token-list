@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-03-20T09:00:48.199Z",
+  "timestamp": "2023-03-22T09:11:16.866Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 128
+    "patch": 129
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2315,6 +2315,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1.png"
+    },
+    {
+      "name": "Uniwhale Token",
+      "symbol": "UNW",
+      "address": "0x5b65cd9feb54F1Df3D0C60576003344079f8Dc06",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x5b65cd9feb54F1Df3D0C60576003344079f8Dc06.png"
     },
     {
       "name": "Binance Pegged USD Coin",

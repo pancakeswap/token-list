@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-03-20T09:00:24.039Z",
+  "timestamp": "2023-03-22T09:19:29.587Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 39
+    "patch": 40
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1328,6 +1328,14 @@
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e/logo.png"
     },
     {
+      "name": "Level Token",
+      "symbol": "LVL",
+      "address": "0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149.png"
+    },
+    {
       "name": "Wrapped Mirror AMZN Token",
       "symbol": "mAMZN",
       "address": "0x3947B992DC0147D2D89dF0392213781b04B25075",
@@ -2206,6 +2214,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1/logo.png"
+    },
+    {
+      "name": "Uniwhale Token",
+      "symbol": "UNW",
+      "address": "0x5b65cd9feb54F1Df3D0C60576003344079f8Dc06",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x5b65cd9feb54F1Df3D0C60576003344079f8Dc06.png"
     },
     {
       "name": "USD Coin",
