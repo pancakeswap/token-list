@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2023-03-02T07:09:23.938Z",
+  "timestamp": "2023-03-30T10:37:38.401Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 16
+    "patch": 17
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -180,6 +180,14 @@
       "decimals": 6,
       "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+    },
+    {
+      "name": "Wormhole - Tether USD",
+      "symbol": "whUSDT",
+      "chainId": 1,
+      "decimals": 6,
+      "address": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
     },
     {
       "name": "Wormhole - Wrapped Ether",
