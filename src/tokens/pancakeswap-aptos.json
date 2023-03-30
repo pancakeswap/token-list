@@ -136,6 +136,14 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
   },
   {
+    "name": "Wormhole - Tether USD",
+    "symbol": "whUSDT",
+    "chainId": 1,
+    "decimals": 6,
+    "address": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+  },
+  {
     "name": "PancakeSwap Token",
     "symbol": "CAKE",
     "chainId": 1,

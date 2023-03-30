@@ -71,6 +71,7 @@ const APTOS_COIN_ALIAS = {
   lzWETH: "WETH",
   whBUSD: "BUSD",
   whUSDC: "USDC",
+  whUSDT: "USDT",
   whWETH: "WETH",
 };
 
