@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-04-03T13:15:33.476Z",
+  "timestamp": "2023-04-03T15:26:35.263Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 6
+    "patch": 7
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -212,6 +212,22 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0.png"
+    },
+    {
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH",
+      "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
+    },
+    {
+      "name": "Alchemix",
+      "symbol": "ALCX",
+      "address": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF.png"
     }
   ]
 }
