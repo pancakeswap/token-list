@@ -182,5 +182,13 @@
     "decimals": 8,
     "address": "0xfbab9fb68bd2103925317b6a540baa20087b1e7a7a4eb90badee04abb6b5a16f::blt::Blt",
     "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xfbab9fb68bd2103925317b6a540baa20087b1e7a7a4eb90badee04abb6b5a16f::blt::Blt.png"
+  },
+  {
+    "name": "Thala Token",
+    "symbol": "THL",
+    "chainId": 1,
+    "decimals": 8,
+    "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
+    "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL.png"
   }
 ]

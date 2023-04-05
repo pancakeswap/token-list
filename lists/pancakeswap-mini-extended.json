@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-03-29T07:18:37.860Z",
+  "timestamp": "2023-04-05T16:31:28.403Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 43
+    "patch": 44
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1974,6 +1974,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272.png"
+    },
+    {
+      "name": "Symbiosis",
+      "symbol": "SIS",
+      "address": "0xF98b660AdF2ed7d9d9D9dAACC2fb0CAce4F21835",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xF98b660AdF2ed7d9d9D9dAACC2fb0CAce4F21835.png"
     },
     {
       "name": "CryptoBlades Skill Token",
