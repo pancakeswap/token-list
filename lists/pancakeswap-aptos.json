@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2023-03-30T10:37:38.401Z",
+  "timestamp": "2023-04-06T02:44:39.695Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 17
+    "patch": 18
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -164,6 +164,14 @@
       "decimals": 8,
       "address": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
       "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin.png"
+    },
+    {
+      "name": "Thala Token",
+      "symbol": "THL",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL.png"
     },
     {
       "name": "Wormhole - Binance USD",
