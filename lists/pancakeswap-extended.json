@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-04-05T16:31:15.034Z",
+  "timestamp": "2023-04-11T15:06:53.203Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 133
+    "patch": 134
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -115,6 +115,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827.png"
+    },
+    {
+      "name": "Ankr Staked ETH",
+      "symbol": "ankrETH",
+      "address": "0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3.png"
     },
     {
       "name": "Antex",

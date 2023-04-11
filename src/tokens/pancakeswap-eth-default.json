@@ -214,5 +214,53 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF.png"
+  },
+  {
+    "name": "Alchemix ETH",
+    "symbol": "alETH",
+    "address": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6.png"
+  },
+  {
+    "name": "Frax Share",
+    "symbol": "FXS",
+    "address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0.png"
+  },
+  {
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "address": "0x5E8422345238F34275888049021821E8E08CAa1f",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x5E8422345238F34275888049021821E8E08CAa1f.png"
+  },
+  {
+    "name": "Rocket Pool",
+    "symbol": "RPL",
+    "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xD33526068D116cE69F19A9ee46F0bd304F21A51f.png"
+  },
+  {
+    "name": "Rocket Pool ETH",
+    "symbol": "rETH",
+    "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xae78736Cd615f374D3085123A210448E74Fc6393.png"
+  },
+  {
+    "name": "Ankr Staked ETH",
+    "symbol": "ankrETH",
+    "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xE95A203B1a91a908F9B9CE46459d101078c2c3cb.png"
   }
 ]
