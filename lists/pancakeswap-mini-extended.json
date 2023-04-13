@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-04-05T16:31:28.403Z",
+  "timestamp": "2023-04-13T08:52:48.211Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 44
+    "patch": 45
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1702,6 +1702,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x0112e557d400474717056C4e6D40eDD846F38351/logo.png"
+    },
+    {
+      "name": "PLAY",
+      "symbol": "PLAY",
+      "address": "0xD069599E718f963bD84502b49ba8F8657fAF5B3a",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xD069599E718f963bD84502b49ba8F8657fAF5B3a.png"
     },
     {
       "name": "Polkamon",
