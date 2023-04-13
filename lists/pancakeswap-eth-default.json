@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-04-11T15:07:08.203Z",
+  "timestamp": "2023-04-13T02:05:13.927Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 8
+    "patch": 9
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -276,6 +276,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xE95A203B1a91a908F9B9CE46459d101078c2c3cb.png"
+    },
+    {
+      "name": "Capsule Coin",
+      "symbol": "CAPS",
+      "address": "0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2.png"
     }
   ]
 }
