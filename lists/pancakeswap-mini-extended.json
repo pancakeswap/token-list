@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-04-13T08:52:48.211Z",
+  "timestamp": "2023-04-14T02:54:21.053Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 45
+    "patch": 46
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -214,6 +214,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xa184088a740c695E156F91f5cC086a06bb78b827/logo.png"
+    },
+    {
+      "name": "Axelar",
+      "symbol": "AXL",
+      "address": "0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65.png"
     },
     {
       "name": "Axelar Wrapped USDC",
