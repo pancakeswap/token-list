@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-04-14T02:54:21.053Z",
+  "timestamp": "2023-04-17T06:18:22.890Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 46
+    "patch": 47
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -702,6 +702,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x23CE9e926048273eF83be0A3A8Ba9Cb6D45cd978/logo.png"
+    },
+    {
+      "name": "DegenReborn Token",
+      "symbol": "DEGEN",
+      "address": "0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732.png"
     },
     {
       "name": "Deri",
