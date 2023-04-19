@@ -278,5 +278,13 @@
     "chainId": 1,
     "decimals": 6,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x467719aD09025FcC6cF6F8311755809d45a5E5f3.png"
+  },
+  {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "address": "0x4206931337dc273a630d328dA6441786BfaD668f",
+    "chainId": 1,
+    "decimals": 8,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x4206931337dc273a630d328dA6441786BfaD668f.png"
   }
 ]
