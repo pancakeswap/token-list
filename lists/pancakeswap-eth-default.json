@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-04-19T10:14:32.294Z",
+  "timestamp": "2023-04-20T03:23:21.985Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 12
+    "patch": 13
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -292,6 +292,22 @@
       "chainId": 1,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x467719aD09025FcC6cF6F8311755809d45a5E5f3.png"
+    },
+    {
+      "name": "Wrapped NCG",
+      "symbol": "WNCG",
+      "address": "0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817.png"
+    },
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x6982508145454Ce325dDbE47a25d4ec3d2311933.png"
     }
   ]
 }
