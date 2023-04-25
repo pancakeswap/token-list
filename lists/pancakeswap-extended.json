@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-04-14T02:54:34.953Z",
+  "timestamp": "2023-04-25T08:11:21.057Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 136
+    "patch": 137
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2365,6 +2365,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1.png"
     },
     {
+      "name": "unshETH Ether",
+      "symbol": "unshETH",
+      "address": "0x0Ae38f7E10A43B5b2fB064B42a2f4514cbA909ef",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0Ae38f7E10A43B5b2fB064B42a2f4514cbA909ef.png"
+    },
+    {
       "name": "Uniwhale Token",
       "symbol": "UNW",
       "address": "0x5b65cd9feb54F1Df3D0C60576003344079f8Dc06",
@@ -2387,6 +2395,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "name": "unshETHing_Token",
+      "symbol": "USH",
+      "address": "0x91d6d6aF7635B7b23A8CED9508117965180e2362",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x91d6d6aF7635B7b23A8CED9508117965180e2362.png"
     },
     {
       "name": "UST Token",

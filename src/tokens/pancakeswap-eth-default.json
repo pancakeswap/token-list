@@ -302,5 +302,21 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074.png"
+  },
+  {
+    "name": "unshETHing_Token",
+    "symbol": "USH",
+    "address": "0xE60779CC1b2c1d0580611c526a8DF0E3f870EC48",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xE60779CC1b2c1d0580611c526a8DF0E3f870EC48.png"
+  },
+  {
+    "name": "unshETH Ether",
+    "symbol": "unshETH",
+    "address": "0x0Ae38f7E10A43B5b2fB064B42a2f4514cbA909ef",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x0Ae38f7E10A43B5b2fB064B42a2f4514cbA909ef.png"
   }
 ]
