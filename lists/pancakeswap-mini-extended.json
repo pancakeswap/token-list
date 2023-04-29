@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-04-14T02:54:21.053Z",
+  "timestamp": "2023-04-29T17:49:33.778Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 46
+    "patch": 47
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -798,6 +798,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x758FB037A375F17c7e195CC634D77dA4F554255B/logo.png"
+    },
+    {
+      "name": "EDU Coin",
+      "symbol": "EDU",
+      "address": "0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639.png"
     },
     {
       "name": "Elrond",
