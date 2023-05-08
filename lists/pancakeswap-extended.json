@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-04-29T17:49:56.010Z",
+  "timestamp": "2023-05-08T04:35:02.814Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 139
+    "patch": 140
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1347,6 +1347,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x77d547256A2cD95F32F67aE0313E450Ac200648d.png"
+    },
+    {
+      "name": "Level Governance Token",
+      "symbol": "LGO",
+      "address": "0xBe2B6C5E31F292009f495DDBda88e28391C9815E",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xBe2B6C5E31F292009f495DDBda88e28391C9815E.png"
     },
     {
       "name": "Lien",
