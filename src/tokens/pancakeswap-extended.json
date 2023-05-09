@@ -2702,5 +2702,21 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0xBe2B6C5E31F292009f495DDBda88e28391C9815E.png"
+  },
+  {
+    "name": "Clinq.Gold Token",
+    "symbol": "CGT",
+    "address": "0x883da316C7971B19BFE25DF9Ace93B9529c50f22",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x883da316C7971B19BFE25DF9Ace93B9529c50f22.png"
+  },
+  {
+    "name": "Clinq Token",
+    "symbol": "CNQ",
+    "address": "0xE0eB6Ff76eBDEb2278d18306a7493Ab9bE1AA476",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xE0eB6Ff76eBDEb2278d18306a7493Ab9bE1AA476.png"
   }
 ]

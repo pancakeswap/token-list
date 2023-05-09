@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-05-08T04:35:02.814Z",
+  "timestamp": "2023-05-09T08:35:20.300Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 140
+    "patch": 141
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -629,6 +629,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2.png"
     },
     {
+      "name": "Clinq.Gold Token",
+      "symbol": "CGT",
+      "address": "0x883da316C7971B19BFE25DF9Ace93B9529c50f22",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x883da316C7971B19BFE25DF9Ace93B9529c50f22.png"
+    },
+    {
       "name": "Ultimate Champions Token",
       "symbol": "CHAMP",
       "address": "0x7e9AB560d37E62883E882474b096643caB234B65",
@@ -651,6 +659,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xf9CeC8d50f6c8ad3Fb6dcCEC577e05aA32B224FE.png"
+    },
+    {
+      "name": "Clinq Token",
+      "symbol": "CNQ",
+      "address": "0xE0eB6Ff76eBDEb2278d18306a7493Ab9bE1AA476",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xE0eB6Ff76eBDEb2278d18306a7493Ab9bE1AA476.png"
     },
     {
       "name": "CO",
