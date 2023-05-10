@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-05-10T17:18:57.851Z",
+  "timestamp": "2023-05-10T17:36:42.756Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 17
+    "patch": 18
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -340,6 +340,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xa2E3356610840701BDf5611a53974510Ae27E2e1.png"
+    },
+    {
+      "name": "Blur",
+      "symbol": "BLUR",
+      "address": "0x5283D291DBCF85356A21bA090E6db59121208b44",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x5283D291DBCF85356A21bA090E6db59121208b44.png"
     },
     {
       "name": "Ethereum Name Service",
