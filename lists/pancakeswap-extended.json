@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-05-08T04:35:02.814Z",
+  "timestamp": "2023-05-11T03:17:08.038Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 140
+    "patch": 141
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1827,6 +1827,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xD069599E718f963bD84502b49ba8F8657fAF5B3a.png"
+    },
+    {
+      "name": "Pomerium Ecosystem Token",
+      "symbol": "PMG",
+      "address": "0x0733618Ab62eEEC815f2d1739b7a50bF9E74d8a2",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0733618Ab62eEEC815f2d1739b7a50bF9E74d8a2.png"
     },
     {
       "name": "Polkamon",
