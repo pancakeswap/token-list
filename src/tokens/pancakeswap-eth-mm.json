@@ -48,14 +48,6 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0.png"
   },
   {
-    "name": "SAND",
-    "symbol": "SAND",
-    "address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
-    "chainId": 1,
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x3845badAde8e6dFF049820680d1F14bD3903a5d0.png"
-  },
-  {
     "name": "dYdX",
     "symbol": "DYDX",
     "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
@@ -70,30 +62,6 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xD533a949740bb3306d119CC777fa900bA034cd52.png"
-  },
-  {
-    "name": "Decentraland",
-    "symbol": "MANA",
-    "address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
-    "chainId": 1,
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942.png"
-  },
-  {
-    "name": "SushiToken",
-    "symbol": "SUSHI",
-    "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
-    "chainId": 1,
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2.png"
-  },
-  {
-    "name": "Fantom Token",
-    "symbol": "FTM",
-    "address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
-    "chainId": 1,
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x4E15361FD6b4BB609Fa63C81A2be19d873717870.png"
   },
   {
     "name": "ChainLink Token",
@@ -144,35 +112,27 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32.png"
   },
   {
-    "name": "Aave Token",
-    "symbol": "AAVE",
-    "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-    "chainId": 1,
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9.png"
-  },
-  {
-    "name": "Maker",
-    "symbol": "MKR",
-    "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-    "chainId": 1,
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2.png"
-  },
-  {
-    "name": "Uniswap",
-    "symbol": "UNI",
-    "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
-    "chainId": 1,
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
-  },
-  {
     "name": "Synthetix Network Token",
     "symbol": "SNX",
     "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F.png"
+  },
+  {
+    "name": "Render Token",
+    "symbol": "RNDR",
+    "address": "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24.png"
+  },
+  {
+    "name": "Fetch",
+    "symbol": "FET",
+    "address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85.png"
   }
 ]
