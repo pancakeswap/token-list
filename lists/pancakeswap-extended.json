@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-05-08T04:35:02.814Z",
+  "timestamp": "2023-05-22T08:34:22.295Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 140
+    "patch": 141
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1795,6 +1795,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x2c44b726ADF1963cA47Af88B284C06f30380fC78.png"
+    },
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00.png"
     },
     {
       "name": "Perlin X",
