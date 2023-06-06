@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap BNB Chain MM",
-  "timestamp": "2023-02-28T15:46:03.699Z",
+  "timestamp": "2023-06-06T07:52:31.840Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -60,6 +60,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "ARB",
+      "symbol": "Arbitrum",
+      "address": "0xa050FFb3eEb8200eEB7F61ce34FF644420FD3522",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xa050FFb3eEb8200eEB7F61ce34FF644420FD3522.png"
     }
   ]
 }
