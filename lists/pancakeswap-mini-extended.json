@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-04-29T17:49:33.778Z",
+  "timestamp": "2023-06-08T07:49:42.859Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 47
+    "patch": 48
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -598,6 +598,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2/logo.png"
+    },
+    {
+      "name": "ChainGPT",
+      "symbol": "CGPT",
+      "address": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x9840652DC04fb9db2C43853633f0F62BE6f00f98.png"
     },
     {
       "name": "Ultimate Champions Token",
