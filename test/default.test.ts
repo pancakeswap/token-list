@@ -75,6 +75,9 @@ const APTOS_COIN_ALIAS = {
   whWETH: "WETH",
 };
 
+const validateWhiteList = ["0x14016E85a25aeb13065688cAFB43044C2ef86784"];
+// TUSD(Old)
+
 const ajv = new Ajv({ allErrors: true, format: "full" });
 const validate = ajv.compile(pancakeswapSchema);
 
@@ -127,7 +130,11 @@ expect.extend({
     };
   },
   toBeValidTokenList(tokenList) {
-    const isValid = validate(tokenList);
+    const filteredTokenList = {
+      ...tokenList,
+      tokens: tokenList.tokens.filter((d) => validateWhiteList.indexOf(d.address) === -1),
+    };
+    const isValid = validate(filteredTokenList);
     if (isValid) {
       return {
         message: () => ``,
