@@ -608,8 +608,8 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/0xf9CeC8d50f6c8ad3Fb6dcCEC577e05aA32B224FE.png"
   },
   {
-    "name": "True USD",
-    "symbol": "TUSD",
+    "name": "True USD Old",
+    "symbol": "TUSDOLD",
     "address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
     "chainId": 56,
     "decimals": 18,
@@ -1038,5 +1038,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x09E889BB4D5b474f561db0491C38702F367A4e4d/logo.png"
+  },
+  {
+    "name": "TrueUSD",
+    "symbol": "TUSD",
+    "address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9.png"
   }
 ]

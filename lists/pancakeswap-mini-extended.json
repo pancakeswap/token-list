@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-06-08T07:49:42.859Z",
+  "timestamp": "2023-06-22T06:57:05.308Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 48
+    "patch": 49
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2226,10 +2226,18 @@
     {
       "name": "TrueUSD",
       "symbol": "TUSD",
+      "address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9.png"
+    },
+    {
+      "name": "True USD Old",
+      "symbol": "TUSDOLD",
       "address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x14016E85a25aeb13065688cAFB43044C2ef86784/logo.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x14016E85a25aeb13065688cAFB43044C2ef86784.png"
     },
     {
       "name": "Trust Wallet",
