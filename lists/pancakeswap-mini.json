@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini",
-  "timestamp": "2023-03-22T09:19:06.161Z",
+  "timestamp": "2023-06-22T06:57:18.899Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 3
+    "patch": 4
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -887,8 +887,16 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B.png"
     },
     {
-      "name": "True USD",
+      "name": "TrueUSD",
       "symbol": "TUSD",
+      "address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9.png"
+    },
+    {
+      "name": "True USD Old",
+      "symbol": "TUSDOLD",
       "address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
       "chainId": 56,
       "decimals": 18,
