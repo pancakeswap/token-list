@@ -15,6 +15,7 @@ import coingecko from "./tokens/coingecko.json";
 import cmc from "./tokens/cmc.json";
 import pancakeswapMini from "./tokens/pancakeswap-mini.json";
 import pancakeswapMiniExtended from "./tokens/pancakeswap-mini-extended.json";
+import pancakeswapOnramp from "./tokens/pancakeswap-onramp.json";
 
 const lists = {
   "pancakeswap-default": pancakeswapDefault,
@@ -31,6 +32,7 @@ const lists = {
   cmc,
   "pancakeswap-mini": pancakeswapMini,
   "pancakeswap-mini-extended": pancakeswapMiniExtended,
+  "pancakeswap-onramp": pancakeswapOnramp,
 };
 
 const checksumAddresses = (listName: string): void => {
