@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-06-22T06:57:05.308Z",
+  "timestamp": "2023-06-30T11:01:38.720Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 49
+    "patch": 50
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2430,6 +2430,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xA58950F05FeA2277d2608748412bf9F802eA4901/logo.png"
+    },
+    {
+      "name": "Governance xAlgo",
+      "symbol": "xALGO",
+      "address": "0x0034719300501B06E10Ebb1D07ea5967301F0941",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0034719300501B06E10Ebb1D07ea5967301F0941.png"
     },
     {
       "name": "Chainport.io-Peg XCAD Token",

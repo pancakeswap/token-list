@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-06-22T06:51:34.588Z",
+  "timestamp": "2023-06-30T10:59:23.708Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 147
+    "patch": 148
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2587,6 +2587,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xFa40d8FC324bcdD6Bbae0e086De886c571C225d4.png"
+    },
+    {
+      "name": "Governance xAlgo",
+      "symbol": "xALGO",
+      "address": "0x0034719300501B06E10Ebb1D07ea5967301F0941",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0034719300501B06E10Ebb1D07ea5967301F0941.png"
     },
     {
       "name": "Xcademy",
