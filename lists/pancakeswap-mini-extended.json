@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-06-30T11:01:38.720Z",
+  "timestamp": "2023-07-03T12:34:17.712Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 50
+    "patch": 51
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1702,6 +1702,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB.png"
+    },
+    {
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "address": "0xb3Ed0A426155B79B898849803E3B36552f7ED507",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xb3Ed0A426155B79B898849803E3B36552f7ED507.png"
     },
     {
       "name": "ConstitutionDAO",
