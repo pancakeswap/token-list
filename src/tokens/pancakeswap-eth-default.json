@@ -286,5 +286,21 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72.png"
+  },
+  {
+    "name": "TrueUSD",
+    "symbol": "TUSD",
+    "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x0000000000085d4780B73119b644AE5ecd22b376.png"
+  },
+  {
+    "name": "Canto",
+    "symbol": "CANTO",
+    "address": "0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220.png"
   }
 ]

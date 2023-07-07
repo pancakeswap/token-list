@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-05-18T10:37:12.360Z",
+  "timestamp": "2023-06-30T07:57:16.573Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 19
+    "patch": 21
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -300,6 +300,22 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72.png"
+    },
+    {
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x0000000000085d4780B73119b644AE5ecd22b376.png"
+    },
+    {
+      "name": "Canto",
+      "symbol": "CANTO",
+      "address": "0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220.png"
     }
   ]
 }

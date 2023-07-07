@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-05-22T08:34:22.295Z",
+  "timestamp": "2023-07-03T12:34:31.877Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 141
+    "patch": 149
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -635,6 +635,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x883da316C7971B19BFE25DF9Ace93B9529c50f22.png"
+    },
+    {
+      "name": "ChainGPT",
+      "symbol": "CGPT",
+      "address": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x9840652DC04fb9db2C43853633f0F62BE6f00f98.png"
     },
     {
       "name": "Ultimate Champions Token",
@@ -1805,6 +1813,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB.png"
     },
     {
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "address": "0xb3Ed0A426155B79B898849803E3B36552f7ED507",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xb3Ed0A426155B79B898849803E3B36552f7ED507.png"
+    },
+    {
       "name": "ConstitutionDAO",
       "symbol": "PEOPLE",
       "address": "0x2c44b726ADF1963cA47Af88B284C06f30380fC78",
@@ -2357,8 +2373,16 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x990E7154bB999FAa9b2fa5Ed29E822703311eA85.png"
     },
     {
-      "name": "True USD",
+      "name": "TrueUSD",
       "symbol": "TUSD",
+      "address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9.png"
+    },
+    {
+      "name": "True USD Old",
+      "symbol": "TUSDOLD",
       "address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
       "chainId": 56,
       "decimals": 18,
@@ -2587,6 +2611,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xFa40d8FC324bcdD6Bbae0e086De886c571C225d4.png"
+    },
+    {
+      "name": "Governance xAlgo",
+      "symbol": "xALGO",
+      "address": "0x0034719300501B06E10Ebb1D07ea5967301F0941",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0034719300501B06E10Ebb1D07ea5967301F0941.png"
     },
     {
       "name": "Xcademy",

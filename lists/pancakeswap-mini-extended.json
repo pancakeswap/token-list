@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-04-29T17:49:33.778Z",
+  "timestamp": "2023-07-03T12:34:17.712Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 47
+    "patch": 51
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -598,6 +598,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2/logo.png"
+    },
+    {
+      "name": "ChainGPT",
+      "symbol": "CGPT",
+      "address": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x9840652DC04fb9db2C43853633f0F62BE6f00f98.png"
     },
     {
       "name": "Ultimate Champions Token",
@@ -1696,6 +1704,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB.png"
     },
     {
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "address": "0xb3Ed0A426155B79B898849803E3B36552f7ED507",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xb3Ed0A426155B79B898849803E3B36552f7ED507.png"
+    },
+    {
       "name": "ConstitutionDAO",
       "symbol": "PEOPLE",
       "address": "0x2c44b726ADF1963cA47Af88B284C06f30380fC78",
@@ -2218,10 +2234,18 @@
     {
       "name": "TrueUSD",
       "symbol": "TUSD",
+      "address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9.png"
+    },
+    {
+      "name": "True USD Old",
+      "symbol": "TUSDOLD",
       "address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x14016E85a25aeb13065688cAFB43044C2ef86784/logo.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x14016E85a25aeb13065688cAFB43044C2ef86784.png"
     },
     {
       "name": "Trust Wallet",
@@ -2414,6 +2438,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xA58950F05FeA2277d2608748412bf9F802eA4901/logo.png"
+    },
+    {
+      "name": "Governance xAlgo",
+      "symbol": "xALGO",
+      "address": "0x0034719300501B06E10Ebb1D07ea5967301F0941",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0034719300501B06E10Ebb1D07ea5967301F0941.png"
     },
     {
       "name": "Chainport.io-Peg XCAD Token",
