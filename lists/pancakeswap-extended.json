@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-07-03T12:34:31.877Z",
+  "timestamp": "2023-07-17T13:44:51.724Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 149
+    "patch": 150
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -899,6 +899,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xA7f552078dcC247C2684336020c03648500C6d9F.png"
+    },
+    {
+      "name": "Equilibria Token",
+      "symbol": "EQB",
+      "address": "0x374Ca32fd7934c5d43240E1e73fa9B2283468609",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x374Ca32fd7934c5d43240E1e73fa9B2283468609.png"
     },
     {
       "name": "Era Token",
