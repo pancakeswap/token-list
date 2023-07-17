@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-07-03T12:34:17.712Z",
+  "timestamp": "2023-07-17T13:45:05.633Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 51
+    "patch": 52
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -846,6 +846,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xA7f552078dcC247C2684336020c03648500C6d9F/logo.png"
+    },
+    {
+      "name": "Equilibria Token",
+      "symbol": "EQB",
+      "address": "0x374Ca32fd7934c5d43240E1e73fa9B2283468609",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x374Ca32fd7934c5d43240E1e73fa9B2283468609.png"
     },
     {
       "name": "Era Token",
