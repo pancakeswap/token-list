@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-06-30T07:57:16.573Z",
+  "timestamp": "2023-07-19T06:49:07.817Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 21
+    "patch": 22
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -316,6 +316,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220.png"
+    },
+    {
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "address": "0x808507121B80c02388fAd14726482e061B8da827",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x808507121B80c02388fAd14726482e061B8da827.png"
     }
   ]
 }
