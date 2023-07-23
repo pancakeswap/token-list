@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-07-17T13:45:05.633Z",
+  "timestamp": "2023-07-23T07:30:54.610Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 52
+    "patch": 53
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1958,6 +1958,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x07663837218A003e66310a01596af4bf4e44623D/logo.png"
+    },
+    {
+      "name": "SABLE",
+      "symbol": "SABLE",
+      "address": "0x1eE098cBaF1f846d5Df1993f7e2d10AFb35A878d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1eE098cBaF1f846d5Df1993f7e2d10AFb35A878d.png"
     },
     {
       "name": "The Sandbox",

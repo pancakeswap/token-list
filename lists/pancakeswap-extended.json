@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-07-17T13:44:51.724Z",
+  "timestamp": "2023-07-22T06:12:02.617Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 150
+    "patch": 151
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2067,6 +2067,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x07663837218A003e66310a01596af4bf4e44623D.png"
+    },
+    {
+      "name": "SABLE",
+      "symbol": "SABLE",
+      "address": "0x1eE098cBaF1f846d5Df1993f7e2d10AFb35A878d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1eE098cBaF1f846d5Df1993f7e2d10AFb35A878d.png"
     },
     {
       "name": "The Sandbox",
