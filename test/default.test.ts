@@ -6,6 +6,7 @@ import { getAddress } from "@ethersproject/address";
 import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json";
 import currentPancakeswapDefaultList from "../lists/pancakeswap-default.json";
 import currentPancakeswapEthDefaultList from "../lists/pancakeswap-eth-default.json";
+import currentPancakeswapPolygonZkevmDefaultList from "../lists/pancakeswap-polygon-zkevm-default.json";
 import currentPancakeswapEthMMList from "../lists/pancakeswap-eth-mm.json";
 import currentPancakeswapBnbMMList from "../lists/pancakeswap-bnb-mm.json";
 import currentPancakeswapExtendedtList from "../lists/pancakeswap-extended.json";
@@ -28,6 +29,7 @@ const listArgs = process.argv
 const CASES = [
   ["pancakeswap-default"],
   ["pancakeswap-eth-default"],
+  ["pancakeswap-polygon-zkevm-default"],
   ["pancakeswap-eth-mm"],
   ["pancakeswap-extended"],
   ["pancakeswap-top-100"],
@@ -47,6 +49,7 @@ const currentLists = {
   "pancakeswap-eth-mm": currentPancakeswapEthMMList,
   "pancakeswap-bnb-mm": currentPancakeswapBnbMMList,
   "pancakeswap-eth-default": currentPancakeswapEthDefaultList,
+  "pancakeswap-polygon-zkevm-default": currentPancakeswapPolygonZkevmDefaultList,
   "pancakeswap-extended": currentPancakeswapExtendedtList,
   "pancakeswap-top-100": currentPancakeswapTop100tList,
   "pancakeswap-top-15": currentPancakeswapTop15List,
@@ -80,6 +83,7 @@ const validate = ajv.compile(pancakeswapSchema);
 
 const pathToImages = path.join(path.resolve(), "lists", "images");
 const pathToEthImages = path.join(path.resolve(), "lists", "images", "eth");
+const pathToPolygonZkevmImages = path.join(path.resolve(), "lists", "images", "polygon-zkevm");
 
 const logoFiles = fs
   .readdirSync(pathToImages, { withFileTypes: true })
@@ -90,6 +94,23 @@ const ethLogoFiles = fs
   .readdirSync(pathToEthImages, { withFileTypes: true })
   .filter((f) => f.isFile())
   .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
+
+const polygonZkevmLogoFiles = fs
+  .readdirSync(pathToPolygonZkevmImages, { withFileTypes: true })
+  .filter((f) => f.isFile())
+  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
+
+const multiChainLogoPath = {
+  [56]: "",
+  [1]: "/eth",
+  [1101]: "/polygon-zkevm",
+};
+
+const multiChainLogoFiles = {
+  [56]: logoFiles,
+  [1]: ethLogoFiles,
+  [1101]: polygonZkevmLogoFiles,
+};
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
 const getByAjvPath = (obj, propertyPath: string, defaultValue = undefined) => {
@@ -152,13 +173,12 @@ expect.extend({
       token.logoURI === `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${token.address}/logo.png`;
     let hasLocalLogo = false;
     const refersToLocalLogo =
-      token.logoURI === `https://tokens.pancakeswap.finance/images/${token.address}.png` ||
-      token.logoURI === `https://tokens.pancakeswap.finance/images/eth/${token.address}.png`;
+      token.logoURI ===
+      `https://tokens.pancakeswap.finance/images${multiChainLogoPath?.[token.chainId] || ""}/${token.address}.png`;
     if (refersToLocalLogo) {
       const fileName = token.logoURI.split("/").pop();
       // Note: fs.existsSync can't be used here because its not case sensetive
-      hasLocalLogo =
-        logoFiles.map((f) => f.name).includes(fileName) || ethLogoFiles.map((f) => f.name).includes(fileName);
+      hasLocalLogo = multiChainLogoFiles[token.chainId]?.map((f) => f.name).includes(fileName);
     }
     if (hasTWLogo || hasLocalLogo) {
       return {

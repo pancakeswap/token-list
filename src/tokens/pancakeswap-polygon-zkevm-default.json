@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "address": "0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9",
+    "chainId": 1101,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9.png"
+  },
+  {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "address": "0xA8CE8aee21bC2A48a5EF670afCc9274C7bbbC035",
+    "chainId": 1101,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0xA8CE8aee21bC2A48a5EF670afCc9274C7bbbC035.png"
+  },
+  {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "address": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d",
+    "chainId": 1101,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x1E4a5963aBFD975d8c9021ce480b42188849D41d.png"
+  },
+
+  {
+    "name": "Matic Token",
+    "symbol": "MATIC",
+    "address": "0xa2036f0538221a77A3937F1379699f44945018d0",
+    "chainId": 1101,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0xa2036f0538221a77A3937F1379699f44945018d0.png"
+  }
+]
