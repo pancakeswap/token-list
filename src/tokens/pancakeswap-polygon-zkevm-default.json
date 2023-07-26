@@ -1,5 +1,13 @@
 [
   {
+    "name": "PancakeSwap Token",
+    "symbol": "CAKE",
+    "address": "0x0D1E753a25eBda689453309112904807625bEFBe",
+    "chainId": 1101,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x0D1E753a25eBda689453309112904807625bEFBe.png"
+  },
+  {
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "address": "0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9",
@@ -23,7 +31,6 @@
     "decimals": 6,
     "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x1E4a5963aBFD975d8c9021ce480b42188849D41d.png"
   },
-
   {
     "name": "Matic Token",
     "symbol": "MATIC",

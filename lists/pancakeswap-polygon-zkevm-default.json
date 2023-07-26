@@ -1,8 +1,8 @@
 {
   "name": "PancakeSwap Zkevm Default",
-  "timestamp": "2023-07-25T11:30:46.083Z",
+  "timestamp": "2023-07-26T08:16:52.094Z",
   "version": {
-    "major": 0,
+    "major": 1,
     "minor": 0,
     "patch": 1
   },
@@ -14,6 +14,14 @@
     "zkevm"
   ],
   "tokens": [
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x0D1E753a25eBda689453309112904807625bEFBe",
+      "chainId": 1101,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x0D1E753a25eBda689453309112904807625bEFBe.png"
+    },
     {
       "name": "Wrapped Ether",
       "symbol": "WETH",
