@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-07-22T06:12:02.617Z",
+  "timestamp": "2023-07-28T07:51:56.147Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 151
+    "patch": 152
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2155,6 +2155,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x154A9F9cbd3449AD22FDaE23044319D6eF2a1Fab.png"
+    },
+    {
+      "name": "Synclub Staked BNB",
+      "symbol": "SnBNB",
+      "address": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B.png"
     },
     {
       "name": "SPARTAN PROTOCOL TOKEN",
