@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-07-23T07:30:54.610Z",
+  "timestamp": "2023-07-31T07:56:24.080Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 53
+    "patch": 54
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1742,6 +1742,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x0112e557d400474717056C4e6D40eDD846F38351/logo.png"
+    },
+    {
+      "name": "PLANET",
+      "symbol": "PLANET",
+      "address": "0xCa6d678e74f553f0E59cccC03ae644a3c2c5EE7d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xCa6d678e74f553f0E59cccC03ae644a3c2c5EE7d.png"
     },
     {
       "name": "PLAY",
