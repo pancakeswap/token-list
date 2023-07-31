@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-07-28T07:51:56.147Z",
+  "timestamp": "2023-07-31T07:56:10.861Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 152
+    "patch": 153
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1851,6 +1851,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x0112e557d400474717056C4e6D40eDD846F38351.png"
+    },
+    {
+      "name": "PLANET",
+      "symbol": "PLANET",
+      "address": "0xCa6d678e74f553f0E59cccC03ae644a3c2c5EE7d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xCa6d678e74f553f0E59cccC03ae644a3c2c5EE7d.png"
     },
     {
       "name": "PLAY",
