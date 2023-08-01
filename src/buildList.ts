@@ -4,6 +4,7 @@ import { TokenList } from "@pancakeswap/token-lists";
 import { version as pancakeswapDefaultVersion } from "../lists/pancakeswap-default.json";
 import { version as pancakeswapEthDefaultVersion } from "../lists/pancakeswap-eth-default.json";
 import { version as pancakeswapPolygonZkevmDefaultVersion } from "../lists/pancakeswap-polygon-zkevm-default.json";
+import { version as pancakeswapZksyncDefaultVersion } from "../lists/pancakeswap-zksync-default.json";
 import { version as pancakeswapEthMMVersion } from "../lists/pancakeswap-eth-mm.json";
 import { version as pancakeswapBnbMMVersion } from "../lists/pancakeswap-bnb-mm.json";
 import { version as pancakeswapExtendedVersion } from "../lists/pancakeswap-extended.json";
@@ -17,6 +18,7 @@ import { version as pancakeswapMiniExtendedVersion } from "../lists/pancakeswap-
 import pancakeswapAptos from "./tokens/pancakeswap-aptos.json";
 import pancakeswapDefault from "./tokens/pancakeswap-default.json";
 import pancakeswapPolygonZkevmDefault from "./tokens/pancakeswap-polygon-zkevm-default.json";
+import pancakeswapZksyncDefault from "./tokens/pancakeswap-zksync-default.json";
 import pancakeswapEthDefault from "./tokens/pancakeswap-eth-default.json";
 import pancakeswapEthMM from "./tokens/pancakeswap-eth-mm.json";
 import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
@@ -49,6 +51,14 @@ const lists = {
     sort: true,
     currentVersion: pancakeswapAptosVersion,
     schema: "aptos",
+  },
+  "pancakeswap-zksync-default": {
+    list: pancakeswapZksyncDefault,
+    name: "PancakeSwap Zksync Default",
+    keywords: ["pancakeswap", "default", "zksync"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+    currentVersion: pancakeswapZksyncDefaultVersion,
   },
   "pancakeswap-polygon-zkevm-default": {
     list: pancakeswapPolygonZkevmDefault,

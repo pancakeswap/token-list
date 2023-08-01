@@ -6,6 +6,7 @@ import { getAddress } from "@ethersproject/address";
 import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json";
 import currentPancakeswapDefaultList from "../lists/pancakeswap-default.json";
 import currentPancakeswapEthDefaultList from "../lists/pancakeswap-eth-default.json";
+import currentPancakeswapZksyncDefaultList from "../lists/pancakeswap-zksync-default.json";
 import currentPancakeswapPolygonZkevmDefaultList from "../lists/pancakeswap-polygon-zkevm-default.json";
 import currentPancakeswapEthMMList from "../lists/pancakeswap-eth-mm.json";
 import currentPancakeswapBnbMMList from "../lists/pancakeswap-bnb-mm.json";
@@ -29,6 +30,7 @@ const listArgs = process.argv
 const CASES = [
   ["pancakeswap-default"],
   ["pancakeswap-eth-default"],
+  ["pancakeswap-zksync-default"],
   ["pancakeswap-polygon-zkevm-default"],
   ["pancakeswap-eth-mm"],
   ["pancakeswap-extended"],
@@ -49,6 +51,7 @@ const currentLists = {
   "pancakeswap-eth-mm": currentPancakeswapEthMMList,
   "pancakeswap-bnb-mm": currentPancakeswapBnbMMList,
   "pancakeswap-eth-default": currentPancakeswapEthDefaultList,
+  "pancakeswap-zksync-default": currentPancakeswapZksyncDefaultList,
   "pancakeswap-polygon-zkevm-default": currentPancakeswapPolygonZkevmDefaultList,
   "pancakeswap-extended": currentPancakeswapExtendedtList,
   "pancakeswap-top-100": currentPancakeswapTop100tList,
@@ -83,6 +86,7 @@ const validate = ajv.compile(pancakeswapSchema);
 
 const pathToImages = path.join(path.resolve(), "lists", "images");
 const pathToEthImages = path.join(path.resolve(), "lists", "images", "eth");
+const pathToZksyncImages = path.join(path.resolve(), "lists", "images", "zksync");
 const pathToPolygonZkevmImages = path.join(path.resolve(), "lists", "images", "polygon-zkevm");
 
 const logoFiles = fs
@@ -95,6 +99,11 @@ const ethLogoFiles = fs
   .filter((f) => f.isFile())
   .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
 
+const polygonZksyncFiles = fs
+  .readdirSync(pathToZksyncImages, { withFileTypes: true })
+  .filter((f) => f.isFile())
+  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
+
 const polygonZkevmLogoFiles = fs
   .readdirSync(pathToPolygonZkevmImages, { withFileTypes: true })
   .filter((f) => f.isFile())
@@ -104,12 +113,14 @@ const multiChainLogoPath = {
   [56]: "",
   [1]: "/eth",
   [1101]: "/polygon-zkevm",
+  [324]: "/zksync",
 };
 
 const multiChainLogoFiles = {
   [56]: logoFiles,
   [1]: ethLogoFiles,
   [1101]: polygonZkevmLogoFiles,
+  [324]: polygonZksyncFiles,
 };
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
