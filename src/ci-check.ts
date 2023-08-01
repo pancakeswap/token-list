@@ -1,6 +1,7 @@
 import srcDefault from "./tokens/pancakeswap-default.json";
 import srcEthDefault from "./tokens/pancakeswap-eth-default.json";
 import srcPolygonZkevmDefault from "./tokens/pancakeswap-polygon-zkevm-default.json";
+import srcZksyncDefault from "./tokens/pancakeswap-zksync-default.json";
 import srcExtended from "./tokens/pancakeswap-extended.json";
 import srcTop100 from "./tokens/pancakeswap-top-100.json";
 import srcTop15 from "./tokens/pancakeswap-top-15.json";
@@ -11,6 +12,7 @@ import srcMiniExtended from "./tokens/pancakeswap-mini-extended.json";
 import defaultList from "../lists/pancakeswap-default.json";
 import defaultEthList from "../lists/pancakeswap-eth-default.json";
 import defaultPolygonZkevmList from "../lists/pancakeswap-polygon-zkevm-default.json";
+import defaultZksyncList from "../lists/pancakeswap-zksync-default.json";
 import extendedtList from "../lists/pancakeswap-extended.json";
 import top15List from "../lists/pancakeswap-top-15.json";
 import top100tList from "../lists/pancakeswap-top-100.json";
@@ -29,6 +31,11 @@ const lists = [
     name: "pancakeswap-eth-default",
     src: srcEthDefault,
     actual: defaultEthList,
+  },
+  {
+    name: "pancakeswap-zksync-default",
+    src: srcZksyncDefault,
+    actual: defaultZksyncList,
   },
   {
     name: "pancakeswap-polygon-zkevm-default",
