@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-07-31T07:56:10.861Z",
+  "timestamp": "2023-08-01T14:34:34.912Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 153
+    "patch": 154
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -739,6 +739,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x23CE9e926048273eF83be0A3A8Ba9Cb6D45cd978.png"
+    },
+    {
+      "name": "DexCheck",
+      "symbol": "DCK",
+      "address": "0x16faF9DAa401AA42506AF503Aa3d80B871c467A3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x16faF9DAa401AA42506AF503Aa3d80B871c467A3.png"
     },
     {
       "name": "Dego.Finance",

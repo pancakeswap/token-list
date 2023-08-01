@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-07-31T07:56:24.080Z",
+  "timestamp": "2023-08-01T14:35:33.603Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 54
+    "patch": 55
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -710,6 +710,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x23CE9e926048273eF83be0A3A8Ba9Cb6D45cd978/logo.png"
+    },
+    {
+      "name": "DexCheck",
+      "symbol": "DCK",
+      "address": "0x16faF9DAa401AA42506AF503Aa3d80B871c467A3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x16faF9DAa401AA42506AF503Aa3d80B871c467A3.png"
     },
     {
       "name": "Deri",
