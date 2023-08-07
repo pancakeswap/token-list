@@ -9,12 +9,14 @@ const bscRpcProvider = new ethers.providers.StaticJsonRpcProvider(RPC_URL, 56);
 const ethRpcProvider = new ethers.providers.StaticJsonRpcProvider(ETH_RPC_URL, 1);
 const polygonZkevmRpcProvider = new ethers.providers.StaticJsonRpcProvider(POLYGON_ZKEVM_RPC_URL, 1101);
 const zksyncRpcProvider = new ethers.providers.StaticJsonRpcProvider(ZKSYNC_RPC_URL, 324);
+const arbitrumRpcProvider = new ethers.providers.StaticJsonRpcProvider("https://arb1.arbitrum.io/rpc", 42161);
 
 const simpleRpcProvider = {
   [1]: ethRpcProvider,
   [56]: bscRpcProvider,
   [1101]: polygonZkevmRpcProvider,
   [324]: zksyncRpcProvider,
+  [42161]: arbitrumRpcProvider,
 };
 
 export default simpleRpcProvider;
