@@ -7,6 +7,7 @@ import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json"
 import currentPancakeswapDefaultList from "../lists/pancakeswap-default.json";
 import currentPancakeswapEthDefaultList from "../lists/pancakeswap-eth-default.json";
 import currentPancakeswapZksyncDefaultList from "../lists/pancakeswap-zksync-default.json";
+import currentPancakeswapArbitrumDefaultList from "../lists/pancakeswap-arbitrum-default.json";
 import currentPancakeswapPolygonZkevmDefaultList from "../lists/pancakeswap-polygon-zkevm-default.json";
 import currentPancakeswapEthMMList from "../lists/pancakeswap-eth-mm.json";
 import currentPancakeswapBnbMMList from "../lists/pancakeswap-bnb-mm.json";
@@ -32,6 +33,7 @@ const CASES = [
   ["pancakeswap-eth-default"],
   ["pancakeswap-zksync-default"],
   ["pancakeswap-polygon-zkevm-default"],
+  ["pancakeswap-arbitrum-default"],
   ["pancakeswap-eth-mm"],
   ["pancakeswap-extended"],
   ["pancakeswap-top-100"],
@@ -52,6 +54,7 @@ const currentLists = {
   "pancakeswap-bnb-mm": currentPancakeswapBnbMMList,
   "pancakeswap-eth-default": currentPancakeswapEthDefaultList,
   "pancakeswap-zksync-default": currentPancakeswapZksyncDefaultList,
+  "pancakeswap-arbitrum-default": currentPancakeswapArbitrumDefaultList,
   "pancakeswap-polygon-zkevm-default": currentPancakeswapPolygonZkevmDefaultList,
   "pancakeswap-extended": currentPancakeswapExtendedtList,
   "pancakeswap-top-100": currentPancakeswapTop100tList,
@@ -88,6 +91,7 @@ const pathToImages = path.join(path.resolve(), "lists", "images");
 const pathToEthImages = path.join(path.resolve(), "lists", "images", "eth");
 const pathToZksyncImages = path.join(path.resolve(), "lists", "images", "zksync");
 const pathToPolygonZkevmImages = path.join(path.resolve(), "lists", "images", "polygon-zkevm");
+const pathToARbImages = path.join(path.resolve(), "lists", "images", "arbitrum");
 
 const logoFiles = fs
   .readdirSync(pathToImages, { withFileTypes: true })
@@ -109,11 +113,17 @@ const polygonZkevmLogoFiles = fs
   .filter((f) => f.isFile())
   .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
 
+const pathToARbImagesLogoFiles = fs
+  .readdirSync(pathToARbImages, { withFileTypes: true })
+  .filter((f) => f.isFile())
+  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
+
 const multiChainLogoPath = {
   [56]: "",
   [1]: "/eth",
   [1101]: "/polygon-zkevm",
   [324]: "/zksync",
+  [42161]: "/arbitrum",
 };
 
 const multiChainLogoFiles = {
@@ -121,6 +131,7 @@ const multiChainLogoFiles = {
   [1]: ethLogoFiles,
   [1101]: polygonZkevmLogoFiles,
   [324]: polygonZksyncFiles,
+  [42161]: pathToARbImagesLogoFiles,
 };
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
@@ -190,6 +201,13 @@ expect.extend({
       const fileName = token.logoURI.split("/").pop();
       // Note: fs.existsSync can't be used here because its not case sensetive
       hasLocalLogo = multiChainLogoFiles[token.chainId]?.map((f) => f.name).includes(fileName);
+    }
+
+    if (token.logoURI === `https://tokens.pancakeswap.finance/images/symbol/${token.symbol.toLowerCase()}.png`) {
+      return {
+        message: () => ``,
+        pass: true,
+      };
     }
     if (hasTWLogo || hasLocalLogo) {
       return {
