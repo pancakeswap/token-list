@@ -16,6 +16,7 @@ import { version as cmcVersion } from "../lists/cmc.json";
 import { version as pancakeswapMiniVersion } from "../lists/pancakeswap-mini.json";
 import { version as pancakeswapMiniExtendedVersion } from "../lists/pancakeswap-mini-extended.json";
 import { version as pancakeswapArbitrumVersion } from "../lists/pancakeswap-arbitrum-default.json";
+import { version as pancakeswapOnrampVersion } from "../lists/pancakeswap-onramp.json";
 import pancakeswapAptos from "./tokens/pancakeswap-aptos.json";
 import pancakeswapDefault from "./tokens/pancakeswap-default.json";
 import pancakeswapPolygonZkevmDefault from "./tokens/pancakeswap-polygon-zkevm-default.json";
@@ -31,6 +32,7 @@ import coingecko from "./tokens/coingecko.json";
 import cmc from "./tokens/cmc.json";
 import pancakeswapMini from "./tokens/pancakeswap-mini.json";
 import pancakeswapMiniExtended from "./tokens/pancakeswap-mini-extended.json";
+import pancakeswapOnramp from "./tokens/pancakeswap-onramp.json";
 
 export enum VersionBump {
   "major" = "major",
@@ -166,6 +168,14 @@ const lists = {
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: true,
     currentVersion: pancakeswapMiniExtendedVersion,
+  },
+  "pancakeswap-onramp": {
+    list: pancakeswapOnramp,
+    name: "PancakeSwap Onramp",
+    keywords: ["pancakeswap", "onramp"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+    currentVersion: pancakeswapOnrampVersion,
   },
 };
 

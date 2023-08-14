@@ -10,6 +10,7 @@ import srcCoingecko from "./tokens/coingecko.json";
 import srcCmc from "./tokens/cmc.json";
 import srcMini from "./tokens/pancakeswap-mini.json";
 import srcMiniExtended from "./tokens/pancakeswap-mini-extended.json";
+import srcOnramp from "./tokens/pancakeswap-onramp.json";
 import defaultList from "../lists/pancakeswap-default.json";
 import defaultEthList from "../lists/pancakeswap-eth-default.json";
 import defaultPolygonZkevmList from "../lists/pancakeswap-polygon-zkevm-default.json";
@@ -22,6 +23,7 @@ import coingeckoList from "../lists/coingecko.json";
 import cmcList from "../lists/cmc.json";
 import miniList from "../lists/pancakeswap-mini.json";
 import miniExtendedList from "../lists/pancakeswap-mini-extended.json";
+import onrampList from "../lists/pancakeswap-onramp.json";
 
 const lists = [
   {
@@ -83,6 +85,11 @@ const lists = [
     name: "pancakeswap-mini-extended",
     src: srcMiniExtended,
     actual: miniExtendedList,
+  },
+  {
+    name: "pancakeswap-onramp",
+    src: srcOnramp,
+    actual: onrampList,
   },
 ];
 
