@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Onramp",
-  "timestamp": "2023-08-10T04:09:50.147Z",
+  "timestamp": "2023-08-14T05:08:36.025Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -42,11 +42,11 @@
       "symbol": "BUSD",
       "decimals": 18,
       "chainId": 56,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/BUSD.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/busd.png"
     },
     {
       "name": "DAI StableCoin Zksync",
-      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "symbol": "DAI",
       "decimals": 18,
       "chainId": 324,
@@ -70,7 +70,7 @@
     },
     {
       "name": "USD Coin Arbitrum",
-      "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 42161,
