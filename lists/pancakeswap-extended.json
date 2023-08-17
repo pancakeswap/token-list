@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-08-15T12:51:49.671Z",
+  "timestamp": "2023-08-17T08:09:29.538Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 155
+    "patch": 156
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1615,10 +1615,10 @@
     {
       "name": "MixMarvel Token",
       "symbol": "MIX",
-      "address": "0x398f7827DcCbeFe6990478876bBF3612D93baF05",
+      "address": "0xCF1B55D79E824da0Ae0652F96C66fe33263d743f",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x398f7827DcCbeFe6990478876bBF3612D93baF05.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xCF1B55D79E824da0Ae0652F96C66fe33263d743f.png"
     },
     {
       "name": "Mirror NFLX Token",
@@ -2077,12 +2077,12 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x0a3A21356793B49154Fd3BbE91CBc2A16c0457f5.png"
     },
     {
-      "name": "Rangers Protocol",
+      "name": "RangersProtocolGas",
       "symbol": "RPG",
-      "address": "0xc2098a8938119A52B1F7661893c0153A6CB116d5",
+      "address": "0x61dc650C10Ec3c758d251Cd2D1Ab45AF1A43e941",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0xc2098a8938119A52B1F7661893c0153A6CB116d5.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x61dc650C10Ec3c758d251Cd2D1Ab45AF1A43e941.png"
     },
     {
       "name": "rUSD",
