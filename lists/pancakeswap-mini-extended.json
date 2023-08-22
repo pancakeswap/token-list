@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-08-01T14:35:33.603Z",
+  "timestamp": "2023-08-22T07:12:26.404Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 55
+    "patch": 56
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2438,6 +2438,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xa75d9ca2a0a1D547409D82e1B06618EC284A2CeD.png"
+    },
+    {
+      "name": "WrappedNCG",
+      "symbol": "WNCG",
+      "address": "0x52242cbAb41e290E9E17CCC50Cc437bB60020a9d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x52242cbAb41e290E9E17CCC50Cc437bB60020a9d.png"
     },
     {
       "name": "Wombat Token",
