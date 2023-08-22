@@ -142,7 +142,7 @@ const multiChainLogoFiles = {
   [1101]: polygonZkevmLogoFiles,
   [324]: polygonZksyncFiles,
   [42161]: pathToARbImagesLogoFiles,
-  // [59144]: pathToLineaImagesLogoFiles,
+  [59144]: pathToLineaImagesLogoFiles,
 };
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
