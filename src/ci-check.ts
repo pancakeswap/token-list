@@ -3,6 +3,7 @@ import srcEthDefault from "./tokens/pancakeswap-eth-default.json";
 import srcPolygonZkevmDefault from "./tokens/pancakeswap-polygon-zkevm-default.json";
 import srcArbitrumDefault from "./tokens/pancakeswap-arbitrum-default.json";
 import srcZksyncDefault from "./tokens/pancakeswap-zksync-default.json";
+import srcLineaDefault from "./tokens/pancakeswap-linea-default.json";
 import srcExtended from "./tokens/pancakeswap-extended.json";
 import srcTop100 from "./tokens/pancakeswap-top-100.json";
 import srcTop15 from "./tokens/pancakeswap-top-15.json";
@@ -16,6 +17,7 @@ import defaultEthList from "../lists/pancakeswap-eth-default.json";
 import defaultPolygonZkevmList from "../lists/pancakeswap-polygon-zkevm-default.json";
 import defaultZksyncList from "../lists/pancakeswap-zksync-default.json";
 import defaultArbitrumList from "../lists/pancakeswap-arbitrum-default.json";
+import defaultLineaList from "../lists/pancakeswap-linea-default.json";
 import extendedtList from "../lists/pancakeswap-extended.json";
 import top15List from "../lists/pancakeswap-top-15.json";
 import top100tList from "../lists/pancakeswap-top-100.json";
@@ -50,6 +52,11 @@ const lists = [
     name: "pancakeswap-arbitrum-default",
     src: srcArbitrumDefault,
     actual: defaultArbitrumList,
+  },
+  {
+    name: "pancakeswap-arbitrum-default",
+    src: srcLineaDefault,
+    actual: defaultLineaList,
   },
   {
     name: "pancakeswap-extended",

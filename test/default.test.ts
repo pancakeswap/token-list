@@ -9,6 +9,7 @@ import currentPancakeswapEthDefaultList from "../lists/pancakeswap-eth-default.j
 import currentPancakeswapZksyncDefaultList from "../lists/pancakeswap-zksync-default.json";
 import currentPancakeswapArbitrumDefaultList from "../lists/pancakeswap-arbitrum-default.json";
 import currentPancakeswapPolygonZkevmDefaultList from "../lists/pancakeswap-polygon-zkevm-default.json";
+import currentPancakeswapLineaDefaultList from "../lists/pancakeswap-linea-default.json";
 import currentPancakeswapEthMMList from "../lists/pancakeswap-eth-mm.json";
 import currentPancakeswapBnbMMList from "../lists/pancakeswap-bnb-mm.json";
 import currentPancakeswapExtendedtList from "../lists/pancakeswap-extended.json";
@@ -34,6 +35,7 @@ const CASES = [
   ["pancakeswap-zksync-default"],
   ["pancakeswap-polygon-zkevm-default"],
   ["pancakeswap-arbitrum-default"],
+  ["pancakeswap-linea-default"],
   ["pancakeswap-eth-mm"],
   ["pancakeswap-extended"],
   ["pancakeswap-top-100"],
@@ -54,6 +56,7 @@ const currentLists = {
   "pancakeswap-bnb-mm": currentPancakeswapBnbMMList,
   "pancakeswap-eth-default": currentPancakeswapEthDefaultList,
   "pancakeswap-zksync-default": currentPancakeswapZksyncDefaultList,
+  "pancakeswap-linea-default": currentPancakeswapLineaDefaultList,
   "pancakeswap-arbitrum-default": currentPancakeswapArbitrumDefaultList,
   "pancakeswap-polygon-zkevm-default": currentPancakeswapPolygonZkevmDefaultList,
   "pancakeswap-extended": currentPancakeswapExtendedtList,
@@ -92,6 +95,7 @@ const pathToEthImages = path.join(path.resolve(), "lists", "images", "eth");
 const pathToZksyncImages = path.join(path.resolve(), "lists", "images", "zksync");
 const pathToPolygonZkevmImages = path.join(path.resolve(), "lists", "images", "polygon-zkevm");
 const pathToARbImages = path.join(path.resolve(), "lists", "images", "arbitrum");
+const pathToLineaImages = path.join(path.resolve(), "lists", "images", "linea");
 
 const logoFiles = fs
   .readdirSync(pathToImages, { withFileTypes: true })
@@ -118,12 +122,18 @@ const pathToARbImagesLogoFiles = fs
   .filter((f) => f.isFile())
   .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
 
+const pathToLineaImagesLogoFiles = fs
+  .readdirSync(pathToLineaImages, { withFileTypes: true })
+  .filter((f) => f.isFile())
+  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
+
 const multiChainLogoPath = {
   [56]: "",
   [1]: "/eth",
   [1101]: "/polygon-zkevm",
   [324]: "/zksync",
   [42161]: "/arbitrum",
+  [59144]: "/linea",
 };
 
 const multiChainLogoFiles = {
@@ -132,6 +142,7 @@ const multiChainLogoFiles = {
   [1101]: polygonZkevmLogoFiles,
   [324]: polygonZksyncFiles,
   [42161]: pathToARbImagesLogoFiles,
+  // [59144]: pathToLineaImagesLogoFiles,
 };
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
