@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-08-22T07:12:26.404Z",
+  "timestamp": "2023-08-23T07:24:56.281Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 56
+    "patch": 57
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1514,6 +1514,14 @@
     {
       "name": "MixMarvel Token",
       "symbol": "MIX",
+      "address": "0xCF1B55D79E824da0Ae0652F96C66fe33263d743f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xCF1B55D79E824da0Ae0652F96C66fe33263d743f.png"
+    },
+    {
+      "name": "MixMarvel Token Old",
+      "symbol": "MIXOLD",
       "address": "0x398f7827DcCbeFe6990478876bBF3612D93baF05",
       "chainId": 56,
       "decimals": 18,
@@ -1960,8 +1968,16 @@
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x0a3A21356793B49154Fd3BbE91CBc2A16c0457f5/logo.png"
     },
     {
-      "name": "Rangers Protocol Gas",
+      "name": "RangersProtocolGas",
       "symbol": "RPG",
+      "address": "0x61dc650C10Ec3c758d251Cd2D1Ab45AF1A43e941",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x61dc650C10Ec3c758d251Cd2D1Ab45AF1A43e941.png"
+    },
+    {
+      "name": "Rangers Protocol Gas Old",
+      "symbol": "RPGOLD",
       "address": "0xc2098a8938119A52B1F7661893c0153A6CB116d5",
       "chainId": 56,
       "decimals": 18,
