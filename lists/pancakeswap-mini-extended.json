@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-08-23T07:24:56.281Z",
+  "timestamp": "2023-08-23T08:19:35.028Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 57
+    "patch": 58
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1976,7 +1976,7 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x61dc650C10Ec3c758d251Cd2D1Ab45AF1A43e941.png"
     },
     {
-      "name": "Rangers Protocol Gas Old",
+      "name": "Rangers Protocol Gas",
       "symbol": "RPGOLD",
       "address": "0xc2098a8938119A52B1F7661893c0153A6CB116d5",
       "chainId": 56,
