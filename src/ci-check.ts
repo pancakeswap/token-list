@@ -54,7 +54,7 @@ const lists = [
     actual: defaultArbitrumList,
   },
   {
-    name: "pancakeswap-arbitrum-default",
+    name: "pancakeswap-linea-default",
     src: srcLineaDefault,
     actual: defaultLineaList,
   },

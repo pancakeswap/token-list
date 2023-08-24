@@ -23,6 +23,7 @@ import pancakeswapDefault from "./tokens/pancakeswap-default.json";
 import pancakeswapPolygonZkevmDefault from "./tokens/pancakeswap-polygon-zkevm-default.json";
 import pancakeswapZksyncDefault from "./tokens/pancakeswap-zksync-default.json";
 import pancakeswapArbDefault from "./tokens/pancakeswap-arbitrum-default.json";
+import pancakeswapLineaDefault from "./tokens/pancakeswap-linea-default.json";
 import pancakeswapEthDefault from "./tokens/pancakeswap-eth-default.json";
 import pancakeswapEthMM from "./tokens/pancakeswap-eth-mm.json";
 import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
@@ -66,7 +67,7 @@ const lists = {
     currentVersion: pancakeswapZksyncDefaultVersion,
   },
   "pancakeswap-linea-default": {
-    list: pancakeswapArbDefault,
+    list: pancakeswapLineaDefault,
     name: "PancakeSwap Linea Default",
     keywords: ["pancakeswap", "default", "linea"],
     logoURI: "https://pancakeswap.finance/logo.png",

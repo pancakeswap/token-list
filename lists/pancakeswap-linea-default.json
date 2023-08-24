@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Linea Default",
-  "timestamp": "2023-08-22T06:41:14.679Z",
+  "timestamp": "2023-08-24T03:02:01.934Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -16,58 +16,42 @@
     {
       "name": "Wrapped Ether",
       "symbol": "WETH",
-      "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-      "chainId": 42161,
+      "address": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
+      "chainId": 59144,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
     },
     {
       "name": "USD Coin",
       "symbol": "USDC",
-      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-      "chainId": 42161,
+      "address": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+      "chainId": 59144,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
     },
     {
-      "name": "Bridged USDC",
-      "symbol": "USDC.e",
-      "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-      "chainId": 42161,
-      "decimals": 6,
-      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8.png"
-    },
-    {
       "name": "Tether USD",
       "symbol": "USDT",
-      "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-      "chainId": 42161,
+      "address": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+      "chainId": 59144,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
     },
     {
-      "name": "Arbitrum",
-      "symbol": "ARB",
-      "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
-      "chainId": 42161,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "address": "0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5",
+      "chainId": 59144,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x912CE59144191C1204E64559FE8253a0e49E6548.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/dai.png"
     },
     {
       "name": "Wrapped BTC",
       "symbol": "WBTC",
-      "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
-      "chainId": 42161,
+      "address": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
+      "chainId": 59144,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
-    },
-    {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
-      "address": "0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c",
-      "chainId": 42161,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c.png"
     }
   ]
 }
