@@ -1,10 +1,10 @@
 {
   "name": "CoinMarketCap",
-  "timestamp": "2023-06-19T23:23:22.474Z",
+  "timestamp": "2023-08-23T08:49:52.335Z",
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 17
+    "patch": 18
   },
   "logoURI": "https://ipfs.io/ipfs/QmQAGtNJ2rSGpnP6dh6PPKNSmZL8RTZXmgFwgTdy5Nz5mx",
   "keywords": [
@@ -55362,14 +55362,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14170.png"
-    },
-    {
-      "name": "Scorefam",
-      "symbol": "SFT",
-      "address": "0xCb73918ac58D0c90d71c7992637c61094c15305b",
-      "chainId": 56,
-      "decimals": 8,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/19914.png"
     },
     {
       "name": "Stella Fantasy",

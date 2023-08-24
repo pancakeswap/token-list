@@ -101,9 +101,9 @@ const fetchThirdPartyList = async (listName: string): Promise<void> => {
           badAddresses.push(address);
           return;
         }
-        const realSymbol = tokenInfoResponse[i * 3][0];
-        const realName = tokenInfoResponse[i * 3 + 1][0];
-        const realDecimals = tokenInfoResponse[i * 3 + 2][0];
+        const realSymbol = tokenInfoResponse?.[i * 3]?.[0] ?? "";
+        const realName = tokenInfoResponse?.[i * 3 + 1]?.[0] ?? "";
+        const realDecimals = tokenInfoResponse?.[i * 3 + 2]?.[0] ?? 18;
         if (!decimals || decimals !== realDecimals) {
           badDecimals.push({ decimals, realDecimals, address });
         }

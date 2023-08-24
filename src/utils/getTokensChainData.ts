@@ -44,7 +44,7 @@ const getTokensChainData = async (listName: string, addressArray?: string[], cha
       symbol: tokenInfoResponse?.[i * 3]?.[0] ?? "",
       address,
       chainId,
-      decimals: tokenInfoResponse[i * 3 + 2][0],
+      decimals: tokenInfoResponse?.[i * 3 + 2]?.[0] ?? 18,
       logoURI: `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${address}/logo.png`,
     }));
     tokensWithChainData.push(...data);

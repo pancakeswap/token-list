@@ -1601,11 +1601,19 @@
   },
   {
     "name": "Rangers Protocol Gas",
-    "symbol": "RPG",
+    "symbol": "RPGOLD",
     "address": "0xc2098a8938119A52B1F7661893c0153A6CB116d5",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xc2098a8938119A52B1F7661893c0153A6CB116d5/logo.png"
+  },
+  {
+    "name": "RangersProtocolGas",
+    "symbol": "RPG",
+    "address": "0x61dc650C10Ec3c758d251Cd2D1Ab45AF1A43e941",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x61dc650C10Ec3c758d251Cd2D1Ab45AF1A43e941.png"
   },
   {
     "name": "rUSD",
@@ -2224,12 +2232,20 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/0xe552Fb52a4F19e44ef5A967632DBc320B0820639.png"
   },
   {
-    "name": "MixMarvel Token",
-    "symbol": "MIX",
+    "name": "MixMarvel Token Old",
+    "symbol": "MIXOLD",
     "address": "0x398f7827DcCbeFe6990478876bBF3612D93baF05",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x398f7827DcCbeFe6990478876bBF3612D93baF05.png"
+  },
+  {
+    "name": "MixMarvel Token",
+    "symbol": "MIX",
+    "address": "0xCF1B55D79E824da0Ae0652F96C66fe33263d743f",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xCF1B55D79E824da0Ae0652F96C66fe33263d743f.png"
   },
   {
     "name": "PEAKDEFI",
