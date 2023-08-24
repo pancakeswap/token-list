@@ -16,12 +16,14 @@ import { version as cmcVersion } from "../lists/cmc.json";
 import { version as pancakeswapMiniVersion } from "../lists/pancakeswap-mini.json";
 import { version as pancakeswapMiniExtendedVersion } from "../lists/pancakeswap-mini-extended.json";
 import { version as pancakeswapArbitrumVersion } from "../lists/pancakeswap-arbitrum-default.json";
+import { version as pancakeswapLineaVersion } from "../lists/pancakeswap-linea-default.json";
 import { version as pancakeswapOnrampVersion } from "../lists/pancakeswap-onramp.json";
 import pancakeswapAptos from "./tokens/pancakeswap-aptos.json";
 import pancakeswapDefault from "./tokens/pancakeswap-default.json";
 import pancakeswapPolygonZkevmDefault from "./tokens/pancakeswap-polygon-zkevm-default.json";
 import pancakeswapZksyncDefault from "./tokens/pancakeswap-zksync-default.json";
 import pancakeswapArbDefault from "./tokens/pancakeswap-arbitrum-default.json";
+import pancakeswapLineaDefault from "./tokens/pancakeswap-linea-default.json";
 import pancakeswapEthDefault from "./tokens/pancakeswap-eth-default.json";
 import pancakeswapEthMM from "./tokens/pancakeswap-eth-mm.json";
 import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
@@ -63,6 +65,14 @@ const lists = {
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: false,
     currentVersion: pancakeswapZksyncDefaultVersion,
+  },
+  "pancakeswap-linea-default": {
+    list: pancakeswapLineaDefault,
+    name: "PancakeSwap Linea Default",
+    keywords: ["pancakeswap", "default", "linea"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+    currentVersion: pancakeswapLineaVersion,
   },
   "pancakeswap-polygon-zkevm-default": {
     list: pancakeswapPolygonZkevmDefault,

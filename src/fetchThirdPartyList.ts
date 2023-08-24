@@ -36,6 +36,7 @@ const CMC_BAD_TOKENS = [
   "0xcFA52F180538032402E0A2E702a4Da6fD1817fF5", // no a token
   "0x199e5A83509F35CD5Eb38a2D28B56A7Cd658E337", // no a token
   "0xBb6CD639724417A20a7db0F45C1fb2fE532f490A", // no a token
+  "0xCb73918ac58D0c90d71c7992637c61094c15305b", // self destruct
 ].map((a) => a.toLowerCase());
 
 const badTokens = {

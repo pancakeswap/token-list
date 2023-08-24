@@ -1,0 +1,57 @@
+{
+  "name": "PancakeSwap Linea Default",
+  "timestamp": "2023-08-24T03:02:01.934Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 3
+  },
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": [
+    "pancakeswap",
+    "default",
+    "linea"
+  ],
+  "tokens": [
+    {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "address": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
+      "chainId": 59144,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+      "chainId": 59144,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+      "chainId": 59144,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+    },
+    {
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "address": "0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5",
+      "chainId": 59144,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/dai.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "address": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
+      "chainId": 59144,
+      "decimals": 8,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
+    }
+  ]
+}
