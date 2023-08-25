@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Onramp",
-  "timestamp": "2023-08-14T05:08:36.025Z",
+  "timestamp": "2023-08-25T06:42:04.375Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 3
+    "patch": 6
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -43,14 +43,6 @@
       "decimals": 18,
       "chainId": 56,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/busd.png"
-    },
-    {
-      "name": "DAI StableCoin",
-      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-      "symbol": "DAI",
-      "decimals": 18,
-      "chainId": 324,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/dai.png"
     },
     {
       "name": "USD ",

@@ -1,110 +1,13 @@
-import srcDefault from "./tokens/pancakeswap-default.json";
-import srcEthDefault from "./tokens/pancakeswap-eth-default.json";
-import srcPolygonZkevmDefault from "./tokens/pancakeswap-polygon-zkevm-default.json";
-import srcArbitrumDefault from "./tokens/pancakeswap-arbitrum-default.json";
-import srcZksyncDefault from "./tokens/pancakeswap-zksync-default.json";
-import srcLineaDefault from "./tokens/pancakeswap-linea-default.json";
-import srcExtended from "./tokens/pancakeswap-extended.json";
-import srcTop100 from "./tokens/pancakeswap-top-100.json";
-import srcTop15 from "./tokens/pancakeswap-top-15.json";
-import srcCoingecko from "./tokens/coingecko.json";
-import srcCmc from "./tokens/cmc.json";
-import srcMini from "./tokens/pancakeswap-mini.json";
-import srcMiniExtended from "./tokens/pancakeswap-mini-extended.json";
-import srcOnramp from "./tokens/pancakeswap-onramp.json";
-import defaultList from "../lists/pancakeswap-default.json";
-import defaultEthList from "../lists/pancakeswap-eth-default.json";
-import defaultPolygonZkevmList from "../lists/pancakeswap-polygon-zkevm-default.json";
-import defaultZksyncList from "../lists/pancakeswap-zksync-default.json";
-import defaultArbitrumList from "../lists/pancakeswap-arbitrum-default.json";
-import defaultLineaList from "../lists/pancakeswap-linea-default.json";
-import extendedtList from "../lists/pancakeswap-extended.json";
-import top15List from "../lists/pancakeswap-top-15.json";
-import top100tList from "../lists/pancakeswap-top-100.json";
-import coingeckoList from "../lists/coingecko.json";
-import cmcList from "../lists/cmc.json";
-import miniList from "../lists/pancakeswap-mini.json";
-import miniExtendedList from "../lists/pancakeswap-mini-extended.json";
-import onrampList from "../lists/pancakeswap-onramp.json";
+import { LISTS } from "./constants.js";
 
-const lists = [
-  {
-    name: "pancakeswap-default",
-    src: srcDefault,
-    actual: defaultList,
-  },
-  {
-    name: "pancakeswap-eth-default",
-    src: srcEthDefault,
-    actual: defaultEthList,
-  },
-  {
-    name: "pancakeswap-zksync-default",
-    src: srcZksyncDefault,
-    actual: defaultZksyncList,
-  },
-  {
-    name: "pancakeswap-polygon-zkevm-default",
-    src: srcPolygonZkevmDefault,
-    actual: defaultPolygonZkevmList,
-  },
-  {
-    name: "pancakeswap-arbitrum-default",
-    src: srcArbitrumDefault,
-    actual: defaultArbitrumList,
-  },
-  {
-    name: "pancakeswap-linea-default",
-    src: srcLineaDefault,
-    actual: defaultLineaList,
-  },
-  {
-    name: "pancakeswap-extended",
-    src: srcExtended,
-    actual: extendedtList,
-  },
-  {
-    name: "pancakeswap-top-15",
-    src: srcTop15,
-    actual: top15List,
-  },
-  {
-    name: "pancakeswap-top-100",
-    src: srcTop100,
-    actual: top100tList,
-  },
-  {
-    name: "coingeckoList",
-    src: srcCoingecko,
-    actual: coingeckoList,
-  },
-  {
-    name: "cmcList",
-    src: srcCmc,
-    actual: cmcList,
-  },
-  {
-    name: "pancakeswap-mini",
-    src: srcMini,
-    actual: miniList,
-  },
-  {
-    name: "pancakeswap-mini-extended",
-    src: srcMiniExtended,
-    actual: miniExtendedList,
-  },
-  {
-    name: "pancakeswap-onramp",
-    src: srcOnramp,
-    actual: onrampList,
-  },
-];
+const compareLists = async (listName: string) => {
+  const src = await Bun.file(`src/tokens/${listName}.json`).json();
+  const actual = await Bun.file(`lists/${listName}.json`).json();
 
-const compareLists = (listPair) => {
-  const { name, src, actual } = listPair;
+  // const { name, src, actual } = listPair;
   if (src.length !== actual.tokens.length) {
     throw Error(
-      `List ${name} seems to be not properly regenerated. Soure file has ${src.length} tokens but actual list has ${actual.tokens.length}. Did you forget to run yarn makelist?`
+      `List ${listName} seems to be not properly regenerated. Soure file has ${src.length} tokens but actual list has ${actual.tokens.length}. Did you forget to run yarn makelist?`
     );
   }
   src.sort((t1, t2) => (t1.address < t2.address ? -1 : 1));
@@ -112,7 +15,7 @@ const compareLists = (listPair) => {
   src.forEach((srcToken, index) => {
     if (JSON.stringify(srcToken) !== JSON.stringify(actual.tokens[index])) {
       throw Error(
-        `List ${name} seems to be not properly regenerated. Tokens from src/tokens directory don't match up with the final list. Did you forget to run yarn makelist?`
+        `List ${listName} seems to be not properly regenerated. Tokens from src/tokens directory don't match up with the final list. Did you forget to run yarn makelist?`
       );
     }
   });
@@ -123,10 +26,10 @@ const compareLists = (listPair) => {
  * i.e. not just changed token list in src/tokens but also regenerated lists with yarn makelist command.
  * Github Action runs only on change in src/tokens directory.
  */
-const ciCheck = (): void => {
-  lists.forEach((listPair) => {
-    compareLists(listPair);
-  });
+const ciCheck = async (): Promise<void> => {
+  for (const listName in LISTS) {
+    await compareLists(listName);
+  }
 };
 
 export default ciCheck;

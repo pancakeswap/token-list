@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
     "rootDir": "./",
     "lib": ["ES2020"],
     "skipLibCheck": true,
-    "target": "ES5",
+    "module": "nodenext",
     "esModuleInterop": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["bun-types"]
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["src/**/*.test.ts", "**/__mocks__/*", "src/mocks/**", "jest.setup.js"]
+  "include": ["src/**/*.ts", "index.ts", "test/**.ts"],
+  "exclude": ["**/__mocks__/*", "src/mocks/**", "jest.setup.js", "src/utils/abi/types/**"]
 }
