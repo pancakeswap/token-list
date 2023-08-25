@@ -22,12 +22,6 @@ export const LISTS = {
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: false,
   },
-  "pancakeswap-base-default": {
-    name: "PancakeSwap Base Default",
-    keywords: ["pancakeswap", "default", "base"],
-    logoURI: "https://pancakeswap.finance/logo.png",
-    sort: false,
-  },
   "pancakeswap-polygon-zkevm-default": {
     name: "PancakeSwap Zkevm Default",
     keywords: ["pancakeswap", "default", "polygon", "zkevm"],
