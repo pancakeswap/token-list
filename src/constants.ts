@@ -1,0 +1,123 @@
+export const LISTS = {
+  "pancakeswap-aptos": {
+    name: "PancakeSwap Aptos",
+    keywords: ["pancakeswap", "aptos"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+    schema: "aptos",
+    test: {
+      skipLogo: true,
+      aptos: true,
+    },
+  },
+  "pancakeswap-zksync-default": {
+    name: "PancakeSwap Zksync Default",
+    keywords: ["pancakeswap", "default", "zksync"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-linea-default": {
+    name: "PancakeSwap Linea Default",
+    keywords: ["pancakeswap", "default", "linea"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-base-default": {
+    name: "PancakeSwap Base Default",
+    keywords: ["pancakeswap", "default", "base"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-polygon-zkevm-default": {
+    name: "PancakeSwap Zkevm Default",
+    keywords: ["pancakeswap", "default", "polygon", "zkevm"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-arbitrum-default": {
+    name: "PancakeSwap Arbitrum Default",
+    keywords: ["pancakeswap", "default", "arbitrum"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-eth-default": {
+    name: "PancakeSwap Ethereum Default",
+    keywords: ["pancakeswap", "default", "ethereum"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-eth-mm": {
+    name: "PancakeSwap Ethereum MM",
+    keywords: ["pancakeswap", "mm", "ethereum"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-bnb-mm": {
+    name: "PancakeSwap BNB Chain MM",
+    keywords: ["pancakeswap", "mm", "bnb"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-default": {
+    name: "PancakeSwap Default",
+    keywords: ["pancakeswap", "default"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
+  "pancakeswap-extended": {
+    name: "PancakeSwap Extended",
+    keywords: ["pancakeswap", "extended"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+  },
+  "pancakeswap-top-100": {
+    name: "PancakeSwap Top 100",
+    keywords: ["pancakeswap", "top 100"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+  },
+  "pancakeswap-top-15": {
+    name: "PancakeSwap Top 15",
+    keywords: ["pancakeswap", "top 15"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+  },
+  coingecko: {
+    name: "CoinGecko",
+    keywords: ["defi"],
+    logoURI: "https://tokens.pancakeswap.finance/images/projects/coingecko.png",
+    sort: true,
+    test: {
+      skipLogo: true,
+      aptos: false,
+    },
+  },
+  cmc: {
+    name: "CoinMarketCap",
+    keywords: ["defi"],
+    logoURI: "https://ipfs.io/ipfs/QmQAGtNJ2rSGpnP6dh6PPKNSmZL8RTZXmgFwgTdy5Nz5mx",
+    sort: true,
+    test: {
+      skipLogo: true,
+      aptos: false,
+    },
+  },
+  "pancakeswap-mini": {
+    name: "PancakeSwap Mini",
+    keywords: ["pancakeswap", "binance", "mini program", "mini"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+  },
+  "pancakeswap-mini-extended": {
+    name: "PancakeSwap Mini Ext",
+    keywords: ["pancakeswap", "binance", "mini program", "mini", "extended"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+  },
+  "pancakeswap-onramp": {
+    name: "PancakeSwap Onramp",
+    keywords: ["pancakeswap", "onramp"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+  },
+} as const;

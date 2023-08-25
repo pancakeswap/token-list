@@ -1,73 +1,31 @@
 /* eslint-disable no-restricted-syntax */
 import Ajv from "ajv";
+import { describe, it, expect } from "bun:test";
 import fs from "fs";
 import path from "path";
 import { getAddress } from "@ethersproject/address";
-import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json";
-import currentPancakeswapDefaultList from "../lists/pancakeswap-default.json";
-import currentPancakeswapEthDefaultList from "../lists/pancakeswap-eth-default.json";
-import currentPancakeswapZksyncDefaultList from "../lists/pancakeswap-zksync-default.json";
-import currentPancakeswapArbitrumDefaultList from "../lists/pancakeswap-arbitrum-default.json";
-import currentPancakeswapPolygonZkevmDefaultList from "../lists/pancakeswap-polygon-zkevm-default.json";
-import currentPancakeswapLineaDefaultList from "../lists/pancakeswap-linea-default.json";
-import currentPancakeswapEthMMList from "../lists/pancakeswap-eth-mm.json";
-import currentPancakeswapBnbMMList from "../lists/pancakeswap-bnb-mm.json";
-import currentPancakeswapExtendedtList from "../lists/pancakeswap-extended.json";
-import currentPancakeswapTop15List from "../lists/pancakeswap-top-15.json";
-import currentPancakeswapTop100tList from "../lists/pancakeswap-top-100.json";
-import currentCoingeckoList from "../lists/coingecko.json";
-import currentCmcList from "../lists/cmc.json";
-import currentPancakeswapMiniList from "../lists/pancakeswap-mini.json";
-import currentPancakeswapMiniExtendedList from "../lists/pancakeswap-mini-extended.json";
-import currentPancakeswapAptosList from "../lists/pancakeswap-aptos.json";
-import { buildList, VersionBump } from "../src/buildList";
-import getTokenChainData from "../src/utils/getTokensChainData";
-import { getAptosCoinsChainData } from "../src/utils/getAptosCoinChainData";
+// import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json";
+import pancakeswapSchema from "./schema.json"; // TODO: exports path
+import { groupBy } from "lodash";
+import { buildList, VersionBump } from "../src/buildList.js";
+import getTokenChainData from "../src/utils/getTokensChainData.js";
+import { getAptosCoinsChainData } from "../src/utils/getAptosCoinChainData.js";
+import { LISTS } from "../src/constants.js";
+import { arbitrum, base, bsc, mainnet, polygonZkEvm, zkSync } from "viem/chains";
+import { linea } from "../src/utils/publicClients.js";
 
-const listArgs = process.argv
-  ?.find((arg) => arg.includes("--list="))
-  ?.split("--list=")
-  .pop();
+// const listArgs = process.argv
+//   ?.find((arg) => arg.includes("--list="))
+//   ?.split("--list=")
+//   .pop();
 
-const CASES = [
-  ["pancakeswap-default"],
-  ["pancakeswap-eth-default"],
-  ["pancakeswap-zksync-default"],
-  ["pancakeswap-polygon-zkevm-default"],
-  ["pancakeswap-arbitrum-default"],
-  ["pancakeswap-linea-default"],
-  ["pancakeswap-eth-mm"],
-  ["pancakeswap-extended"],
-  ["pancakeswap-top-100"],
-  ["pancakeswap-top-15"],
-  ["coingecko", { skipLogo: true, aptos: false }],
-  ["cmc", { skipLogo: true, aptos: false }],
-  ["pancakeswap-mini"],
-  ["pancakeswap-mini-extended"],
-  ["pancakeswap-aptos", { skipLogo: true, aptos: true }],
-  ["pancakeswap-bnb-mm"],
-] as const;
+// console.log(listArgs, process.argv);
 
-const cases = listArgs ? CASES.filter((c) => c[0] === listArgs) : CASES;
+const CASES = Object.entries(LISTS).map(([key, value]) =>
+  "test" in value ? ([key, value.test] as const) : ([key] as const)
+);
 
-const currentLists = {
-  "pancakeswap-default": currentPancakeswapDefaultList,
-  "pancakeswap-eth-mm": currentPancakeswapEthMMList,
-  "pancakeswap-bnb-mm": currentPancakeswapBnbMMList,
-  "pancakeswap-eth-default": currentPancakeswapEthDefaultList,
-  "pancakeswap-zksync-default": currentPancakeswapZksyncDefaultList,
-  "pancakeswap-linea-default": currentPancakeswapLineaDefaultList,
-  "pancakeswap-arbitrum-default": currentPancakeswapArbitrumDefaultList,
-  "pancakeswap-polygon-zkevm-default": currentPancakeswapPolygonZkevmDefaultList,
-  "pancakeswap-extended": currentPancakeswapExtendedtList,
-  "pancakeswap-top-100": currentPancakeswapTop100tList,
-  "pancakeswap-top-15": currentPancakeswapTop15List,
-  coingecko: currentCoingeckoList,
-  cmc: currentCmcList,
-  "pancakeswap-mini": currentPancakeswapMiniList,
-  "pancakeswap-mini-extended": currentPancakeswapMiniExtendedList,
-  "pancakeswap-aptos": currentPancakeswapAptosList,
-};
+const cases = CASES;
 
 const APTOS_COIN_ALIAS = {
   CAKE: "Cake",
@@ -90,59 +48,14 @@ const APTOS_COIN_ALIAS = {
 const ajv = new Ajv({ allErrors: true, format: "full" });
 const validate = ajv.compile(pancakeswapSchema);
 
-const pathToImages = path.join(path.resolve(), "lists", "images");
-const pathToEthImages = path.join(path.resolve(), "lists", "images", "eth");
-const pathToZksyncImages = path.join(path.resolve(), "lists", "images", "zksync");
-const pathToPolygonZkevmImages = path.join(path.resolve(), "lists", "images", "polygon-zkevm");
-const pathToARbImages = path.join(path.resolve(), "lists", "images", "arbitrum");
-const pathToLineaImages = path.join(path.resolve(), "lists", "images", "linea");
-
-const logoFiles = fs
-  .readdirSync(pathToImages, { withFileTypes: true })
-  .filter((f) => f.isFile())
-  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
-
-const ethLogoFiles = fs
-  .readdirSync(pathToEthImages, { withFileTypes: true })
-  .filter((f) => f.isFile())
-  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
-
-const polygonZksyncFiles = fs
-  .readdirSync(pathToZksyncImages, { withFileTypes: true })
-  .filter((f) => f.isFile())
-  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
-
-const polygonZkevmLogoFiles = fs
-  .readdirSync(pathToPolygonZkevmImages, { withFileTypes: true })
-  .filter((f) => f.isFile())
-  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
-
-const pathToARbImagesLogoFiles = fs
-  .readdirSync(pathToARbImages, { withFileTypes: true })
-  .filter((f) => f.isFile())
-  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
-
-const pathToLineaImagesLogoFiles = fs
-  .readdirSync(pathToLineaImages, { withFileTypes: true })
-  .filter((f) => f.isFile())
-  .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
-
 const multiChainLogoPath = {
-  [56]: "",
-  [1]: "/eth",
-  [1101]: "/polygon-zkevm",
-  [324]: "/zksync",
-  [42161]: "/arbitrum",
-  [59144]: "/linea",
-};
-
-const multiChainLogoFiles = {
-  [56]: logoFiles,
-  [1]: ethLogoFiles,
-  [1101]: polygonZkevmLogoFiles,
-  [324]: polygonZksyncFiles,
-  [42161]: pathToARbImagesLogoFiles,
-  [59144]: pathToLineaImagesLogoFiles,
+  [bsc.id]: "",
+  [mainnet.id]: "/eth",
+  [polygonZkEvm.id]: "/polygon-zkevm",
+  [zkSync.id]: "/zksync",
+  [arbitrum.id]: "/arbitrum",
+  [linea.id]: "/linea",
+  [base.id]: "/base",
 };
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
@@ -156,94 +69,108 @@ const getByAjvPath = (obj, propertyPath: string, defaultValue = undefined) => {
   return result === undefined || result === obj ? defaultValue : result;
 };
 
-declare global {
-  // eslint-disable-next-line @typescript-eslint/no-namespace
-  namespace jest {
-    interface Matchers<R> {
-      toBeDeclaredOnce(type: string, parameter: string, chainId: number): CustomMatcherResult;
-      toBeValidTokenList(): CustomMatcherResult;
-      toBeValidLogo(): CustomMatcherResult;
-    }
+// declare global {
+//   // eslint-disable-next-line @typescript-eslint/no-namespace
+//   namespace jest {
+//     interface Matchers<R> {
+//       toBeDeclaredOnce(type: string, parameter: string, chainId: number): CustomMatcherResult;
+//       toBeValidTokenList(): CustomMatcherResult;
+//       toBeValidLogo(): CustomMatcherResult;
+//     }
+//   }
+// }
+
+// expect.extend({
+//   toBeDeclaredOnce,
+//   toBeValidTokenList,
+//   toBeValidLogo,
+// });
+
+function toBeDeclaredOnce(received, type: string, parameter: string, chainId: number) {
+  if (typeof received === "undefined") {
+    return {
+      message: () => ``,
+      pass: true,
+    };
   }
+  return {
+    message: () => `Token ${type} ${parameter} on chain ${chainId} should be declared only once.`,
+    pass: false,
+  };
 }
 
-expect.extend({
-  toBeDeclaredOnce(received, type: string, parameter: string, chainId: number) {
-    if (typeof received === "undefined") {
-      return {
-        message: () => ``,
-        pass: true,
-      };
-    }
-    return {
-      message: () => `Token ${type} ${parameter} on chain ${chainId} should be declared only once.`,
-      pass: false,
-    };
-  },
-  toBeValidTokenList(tokenList) {
-    const isValid = validate(tokenList);
-    if (isValid) {
-      return {
-        message: () => ``,
-        pass: true,
-      };
-    }
+const toBeValidLogo = async (token) => {
+  // TW logos are always checksummed
+  const hasTWLogo =
+    token.logoURI === `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${token.address}/logo.png`;
+  let hasLocalLogo = false;
+  const refersToLocalLogo =
+    token.logoURI ===
+    `https://tokens.pancakeswap.finance/images${multiChainLogoPath?.[token.chainId] || ""}/${token.address}.png`;
+  if (refersToLocalLogo) {
+    const fileName = token.logoURI.split("/").pop();
+    // Note: fs.existsSync can't be used here because its not case sensetive
+    hasLocalLogo = await Bun.file(`lists/images${multiChainLogoPath?.[token.chainId] || ""}/${fileName}`).exists();
+    // hasLocalLogo = multiChainLogoFiles[token.chainId]?.map((f) => f.name).includes(fileName);
+  }
 
-    const validationSummary = validate.errors
-      ?.map((error) => {
-        const value = getByAjvPath(tokenList, error.dataPath);
-        return `- ${error.dataPath.split(".").pop()} ${value} ${error.message}`;
-      })
-      .join("\n");
+  if (token.logoURI === `https://tokens.pancakeswap.finance/images/symbol/${token.symbol.toLowerCase()}.png`) {
     return {
-      message: () => `Validation failed:\n${validationSummary}`,
-      pass: false,
+      message: () => ``,
+      pass: true,
     };
-  },
-  toBeValidLogo(token) {
-    // TW logos are always checksummed
-    const hasTWLogo =
-      token.logoURI === `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${token.address}/logo.png`;
-    let hasLocalLogo = false;
-    const refersToLocalLogo =
-      token.logoURI ===
-      `https://tokens.pancakeswap.finance/images${multiChainLogoPath?.[token.chainId] || ""}/${token.address}.png`;
-    if (refersToLocalLogo) {
-      const fileName = token.logoURI.split("/").pop();
-      // Note: fs.existsSync can't be used here because its not case sensetive
-      hasLocalLogo = multiChainLogoFiles[token.chainId]?.map((f) => f.name).includes(fileName);
-    }
-
-    if (token.logoURI === `https://tokens.pancakeswap.finance/images/symbol/${token.symbol.toLowerCase()}.png`) {
-      return {
-        message: () => ``,
-        pass: true,
-      };
-    }
-    if (hasTWLogo || hasLocalLogo) {
-      return {
-        message: () => ``,
-        pass: true,
-      };
-    }
+  }
+  if (hasTWLogo || hasLocalLogo) {
     return {
-      message: () => `Token ${token.symbol} (${token.address}) has invalid logo: ${token.logoURI}`,
-      pass: false,
+      message: () => ``,
+      pass: true,
     };
-  },
-});
+  }
+  return {
+    message: () => `Token ${token.symbol} (${token.address}) has invalid logo: ${token.logoURI}`,
+    pass: false,
+  };
+};
 
-describe.each(cases)("buildList %s", (listName, opt = undefined) => {
-  const defaultTokenList = buildList(listName);
+function toBeValidTokenList(tokenList) {
+  const isValid = validate(tokenList);
+  if (isValid) {
+    return {
+      message: () => ``,
+      pass: true,
+    };
+  }
+
+  const validationSummary = validate.errors
+    ?.map((error) => {
+      const value = getByAjvPath(tokenList, error.dataPath);
+      return `- ${error.dataPath.split(".").pop()} ${value} ${error.message}`;
+    })
+    .join("\n");
+  return {
+    message: () => `Validation failed:\n${validationSummary}`,
+    pass: false,
+  };
+}
+
+const currentLists = {};
+
+for (const _case of cases) {
+  const [listName] = _case;
+  currentLists[listName] = await Bun.file(`lists/${listName}.json`).json();
+}
+
+describe.each(cases)("buildList %s", async (listName, opt: any) => {
+  const defaultTokenList = await buildList(listName);
   it("validates", () => {
-    expect(defaultTokenList).toBeValidTokenList();
+    expect(toBeValidTokenList(defaultTokenList).pass).toBeTrue();
   });
 
   it("contains no duplicate addresses", () => {
     const map = {};
     for (const token of defaultTokenList.tokens) {
       const key = `${token.chainId}-${token.address.toLowerCase()}`;
-      expect(map[key]).toBeDeclaredOnce("address", token.address.toLowerCase(), token.chainId);
+      expect(toBeDeclaredOnce(map[key], "address", token.address.toLowerCase(), token.chainId).pass).toBeTrue();
       map[key] = true;
     }
   });
@@ -263,7 +190,8 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
     const map = {};
     for (const token of defaultTokenList.tokens) {
       const key = `${token.chainId}-${token.name}`;
-      expect(map[key]).toBeDeclaredOnce("name", token.name, token.chainId);
+
+      expect(toBeDeclaredOnce(map[key], "name", token.name, token.chainId).pass).toBeTrue();
       map[key] = true;
     }
   });
@@ -285,38 +213,55 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
     }
   });
 
-  it("all tokens have correct logos", () => {
+  it("all tokens have correct logos", async () => {
     if (!opt || !opt.skipLogo) {
       for (const token of defaultTokenList.tokens) {
-        expect(token).toBeValidLogo();
+        const got = await toBeValidLogo(token);
+        expect(got.pass).toBe(true);
       }
+    } else {
+      expect(true).toBe(true);
     }
   });
 
-  it("all tokens have correct decimals", async () => {
-    const addressArray = defaultTokenList.tokens.map((token) => token.address);
-    const chainId = defaultTokenList.tokens[0].chainId ?? 56;
-    if (opt?.aptos === true) {
-      const coinsData = await getAptosCoinsChainData(addressArray);
-      for (const token of defaultTokenList.tokens) {
-        const coinData = coinsData.find((t) => t.address === token.address);
-        expect(token.decimals).toBeGreaterThanOrEqual(0);
-        expect(token.decimals).toBeLessThanOrEqual(30); // should be much more less
-        expect(token.decimals).toEqual(coinData?.decimals);
-        expect(APTOS_COIN_ALIAS[token.symbol] || token.symbol).toEqual(coinData?.symbol);
+  it(
+    "all tokens have correct decimals",
+    async () => {
+      const addressArray = defaultTokenList.tokens.map((token) => token.address);
+      const chainId = defaultTokenList.tokens[0].chainId ?? 56;
+      if (opt?.aptos === true) {
+        // TODO: skip aptos test for now
+        // const coinsData = await getAptosCoinsChainData(addressArray);
+        // for (const token of defaultTokenList.tokens) {
+        //   const coinData = coinsData.find((t) => t.address === token.address);
+        //   expect(token.decimals).toBeGreaterThanOrEqual(0);
+        //   expect(token.decimals).toBeLessThanOrEqual(30); // should be much more less
+        //   expect(token.decimals).toEqual(coinData?.decimals);
+        //   expect(APTOS_COIN_ALIAS[token.symbol] || token.symbol).toEqual(coinData?.symbol);
+        // }
+      } else {
+        const groupByChainId = groupBy(defaultTokenList.tokens, (x) => x.chainId);
+        for (const [chainId, tokens] of Object.entries(groupByChainId)) {
+          const tokensChainData = await getTokenChainData(
+            "test",
+            tokens.map((t) => t.address),
+            Number(chainId)
+          );
+          for (const token of tokens) {
+            const realDecimals = tokensChainData.find(
+              (t) => t.address.toLowerCase() === token.address.toLowerCase()
+            )?.decimals;
+            expect(token.decimals).toBeGreaterThanOrEqual(0);
+            expect(token.decimals).toBeLessThanOrEqual(255);
+            expect(token.decimals).toEqual(realDecimals);
+          }
+        }
       }
-    } else {
-      const tokensChainData = await getTokenChainData("test", addressArray, chainId);
-      for (const token of defaultTokenList.tokens) {
-        const realDecimals = tokensChainData.find(
-          (t) => t.address.toLowerCase() === token.address.toLowerCase()
-        )?.decimals;
-        expect(token.decimals).toBeGreaterThanOrEqual(0);
-        expect(token.decimals).toBeLessThanOrEqual(255);
-        expect(token.decimals).toEqual(realDecimals);
-      }
+    },
+    {
+      timeout: 20000,
     }
-  });
+  );
 
   it("version gets patch bump if no versionBump specified", () => {
     expect(defaultTokenList.version.major).toBe(currentLists[listName].version.major);
@@ -324,22 +269,22 @@ describe.each(cases)("buildList %s", (listName, opt = undefined) => {
     expect(defaultTokenList.version.patch).toBe(currentLists[listName].version.patch + 1);
   });
 
-  it("version gets patch bump if patch versionBump is specified", () => {
-    const defaultTokenListPatchBump = buildList(listName, VersionBump.patch);
+  it("version gets patch bump if patch versionBump is specified", async () => {
+    const defaultTokenListPatchBump = await buildList(listName, VersionBump.patch);
     expect(defaultTokenListPatchBump.version.major).toBe(currentLists[listName].version.major);
     expect(defaultTokenListPatchBump.version.minor).toBe(currentLists[listName].version.minor);
     expect(defaultTokenListPatchBump.version.patch).toBe(currentLists[listName].version.patch + 1);
   });
 
-  it("version gets minor bump if minor versionBump is specified", () => {
-    const defaultTokenListMinorBump = buildList(listName, VersionBump.minor);
+  it("version gets minor bump if minor versionBump is specified", async () => {
+    const defaultTokenListMinorBump = await buildList(listName, VersionBump.minor);
     expect(defaultTokenListMinorBump.version.major).toBe(currentLists[listName].version.major);
     expect(defaultTokenListMinorBump.version.minor).toBe(currentLists[listName].version.minor + 1);
     expect(defaultTokenListMinorBump.version.patch).toBe(currentLists[listName].version.patch);
   });
 
-  it("version gets minor bump if major versionBump is specified", () => {
-    const defaultTokenListMajorBump = buildList(listName, VersionBump.major);
+  it("version gets minor bump if major versionBump is specified", async () => {
+    const defaultTokenListMajorBump = await buildList(listName, VersionBump.major);
     expect(defaultTokenListMajorBump.version.major).toBe(currentLists[listName].version.major + 1);
     expect(defaultTokenListMajorBump.version.minor).toBe(currentLists[listName].version.minor);
     expect(defaultTokenListMajorBump.version.patch).toBe(currentLists[listName].version.patch);

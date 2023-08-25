@@ -1,10 +1,9 @@
-import fs from "fs";
 import path from "path";
-import axios from "axios";
 import { getAddress, isAddress } from "@ethersproject/address";
 import _ from "lodash";
-import multicallv2 from "./utils/multicall";
-import erc20 from "./utils/abi/erc20.json";
+import { erc20ABI } from "./utils/abi/erc20.js";
+import { publicClients } from "./utils/publicClients.js";
+import { Address } from "viem";
 
 interface Token {
   chainId: number;
@@ -20,8 +19,8 @@ const getTokens = async (listName: string): Promise<Token[]> => {
     coingecko: "https://tokens.coingecko.com/binance-smart-chain/all.json",
     cmc: "https://s3.coinmarketcap.com/generated/dex/tokens/bsc-tokens-all.json",
   };
-  const { data } = await axios.get(urls[listName]);
-  return data.tokens;
+  const data = await fetch(urls[listName]);
+  return (await data.json()).tokens;
 };
 
 const COINGEKKO_BAD_TOKENS = ["0x92a0d359c87b8f3fe383aa0a42c19d1a2afe6be0"];
@@ -51,7 +50,9 @@ const badTokens = {
 const fetchThirdPartyList = async (listName: string): Promise<void> => {
   try {
     const rawTokens = await getTokens(listName);
-    const tokens = rawTokens.filter(({ address }) => !badTokens[listName].includes(address.toLowerCase()));
+    const tokens = rawTokens
+      .filter(({ address }) => !badTokens[listName].includes(address.toLowerCase()))
+      .filter((t) => t.chainId === 56); // only bsc for now
     const badDecimals = [];
     const badAddresses = [];
     const badSymbol = [];
@@ -72,28 +73,38 @@ const fetchThirdPartyList = async (listName: string): Promise<void> => {
       console.info(`Processing chunk ${++currentChunk} / ${chunkArray.length}`);
       const mapAddress = chunk.filter((token) => isAddress(token.address));
       badAddresses.push(...chunk.filter((token) => !isAddress(token.address)).map(({ address }) => address));
-      const tokenInfoCalls = mapAddress.flatMap(({ address }) => [
-        {
-          address,
-          name: "symbol",
-        },
-        {
-          address,
-          name: "name",
-        },
-        {
-          address,
-          name: "decimals",
-        },
-      ]);
+
       // console.info(
       //   "Debug problematic addresses",
       //   mapAddress.map(({ address }) => address)
       // );
       // eslint-disable-next-line no-await-in-loop
-      const tokenInfoResponse = await multicallv2(erc20, tokenInfoCalls, { requireSuccess: false });
+      const tokenInfoResponse = await publicClients[56].multicall({
+        allowFailure: true,
+        contracts: mapAddress.flatMap(({ address }) => [
+          {
+            abi: erc20ABI,
+            address: address as Address,
+            functionName: "symbol",
+          },
+          {
+            abi: erc20ABI,
+            address: address as Address,
+            functionName: "name",
+          },
+          {
+            abi: erc20ABI,
+            address: address as Address,
+            functionName: "decimals",
+          },
+        ]),
+      });
+
       mapAddress.forEach(({ address, name, symbol, decimals }, i) => {
         if (
+          tokenInfoResponse[i * 3].status === "failure" ||
+          tokenInfoResponse[i * 3 + 1].status === "failure" ||
+          tokenInfoResponse[i * 3 + 2].status === "failure" ||
           tokenInfoResponse[i * 3] === null ||
           tokenInfoResponse[i * 3 + 1] === null ||
           tokenInfoResponse[i * 3 + 2] === null
@@ -101,9 +112,9 @@ const fetchThirdPartyList = async (listName: string): Promise<void> => {
           badAddresses.push(address);
           return;
         }
-        const realSymbol = tokenInfoResponse?.[i * 3]?.[0] ?? "";
-        const realName = tokenInfoResponse?.[i * 3 + 1]?.[0] ?? "";
-        const realDecimals = tokenInfoResponse?.[i * 3 + 2]?.[0] ?? 18;
+        const realSymbol = tokenInfoResponse[i * 3].result;
+        const realName = tokenInfoResponse[i * 3 + 1].result;
+        const realDecimals = tokenInfoResponse[i * 3 + 2].result;
         if (!decimals || decimals !== realDecimals) {
           badDecimals.push({ decimals, realDecimals, address });
         }
@@ -150,9 +161,10 @@ const fetchThirdPartyList = async (listName: string): Promise<void> => {
     console.info(`Invalid name or symbosl: ${invalidNameOrSymbol.length}`);
 
     const tokenListPath = `${path.resolve()}/src/tokens/${listName}.json`;
-    console.info("Saving updated list to ", tokenListPath);
+    const tokenListFile = Bun.file(`/src/tokens/${listName}.json`);
+    console.info("Saving updated list to ", tokenListFile);
     const stringifiedList = JSON.stringify(sanitizedTokens, null, 2);
-    fs.writeFileSync(tokenListPath, stringifiedList);
+    await Bun.write(tokenListPath, stringifiedList);
   } catch (error) {
     console.error(`Error when fetching ${listName} list, error: ${error.message}`, error);
   }

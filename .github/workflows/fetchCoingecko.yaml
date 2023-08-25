@@ -14,19 +14,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Node
-        uses: actions/setup-node@v2
+      - name: Setup Bun
+      - uses: oven-sh/setup-bun@v1
         with:
-          node-version: 14.x
+          bun-version: latest
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: bun install --frozen-lockfile
 
       - name: Fetch coingecko
-        run: yarn fetch:coingecko
+        run: bun fetch coingecko
 
       - name: Makelist
-        run: yarn makelist:coingecko
+        run: bun makelist coingecko
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3

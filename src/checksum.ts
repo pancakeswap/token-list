@@ -1,45 +1,10 @@
-import fs from "fs";
-import path from "path";
 import { getAddress } from "@ethersproject/address";
-import pancakeswapDefault from "./tokens/pancakeswap-default.json";
-import pancakeswapEthDefault from "./tokens/pancakeswap-eth-default.json";
-import pancakeswapZksyncDefault from "./tokens/pancakeswap-zksync-default.json";
-import pancakeswapLineaDefault from "./tokens/pancakeswap-linea-default.json";
-import pancakeswapPolygonZkevmDefault from "./tokens/pancakeswap-polygon-zkevm-default.json";
-import pancakeswapArbitrumDefault from "./tokens/pancakeswap-arbitrum-default.json";
-import pancakeswapEthMM from "./tokens/pancakeswap-eth-mm.json";
-import pancakeswapBnbMM from "./tokens/pancakeswap-bnb-mm.json";
-import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
-import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
-import pancakeswapTop15 from "./tokens/pancakeswap-top-15.json";
-import coingecko from "./tokens/coingecko.json";
-import cmc from "./tokens/cmc.json";
-import pancakeswapMini from "./tokens/pancakeswap-mini.json";
-import pancakeswapMiniExtended from "./tokens/pancakeswap-mini-extended.json";
-import pancakeswapOnramp from "./tokens/pancakeswap-onramp.json";
 
-const lists = {
-  "pancakeswap-default": pancakeswapDefault,
-  "pancakeswap-eth-default": pancakeswapEthDefault,
-  "pancakeswap-polygon-zkevm-default": pancakeswapPolygonZkevmDefault,
-  "pancakeswap-arbitrum-default": pancakeswapArbitrumDefault,
-  "pancakeswap-linea-default": pancakeswapLineaDefault,
-  "pancakeswap-zksync-default": pancakeswapZksyncDefault,
-  "pancakeswap-eth-mm": pancakeswapEthMM,
-  "pancakeswap-bnb-mm": pancakeswapBnbMM,
-  "pancakeswap-extended": pancakeswapExtended,
-  "pancakeswap-top-100": pancakeswapTop100,
-  "pancakeswap-top-15": pancakeswapTop15,
-  coingecko,
-  cmc,
-  "pancakeswap-mini": pancakeswapMini,
-  "pancakeswap-mini-extended": pancakeswapMiniExtended,
-  "pancakeswap-onramp": pancakeswapOnramp,
-};
-
-const checksumAddresses = (listName: string): void => {
+const checksumAddresses = async (listName: string): Promise<void> => {
   let badChecksumCount = 0;
-  const listToChecksum = lists[listName];
+  const file = Bun.file(`src/tokens/${listName}.json`);
+  const listToChecksum = await file.json();
+
   const updatedList = listToChecksum.reduce((tokenList, token) => {
     const checksummedAddress = getAddress(token.address);
     if (checksummedAddress !== token.address) {
@@ -52,10 +17,10 @@ const checksumAddresses = (listName: string): void => {
 
   if (badChecksumCount > 0) {
     console.info(`Found and fixed ${badChecksumCount} non-checksummed addreses`);
-    const tokenListPath = `${path.resolve()}/src/tokens/${listName}.json`;
-    console.info("Saving updated list to ", tokenListPath);
+    const file = Bun.file(`src/tokens/${listName}.json`);
+    console.info("Saving updated list");
     const stringifiedList = JSON.stringify(updatedList, null, 2);
-    fs.writeFileSync(tokenListPath, stringifiedList);
+    await Bun.write(file, stringifiedList);
     console.info("Checksumming done!");
   } else {
     console.info("All addresses are already checksummed");
