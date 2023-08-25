@@ -1,8 +1,8 @@
 /* eslint-disable no-restricted-syntax */
 import Ajv from "ajv";
 import { describe, it, expect } from "bun:test";
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 import { getAddress } from "@ethersproject/address";
 // import pancakeswapSchema from "@pancakeswap/token-lists/schema/pancakeswap.json";
 import pancakeswapSchema from "./schema.json"; // TODO: exports path
@@ -13,13 +13,6 @@ import { getAptosCoinsChainData } from "../src/utils/getAptosCoinChainData.js";
 import { LISTS } from "../src/constants.js";
 import { arbitrum, base, bsc, mainnet, polygonZkEvm, zkSync } from "viem/chains";
 import { linea } from "../src/utils/publicClients.js";
-
-// const listArgs = process.argv
-//   ?.find((arg) => arg.includes("--list="))
-//   ?.split("--list=")
-//   .pop();
-
-// console.log(listArgs, process.argv);
 
 const CASES = Object.entries(LISTS).map(([key, value]) =>
   "test" in value ? ([key, value.test] as const) : ([key] as const)
@@ -160,6 +153,22 @@ for (const _case of cases) {
   currentLists[listName] = await Bun.file(`lists/${listName}.json`).json();
 }
 
+describe("global test", () => {
+  it("all logos addresses are valid and checksummed", async () => {
+    for (const path_ of Object.values(multiChainLogoPath)) {
+      const logoFiles = fs
+        .readdirSync(path.join(path.resolve(), "lists", "images", path_), { withFileTypes: true })
+        .filter((f) => f.isFile())
+        .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
+
+      for (const logo of logoFiles) {
+        const sanitizedLogo = logo.name.split(".")[0];
+        expect(sanitizedLogo).toBe(getAddress(sanitizedLogo));
+      }
+    }
+  });
+});
+
 describe.each(cases)("buildList %s", async (listName, opt: any) => {
   const defaultTokenList = await buildList(listName);
   it("validates", () => {
@@ -200,15 +209,6 @@ describe.each(cases)("buildList %s", async (listName, opt: any) => {
     if (!opt || !opt.aptos) {
       for (const token of defaultTokenList.tokens) {
         expect(token.address).toBe(getAddress(token.address));
-      }
-    }
-  });
-
-  it("all logos addresses are valid and checksummed", async () => {
-    if (!opt || !opt.skipLogo) {
-      for (const logo of logoFiles) {
-        const sanitizedLogo = logo.name.split(".")[0];
-        expect(sanitizedLogo).toBe(getAddress(sanitizedLogo));
       }
     }
   });
