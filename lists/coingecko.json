@@ -188,14 +188,6 @@
       "logoURI": "https://assets.coingecko.com/coins/images/28888/thumb/IMG_20230130_210408.png?1675154885"
     },
     {
-      "name": "Neutrinos",
-      "symbol": "$NEUTR",
-      "address": "0xb695806cc5a3cD8623b92BBD221E3bEc6E8E3Bed",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/29886/thumb/QLDnycl.png?1681980796"
-    },
-    {
       "name": "Pepe Original Version",
       "symbol": "$POV",
       "address": "0xc2eaAf69e6439AbaB12dD21f560bA0EC7f17CFf7",
@@ -1876,20 +1868,20 @@
       "logoURI": "https://assets.coingecko.com/coins/images/29406/thumb/200x200.png?1678516422"
     },
     {
-      "name": "Save Baby Doge",
-      "symbol": "BABYDOGE",
-      "address": "0x43f102bbd52259f2CFd0EF82e8807e3610aE3e40",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/16923/thumb/BABYDOGE.png?1625635407"
-    },
-    {
       "name": "Baby Doge Coin",
       "symbol": "BabyDoge",
       "address": "0xc748673057861a797275CD8A068AbB95A902e8de",
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/16125/thumb/babydoge.jpg?1676303229"
+    },
+    {
+      "name": "Save Baby Doge",
+      "symbol": "BABYDOGE",
+      "address": "0x43f102bbd52259f2CFd0EF82e8807e3610aE3e40",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/16923/thumb/BABYDOGE.png?1625635407"
     },
     {
       "name": "Baby Doge Cash",
@@ -2084,6 +2076,14 @@
       "logoURI": "https://assets.coingecko.com/coins/images/17404/thumb/Logo_White_Face_%28200%29.png?1659093852"
     },
     {
+      "name": "ReBaseChain",
+      "symbol": "Base",
+      "address": "0xc2FD585D2e6A33fe48A0fFc65072216B0E3B2E07",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31390/thumb/IMG_20230810_041420_033.png?1692762000"
+    },
+    {
       "name": "Baby Shark Tank",
       "symbol": "Bashtank",
       "address": "0x484312A0AAeaE3aE36a74FF3e294246F35dDDf4F",
@@ -2108,20 +2108,20 @@
       "logoURI": "https://assets.coingecko.com/coins/images/12992/thumb/AtariLogoPS_200x200_%281%29.png?1643189483"
     },
     {
-      "name": "BB Gaming",
-      "symbol": "BB",
-      "address": "0x688eC465111ed639267cB17C47E790c9cc7279c1",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24616/thumb/bb.png?1648375444"
-    },
-    {
       "name": "Baby Bali",
       "symbol": "BB",
       "address": "0x16f9cc3c6F8d8006cfc0ee693CeF9D76b0d44C36",
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/20789/thumb/New-Era-of-Baby-Bali-200x200pxl.png?1637671831"
+    },
+    {
+      "name": "BB Gaming",
+      "symbol": "BB",
+      "address": "0x688eC465111ed639267cB17C47E790c9cc7279c1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24616/thumb/bb.png?1648375444"
     },
     {
       "name": "blockbank",
@@ -2666,6 +2666,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26373/thumb/birb-logo.png?1671766772"
+    },
+    {
+      "name": "LuckyBird",
+      "symbol": "BIRD",
+      "address": "0x9f7277778c798eF0bC1DeBF28994EaeC1AF7Ba24",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31413/thumb/Lucky_Bird_logo.png?1692847467"
     },
     {
       "name": "Bird Money",
@@ -3883,14 +3891,6 @@
       "logoURI": "https://assets.coingecko.com/coins/images/27311/thumb/bzen.png?1663311420"
     },
     {
-      "name": "BitZipp",
-      "symbol": "BZP",
-      "address": "0xB49988A9eCBF0455b3b43fff7e64960D8399CCB8",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19122/thumb/91uivPTI_400x400.png?1634520429"
-    },
-    {
       "name": "Coin98",
       "symbol": "C98",
       "address": "0xaEC945e04baF28b135Fa7c640f624f8D90F1C3a6",
@@ -4529,14 +4529,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21855/thumb/cherry.PNG?1640144127"
-    },
-    {
-      "name": "Radical Chess",
-      "symbol": "CHESS",
-      "address": "0xF3ABD8CacEd73f4113206Ec275cEe965F6Ed1D44",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/29355/thumb/radical-chess_-full__%281%29.png?1678263117"
     },
     {
       "name": "Tranchess",
@@ -9687,7 +9679,7 @@
       "address": "0xD9c2D319Cd7e6177336b0a9c93c21cb48d84Fb54",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14298/thumb/R9i2HjAL_400x400.jpg?1615332438"
+      "logoURI": "https://assets.coingecko.com/coins/images/14298/thumb/Hapi_logo_square_%281%29.png?1692856040"
     },
     {
       "name": "HappyFans",
@@ -10856,6 +10848,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/16335/thumb/osP9madX_400x400.jpg?1623750298"
+    },
+    {
+      "name": "Jarvis Brazilian Real",
+      "symbol": "jBRL",
+      "address": "0x316622977073BBC3dF32E7d2A9B3c77596a0a603",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31446/thumb/03674260-1AE8-44C7-A78A-B44686BA1CD5.png?1692928505"
     },
     {
       "name": "Jarvis Synthetic Swiss Franc",
@@ -12370,6 +12370,14 @@
       "logoURI": "https://assets.coingecko.com/coins/images/16384/thumb/ktQzdAe.png?1628601338"
     },
     {
+      "name": "Laro Classic",
+      "symbol": "LRCC",
+      "address": "0xf31da2bBd0Cc88cF204F76b21425a865ad9acC31",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31411/thumb/IMG_20230811_185110_562.png?1692844869"
+    },
+    {
       "name": "Last Survivor",
       "symbol": "LSC",
       "address": "0x74e2572a1C579B4DF80D57e9698098b255F23c9e",
@@ -12608,6 +12616,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/27152/thumb/MAG.png?1662203851"
+    },
+    {
+      "name": "Multi AI",
+      "symbol": "MAI",
+      "address": "0x1591E923e0836a3949b59637FBE8959F000894B9",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31423/thumb/logo_black_back-round_200_200.png?1692858009"
     },
     {
       "name": "MatrixGPT",
@@ -14600,6 +14616,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/30105/thumb/NEUROS_Logo.png?1683083293"
+    },
+    {
+      "name": "Neutrinos",
+      "symbol": "NEUTR",
+      "address": "0x1b0805F1B20d3B147D515e9b9D3C9C689b390870",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29886/thumb/QLDnycl.png?1681980796"
     },
     {
       "name": "NevaCoin",
@@ -17128,6 +17152,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/30178/thumb/200x200.png?1687102029"
+    },
+    {
+      "name": "Purr",
+      "symbol": "PURR",
+      "address": "0xd50b6C116B05BE1bbE50A19bC5273fA1e6F48026",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31442/thumb/IMG_20230822_112421_407.jpg?1692863813"
     },
     {
       "name": "Pundi X PURSE",
@@ -20378,20 +20410,20 @@
       "logoURI": "https://assets.coingecko.com/coins/images/11861/thumb/swingby.png?1595822302"
     },
     {
-      "name": "SwirlToken  OLD ",
-      "symbol": "SWIRL",
-      "address": "0x38fFA52C7628f5cCf871472e40c462E4483215C9",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/22575/thumb/swirl200.png?1679455443"
-    },
-    {
       "name": "SwirlToken",
       "symbol": "SWIRL",
       "address": "0xACbE25Ad33b998c7c4B8442f21D914Da0902aeB6",
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/31143/thumb/gAV4qo_s_400x400.jpg?1690969534"
+    },
+    {
+      "name": "SwirlToken  OLD ",
+      "symbol": "SWIRL",
+      "address": "0x38fFA52C7628f5cCf871472e40c462E4483215C9",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/22575/thumb/swirl200.png?1679455443"
     },
     {
       "name": "SwirlTokenX",
@@ -20864,6 +20896,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18414/thumb/c4N4n8k-_400x400.png?1631831447"
+    },
+    {
+      "name": "Thing",
+      "symbol": "THING",
+      "address": "0xdC8c498CfC915dBA55F0524Fa9f5e57288110AB9",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/31410/thumb/84df82ca-6235-4b5b-8dc9-966ea6649be1.jpg.0a0f00ac7b9be9f7e502b8d96e9e7c8b.jpg?1692844591"
     },
     {
       "name": "Thoreum V3",

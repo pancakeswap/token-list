@@ -48,6 +48,7 @@ const multiChainLogoPath = {
   [zkSync.id]: "/zksync",
   [arbitrum.id]: "/arbitrum",
   [linea.id]: "/linea",
+  [base.id]: "/base",
 };
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get
@@ -221,7 +222,7 @@ describe.each(cases)("buildList %s", async (listName, opt: any) => {
     } else {
       expect(true).toBe(true);
     }
-  });
+  );
 
   it(
     "all tokens have correct decimals",
