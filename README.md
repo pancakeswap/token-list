@@ -19,7 +19,7 @@ URLs to external lists are stored in `token-lists.json`, if you want your list t
 ## How to add new lists within this repository
 
 - Add an array of tokens under `src/tokens`
-- Add `checksum:newlistname`, `generate:newlistname`, `makelist:newlistname` command to `package.json` analogous to PancakeSwap default and extended list scripts.
+- Add `checksum newlistname`, `generate newlistname`, `makelist newlistname` command to `package.json` analogous to PancakeSwap default and extended list scripts.
 - Modify `checksum.ts`, `buildList.ts`, `ci-check.ts`, and `default.test.ts` to handle new list
 
 ## How to add new tokens to PancakeSwap (extended) token list
@@ -38,7 +38,7 @@ For list to be considered valid it need to satisfy the following criteria:
 
 - It passes [token list schema](https://github.com/Uniswap/token-lists/blob/master/src/tokenlist.schema.json) validation (schema is [slightly modified](src/schema.ts))
 - There are no duplicate addresses, symbols or token names in the list
-- All addresses are valid and checksummed (`yarn checksum:pcs` automatically converts addresses to checksummed versions, it is also part of `yarn makelist:pcs`)
+- All addresses are valid and checksummed (`bun checksum listName` automatically converts addresses to checksummed versions, it is also part of `bun makelist listName`)
 
 ## How to update Top100 Token list
 

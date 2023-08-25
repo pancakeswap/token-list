@@ -7,6 +7,7 @@
   "private": true,
   "scripts": {
     "build": "rm -rf ./dist && rollup -c",
+    "checksum": "bun run index.ts checksum",
     "generate": "bun run index.ts generate",
     "makelist": "bun run index.ts makelist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
