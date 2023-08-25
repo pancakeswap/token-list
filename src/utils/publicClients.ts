@@ -53,7 +53,7 @@ export const publicClients = {
   }),
   [bsc.id]: createPublicClient({
     chain: bsc,
-    transport: http(),
+    transport: http("https://nodes.pancakeswap.info"),
   }),
   [polygonZkEvm.id]: createPublicClient({
     chain: polygonZkEvm,
