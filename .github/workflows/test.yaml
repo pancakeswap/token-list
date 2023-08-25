@@ -12,7 +12,7 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
         with:
-          bun-version: "0.8.1"
-      - run: bun install --frozen-lockfile
+          bun-version: latest
+      - run: bun install
       - run: bun test
       - run: bun ci-check
