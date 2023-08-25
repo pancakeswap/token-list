@@ -222,7 +222,7 @@ describe.each(cases)("buildList %s", async (listName, opt: any) => {
     } else {
       expect(true).toBe(true);
     }
-  );
+  });
 
   it(
     "all tokens have correct decimals",
