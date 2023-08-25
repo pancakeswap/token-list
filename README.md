@@ -28,10 +28,10 @@ Note - this is not something we expect pull requests for.
 Unless you've been specifically asked by someone from PCS team please do no submit PRs to be listed on default PCS list. You can still trade your tokens on PCS exchange by pasting your address into the token field.
 
 - Add new tokens to `src/tokens/pancakeswap-extended.json` file
-- Run `bun makelist pcs-extended`
+- Run `bun makelist pancakeswap-extended`
   - By default new list will have patch version number bumped by 1 (e.g. `2.0.1` -> `2.0.2`).
-  - If you want to bump minor version add `minor` after makelist command `bun makelist pcs-extended minor`
-  - If you want to bump major version add `major` after makelist command `bun makelist pcs-extended major`
+  - If you want to bump minor version add `minor` after makelist command `bun makelist pancakeswap-extended minor`
+  - If you want to bump major version add `major` after makelist command `bun makelist pancakeswap-extended major`
 - If tests pass - new token list will be created under `lists` directory
 
 For list to be considered valid it need to satisfy the following criteria:
@@ -46,10 +46,10 @@ Note - this is not something we expect pull requests for.
 
 ```shell script
 # Fetch the Top100 Tokens on PancakeSwap v2, and update list.
-$ bun fetch pcs-top-100
+$ bun fetch pancakeswap-top-100
 
 # Build token list (pancakeswap-top-100.json)
-$ bun makelist pcs-top-100
+$ bun makelist pancakeswap-top-100
 ```
 
 ## Deploying
