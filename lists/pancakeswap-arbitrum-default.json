@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2023-08-22T04:12:38.641Z",
+  "timestamp": "2023-08-23T05:51:31.503Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 4
+    "patch": 5
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -68,6 +68,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c.png"
+    },
+    {
+      "name": "ApolloX LP",
+      "symbol": "ALP",
+      "address": "0xBc76B3FD0D18C7496C0B04aeA0Fe7C3Ed0e4d9C9",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xBc76B3FD0D18C7496C0B04aeA0Fe7C3Ed0e4d9C9.png"
     }
   ]
 }
