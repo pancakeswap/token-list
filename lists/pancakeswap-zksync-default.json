@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2023-08-04T08:57:24.023Z",
+  "timestamp": "2023-08-28T09:39:13.658Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 2
+    "patch": 5
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -60,6 +60,14 @@
       "chainId": 324,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0xBBeB516fb02a01611cBBE0453Fe3c580D7281011.png"
+    },
+    {
+      "name": "TES",
+      "symbol": "TES",
+      "address": "0xCab3F741Fa54e79E34753B95717b23018332b8AC",
+      "chainId": 324,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0xCab3F741Fa54e79E34753B95717b23018332b8AC.png"
     }
   ]
 }
