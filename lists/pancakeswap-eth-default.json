@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-08-15T12:51:27.148Z",
+  "timestamp": "2023-08-30T04:01:38.427Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 25
+    "patch": 26
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -348,6 +348,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x14778860E937f509e651192a90589dE711Fb88a9.png"
+    },
+    {
+      "name": "ETHx",
+      "symbol": "ETHx",
+      "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xA35b1B31Ce002FBF2058D22F30f95D405200A15b.png"
     }
   ]
 }
