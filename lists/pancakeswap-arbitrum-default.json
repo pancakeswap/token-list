@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2023-08-28T03:52:26.113Z",
+  "timestamp": "2023-08-31T07:47:03.389Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 6
+    "patch": 7
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -68,6 +68,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c.png"
+    },
+    {
+      "name": "Level Token",
+      "symbol": "LVL",
+      "address": "0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149.png"
     }
   ]
 }
