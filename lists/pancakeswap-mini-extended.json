@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-08-23T08:19:35.028Z",
+  "timestamp": "2023-08-31T14:37:36.454Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 58
+    "patch": 59
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1438,6 +1438,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377/logo.png"
+    },
+    {
+      "name": "MARBLEX on BNB",
+      "symbol": "MBX",
+      "address": "0xF95a5532D67C944dfa7EDDD2f8c358Fe0dc7FAc2",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xF95a5532D67C944dfa7EDDD2f8c358Fe0dc7FAc2.png"
     },
     {
       "name": "MCDEX Token",

@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-08-23T07:14:58.433Z",
+  "timestamp": "2023-08-31T14:37:19.571Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 157
+    "patch": 158
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1539,6 +1539,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377.png"
+    },
+    {
+      "name": "MARBLEX on BNB",
+      "symbol": "MBX",
+      "address": "0xF95a5532D67C944dfa7EDDD2f8c358Fe0dc7FAc2",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xF95a5532D67C944dfa7EDDD2f8c358Fe0dc7FAc2.png"
     },
     {
       "name": "MCDEX",
