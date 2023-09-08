@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zkevm Default",
-  "timestamp": "2023-07-26T08:16:52.094Z",
+  "timestamp": "2023-09-08T05:49:59.980Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -53,6 +53,14 @@
       "chainId": 1101,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0xa2036f0538221a77A3937F1379699f44945018d0.png"
+    },
+    {
+      "name": "Gravita Debt Token",
+      "symbol": "GRAI",
+      "address": "0xCA68ad4EE5c96871EC6C6dac2F714a8437A3Fe66",
+      "chainId": 1101,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0xCA68ad4EE5c96871EC6C6dac2F714a8437A3Fe66.png"
     }
   ]
 }
