@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PancakeSwap Token Lists</title>
+</head>
+
+<body>
+
+  <script type="module">
+    const LISTS = `<!--LISTS-->`;
+
+    const lis = Object.keys(LISTS).map((list) => {
+      return `
+        <li>
+          <a href="/${list}.json">${list}</a>
+        </li>
+        <br />
+      `
+    });
+    const ul = document.createElement('ul');
+    ul.innerHTML = lis.join('');
+    document.body.appendChild(ul);
+  </script>
+</body>
+
+</html>

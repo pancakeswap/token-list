@@ -10,6 +10,7 @@
     "checksum": "bun run index.ts checksum",
     "generate": "bun run index.ts generate",
     "makelist": "bun run index.ts makelist",
+    "makeindex": "bun run index.ts makeindex",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",
     "test": "bun test",

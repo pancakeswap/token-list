@@ -5,6 +5,7 @@ import topTokens from "./src/top-100.js";
 import fetchThirdPartyList from "./src/fetchThirdPartyList.js";
 import { LISTS } from "./src/constants.js";
 import { exec } from "child_process";
+import { buildIndex } from "./src/buildIndex.js";
 
 const command = process.argv[2];
 const listName = process.argv[3];
@@ -37,6 +38,9 @@ switch (command) {
     if (proc.exitCode !== 0) {
       throw new Error(`Failed to generate list ${listName}`);
     }
+    break;
+  case 'makeindex':
+    await buildIndex(LISTS);
     break;
   case "fetch":
     checkListName();
