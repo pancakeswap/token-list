@@ -10,6 +10,7 @@
     "checksum": "bun run index.ts checksum",
     "generate": "bun run index.ts generate",
     "makelist": "bun run index.ts makelist",
+    "makeindex": "bun run index.ts makeindex",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",
     "test": "bun test",
@@ -19,7 +20,6 @@
     "@ethersproject/address": "^5.1.0",
     "@pancakeswap/awgmi": "^0.0.5",
     "@pancakeswap/token-lists": "^0.0.8",
-    "@typechain/ethers-v5": "^9.0.0",
     "ajv": "6.12.2",
     "aptos": "^1.3.16",
     "axios": "^0.26.0",
@@ -30,7 +30,6 @@
     "lodash": "^4.17.21",
     "slugify": "^1.6.0",
     "tslib": "^2.4.0",
-    "typechain": "^7.0.0",
     "viem": "^1.7.0"
   },
   "devDependencies": {

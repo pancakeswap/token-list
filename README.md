@@ -54,6 +54,6 @@ $ bun makelist pancakeswap-top-100
 
 ## Deploying
 
-Token lists will be auto-deployed via netlify when PR is merged to master. Be sure to build the list with `bun makelist list-name` before submitting/merging the PR since it doesn't make much sense building lists within Netlify (because most errors are related to wrong token information and should be fixed prior to landing into master)
+Token lists will be auto-deployed via Cloudflare Pages when PR is merged to master. Be sure to build the list with `bun makelist list-name` before submitting/merging the PR since it doesn't make much sense building lists within Pages (because most errors are related to wrong token information and should be fixed prior to landing into master)
 
-Netlify simply takes the json files under `lists` directory and hosts them on `tokens.pancakeswap.finance/list-name.json`
+Pages simply takes the json files under `lists` directory and hosts them on `tokens.pancakeswap.finance/list-name.json`
