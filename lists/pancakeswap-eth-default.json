@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-08-30T04:01:38.427Z",
+  "timestamp": "2023-09-14T05:44:10.987Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 26
+    "patch": 27
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -356,6 +356,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xA35b1B31Ce002FBF2058D22F30f95D405200A15b.png"
+    },
+    {
+      "name": "Wootrade Network",
+      "symbol": "WOO",
+      "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x4691937a7508860F876c9c0a2a617E7d9E945D4B.png"
     }
   ]
 }
