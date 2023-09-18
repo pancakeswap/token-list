@@ -39,7 +39,7 @@ switch (command) {
       throw new Error(`Failed to generate list ${listName}`);
     }
     break;
-  case 'makeindex':
+  case "makeindex":
     await buildIndex(LISTS);
     break;
   case "fetch":
