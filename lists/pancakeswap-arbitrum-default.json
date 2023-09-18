@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2023-08-31T07:47:03.389Z",
+  "timestamp": "2023-09-18T06:40:16.405Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 7
+    "patch": 8
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -76,6 +76,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149.png"
+    },
+    {
+      "name": "Magpie Token",
+      "symbol": "MGP",
+      "address": "0xa61F74247455A40b01b0559ff6274441FAfa22A3",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xa61F74247455A40b01b0559ff6274441FAfa22A3.png"
     }
   ]
 }
