@@ -120,4 +120,10 @@ export const LISTS = {
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: true,
   },
+  "pancakeswap-opbnb-default": {
+    name: "PancakeSwap opBNB Default",
+    keywords: ["pancakeswap", "default", "opbnb"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
 } as const;

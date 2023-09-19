@@ -12,7 +12,7 @@ import getTokenChainData from "../src/utils/getTokensChainData.js";
 import { getAptosCoinsChainData } from "../src/utils/getAptosCoinChainData.js";
 import { LISTS } from "../src/constants.js";
 import { arbitrum, base, bsc, mainnet, polygonZkEvm, zkSync } from "viem/chains";
-import { linea } from "../src/utils/publicClients.js";
+import { linea, opbnb } from "../src/utils/publicClients.js";
 
 const CASES = Object.entries(LISTS).map(([key, value]) =>
   "test" in value ? ([key, value.test] as const) : ([key] as const)
@@ -49,6 +49,7 @@ const multiChainLogoPath = {
   [arbitrum.id]: "/arbitrum",
   [linea.id]: "/linea",
   [base.id]: "/base",
+  [opbnb.id]: "/opbnb",
 };
 
 // Modified https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_get

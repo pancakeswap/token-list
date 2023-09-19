@@ -42,15 +42,15 @@ export const buildList = async (listName: string, versionBump?: VersionBump): Pr
     // sort them by symbol for easy readability (not applied to default list)
     tokens: sort
       ? list.sort((t1, t2) => {
-          if (t1.chainId === t2.chainId) {
-            // CAKE first in extended list
-            if ((t1.symbol === "CAKE") !== (t2.symbol === "CAKE")) {
-              return t1.symbol === "CAKE" ? -1 : 1;
-            }
-            return t1.symbol.toLowerCase() < t2.symbol.toLowerCase() ? -1 : 1;
+        if (t1.chainId === t2.chainId) {
+          // CAKE first in extended list
+          if ((t1.symbol === "CAKE") !== (t2.symbol === "CAKE")) {
+            return t1.symbol === "CAKE" ? -1 : 1;
           }
-          return t1.chainId < t2.chainId ? -1 : 1;
-        })
+          return t1.symbol.toLowerCase() < t2.symbol.toLowerCase() ? -1 : 1;
+        }
+        return t1.chainId < t2.chainId ? -1 : 1;
+      })
       : list,
   };
 };
