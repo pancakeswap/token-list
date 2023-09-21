@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-09-21T07:55:17.249Z",
+  "timestamp": "2023-09-21T11:50:26.697Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 29
+    "patch": 30
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -380,6 +380,14 @@
       "chainId": 1,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x6c3ea9036406852006290770BEdFcAbA0e23A0e8.png"
+    },
+    {
+      "name": "RociFi",
+      "symbol": "ROCI",
+      "address": "0xF51092Fe93B4E9282f42c459F05D93D2D079549e",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xF51092Fe93B4E9282f42c459F05D93D2D079549e.png"
     }
   ]
 }
