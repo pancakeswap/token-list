@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-09-18T06:40:36.465Z",
+  "timestamp": "2023-09-21T07:55:17.249Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 28
+    "patch": 29
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -372,6 +372,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8.png"
+    },
+    {
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
+      "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+      "chainId": 1,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x6c3ea9036406852006290770BEdFcAbA0e23A0e8.png"
     }
   ]
 }
