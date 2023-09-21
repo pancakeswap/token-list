@@ -1,0 +1,41 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["src/**/*.json"],
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Token Name, should align to Token Contract"
+            },
+            "symbol": {
+              "type": "string",
+              "description": "Token Symbol, should align to Token Contract"
+            },
+            "address": {
+              "type": "string",
+              "description": "Token address, should be checksum address"
+            },
+            "chainId": {
+              "type": "integer",
+              "description": "chainId, integer"
+            },
+            "decimals": {
+              "type": "integer",
+              "description": "Token decimals, should be align with Token Contract"
+            },
+            "logoURI": {
+              "type": "string",
+              "description": "Token logo uri, should be rounded and transparent bg png"
+            }
+          },
+          "required": ["name", "symbol", "address", "chainId", "decimals", "logoURI"]
+        }
+      }
+    }
+  ]
+}
