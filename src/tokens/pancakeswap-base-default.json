@@ -7,6 +7,14 @@
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
   },
+   {
+    "name": "Base tBTC v2",
+    "symbol": "tbtc",
+    "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b.png"
+  },
   {
     "name": "USD Base Coin",
     "symbol": "USDbC",
