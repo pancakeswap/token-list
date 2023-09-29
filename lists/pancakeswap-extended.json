@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-08-31T14:37:19.571Z",
+  "timestamp": "2023-09-29T08:59:59.800Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 158
+    "patch": 160
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2419,6 +2419,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B.png"
+    },
+    {
+      "name": "Tron V2",
+      "symbol": "TRX",
+      "address": "0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3.png"
     },
     {
       "name": "ThunderCore",
