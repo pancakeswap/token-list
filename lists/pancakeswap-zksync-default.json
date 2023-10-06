@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2023-10-06T10:41:42.344Z",
+  "timestamp": "2023-10-06T11:15:52.861Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 9
+    "patch": 10
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -50,7 +50,7 @@
       "symbol": "USD+",
       "address": "0x8E86e46278518EFc1C5CEd245cBA2C7e3ef11557",
       "chainId": 324,
-      "decimals": 18,
+      "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8E86e46278518EFc1C5CEd245cBA2C7e3ef11557.png"
     },
     {
