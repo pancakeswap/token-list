@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2023-10-06T11:15:52.861Z",
+  "timestamp": "2023-10-06T11:18:35.154Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 10
+    "patch": 13
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -43,7 +43,7 @@
       "address": "0x32Fd44bB869620C0EF993754c8a00Be67C464806",
       "chainId": 324,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x32Fd44bB869620C0EF993754c8a00Be67C464806.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x32Fd44bB869620C0EF993754c8a00Be67C464806.png"
     },
     {
       "name": "USD Plus",
@@ -51,7 +51,7 @@
       "address": "0x8E86e46278518EFc1C5CEd245cBA2C7e3ef11557",
       "chainId": 324,
       "decimals": 6,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x8E86e46278518EFc1C5CEd245cBA2C7e3ef11557.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x8E86e46278518EFc1C5CEd245cBA2C7e3ef11557.png"
     },
     {
       "name": "Tether USD",
