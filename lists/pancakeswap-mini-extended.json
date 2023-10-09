@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-08-31T14:37:36.454Z",
+  "timestamp": "2023-10-09T10:53:56.181Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 59
+    "patch": 60
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1702,6 +1702,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xeBd49b26169e1b52c04cFd19FCf289405dF55F80/logo.png"
+    },
+    {
+      "name": "Token Orbs",
+      "symbol": "ORBS",
+      "address": "0x43a8cab15D06d3a5fE5854D714C37E7E9246F170",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x43a8cab15D06d3a5fE5854D714C37E7E9246F170.png"
     },
     {
       "name": "pTokens BTC",
