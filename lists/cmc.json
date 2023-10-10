@@ -1,10 +1,10 @@
 {
   "name": "CoinMarketCap",
-  "timestamp": "2023-08-23T06:08:34.288Z",
+  "timestamp": "2023-10-10T05:04:01.481Z",
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 18
+    "patch": 19
   },
   "logoURI": "https://ipfs.io/ipfs/QmQAGtNJ2rSGpnP6dh6PPKNSmZL8RTZXmgFwgTdy5Nz5mx",
   "keywords": [
@@ -45834,14 +45834,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/20037.png"
-    },
-    {
-      "name": "Orbs",
-      "symbol": "ORBS",
-      "address": "0xeBd49b26169e1b52c04cFd19FCf289405dF55F80",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3835.png"
     },
     {
       "name": "ORBITA",
