@@ -36,6 +36,7 @@ const CMC_BAD_TOKENS = [
   "0x199e5A83509F35CD5Eb38a2D28B56A7Cd658E337", // no a token
   "0xBb6CD639724417A20a7db0F45C1fb2fE532f490A", // no a token
   "0xCb73918ac58D0c90d71c7992637c61094c15305b", // self destruct
+  "0xebd49b26169e1b52c04cfd19fcf289405df55f80", // ORBS old token
 ].map((a) => a.toLowerCase());
 
 const badTokens = {
