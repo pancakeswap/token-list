@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-10-10T04:58:08.856Z",
+  "timestamp": "2023-10-12T13:59:54.432Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 162
+    "patch": 164
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -939,6 +939,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x62823659d09F9F9D2222058878f89437425eB261.png"
+    },
+    {
+      "name": "Radpie esRDNT",
+      "symbol": "esRDNT",
+      "address": "0x016aBB5E48A7B64C2014f8834ecbE56CD72BF13D",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x016aBB5E48A7B64C2014f8834ecbE56CD72BF13D.png"
     },
     {
       "name": "CryptoMines Eternal",
