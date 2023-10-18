@@ -126,4 +126,10 @@ export const LISTS = {
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: false,
   },
+  "pancakeswap-scroll-default": {
+    name: "PancakeSwap Scroll Default",
+    keywords: ["pancakeswap", "default", "scroll"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: false,
+  },
 } as const;
