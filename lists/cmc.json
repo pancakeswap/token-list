@@ -1,10 +1,10 @@
 {
   "name": "CoinMarketCap",
-  "timestamp": "2023-10-10T05:04:01.481Z",
+  "timestamp": "2023-10-18T08:59:14.114Z",
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 19
+    "patch": 20
   },
   "logoURI": "https://ipfs.io/ipfs/QmQAGtNJ2rSGpnP6dh6PPKNSmZL8RTZXmgFwgTdy5Nz5mx",
   "keywords": [
@@ -18666,14 +18666,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/12094.png"
-    },
-    {
-      "name": "DareNFT",
-      "symbol": "DNFT",
-      "address": "0x162C2332e92BE409254AC7c59aD559C16a3f506E",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/12227.png"
     },
     {
       "name": "AstroDonkey",
