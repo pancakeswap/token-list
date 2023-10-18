@@ -68,7 +68,33 @@ export const opbnb = {
       blockCreated: 512881,
     },
   },
-  testnet: true,
+} as const satisfies Chain;
+
+export const scroll = {
+  id: 534352,
+  name: "Scroll Mainnet",
+  network: "scroll",
+  nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    default: {
+      http: ["https://rpc.scroll.io"],
+    },
+    public: {
+      http: ["https://rpc.scroll.io"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "scrollScan",
+      url: "https://scrollscan.com",
+    },
+  },
+  contracts: {
+    multicall3: {
+      address: "0xcA11bde05977b3631167028862bE2a173976CA11",
+      blockCreated: 14,
+    },
+  },
 } as const satisfies Chain;
 
 export const publicClients = {
@@ -102,6 +128,10 @@ export const publicClients = {
   }),
   [opbnb.id]: createPublicClient({
     chain: opbnb,
+    transport: http(),
+  }),
+  [scroll.id]: createPublicClient({
+    chain: scroll,
     transport: http(),
   }),
 };
