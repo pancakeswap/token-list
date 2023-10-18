@@ -74,7 +74,7 @@ export const opbnb = {
 export const publicClients = {
   [mainnet.id]: createPublicClient({
     chain: mainnet,
-    transport: http("https://eth.llamarpc.com"),
+    transport: http("https://ethereum.publicnode.com"),
   }),
   [bsc.id]: createPublicClient({
     chain: bsc,
