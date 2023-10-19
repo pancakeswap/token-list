@@ -7,7 +7,7 @@
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
   },
-   {
+  {
     "name": "Base tBTC v2",
     "symbol": "tbtc",
     "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
@@ -46,5 +46,13 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/base/0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22.png"
+  },
+  {
+    "name": "Axelar Wrapped USDC",
+    "symbol": "axlUSDC",
+    "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+    "chainId": 8453,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0xEB466342C4d449BC9f53A865D5Cb90586f405215.png"
   }
 ]

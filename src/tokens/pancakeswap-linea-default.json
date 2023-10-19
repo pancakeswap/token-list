@@ -38,5 +38,13 @@
     "chainId": 59144,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
+  },
+  {
+    "name": "Axelar Wrapped USDC",
+    "symbol": "axlUSDC",
+    "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+    "chainId": 59144,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/linea/0xEB466342C4d449BC9f53A865D5Cb90586f405215.png"
   }
 ]

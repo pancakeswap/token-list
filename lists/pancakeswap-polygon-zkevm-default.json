@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zkevm Default",
-  "timestamp": "2023-09-08T05:49:59.980Z",
+  "timestamp": "2023-10-19T06:57:29.928Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -61,6 +61,14 @@
       "chainId": 1101,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0xCA68ad4EE5c96871EC6C6dac2F714a8437A3Fe66.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "address": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
+      "chainId": 1101,
+      "decimals": 8,
+      "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1.png"
     }
   ]
 }
