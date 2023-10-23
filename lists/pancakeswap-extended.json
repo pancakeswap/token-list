@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-10-12T13:59:54.432Z",
+  "timestamp": "2023-10-23T06:33:51.482Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 164
+    "patch": 165
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -971,6 +971,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x5512014efa6Cd57764Fa743756F7a6Ce3358cC83.png"
+    },
+    {
+      "name": "First Digital USD",
+      "symbol": "FDUSD",
+      "address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409.png"
     },
     {
       "name": "Fight Token",
