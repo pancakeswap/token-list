@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum MM",
-  "timestamp": "2023-11-03T09:22:56.485Z",
+  "timestamp": "2023-11-03T09:51:41.715Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 6
+    "patch": 7
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -148,14 +148,6 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85.png"
-    },
-    {
-      "name": "MEME",
-      "symbol": "memecoin",
-      "address": "0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74",
-      "chainId": 1,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74.png"
     }
   ]
 }
