@@ -374,5 +374,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xF51092Fe93B4E9282f42c459F05D93D2D079549e.png"
+  },
+  {
+    "name": "MEME",
+    "symbol": "memecoin",
+    "address": "0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74.png"
   }
 ]
