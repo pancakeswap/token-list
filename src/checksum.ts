@@ -2,6 +2,10 @@ import { getAddress } from "@ethersproject/address";
 
 const checksumAddresses = async (listName: string): Promise<void> => {
   let badChecksumCount = 0;
+  if (listName === "pancakeswap-aptos") {
+    console.info("Ignore Aptos address checksum");
+    return;
+  }
   const file = Bun.file(`src/tokens/${listName}.json`);
   const listToChecksum = await file.json();
 
