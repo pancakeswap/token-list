@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2023-09-18T06:40:16.405Z",
+  "timestamp": "2023-11-29T07:27:42.260Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 8
+    "patch": 9
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -84,6 +84,38 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xa61F74247455A40b01b0559ff6274441FAfa22A3.png"
+    },
+    {
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "address": "0x5979D7b546E38E414F7E9822514be443A4800529",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x5979D7b546E38E414F7E9822514be443A4800529.png"
+    },
+    {
+      "name": "Gravita Debt Token",
+      "symbol": "GRAI",
+      "address": "0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487.png"
+    },
+    {
+      "name": "Equilibria Token",
+      "symbol": "EQB",
+      "address": "0xBfbCFe8873fE28Dfa25f1099282b088D52bbAD9C",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xBfbCFe8873fE28Dfa25f1099282b088D52bbAD9C.png"
+    },
+    {
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "address": "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8.png"
     }
   ]
 }
