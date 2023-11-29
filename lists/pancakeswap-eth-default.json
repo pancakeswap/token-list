@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-11-03T09:55:28.373Z",
+  "timestamp": "2023-11-29T09:33:59.021Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 32
+    "patch": 33
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -396,6 +396,22 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74.png"
+    },
+    {
+      "name": "BTRFLY",
+      "symbol": "BTRFLY",
+      "address": "0xc55126051B22eBb829D00368f4B12Bde432de5Da",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xc55126051B22eBb829D00368f4B12Bde432de5Da.png"
+    },
+    {
+      "name": "Stake DAO Token",
+      "symbol": "SDT",
+      "address": "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F.png"
     }
   ]
 }
