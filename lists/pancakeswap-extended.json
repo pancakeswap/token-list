@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-11-28T09:58:53.742Z",
+  "timestamp": "2023-12-01T03:32:22.984Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 166
+    "patch": 167
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2171,14 +2171,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x90Ed8F1dc86388f14b64ba8fb4bbd23099f18240.png"
-    },
-    {
-      "name": "Stake DAO CAKE",
-      "symbol": "sdCAKE",
-      "address": "0xF79B275e0B602D82B822895074552e487412A41a",
-      "decimals": 18,
-      "chainId": 56,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0xF79B275e0B602D82B822895074552e487412A41a.png"
     },
     {
       "name": "SafePal Token",
