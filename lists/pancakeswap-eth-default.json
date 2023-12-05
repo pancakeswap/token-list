@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-11-29T09:33:59.021Z",
+  "timestamp": "2023-12-05T07:15:42.575Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 33
+    "patch": 34
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -412,6 +412,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F.png"
+    },
+    {
+      "name": "Inspect",
+      "symbol": "INSP",
+      "address": "0x186eF81fd8E77EEC8BfFC3039e7eC41D5FC0b457",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x186eF81fd8E77EEC8BfFC3039e7eC41D5FC0b457.png"
     }
   ]
 }
