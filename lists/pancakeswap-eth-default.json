@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2023-12-05T07:15:42.575Z",
+  "timestamp": "2023-12-08T10:17:11.470Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 34
+    "patch": 35
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -420,6 +420,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x186eF81fd8E77EEC8BfFC3039e7eC41D5FC0b457.png"
+    },
+    {
+      "name": "Bonk",
+      "symbol": "Bonk",
+      "address": "0x1151CB3d861920e07a38e03eEAd12C32178567F6",
+      "chainId": 1,
+      "decimals": 5,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x1151CB3d861920e07a38e03eEAd12C32178567F6.png"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-08T10:07:07.669Z",
+  "timestamp": "2023-12-08T10:19:11.322Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 168
+    "patch": 169
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -451,6 +451,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x5D0158A5c3ddF47d4Ea4517d8DB0D76aA2e87563.png"
+    },
+    {
+      "name": "Bonk",
+      "symbol": "Bonk",
+      "address": "0xA697e272a73744b343528C3Bc4702F2565b2F422",
+      "chainId": 56,
+      "decimals": 5,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xA697e272a73744b343528C3Bc4702F2565b2F422.png"
     },
     {
       "name": "BoringDAO",
