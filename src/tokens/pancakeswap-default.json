@@ -102,5 +102,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+  },
+  {
+    "name": "Wrapped ROSE",
+    "symbol": "wROSE",
+    "address": "0xF00600eBC7633462BC4F9C61eA2cE99F5AAEBd4a",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xF00600eBC7633462BC4F9C61eA2cE99F5AAEBd4a.png"
   }
 ]
