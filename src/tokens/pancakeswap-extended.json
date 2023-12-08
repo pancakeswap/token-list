@@ -2846,5 +2846,21 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://tokens.pancakeswap.finance/images/0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409.png"
+  },
+  {
+    "name": "Wrapped ROSE",
+    "symbol": "wROSE",
+    "address": "0xF00600eBC7633462BC4F9C61eA2cE99F5AAEBd4a",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xF00600eBC7633462BC4F9C61eA2cE99F5AAEBd4a.png"
+  },
+  {
+    "name": "Bonk",
+    "symbol": "Bonk",
+    "address": "0xA697e272a73744b343528C3Bc4702F2565b2F422",
+    "chainId": 56,
+    "decimals": 5,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xA697e272a73744b343528C3Bc4702F2565b2F422.png"
   }
 ]
