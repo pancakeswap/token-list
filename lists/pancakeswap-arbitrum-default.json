@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2023-11-29T09:27:44.406Z",
+  "timestamp": "2023-12-13T02:28:31.568Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 10
+    "patch": 11
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -148,6 +148,38 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xbc011A12Da28e8F0f528d9eE5E7039E22F91cf18.png"
+    },
+    {
+      "name": "GMX",
+      "symbol": "GMX",
+      "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a.png"
+    },
+    {
+      "name": "ChainLink Token",
+      "symbol": "LINK",
+      "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xf97f4df75117a78c1A5a0DBb814Af92458539FB4.png"
+    },
+    {
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+      "chainId": 42161,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xEB466342C4d449BC9f53A865D5Cb90586f405215.png"
+    },
+    {
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "address": "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8.png"
     }
   ]
 }
