@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-08T10:19:11.322Z",
+  "timestamp": "2023-12-13T10:52:05.609Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 169
+    "patch": 170
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1923,6 +1923,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xD069599E718f963bD84502b49ba8F8657fAF5B3a.png"
+    },
+    {
+      "name": "Planq",
+      "symbol": "PLQ",
+      "address": "0x13Ef69f64dE07d14517b667728db8b9f23856A38",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x13Ef69f64dE07d14517b667728db8b9f23856A38.png"
     },
     {
       "name": "Polkamon",
