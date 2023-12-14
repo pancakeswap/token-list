@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-08T10:19:11.322Z",
+  "timestamp": "2023-12-14T07:51:51.129Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 169
+    "patch": 170
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1387,6 +1387,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xDAe6c2A48BFAA66b43815c5548b10800919c993E.png"
+    },
+    {
+      "name": "Kujira native asset",
+      "symbol": "KUJI",
+      "address": "0x073690e6CE25bE816E68F32dCA3e11067c9FB5Cc",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x073690e6CE25bE816E68F32dCA3e11067c9FB5Cc.png"
     },
     {
       "name": "Qian Governance Token",
