@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap opBNB Default",
-  "timestamp": "2023-09-19T04:04:09.611Z",
+  "timestamp": "2023-12-18T07:51:57.413Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 6
+    "patch": 7
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -44,6 +44,14 @@
       "chainId": 204,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x2779106e4F4A8A28d77A24c18283651a2AE22D1C",
+      "chainId": 204,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/cake.png"
     }
   ]
 }
