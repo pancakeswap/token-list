@@ -2870,5 +2870,13 @@
     "chainId": 56,
     "decimals": 6,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x073690e6CE25bE816E68F32dCA3e11067c9FB5Cc.png"
+  },
+  {
+    "name": "ACEToken",
+    "symbol": "ACE",
+    "address": "0xc27A719105A987b4c34116223CAE8bd8F4B5def4",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xc27A719105A987b4c34116223CAE8bd8F4B5def4.png"
   }
 ]
