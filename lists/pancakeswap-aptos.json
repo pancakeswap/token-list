@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2023-11-21T07:06:15.328Z",
+  "timestamp": "2023-12-19T05:03:19.077Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 21
+    "patch": 22
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -36,6 +36,14 @@
       "decimals": 8,
       "address": "0x1::aptos_coin::AptosCoin",
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/apt.png"
+    },
+    {
+      "name": "apts coin",
+      "symbol": "APTS",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0xc71d94c49826b7d81d740d5bfb80b001a356198ed7b8005ae24ccedff82b299c::bridge::APTS",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xc71d94c49826b7d81d740d5bfb80b001a356198ed7b8005ae24ccedff82b299c::bridge::APTS"
     },
     {
       "name": "Blocto Token",
