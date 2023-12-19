@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-18T03:22:22.902Z",
+  "timestamp": "2023-12-19T11:28:18.880Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 171
+    "patch": 172
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -12,6 +12,14 @@
     "extended"
   ],
   "tokens": [
+    {
+      "name": "AIOZ Network",
+      "symbol": "AIOZ",
+      "address": "0x33d08D8C7a168333a85285a68C0042b39fC3741D",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x33d08D8C7a168333a85285a68C0042b39fC3741D.png"
+    },
     {
       "name": "PancakeSwap Token",
       "symbol": "CAKE",
