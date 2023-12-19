@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-18T03:22:22.902Z",
+  "timestamp": "2023-12-19T11:33:47.144Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 171
+    "patch": 174
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -67,6 +67,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89.png"
+    },
+    {
+      "name": "AIOZ Network",
+      "symbol": "AIOZ",
+      "address": "0x33d08D8C7a168333a85285a68C0042b39fC3741D",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x33d08D8C7a168333a85285a68C0042b39fC3741D.png"
     },
     {
       "name": "My Neigbor Alice",
