@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-12-19T11:28:36.231Z",
+  "timestamp": "2023-12-19T11:31:40.354Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 62
+    "patch": 63
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -21,7 +21,7 @@
       "address": "0x33d08D8C7a168333a85285a68C0042b39fC3741D",
       "chainId": 1,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x33d08D8C7a168333a85285a68C0042b39fC3741D.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x33d08D8C7a168333a85285a68C0042b39fC3741D.png"
     },
     {
       "name": "decentral.games on xDai from xDai",
