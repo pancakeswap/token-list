@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-19T11:33:47.144Z",
+  "timestamp": "2023-12-20T03:19:53.146Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 174
+    "patch": 175
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2571,6 +2571,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "name": "USDV",
+      "symbol": "USDV",
+      "address": "0x323665443CEf804A3b5206103304BD4872EA4253",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x323665443CEf804A3b5206103304BD4872EA4253.png"
     },
     {
       "name": "unshETHing_Token",

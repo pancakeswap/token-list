@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2023-12-19T11:33:52.397Z",
+  "timestamp": "2023-12-20T03:20:02.453Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 64
+    "patch": 65
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2374,6 +2374,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "USDV",
+      "symbol": "USDV",
+      "address": "0x323665443CEf804A3b5206103304BD4872EA4253",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x323665443CEf804A3b5206103304BD4872EA4253.png"
     },
     {
       "name": "Wrapped UST Token",
