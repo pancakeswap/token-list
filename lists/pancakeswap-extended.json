@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-20T12:24:32.117Z",
+  "timestamp": "2023-12-21T01:46:42.520Z",
   "version": {
     "major": 2,
-    "minor": 16,
-    "patch": 176
+    "minor": 17,
+    "patch": 177
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2523,6 +2523,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1FFD0b47127fdd4097E54521C9E2c7f0D66AafC5.png"
+    },
+    {
+      "name": "up BTC Token",
+      "symbol": "uBTC",
+      "address": "0x6B2c6F4Ead714feC6f5F95E7179e33E628f67E2C",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x6B2c6F4Ead714feC6f5F95E7179e33E628f67E2C.png"
     },
     {
       "name": "UpBots",
