@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2023-12-19T05:03:19.077Z",
+  "timestamp": "2023-12-24T08:12:00.878Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 22
+    "patch": 23
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -108,6 +108,14 @@
       "decimals": 8,
       "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::WethCoin",
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+    },
+    {
+      "name": "GUI INU",
+      "symbol": "GUI",
+      "chainId": 1,
+      "decimals": 6,
+      "address": "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002"
     },
     {
       "name": "LayerZero - USD Coin",
