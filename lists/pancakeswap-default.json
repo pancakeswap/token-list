@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Default",
-  "timestamp": "2023-12-25T12:45:36.731Z",
+  "timestamp": "2023-12-26T12:27:08.085Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 8
+    "patch": 9
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -123,6 +123,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x27c073e8427aa493a90b8dC8b73A89e670FD77bB.png"
+    },
+    {
+      "name": "StargateToken",
+      "symbol": "STG",
+      "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xB0D502E938ed5f4df2E681fE6E419ff29631d62b.png"
     }
   ]
 }
