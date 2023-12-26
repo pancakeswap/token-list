@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-20T12:24:32.117Z",
+  "timestamp": "2023-12-26T13:02:49.675Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 176
+    "patch": 177
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2109,6 +2109,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0xf7DE7E8A6bd59ED41a4b5fe50278b3B7f31384dF.png"
     },
     {
+      "name": "Radpie",
+      "symbol": "RDP",
+      "address": "0x27c073e8427aa493a90b8dC8b73A89e670FD77bB",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x27c073e8427aa493a90b8dC8b73A89e670FD77bB.png"
+    },
+    {
       "name": "Reef",
       "symbol": "REEF",
       "address": "0xF21768cCBC73Ea5B6fd3C687208a7c2def2d966e",
@@ -2299,6 +2307,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x724A32dFFF9769A0a0e1F0515c0012d1fB14c3bd.png"
+    },
+    {
+      "name": "StargateToken",
+      "symbol": "STG",
+      "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xB0D502E938ed5f4df2E681fE6E419ff29631d62b.png"
     },
     {
       "name": "Staked BNB",
