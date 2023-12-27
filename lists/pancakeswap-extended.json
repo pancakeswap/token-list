@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-26T13:02:49.675Z",
+  "timestamp": "2023-12-27T05:26:51.226Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 177
+    "patch": 178
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1853,6 +1853,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x43a8cab15D06d3a5fE5854D714C37E7E9246F170.png"
     },
     {
+      "name": "ordi",
+      "symbol": "ordi",
+      "address": "0xe2aE1a99bBd2eFab0a5C38f2146B7aCE61aBC5cE",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xe2aE1a99bBd2eFab0a5C38f2146B7aCE61aBC5cE.png"
+    },
+    {
       "name": "pBTC",
       "symbol": "pBTC",
       "address": "0xeD28A457A5A76596ac48d87C0f577020F6Ea1c4C",
@@ -2195,6 +2203,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xA64455a4553C9034236734FadDAddbb64aCE4Cc7.png"
+    },
+    {
+      "name": "sats",
+      "symbol": "sats",
+      "address": "0x143D7A700a533B4baF6D693449b278A8A2F5927d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x143D7A700a533B4baF6D693449b278A8A2F5927d.png"
     },
     {
       "name": "Stader (Wormhole)",
