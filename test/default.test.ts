@@ -173,7 +173,13 @@ describe("global test", () => {
 describe.each(cases)("buildList %s", async (listName, opt: any) => {
   const defaultTokenList = await buildList(listName);
   it("validates", () => {
-    expect(toBeValidTokenList(defaultTokenList).pass).toBeTrue();
+    const build = toBeValidTokenList(defaultTokenList);
+
+    if (!build.pass) {
+      throw new Error(build.message());
+    }
+
+    expect(build.pass).toBeTrue();
   });
 
   it("contains no duplicate addresses", () => {

@@ -135,9 +135,15 @@ const fetchThirdPartyList = async (listName: string): Promise<void> => {
         const isNotDuplicate = array.findIndex((t) => t.address === token.address || t.name === token.name) === index;
         if (!isNotDuplicate) duplicates.push(token);
         const hasValidSymbol = /^[a-zA-Z0-9+\-%/$]+$/.test(realTokenSymbol.get(token.address));
-        const symbolIsOk = realTokenSymbol.get(token.address)?.length > 0 && hasValidSymbol;
-        if (!symbolIsOk) invalidNameOrSymbol.push(token.address);
-        return isNotDuplicate && symbolIsOk && isAddress(token.address) && !badAddresses.includes(token.address);
+        const symbolIsOk =
+          realTokenSymbol.get(token.address)?.length > 0 &&
+          realTokenSymbol.get(token.address)?.length <= 20 &&
+          hasValidSymbol;
+        const nameIsOk = token.name.length > 0 && token.name.length <= 40;
+        if (!symbolIsOk || !nameIsOk) invalidNameOrSymbol.push(token.address);
+        return (
+          isNotDuplicate && symbolIsOk && nameIsOk && isAddress(token.address) && !badAddresses.includes(token.address)
+        );
       })
       .map((token) => {
         const checksummedAddress = getAddress(token.address);
