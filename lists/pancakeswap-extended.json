@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-27T05:26:51.226Z",
+  "timestamp": "2023-12-27T07:45:03.009Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 178
+    "patch": 179
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1715,6 +1715,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xF215A127A196e3988C09d052e16BcFD365Cd7AA3.png"
+    },
+    {
+      "name": "MUBI",
+      "symbol": "MUBI",
+      "address": "0x38e382F74dfb84608F3C1F10187f6bEf5951DE93",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x38e382F74dfb84608F3C1F10187f6bEf5951DE93.png"
     },
     {
       "name": "MX Token",
