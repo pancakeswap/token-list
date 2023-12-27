@@ -2918,5 +2918,21 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0xB0D502E938ed5f4df2E681fE6E419ff29631d62b.png"
+  },
+  {
+    "name": "ordi",
+    "symbol": "ordi",
+    "address": "0xe2aE1a99bBd2eFab0a5C38f2146B7aCE61aBC5cE",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xe2aE1a99bBd2eFab0a5C38f2146B7aCE61aBC5cE.png"
+  },
+  {
+    "name": "sats",
+    "symbol": "sats",
+    "address": "0x143D7A700a533B4baF6D693449b278A8A2F5927d",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x143D7A700a533B4baF6D693449b278A8A2F5927d.png"
   }
 ]
