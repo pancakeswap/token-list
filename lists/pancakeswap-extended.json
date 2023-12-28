@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-27T07:45:03.009Z",
+  "timestamp": "2023-12-28T00:59:26.688Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 179
+    "patch": 180
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1755,6 +1755,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1D3437E570e93581Bd94b2fd8Fbf202d4a65654A.png"
+    },
+    {
+      "name": "NFPrompt Token",
+      "symbol": "NFP",
+      "address": "0x75E8ddB518bB757b4282cd5b83bb70d4101D12FB",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x75E8ddB518bB757b4282cd5b83bb70d4101D12FB.png"
     },
     {
       "name": "APENFT",
