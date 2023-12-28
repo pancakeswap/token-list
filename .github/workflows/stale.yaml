@@ -1,0 +1,28 @@
+name: "Close stale issues and PRs"
+on:
+  workflow_dispatch:
+  schedule:
+    # 01:30 UTC
+    - cron: "30 1 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          days-before-stale: 7
+          days-before-close: 3
+          remove-stale-when-updated: true
+          stale-issue-label: "stale"
+          stale-issue-message: >
+            This issue has now been marked as stale and will be closed if no
+            further activity occurs. Thank you for your contributions ❤ .
+          stale-pr-message: >
+            Note - this is not something we expect pull requests for. Unless 
+            you've been specifically asked by someone from PCS team please do no
+            submit PRs to be listed on default PCS list. You can still trade your
+            tokens on PCS exchange by pasting your address into the token field.
+
+            This pull request has now been marked as stale and will be closed if
+            no further activity occurs. Thank you for your contributions ❤ .
