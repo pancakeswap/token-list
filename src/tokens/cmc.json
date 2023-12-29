@@ -7904,6 +7904,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9335.png"
   },
   {
+    "name": "Teller",
+    "symbol": "USDT",
+    "address": "0x4953d28b12D862250Cc96163A9C46Ae2B8ef52c5",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9337.png"
+  },
+  {
     "name": "Fair Safe",
     "symbol": "FSAFE",
     "address": "0xEE738a9e5FB78c24D26ceCD30389ED977C38D0Ca",
@@ -19928,14 +19936,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11926.png"
   },
   {
-    "name": "Greenex",
-    "symbol": "GNX",
-    "address": "0x8d8F4d3a7D5a69d7163D8A325B01DeAb180177c3",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11928.png"
-  },
-  {
     "name": "Around Network",
     "symbol": "ART",
     "address": "0xe6F3A0Cd28d9add9077E80b8e05cbE01B7532EC7",
@@ -27726,14 +27726,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/13964.png"
-  },
-  {
-    "name": "Snakes On A NFT Game",
-    "symbol": "SNAKES",
-    "address": "0xD26f1d7cF221eD3914626d91c6f51565eee08Dd0",
-    "chainId": 56,
-    "decimals": 9,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/13966.png"
   },
   {
     "name": "Gennix",
@@ -52185,8 +52177,8 @@
   },
   {
     "name": "Gradecoin",
-    "symbol": "GRADE",
-    "address": "0xf0c2d206A56F83879Dd7c64f933C72C86F3A1436",
+    "symbol": "Grade",
+    "address": "0xE1dAEFe9Dab0B091cb28f77C9897F05C6692BECa",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/20289.png"
@@ -54710,14 +54702,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/20986.png"
-  },
-  {
-    "name": "metaverse world",
-    "symbol": "World",
-    "address": "0xE894E4296a3857E7Ed858720F2CD1093fA7dba3e",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/20987.png"
   },
   {
     "name": "Ace Cash",
@@ -64344,14 +64328,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/24446.png"
   },
   {
-    "name": "HongKongDAO",
-    "symbol": "HKD",
-    "address": "0xB1A1D06d42A43a8FCfDC7FDcd744f7eF03e8ad1a",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/24448.png"
-  },
-  {
     "name": "WrappedARC",
     "symbol": "WARC",
     "address": "0x86FAC768241B4133d131EdcCBd47F143A4FA9D32",
@@ -66094,14 +66070,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/25303.png"
-  },
-  {
-    "name": "NFTEarthOFT",
-    "symbol": "NFTE",
-    "address": "0x1912A3504E59d1C1B060bf2d371DEB00b70E8796",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/25305.png"
   },
   {
     "name": "BOJACK",
@@ -71904,6 +71872,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/27412.png"
   },
   {
+    "name": "Zoomer Coin",
+    "symbol": "xZOOMER",
+    "address": "0xB962150760F9A3bB00e3E9Cf48297EE20AdA4A33",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/27424.png"
+  },
+  {
     "name": "Tribalisland game Token",
     "symbol": "TIC",
     "address": "0xC14E81695B84f142795f2F5f8f644CDc892Be228",
@@ -74112,6 +74088,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28801.png"
   },
   {
+    "name": "Planq",
+    "symbol": "WPLQ",
+    "address": "0x13Ef69f64dE07d14517b667728db8b9f23856A38",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28804.png"
+  },
+  {
     "name": "Bonkinu",
     "symbol": "Bonkinu",
     "address": "0xBc37a097DC156E3bef4f8d5e0f66292f7d015782",
@@ -74158,5 +74142,53 @@
     "chainId": 56,
     "decimals": 1,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28830.png"
+  },
+  {
+    "name": "Matrix Chain",
+    "symbol": "MTC",
+    "address": "0x67009eB16ff64d06b4F782b3c552b924B1D1bb93",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28841.png"
+  },
+  {
+    "name": "Sleepless AI",
+    "symbol": "AI",
+    "address": "0xBDA011D7F8EC00F66C1923B049B94c67d148d8b2",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28846.png"
+  },
+  {
+    "name": "Optimouse",
+    "symbol": "OPTIMOUSE",
+    "address": "0x3D76D2B13E8d7263ab722BCBf63A64A72563Ef5e",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28848.png"
+  },
+  {
+    "name": "ALITA",
+    "symbol": "Alita",
+    "address": "0x33679898CEb9DC930024dE84E7339d403191d8f6",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28855.png"
+  },
+  {
+    "name": "MilkyWayZone",
+    "symbol": "MilkyWay",
+    "address": "0xB367271954dCa61E9284de2b754e4aF956848E4a",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28860.png"
+  },
+  {
+    "name": "GROKolaus",
+    "symbol": "$GROKolaus",
+    "address": "0xac90aF75663834BBA82940Ca06DD95b8faF2eDcE",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28865.png"
   }
 ]

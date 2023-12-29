@@ -23,7 +23,10 @@ const getTokens = async (listName: string): Promise<Token[]> => {
   return (await data.json()).tokens;
 };
 
-const COINGEKKO_BAD_TOKENS = ["0x92a0d359c87b8f3fe383aa0a42c19d1a2afe6be0"];
+const COINGEKKO_BAD_TOKENS = [
+  "0x92a0d359c87b8f3fe383aa0a42c19d1a2afe6be0",
+  "0xB1A1D06d42A43a8FCfDC7FDcd744f7eF03e8ad1a", // HKDAO
+].map((a) => a.toLowerCase());
 
 const CMC_BAD_TOKENS = [
   "0x6B8C76b277Eb34A22e24d603ef0448D9ad1c5a7d", // self destruct
@@ -37,6 +40,7 @@ const CMC_BAD_TOKENS = [
   "0xBb6CD639724417A20a7db0F45C1fb2fE532f490A", // no a token
   "0xCb73918ac58D0c90d71c7992637c61094c15305b", // self destruct
   "0xebd49b26169e1b52c04cfd19fcf289405df55f80", // ORBS old token
+  "0xB1A1D06d42A43a8FCfDC7FDcd744f7eF03e8ad1a", // HKDAO
 ].map((a) => a.toLowerCase());
 
 const badTokens = {
