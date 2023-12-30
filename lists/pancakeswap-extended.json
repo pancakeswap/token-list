@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-29T04:17:32.862Z",
+  "timestamp": "2023-12-30T19:58:07.182Z",
   "version": {
-    "major": 2,
-    "minor": 16,
-    "patch": 181
+    "major": 4,
+    "minor": 19,
+    "patch": 186
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -227,6 +227,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xA2120b9e674d3fC3875f415A7DF52e382F141225.png"
+    },
+    {
+      "name": "AtlasRewards  Token",
+      "symbol": "ATLAS",
+      "address": "0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634.png"
     },
     {
       "name": "Atletico de Madrid",
