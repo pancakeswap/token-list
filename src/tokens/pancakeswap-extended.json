@@ -1,5 +1,34 @@
 [
   {
+  "name": "PancakeSwap Extended",
+  "timestamp": "2023-12-29T04:17:32.862Z",
+  "version": {
+    "major": 2,
+    "minor": 16,
+    "patch": 182
+  },
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": [
+	@@ -21,12 +21,12 @@
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+   {
+      "name": "AtlasRewards",
+      "symbol": "8PAY v2",
+      "address": "0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634.png"
+    },
+    {
+      "name": "8PAY Network v2",
+      "symbol": "8PAY v2",
+      "address": "0x6EaDc05928ACd93eFB3FA0DFbC644D96C6Aa1Df8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x6EaDc05928ACd93eFB3FA0DFbC644D96C6Aa1Df8.png"
+    },
+  {
     "name": "WBNB Token",
     "symbol": "WBNB",
     "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
