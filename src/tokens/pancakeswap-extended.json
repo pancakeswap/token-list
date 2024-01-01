@@ -1,3 +1,5 @@
+
+
 [
   {
     "name": "WBNB Token",
@@ -2047,6 +2049,14 @@
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x40C8225329Bd3e28A043B029E0D07a5344d2C27C.png"
   },
+   {
+      "name": "AtlasRewards ",
+      "symbol": "ATLAS",
+      "address": "0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634.png"
+    },
   {
     "name": "8PAY Network v2",
     "symbol": "8PAY v2",
