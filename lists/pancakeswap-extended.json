@@ -1,10 +1,11 @@
+
 {
   "name": "PancakeSwap Extended",
   "timestamp": "2023-12-29T04:17:32.862Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 181
+    "patch": 182
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -27,6 +28,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x6EaDc05928ACd93eFB3FA0DFbC644D96C6Aa1Df8.png"
+    },
+    {
+      "name": "AtlasRewards ",
+      "symbol": "ATLAS",
+      "address": "0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634.png"
     },
     {
       "name": "ACEToken",
