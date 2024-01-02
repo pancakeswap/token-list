@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-02T03:02:10.694Z",
+  "timestamp": "2024-01-02T10:40:49.843Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 182
+    "patch": 183
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1603,6 +1603,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xF95a5532D67C944dfa7EDDD2f8c358Fe0dc7FAc2.png"
+    },
+    {
+      "name": "mCake Token",
+      "symbol": "mCake",
+      "address": "0x581FA684D0Ec11ccb46B1d92F1F24C8A3F95C0CA",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x581FA684D0Ec11ccb46B1d92F1F24C8A3F95C0CA.png"
     },
     {
       "name": "MCDEX",
