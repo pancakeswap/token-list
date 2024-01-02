@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-02T14:40:27.593Z",
+  "timestamp": "2024-01-02T15:03:13.250Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 184
+    "patch": 185
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1995,6 +1995,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1796ae0b0fa4862485106a0de9b654eFE301D0b2.png"
+    },
+    {
+      "name": "Penpie Token",
+      "symbol": "PNP",
+      "address": "0x5012c90F14d190607662CA8344120812Aaa2639D",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x5012c90F14d190607662CA8344120812Aaa2639D.png"
     },
     {
       "name": "PNT",
