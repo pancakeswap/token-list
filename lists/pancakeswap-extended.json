@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2023-12-29T04:17:32.862Z",
+  "timestamp": "2024-01-02T03:02:10.694Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 181
+    "patch": 182
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -683,6 +683,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xf9CeC8d50f6c8ad3Fb6dcCEC577e05aA32B224FE.png"
+    },
+    {
+      "name": "Cakepie",
+      "symbol": "CKP",
+      "address": "0x2B5D9ADea07B590b638FFc165792b2C610EdA649",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x2B5D9ADea07B590b638FFc165792b2C610EdA649.png"
     },
     {
       "name": "CO",
