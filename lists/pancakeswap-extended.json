@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-02T15:03:13.250Z",
+  "timestamp": "2024-01-09T12:18:54.467Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 185
+    "patch": 187
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1331,6 +1331,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xa2B726B1145A4773F68593CF171187d8EBe4d495.png"
+    },
+    {
+      "name": "INSPECT",
+      "symbol": "INSP",
+      "address": "0x8D279274789CceC8af94a430A5996eAaCE9609A9",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x8D279274789CceC8af94a430A5996eAaCE9609A9.png"
     },
     {
       "name": "Bsc-Peg INSUR Token",
