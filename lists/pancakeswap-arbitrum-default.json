@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2023-12-26T08:08:36.988Z",
+  "timestamp": "2024-01-09T07:07:14.861Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 12
+    "patch": 13
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -212,6 +212,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x539bdE0d7Dbd336b79148AA742883198BBF60342.png"
+    },
+    {
+      "name": "Xai",
+      "symbol": "XAI",
+      "address": "0x4Cb9a7AE498CEDcBb5EAe9f25736aE7d428C9D66",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x4Cb9a7AE498CEDcBb5EAe9f25736aE7d428C9D66.png"
     }
   ]
 }
