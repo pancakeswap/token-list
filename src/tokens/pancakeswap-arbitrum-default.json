@@ -206,5 +206,29 @@
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x4Cb9a7AE498CEDcBb5EAe9f25736aE7d428C9D66.png"
+  },
+  {
+    "name": "USD+",
+    "symbol": "USD+",
+    "address": "0xe80772Eaf6e2E18B651F160Bc9158b2A5caFCA65",
+    "chainId": 42161,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xe80772Eaf6e2E18B651F160Bc9158b2A5caFCA65.png"
+  },
+  {
+    "name": "USDT+",
+    "symbol": "USDT+",
+    "address": "0xb1084db8D3C05CEbd5FA9335dF95EE4b8a0edc30",
+    "chainId": 42161,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xb1084db8D3C05CEbd5FA9335dF95EE4b8a0edc30.png"
+  },
+  {
+    "name": "ETH+",
+    "symbol": "ETH+",
+    "address": "0xD4939D69B31fbE981ed6904A3aF43Ee1dc777Aab",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xD4939D69B31fbE981ed6904A3aF43Ee1dc777Aab.png"
   }
 ]
