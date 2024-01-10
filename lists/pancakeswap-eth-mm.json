@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum MM",
-  "timestamp": "2023-05-18T10:36:55.498Z",
+  "timestamp": "2024-01-10T14:28:54.256Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 5
+    "patch": 6
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -148,6 +148,22 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85.png"
+    },
+    {
+      "name": "swETH",
+      "symbol": "swETH",
+      "address": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xf951E335afb289353dc249e82926178EaC7DEd78.png"
+    },
+    {
+      "name": "Ordiswap",
+      "symbol": "ORDS",
+      "address": "0x8AB2ff0116A279a99950C66A12298962D152B83c",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x8AB2ff0116A279a99950C66A12298962D152B83c.png"
     }
   ]
 }
