@@ -168,6 +168,14 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8.png"
   },
   {
+    "name": "mPendle",
+    "symbol": "mPENDLE",
+    "address": "0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF.png"
+  },
+  {
     "name": "StargateToken",
     "symbol": "STG",
     "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6",
@@ -232,3 +240,4 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xD4939D69B31fbE981ed6904A3aF43Ee1dc777Aab.png"
   }
 ]
+

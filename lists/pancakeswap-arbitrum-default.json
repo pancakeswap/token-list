@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-01-10T14:29:25.455Z",
+  "timestamp": "2024-01-16T07:36:51.264Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 14
+    "patch": 15
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -180,6 +180,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8.png"
+    },
+    {
+      "name": "mPendle",
+      "symbol": "mPENDLE",
+      "address": "0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF.png"
     },
     {
       "name": "StargateToken",
