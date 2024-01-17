@@ -2928,6 +2928,15 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/0xe2aE1a99bBd2eFab0a5C38f2146B7aCE61aBC5cE.png"
   },
   {
+    "chainId": 56,
+    "address": "0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634",
+    "name": "AtlasRewards",
+    "symbol": "ATLAS",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/AtlasRewards/AtlasRewards/main/logo.png"
+  },
+  
+  {
     "name": "sats",
     "symbol": "sats",
     "address": "0x143D7A700a533B4baF6D693449b278A8A2F5927d",
