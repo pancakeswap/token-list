@@ -16,6 +16,15 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
   },
   {
+  "chainId": 56,
+  "address": "0x03dd7EEBeb79AEC1602bbD6ef9240331a8721634",
+  "name": "AtlasRewards",
+  "symbol": "ATLAS",
+  "decimals": 18,
+  "logoURI": "https://raw.githubusercontent.com/AtlasRewards/AtlasRewards/main/logo.png"
+},
+
+  {
     "name": "Binance Pegged BUSD",
     "symbol": "BUSD",
     "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
