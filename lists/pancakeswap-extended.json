@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-15T14:53:09.677Z",
+  "timestamp": "2024-01-18T09:31:47.278Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 189
+    "patch": 190
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1579,6 +1579,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8.png"
+    },
+    {
+      "name": "Manta",
+      "symbol": "MANTA",
+      "address": "0x8581cc815e40615998F4561F3e24e68066293595",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x8581cc815e40615998F4561F3e24e68066293595.png"
     },
     {
       "name": "Unmarshal",
