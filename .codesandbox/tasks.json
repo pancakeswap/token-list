@@ -6,8 +6,8 @@
       "command": "yarn install"
     },
     {
-      "command": "bun install",
-      "name": "bun install"
+      "name": "bun install",
+      "command": "bun install"
     }
   ],
 
@@ -48,6 +48,10 @@
     "ci-check": {
       "name": "ci-check",
       "command": "yarn ci-check"
+    },
+    "npm install": {
+      "name": "bash",
+      "command": "npm install"
     }
   }
 }
