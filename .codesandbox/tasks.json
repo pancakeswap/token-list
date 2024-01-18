@@ -4,6 +4,10 @@
     {
       "name": "Install Dependencies",
       "command": "yarn install"
+    },
+    {
+      "command": "bun install",
+      "name": "bun install"
     }
   ],
 
@@ -11,48 +15,39 @@
   "tasks": {
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "checksum": {
       "name": "checksum",
-      "command": "yarn checksum",
-      "runAtStart": false
+      "command": "yarn checksum"
     },
     "generate": {
       "name": "generate",
-      "command": "yarn generate",
-      "runAtStart": false
+      "command": "yarn generate"
     },
     "makelist": {
       "name": "makelist",
-      "command": "yarn makelist",
-      "runAtStart": false
+      "command": "yarn makelist"
     },
     "makeindex": {
       "name": "makeindex",
-      "command": "yarn makeindex",
-      "runAtStart": false
+      "command": "yarn makeindex"
     },
     "lint": {
       "name": "lint",
-      "command": "yarn lint",
-      "runAtStart": false
+      "command": "yarn lint"
     },
     "fetch": {
       "name": "fetch",
-      "command": "yarn fetch",
-      "runAtStart": false
+      "command": "yarn fetch"
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "ci-check": {
       "name": "ci-check",
-      "command": "yarn ci-check",
-      "runAtStart": false
+      "command": "yarn ci-check"
     }
   }
 }
