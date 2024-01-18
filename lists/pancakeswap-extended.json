@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-18T09:31:47.278Z",
+  "timestamp": "2024-01-18T14:08:45.098Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 190
+    "patch": 191
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -67,6 +67,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89.png"
+    },
+    {
+      "name": "Any Inu",
+      "symbol": "AI",
+      "address": "0x2598c30330D5771AE9F983979209486aE26dE875",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x2598c30330D5771AE9F983979209486aE26dE875.png"
     },
     {
       "name": "AIOZ Network",

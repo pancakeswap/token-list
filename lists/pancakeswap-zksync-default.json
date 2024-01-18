@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2023-10-06T11:18:35.154Z",
+  "timestamp": "2024-01-18T14:08:31.119Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 13
+    "patch": 14
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -84,6 +84,14 @@
       "chainId": 324,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0xCab3F741Fa54e79E34753B95717b23018332b8AC.png"
+    },
+    {
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "address": "0x703b52F2b28fEbcB60E1372858AF5b18849FE867",
+      "chainId": 324,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x703b52F2b28fEbcB60E1372858AF5b18849FE867.png"
     }
   ]
 }
