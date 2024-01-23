@@ -454,5 +454,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xa21Af1050F7B26e0cfF45ee51548254C41ED6b5c.png"
+  },
+  {
+    "name": "Pirex Ether",
+    "symbol": "pxETH",
+    "address": "0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6.png"
   }
 ]

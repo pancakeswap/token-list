@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-01-15T14:53:44.259Z",
+  "timestamp": "2024-01-23T08:21:27.672Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 39
+    "patch": 40
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -468,6 +468,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xa21Af1050F7B26e0cfF45ee51548254C41ED6b5c.png"
+    },
+    {
+      "name": "Pirex Ether",
+      "symbol": "pxETH",
+      "address": "0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6.png"
     }
   ]
 }
