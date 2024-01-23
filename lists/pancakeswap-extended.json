@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-18T14:08:45.098Z",
+  "timestamp": "2024-01-23T02:01:32.731Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 191
+    "patch": 192
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1931,6 +1931,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xe2aE1a99bBd2eFab0a5C38f2146B7aCE61aBC5cE.png"
+    },
+    {
+      "name": "OVN",
+      "symbol": "OVN",
+      "address": "0x259B30C916e440FB79747cD559207FfdaBBae057",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x259B30C916e440FB79747cD559207FfdaBBae057.png"
     },
     {
       "name": "pBTC",

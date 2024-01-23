@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Default",
-  "timestamp": "2024-01-23T01:52:58.135Z",
-  "version": {
+  "timestamp": "2023-12-26T13:02:45.805Z",
+    "version": {
     "major": 2,
     "minor": 16,
-    "patch": 11
+    "patch": 10
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -115,14 +115,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
-    },
-    {
-      "name": "OVN",
-      "symbol": "OVN",
-      "address": "0x259B30C916e440FB79747cD559207FfdaBBae057",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x259B30C916e440FB79747cD559207FfdaBBae057.png"
     }
   ]
 }
