@@ -3022,5 +3022,29 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x259B30C916e440FB79747cD559207FfdaBBae057.png"
+  },
+  {
+    "name": "mPendle",
+    "symbol": "mPENDLE",
+    "address": "0x0465aad9da170798433F4aB7fa7Ec8b9b9bf0Bb1",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x0465aad9da170798433F4aB7fa7Ec8b9b9bf0Bb1.png"
+  },
+  {
+    "name": "Magpie locked DLP",
+    "symbol": "mDLP",
+    "address": "0x11727E5b7Fa33FF4D380F3E7E877F19876c25b97",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x11727E5b7Fa33FF4D380F3E7E877F19876c25b97.png"
+  },
+  {
+    "name": "WBNB-RDNT Pancake LP",
+    "symbol": "DLP",
+    "address": "0x346575fC7f07E6994D76199E41D13dC1575322E1",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x346575fC7f07E6994D76199E41D13dC1575322E1.png"
   }
 ]

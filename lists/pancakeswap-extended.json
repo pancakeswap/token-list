@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-23T02:01:32.731Z",
+  "timestamp": "2024-01-26T09:59:03.309Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 192
+    "patch": 193
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -861,6 +861,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x7Ceb519718A80Dd78a8545AD8e7f401dE4f2faA7.png"
     },
     {
+      "name": "WBNB-RDNT Pancake LP",
+      "symbol": "DLP",
+      "address": "0x346575fC7f07E6994D76199E41D13dC1575322E1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x346575fC7f07E6994D76199E41D13dC1575322E1.png"
+    },
+    {
       "name": "Dodo",
       "symbol": "DODO",
       "address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
@@ -1677,6 +1685,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0xacb2d47827C9813AE26De80965845D80935afd0B.png"
     },
     {
+      "name": "Magpie locked DLP",
+      "symbol": "mDLP",
+      "address": "0x11727E5b7Fa33FF4D380F3E7E877F19876c25b97",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x11727E5b7Fa33FF4D380F3E7E877F19876c25b97.png"
+    },
+    {
       "name": "Metis Token",
       "symbol": "Metis",
       "address": "0xe552Fb52a4F19e44ef5A967632DBc320B0820639",
@@ -1755,6 +1771,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x9573c88aE3e37508f87649f87c4dd5373C9F31e0.png"
+    },
+    {
+      "name": "mPendle",
+      "symbol": "mPENDLE",
+      "address": "0x0465aad9da170798433F4aB7fa7Ec8b9b9bf0Bb1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0465aad9da170798433F4aB7fa7Ec8b9b9bf0Bb1.png"
     },
     {
       "name": "Meter",
