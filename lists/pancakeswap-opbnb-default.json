@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap opBNB Default",
-  "timestamp": "2023-12-20T03:20:12.031Z",
+  "timestamp": "2024-01-26T10:21:33.558Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 8
+    "patch": 9
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -60,6 +60,14 @@
       "chainId": 204,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/opbnb/0xC8424F526553ac394E9020DB0a878fAbe82b698C.png"
+    },
+    {
+      "name": "First Digital USD",
+      "symbol": "FDUSD",
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "chainId": 204,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/opbnb/0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb.png"
     }
   ]
 }
