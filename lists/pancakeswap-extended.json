@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-26T09:59:03.309Z",
+  "timestamp": "2024-01-29T03:12:39.711Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 193
+    "patch": 195
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2219,6 +2219,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8519EA49c997f50cefFa444d240fB655e89248Aa.png"
+    },
+    {
+      "name": "StaFi rBNB",
+      "symbol": "rBNB",
+      "address": "0xF027E525D491ef6ffCC478555FBb3CFabB3406a6",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xF027E525D491ef6ffCC478555FBb3CFabB3406a6.png"
     },
     {
       "name": "Radiant",
