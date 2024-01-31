@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2024-01-18T14:08:31.119Z",
+  "timestamp": "2024-01-31T01:52:49.671Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 14
+    "patch": 15
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -92,6 +92,14 @@
       "chainId": 324,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x703b52F2b28fEbcB60E1372858AF5b18849FE867.png"
+    },
+    {
+      "name": "Zeek Coin",
+      "symbol": "MEOW",
+      "address": "0x79db8c67d0c33203da4Efb58F7D325E1e0d4d692",
+      "chainId": 324,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x79db8c67d0c33203da4Efb58F7D325E1e0d4d692.png"
     }
   ]
 }
