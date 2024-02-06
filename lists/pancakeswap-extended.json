@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-01-29T03:12:39.711Z",
+  "timestamp": "2024-02-06T04:26:42.270Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 195
+    "patch": 196
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -83,6 +83,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x33d08D8C7a168333a85285a68C0042b39fC3741D.png"
+    },
+    {
+      "name": "AITECH",
+      "symbol": "AITECH",
+      "address": "0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944.png"
     },
     {
       "name": "My Neigbor Alice",
