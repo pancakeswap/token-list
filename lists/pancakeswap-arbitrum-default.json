@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-01-26T04:44:28.741Z",
+  "timestamp": "2024-02-06T04:04:19.149Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 17
+    "patch": 18
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -268,6 +268,22 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xa9004A5421372E1D83fB1f85b0fc986c912f91f3.png"
+    },
+    {
+      "name": "USDV",
+      "symbol": "USDV",
+      "address": "0x323665443CEf804A3b5206103304BD4872EA4253",
+      "chainId": 42161,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x323665443CEf804A3b5206103304BD4872EA4253.png"
+    },
+    {
+      "name": "AITECH",
+      "symbol": "AITECH",
+      "address": "0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944",
+      "chainId": 42161,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944.png"
     }
   ]
 }
