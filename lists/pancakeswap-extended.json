@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-06T07:35:20.598Z",
+  "timestamp": "2024-02-07T07:18:45.276Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 197
+    "patch": 198
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1179,6 +1179,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xF700D4c708C2be1463E355F337603183D20E0808.png"
+    },
+    {
+      "name": "GT Protocol",
+      "symbol": "GTAI",
+      "address": "0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1.png"
     },
     {
       "name": "Gourmet Galaxy",
