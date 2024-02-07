@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-07T07:18:45.276Z",
+  "timestamp": "2024-02-07T17:47:38.611Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 198
+    "patch": 199
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -235,6 +235,14 @@
       "chainId": 56,
       "decimals": 2,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x80D5f92C2c8C682070C95495313dDB680B267320.png"
+    },
+    {
+      "name": "AltToken",
+      "symbol": "AT",
+      "address": "0xacC9589Ed775F8d5c48bC1f7C9d88209B32eD127",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xacc9589ed775f8d5c48bc1f7c9d88209b32ed127.png"
     },
     {
       "name": "Automata",
