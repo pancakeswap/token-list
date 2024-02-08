@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-02-01T17:22:57.507Z",
+  "timestamp": "2024-02-08T06:27:29.912Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 41
+    "patch": 43
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -484,6 +484,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee.png"
+    },
+    {
+      "name": "Pandora",
+      "symbol": "PANDORA",
+      "address": "0x9E9FbDE7C7a83c43913BddC8779158F1368F0413",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x9E9FbDE7C7a83c43913BddC8779158F1368F0413.png"
     }
   ]
 }
