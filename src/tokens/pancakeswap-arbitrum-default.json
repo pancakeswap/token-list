@@ -262,5 +262,21 @@
     "chainId": 42161,
     "decimals": 6,
     "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x323665443CEf804A3b5206103304BD4872EA4253.png"
+  },
+  {
+    "name": "Magpie locked DLP",
+    "symbol": "mDLP",
+    "address": "0xfe14F790DA92971131544d915c4ADa6F1abce3Bd",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xfe14F790DA92971131544d915c4ADa6F1abce3Bd.png"
+  },
+  {
+    "name": "RDNT-WETH",
+    "symbol": "DLP",
+    "address": "0x32dF62dc3aEd2cD6224193052Ce665DC18165841",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x32dF62dc3aEd2cD6224193052Ce665DC18165841.png"
   }
 ]
