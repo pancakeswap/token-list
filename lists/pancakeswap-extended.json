@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-13T12:59:32.436Z",
+  "timestamp": "2024-02-16T03:37:41.018Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 199
+    "patch": 200
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -803,6 +803,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x16faF9DAa401AA42506AF503Aa3d80B871c467A3.png"
+    },
+    {
+      "name": "DeFi",
+      "symbol": "DEFI",
+      "address": "0x6d106C0B8d2f47c5465bdBD58D1Be253762cBBC1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x6d106C0B8d2f47c5465bdBD58D1Be253762cBBC1.png"
     },
     {
       "name": "Dego.Finance",
