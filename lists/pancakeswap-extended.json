@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-16T03:37:41.018Z",
+  "timestamp": "2024-02-19T09:21:48.546Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 200
+    "patch": 201
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1883,6 +1883,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x20eE7B720f4E4c4FFcB00C4065cdae55271aECCa.png"
+    },
+    {
+      "name": "NetMind Token",
+      "symbol": "NMT",
+      "address": "0x03AA6298F1370642642415EDC0db8b957783e8D6",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x03AA6298F1370642642415EDC0db8b957783e8D6.png"
     },
     {
       "name": "Nerve Finance",
