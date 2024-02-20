@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-19T09:21:48.546Z",
+  "timestamp": "2024-02-20T06:14:31.781Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 201
+    "patch": 202
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1237,14 +1237,6 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0xf79037F6f6bE66832DE4E7516be52826BC3cBcc4.png"
     },
     {
-      "name": "Hay Destablecoin",
-      "symbol": "HAY",
-      "address": "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5.png"
-    },
-    {
       "name": "Helmet.insure",
       "symbol": "Helmet",
       "address": "0x948d2a81086A075b3130BAc19e4c6DEe1D2E3fE8",
@@ -1547,6 +1539,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
+    },
+    {
+      "name": "Lista USD",
+      "symbol": "lisUSD",
+      "address": "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5.png"
     },
     {
       "name": "Litentry",
@@ -2445,8 +2445,8 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x154A9F9cbd3449AD22FDaE23044319D6eF2a1Fab.png"
     },
     {
-      "name": "Synclub Staked BNB",
-      "symbol": "SnBNB",
+      "name": "Staked Lista BNB",
+      "symbol": "slisBNB",
       "address": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
       "chainId": 56,
       "decimals": 18,
