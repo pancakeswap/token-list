@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zkevm Default",
-  "timestamp": "2023-12-01T09:31:05.380Z",
+  "timestamp": "2024-02-21T03:30:29.356Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 4
+    "patch": 5
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -77,6 +77,22 @@
       "chainId": 1101,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x37eAA0eF3549a5Bb7D431be78a3D99BD360d19e5.png"
+    },
+    {
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "address": "0xb23C20EFcE6e24Acca0Cef9B7B7aA196b84EC942",
+      "chainId": 1101,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0xb23C20EFcE6e24Acca0Cef9B7B7aA196b84EC942.png"
+    },
+    {
+      "name": "rsETH",
+      "symbol": "rsETH",
+      "address": "0x8C7D118B5c47a5BCBD47cc51789558B98dAD17c5",
+      "chainId": 1101,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x8C7D118B5c47a5BCBD47cc51789558B98dAD17c5.png"
     }
   ]
 }
