@@ -78,5 +78,13 @@
     "chainId": 1101,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x8C7D118B5c47a5BCBD47cc51789558B98dAD17c5.png"
+  },
+  {
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "address": "0x5D8cfF95D7A57c0BF50B30b43c7CC0D52825D4a9",
+    "chainId": 1101,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/polygon-zkevm/0x5D8cfF95D7A57c0BF50B30b43c7CC0D52825D4a9.png"
   }
 ]
