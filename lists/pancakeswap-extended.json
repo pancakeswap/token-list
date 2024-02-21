@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-20T06:14:31.781Z",
+  "timestamp": "2024-02-21T14:36:16.140Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 202
+    "patch": 203
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -3019,6 +3019,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x7859B01BbF675d67Da8cD128a50D155cd881B576.png"
+    },
+    {
+      "name": "XRGB",
+      "symbol": "XRGB",
+      "address": "0x5cc5E64AB764A0f1E97F23984E20fD4528356a6a",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x5cc5E64AB764A0f1E97F23984E20fD4528356a6a.png"
     },
     {
       "name": "XRP Token",
