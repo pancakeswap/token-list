@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-23T01:47:58.885Z",
+  "timestamp": "2024-02-25T12:20:58.745Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 204
+    "patch": 205
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1723,6 +1723,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x11727E5b7Fa33FF4D380F3E7E877F19876c25b97.png"
+    },
+    {
+      "name": "Mercator",
+      "symbol": "MERC",
+      "address": "0xad7B049c36B8aCA28B2192Ea29FE6aAaB6aee34b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xad7B049c36B8aCA28B2192Ea29FE6aAaB6aee34b.png"
     },
     {
       "name": "Metis Token",
