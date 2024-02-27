@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2024-01-31T01:52:49.671Z",
+  "timestamp": "2024-02-27T16:03:54.551Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 15
+    "patch": 16
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -100,6 +100,14 @@
       "chainId": 324,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x79db8c67d0c33203da4Efb58F7D325E1e0d4d692.png"
+    },
+    {
+      "name": "DAI Stablecoin",
+      "symbol": "DAI",
+      "address": "0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656",
+      "chainId": 324,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656.png"
     }
   ]
 }
