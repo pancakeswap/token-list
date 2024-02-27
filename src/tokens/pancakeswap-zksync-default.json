@@ -86,5 +86,13 @@
     "chainId": 324,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x79db8c67d0c33203da4Efb58F7D325E1e0d4d692.png"
+  },
+  {
+    "name": "DAI Stablecoin",
+    "symbol": "DAI",
+    "address": "0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656",
+    "chainId": 324,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656.png"
   }
 ]
