@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2024-02-27T16:03:54.551Z",
+  "timestamp": "2024-02-29T11:52:58.962Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 16
+    "patch": 17
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -108,6 +108,14 @@
       "chainId": 324,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656.png"
+    },
+    {
+      "name": "Wrapped Ether Native Bridge",
+      "symbol": "WETH.e",
+      "address": "0xf00DAD97284D0c6F06dc4Db3c32454D4292c6813",
+      "chainId": 324,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0xf00DAD97284D0c6F06dc4Db3c32454D4292c6813.png"
     }
   ]
 }
