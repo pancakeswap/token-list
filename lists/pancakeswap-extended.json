@@ -1,10 +1,12 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-25T12:20:58.745Z",
+
+  "timestamp": "2024-02-29T12:20:58.745Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 205
+    "patch": 207
+
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -475,6 +477,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275.png"
+    },
+    {
+      "name": "BinaryX",
+      "symbol": "BNX",
+      "address": "0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD.png"
     },
     {
       "name": "Bondly",
@@ -2003,6 +2013,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xe2aE1a99bBd2eFab0a5C38f2146B7aCE61aBC5cE.png"
+    },
+    {
+      "name": "Osaka Protocol",
+      "symbol": "OSAK",
+      "address": "0x11cd72f7A4B699c67f225ca8aBb20bC9F8DB90c7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x11cd72f7A4B699c67f225ca8aBb20bC9F8DB90c7.png"
     },
     {
       "name": "OVN",
