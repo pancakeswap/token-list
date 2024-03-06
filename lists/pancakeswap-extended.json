@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-03-06T02:22:24.814Z",
+  "timestamp": "2024-03-06T07:12:56.809Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 207
+    "patch": 208
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1051,6 +1051,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x5512014efa6Cd57764Fa743756F7a6Ce3358cC83.png"
+    },
+    {
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x2416092f143378750bb29b79eD961ab195CcEea5.png"
     },
     {
       "name": "First Digital USD",
