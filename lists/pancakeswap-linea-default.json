@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Linea Default",
-  "timestamp": "2023-12-04T11:30:53.317Z",
+  "timestamp": "2024-03-01T09:39:57.515Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 5
+    "patch": 6
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -13,6 +13,14 @@
     "linea"
   ],
   "tokens": [
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x0D1E753a25eBda689453309112904807625bEFBe",
+      "chainId": 59144,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/cake.png"
+    },
     {
       "name": "Wrapped Ether",
       "symbol": "WETH",

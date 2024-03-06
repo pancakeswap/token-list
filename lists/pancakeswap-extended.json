@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-02-23T01:47:58.885Z",
+  "timestamp": "2024-03-06T02:22:24.814Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 204
+    "patch": 207
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -475,6 +475,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275.png"
+    },
+    {
+      "name": "BinaryX",
+      "symbol": "BNX",
+      "address": "0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD.png"
     },
     {
       "name": "Bondly",
@@ -1051,6 +1059,14 @@
       "decimals": 18,
       "chainId": 56,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409.png"
+    },
+    {
+      "name": "FetchToken",
+      "symbol": "FET",
+      "address": "0x031b41e504677879370e9DBcF937283A8691Fa7f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x031b41e504677879370e9DBcF937283A8691Fa7f.png"
     },
     {
       "name": "Fight Token",
@@ -1997,6 +2013,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0xe2aE1a99bBd2eFab0a5C38f2146B7aCE61aBC5cE.png"
     },
     {
+      "name": "Osaka Protocol",
+      "symbol": "OSAK",
+      "address": "0x11cd72f7A4B699c67f225ca8aBb20bC9F8DB90c7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x11cd72f7A4B699c67f225ca8aBb20bC9F8DB90c7.png"
+    },
+    {
       "name": "OVN",
       "symbol": "OVN",
       "address": "0x259B30C916e440FB79747cD559207FfdaBBae057",
@@ -2195,6 +2219,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x4C882ec256823eE773B25b414d36F92ef58a7c0C.png"
+    },
+    {
+      "name": "Pirex Ether OFT",
+      "symbol": "pxETH",
+      "address": "0x300d2c875C6fb8Ce4bf5480B4d34b7c9ea8a33A4",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x300d2c875C6fb8Ce4bf5480B4d34b7c9ea8a33A4.png"
     },
     {
       "name": "Qubit Token",
