@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-03-07T05:23:12.726Z",
+  "timestamp": "2024-03-11T10:56:06.618Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 209
+    "patch": 210
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -811,6 +811,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x16faF9DAa401AA42506AF503Aa3d80B871c467A3.png"
+    },
+    {
+      "name": "CHAT",
+      "symbol": "DECHAT",
+      "address": "0xD69ee2e508363FEd57f89917D5ca03e715ee5519",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xD69ee2e508363FEd57f89917D5ca03e715ee5519.png"
     },
     {
       "name": "DeFi",
@@ -1685,6 +1693,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0xF218184Af829Cf2b0019F8E6F0b2423498a36983.png"
     },
     {
+      "name": "Matthew Box 404",
+      "symbol": "MB4",
+      "address": "0x4536819095a8969c94362ba130EE0bB1cda714Cb",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x4536819095a8969c94362ba130EE0bB1cda714Cb.png"
+    },
+    {
       "name": "MovieBloc",
       "symbol": "MBL",
       "address": "0x18E37F96628dB3037d633FE4D469Fb1933a63C5B",
@@ -1707,6 +1723,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xF95a5532D67C944dfa7EDDD2f8c358Fe0dc7FAc2.png"
+    },
+    {
+      "name": "Matthew Coin",
+      "symbol": "MC",
+      "address": "0xAE493a1F8bbE36BA8E687352F638d4c07C54f8d7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xAE493a1F8bbE36BA8E687352F638d4c07C54f8d7.png"
     },
     {
       "name": "mCake Token",

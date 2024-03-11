@@ -3158,5 +3158,29 @@
     "chainId": 56,
     "decimals": 9,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x4eA98c1999575aaadfb38237Dd015c5E773F75a2.png"
+  },
+  {
+    "name": "CHAT",
+    "symbol": "DECHAT",
+    "address": "0xD69ee2e508363FEd57f89917D5ca03e715ee5519",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xD69ee2e508363FEd57f89917D5ca03e715ee5519.png"
+  },
+  {
+    "name": "Matthew Box 404",
+    "symbol": "MB4",
+    "address": "0x4536819095a8969c94362ba130EE0bB1cda714Cb",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x4536819095a8969c94362ba130EE0bB1cda714Cb.png"
+  },
+  {
+    "name": "Matthew Coin",
+    "symbol": "MC",
+    "address": "0xAE493a1F8bbE36BA8E687352F638d4c07C54f8d7",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xAE493a1F8bbE36BA8E687352F638d4c07C54f8d7.png"
   }
 ]
