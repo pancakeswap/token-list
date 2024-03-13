@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-03-13T03:46:27.713Z",
+  "timestamp": "2024-03-13T04:33:25.078Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 211
+    "patch": 212
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2899,6 +2899,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x6FDcdfef7c496407cCb0cEC90f9C5Aaa1Cc8D888.png"
+    },
+    {
+      "name": "Octavia",
+      "symbol": "VIA",
+      "address": "0x21ac3bB914f90A2Bb1a16088E673a9fdDa641434",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x21ac3bB914f90A2Bb1a16088E673a9fdDa641434.png"
     },
     {
       "name": "Venus Reward Token",
