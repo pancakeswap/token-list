@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-03-11T10:56:06.618Z",
+  "timestamp": "2024-03-13T03:46:27.713Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 210
+    "patch": 211
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1219,6 +1219,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xF700D4c708C2be1463E355F337603183D20E0808.png"
+    },
+    {
+      "name": "Grape coin",
+      "symbol": "GRAPE",
+      "address": "0x555296de6A86E72752e5C5DC091FE49713Aa145C",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x555296de6A86E72752e5C5DC091FE49713Aa145C.png"
     },
     {
       "name": "GT Protocol",
