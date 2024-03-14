@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini Ext",
-  "timestamp": "2024-01-02T15:03:19.500Z",
+  "timestamp": "2024-03-14T18:38:24.250Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 66
+    "patch": 67
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -54,14 +54,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819/logo.png"
-    },
-    {
-      "name": "agEUR",
-      "symbol": "agEUR",
-      "address": "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89.png"
     },
     {
       "name": "AIOZ Network",
@@ -894,6 +886,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/logo.png"
+    },
+    {
+      "name": "EURA (previously agEUR)",
+      "symbol": "EURA",
+      "address": "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89.png"
     },
     {
       "name": "Easy V2",
