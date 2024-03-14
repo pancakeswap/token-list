@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-03-13T04:33:25.078Z",
+  "timestamp": "2024-03-14T18:38:16.210Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 212
+    "patch": 213
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -59,14 +59,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819.png"
-    },
-    {
-      "name": "agEUR",
-      "symbol": "agEUR",
-      "address": "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89.png"
     },
     {
       "name": "Any Inu",
@@ -1051,6 +1043,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+    },
+    {
+      "name": "EURA (previously agEUR)",
+      "symbol": "EURA",
+      "address": "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89.png"
     },
     {
       "name": "Easy V2",
