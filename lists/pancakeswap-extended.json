@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-03-14T18:38:16.210Z",
+  "timestamp": "2024-03-26T06:00:30.469Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 213
+    "patch": 215
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -971,6 +971,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe.png"
+    },
+    {
+      "name": "Paysenger EGO",
+      "symbol": "EGO",
+      "address": "0x44a21B3577924DCD2e9C81A3347D204C36a55466",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x44a21B3577924DCD2e9C81A3347D204C36a55466.png"
     },
     {
       "name": "Dogelon Mars",
