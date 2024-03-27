@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Linea Default",
-  "timestamp": "2024-03-01T09:39:57.515Z",
+  "timestamp": "2024-03-27T15:18:35.667Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 6
+    "patch": 7
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -76,6 +76,14 @@
       "chainId": 59144,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/linea/0xB5beDd42000b71FddE22D3eE8a79Bd49A568fC8F.png"
+    },
+    {
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+      "chainId": 59144,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/linea/0x2416092f143378750bb29b79eD961ab195CcEea5.png"
     }
   ]
 }
