@@ -18,12 +18,12 @@
     "homepage": "https://www.coingecko.com"
   }
 }
-  "address": "0xcba93f62f10279716ddd12389fcde4d9aef652e2", // 你的代币合约地址
-  "chainId": 56, // 链的 ID，Binance Smart Chain 的主网链 ID 是 56
-  "name": "Mei Chain", // 代币名称
-  "symbol": "MCB", // 代币符号
-  "decimals": 18, // 代币的小数位数
-  "logoURI": "https://img95.699pic.com/xsj/04/ck/bn.jpg%21/fh/300", // 代币的图标 URL
-  "tags": [], // 可选，代币的标签
-  "extensions": {} // 可选，扩展信息
+  "address": "0xcba93f62f10279716ddd12389fcde4d9aef652e2", 
+  "chainId": 56, 
+  "name": "Mei Chain", 
+  "symbol": "MCB", 
+  "decimals": 18, 
+  "logoURI": "https://img95.699pic.com/xsj/04/ck/bn.jpg%21/fh/300", 
+  "tags": [], 
+  "extensions": {} 
 }
