@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-03-14T18:37:56.733Z",
+  "timestamp": "2024-04-01T07:32:44.202Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 47
+    "patch": 48
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -524,6 +524,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x49446A0874197839D15395B908328a74ccc96Bc0.png"
+    },
+    {
+      "name": "NetMind Token",
+      "symbol": "NMT",
+      "address": "0x03AA6298F1370642642415EDC0db8b957783e8D6",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x03AA6298F1370642642415EDC0db8b957783e8D6.png"
     }
   ]
 }
