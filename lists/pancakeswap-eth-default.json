@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-04-01T07:32:44.202Z",
+  "timestamp": "2024-04-04T06:13:49.964Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 48
+    "patch": 49
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -532,6 +532,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x03AA6298F1370642642415EDC0db8b957783e8D6.png"
+    },
+    {
+      "name": "rswETH",
+      "symbol": "rswETH",
+      "address": "0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0.png"
     }
   ]
 }
