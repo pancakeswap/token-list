@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap opBNB Default",
-  "timestamp": "2024-01-26T10:21:33.558Z",
+  "timestamp": "2024-04-11T12:18:57.473Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 9
+    "patch": 10
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -68,6 +68,14 @@
       "chainId": 204,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/opbnb/0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb.png"
+    },
+    {
+      "name": "XCAD Token",
+      "symbol": "XCAD",
+      "address": "0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151",
+      "chainId": 204,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/opbnb/0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151.png"
     }
   ]
 }
