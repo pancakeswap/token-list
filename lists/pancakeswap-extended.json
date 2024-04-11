@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-04-01T07:32:34.674Z",
+  "timestamp": "2024-04-11T06:55:13.130Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 216
+    "patch": 217
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1691,6 +1691,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x2FA5dAF6Fe0708fBD63b1A7D1592577284f52256.png"
+    },
+    {
+      "name": "Masa Token",
+      "symbol": "MASA",
+      "address": "0x944824290CC12F31ae18Ef51216A223Ba4063092",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x944824290CC12F31ae18Ef51216A223Ba4063092.png"
     },
     {
       "name": "Mask Network",

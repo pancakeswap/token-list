@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-04-04T06:13:49.964Z",
+  "timestamp": "2024-04-11T06:55:04.689Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 49
+    "patch": 50
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -540,6 +540,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0.png"
+    },
+    {
+      "name": "Masa Token",
+      "symbol": "MASA",
+      "address": "0x944824290CC12F31ae18Ef51216A223Ba4063092",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x944824290CC12F31ae18Ef51216A223Ba4063092.png"
     }
   ]
 }
