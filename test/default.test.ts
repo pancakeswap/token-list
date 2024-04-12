@@ -163,8 +163,10 @@ describe("global test", () => {
         .filter((f) => !/(^|\/)\.[^\/\.]/g.test(f.name));
 
       for (const logo of logoFiles) {
-        const sanitizedLogo = logo.name.split(".")[0];
-        expect(sanitizedLogo).toBe(getAddress(sanitizedLogo));
+        if (logo.name !== "404.html") {
+          const sanitizedLogo = logo.name.split(".")[0];
+          expect(sanitizedLogo).toBe(getAddress(sanitizedLogo));
+        }
       }
     }
   });
