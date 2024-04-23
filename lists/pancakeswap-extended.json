@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-04-11T06:55:13.130Z",
+  "timestamp": "2024-04-23T06:35:06.491Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 217
+    "patch": 218
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1907,6 +1907,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x38e382F74dfb84608F3C1F10187f6bEf5951DE93.png"
+    },
+    {
+      "name": "Bridged mwBETH",
+      "symbol": "mwbETH",
+      "address": "0x7dC91cBD6CB5A3E6A95EED713Aa6bF1d987146c8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x7dC91cBD6CB5A3E6A95EED713Aa6bF1d987146c8.png"
     },
     {
       "name": "MX Token",
