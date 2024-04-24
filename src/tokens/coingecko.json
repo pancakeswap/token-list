@@ -112,14 +112,6 @@
     "logoURI": "https://assets.coingecko.com/coins/images/15903/thumb/logo_-_2021-05-31T060013.983.png?1696515518"
   },
   {
-    "name": "BUX",
-    "symbol": "BUX",
-    "address": "0x211FfbE424b90e25a15531ca322adF1559779E45",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/2316/thumb/BUXC.png?1696503204"
-  },
-  {
     "name": "Venus",
     "symbol": "XVS",
     "address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
@@ -2045,6 +2037,14 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/8452/thumb/logo-edgeware.png?1696508638"
+  },
+  {
+    "name": "CANNFINITY",
+    "symbol": "CFT",
+    "address": "0xA3D2AE2D6684178A8565231465C3Feebb05880c1",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/37276/thumb/cftlogo200.png?1713895006"
   },
   {
     "name": "ViteX Coin",
@@ -4523,6 +4523,14 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/16530/thumb/KRW_token_logo_200x200.png?1696516093"
+  },
+  {
+    "name": "SafeSwap Online",
+    "symbol": "SWAP",
+    "address": "0xe56a473043EaAB7947c0a2408cEA623074500EE3",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/18961/thumb/nYrDOWha_400x400.png?1696518416"
   },
   {
     "name": "Wojak Finance",
@@ -13301,14 +13309,6 @@
     "logoURI": "https://assets.coingecko.com/coins/images/26592/thumb/4-FAECD18-620-B-421-E-A27-E-70-D58-DDCE11-B.png?1696525667"
   },
   {
-    "name": "Bitcoin BR",
-    "symbol": "BTCBR",
-    "address": "0x0cF8e180350253271f4b917CcFb0aCCc4862F262",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/21205/thumb/btcbr.png?1696520580"
-  },
-  {
     "name": "Cats Coin  BSC ",
     "symbol": "CTS",
     "address": "0xa5331BB3a3f1e1cB98ba8160176569AC0a80e61D",
@@ -14713,14 +14713,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/29801/thumb/JCmWx56h_400x400.png?1696528730"
-  },
-  {
-    "name": "Avatar Musk Verse",
-    "symbol": "AMV",
-    "address": "0x9550Ba92515Fa17b2dF02a31b02e93400F185b98",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/29802/thumb/IMG_20230403_223159_410.png?1696528731"
   },
   {
     "name": "Reign of Terror",
@@ -17464,6 +17456,14 @@
     "logoURI": "https://assets.coingecko.com/coins/images/30805/thumb/Isotype_1_200x200.png?1696529663"
   },
   {
+    "name": "SCART360",
+    "symbol": "SCART",
+    "address": "0x1964dd991a98690578310BA826C3755dfc753e5C",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/37254/thumb/scart360_logo.png?1713864683"
+  },
+  {
     "name": "LAN Network",
     "symbol": "LAN",
     "address": "0xF5469e4ecc5afb3AC13Da5737f88DC4563ce8454",
@@ -17608,6 +17608,14 @@
     "logoURI": "https://assets.coingecko.com/coins/images/32187/thumb/CIHKA.jpg?1696743794"
   },
   {
+    "name": "Jace",
+    "symbol": "JACE",
+    "address": "0x0305ce989f3055a6Da8955fc52b615b0086A2157",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/37256/thumb/JACE-200x200.png?1713864842"
+  },
+  {
     "name": "ReBaseChain",
     "symbol": "Base",
     "address": "0xc2FD585D2e6A33fe48A0fFc65072216B0E3B2E07",
@@ -17640,28 +17648,12 @@
     "logoURI": "https://assets.coingecko.com/coins/images/32335/thumb/Safeimagekit-resized-img_%283%29.png?1697452883"
   },
   {
-    "name": "Federal Gold Coin",
-    "symbol": "FGC",
-    "address": "0xA5eDC3D0d0e0A170DfC2fB6d4cfb6b8db1976E20",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/32370/thumb/WhatsApp_Image_2023-10-14_at_16.12.32.jpeg?1698031973"
-  },
-  {
     "name": "Real World Assets",
     "symbol": "RWA",
     "address": "0x57Bfcf7bb43A3cae0Aab981E2585a9E32d069f29",
     "chainId": 56,
     "decimals": 9,
     "logoURI": "https://assets.coingecko.com/coins/images/32300/thumb/IMG_20231011_132228_377.jpg?1697186227"
-  },
-  {
-    "name": "Sonicpad",
-    "symbol": "SNC",
-    "address": "0xC07BeEe9FE5ab11b81cc1fC8Af257c9ACcf98cA7",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/32368/thumb/IMG_0001.png?1698030490"
   },
   {
     "name": "Funny Money",
@@ -20506,6 +20498,14 @@
     "logoURI": "https://assets.coingecko.com/coins/images/36207/thumb/IMG_2107.png?1710834234"
   },
   {
+    "name": "Public Meme Token",
+    "symbol": "PMT",
+    "address": "0x68Ae2F202799be2008c89e2100257e66F77DA1f3",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/35059/thumb/PMT-200x200.png?1707237964"
+  },
+  {
     "name": "Slex",
     "symbol": "SLEX",
     "address": "0xc56DC6C39b2866FA8B6970F94a228ec15Be3Bcf6",
@@ -20575,14 +20575,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/36118/thumb/ore200.png?1710491792"
-  },
-  {
-    "name": "Public Meme Token",
-    "symbol": "PMT",
-    "address": "0x68Ae2F202799be2008c89e2100257e66F77DA1f3",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/35059/thumb/PMT-200x200.png?1707237964"
   },
   {
     "name": "bitFloki",
@@ -20967,6 +20959,14 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/37208/thumb/Token_AGO_200x200_1_.png?1713768501"
+  },
+  {
+    "name": "Vitruvian Nexus Protocol",
+    "symbol": "VNPT",
+    "address": "0x6aAeD0bECa7687f40B8aF1272717a1C1B6A27bf3",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/37267/thumb/tYmigzyC_400x400.jpg?1713886119"
   },
   {
     "name": "ICHI",
