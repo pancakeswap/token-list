@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-04-23T06:35:06.491Z",
+  "timestamp": "2024-04-26T07:25:02.605Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 218
+    "patch": 219
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1910,7 +1910,7 @@
     },
     {
       "name": "Bridged mwBETH",
-      "symbol": "mwbETH",
+      "symbol": "mwBETH",
       "address": "0x7dC91cBD6CB5A3E6A95EED713Aa6bF1d987146c8",
       "chainId": 56,
       "decimals": 18,
