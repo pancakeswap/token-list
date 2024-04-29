@@ -528,6 +528,14 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0.png"
   },
   {
+    "name": "USDV",
+    "symbol": "USDV",
+    "address": "0x0E573Ce2736Dd9637A0b21058352e1667925C7a8",
+    "chainId": 1,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdv.png"
+  },
+  {
     "name": "Masa Token",
     "symbol": "MASA",
     "address": "0x944824290CC12F31ae18Ef51216A223Ba4063092",
@@ -536,3 +544,4 @@
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x944824290CC12F31ae18Ef51216A223Ba4063092.png"
   }
 ]
+
