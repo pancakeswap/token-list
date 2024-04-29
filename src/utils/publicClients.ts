@@ -1,4 +1,4 @@
-import { createPublicClient, http, Chain } from "viem";
+import { createPublicClient, http, Chain, fallback } from "viem";
 import { arbitrum, base, bsc, mainnet, polygonZkEvm, zkSync } from "viem/chains";
 
 export const linea = {
@@ -104,7 +104,7 @@ export const publicClients = {
   }),
   [bsc.id]: createPublicClient({
     chain: bsc,
-    transport: http("https://nodes.pancakeswap.info"),
+    transport: fallback([http("https://nodes.pancakeswap.info"), http("https://bsc.publicnode.com")]),
   }),
   [polygonZkEvm.id]: createPublicClient({
     chain: polygonZkEvm,
@@ -132,6 +132,10 @@ export const publicClients = {
   }),
   [scroll.id]: createPublicClient({
     chain: scroll,
-    transport: http(),
+    transport: fallback([
+      http(scroll.rpcUrls.default[0]),
+      http("https://scroll.drpc.org"),
+      http("https://1rpc.io/scroll"),
+    ]),
   }),
 };
