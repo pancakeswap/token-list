@@ -3230,5 +3230,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x7dC91cBD6CB5A3E6A95EED713Aa6bF1d987146c8.png"
+  },
+  {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "address": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A.png"
   }
 ]
