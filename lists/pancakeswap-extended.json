@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-04-26T07:25:02.605Z",
+  "timestamp": "2024-04-29T20:34:06.748Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 219
+    "patch": 220
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2979,6 +2979,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "address": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A.png"
     },
     {
       "name": "BitWell Token",
