@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-02-09T09:21:41.048Z",
+  "timestamp": "2024-05-02T17:36:35.266Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 19
+    "patch": 20
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -292,6 +292,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x32dF62dc3aEd2cD6224193052Ce665DC18165841.png"
+    },
+    {
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "address": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe.png"
     }
   ]
 }
