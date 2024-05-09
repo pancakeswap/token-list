@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-04-29T20:34:06.748Z",
+  "timestamp": "2024-05-09T05:22:39.178Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 220
+    "patch": 221
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2563,6 +2563,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x570A5D26f7765Ecb712C0924E4De545B89fD43dF.png"
+    },
+    {
+      "name": "Solv BTC",
+      "symbol": "SolvBTC",
+      "address": "0x4aae823a6a0b376De6A78e74eCC5b079d38cBCf7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x4aae823a6a0b376De6A78e74eCC5b079d38cBCf7.png"
     },
     {
       "name": "SPARTAN PROTOCOL TOKEN",
