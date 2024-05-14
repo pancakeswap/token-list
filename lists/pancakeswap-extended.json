@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-05-09T05:22:39.178Z",
+  "timestamp": "2024-05-14T13:12:40.752Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 221
+    "patch": 222
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2619,6 +2619,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16.png"
+    },
+    {
+      "name": "StakeStone Ether",
+      "symbol": "STONE",
+      "address": "0x80137510979822322193FC997d400D5A6C747bf7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x80137510979822322193FC997d400D5A6C747bf7.png"
     },
     {
       "name": "Sushi",
