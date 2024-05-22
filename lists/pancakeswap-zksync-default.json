@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2024-05-02T20:04:31.613Z",
+  "timestamp": "2024-05-22T06:50:47.456Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 20
+    "patch": 21
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -30,8 +30,16 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91.png"
     },
     {
-      "name": "USD Coin",
+      "name": "USD Coin (Native)",
       "symbol": "USDC",
+      "address": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+      "chainId": 324,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4.png"
+    },
+    {
+      "name": "Bridged USDC",
+      "symbol": "USDC.e",
       "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
       "chainId": 324,
       "decimals": 6,
