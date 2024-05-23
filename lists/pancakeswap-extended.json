@@ -1,16 +1,13 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-05-14T13:12:40.752Z",
+  "timestamp": "2024-05-23T06:52:18.408Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 222
+    "patch": 223
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": [
-    "pancakeswap",
-    "extended"
-  ],
+  "keywords": ["pancakeswap", "extended"],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -1163,6 +1160,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x2090c8295769791ab7A3CF1CC6e0AA19F35e441A.png"
+    },
+    {
+      "name": "Engines of Fury Token",
+      "symbol": "FURY",
+      "address": "0x0203D275D2A65030889aF45ed91D472be3948B92",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0203D275D2A65030889aF45ed91D472be3948B92.png"
     },
     {
       "name": "Fuse Token",
