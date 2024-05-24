@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Linea Default",
-  "timestamp": "2024-04-24T13:05:22.687Z",
+  "timestamp": "2024-05-24T07:17:40.906Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 8
+    "patch": 9
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -92,6 +92,14 @@
       "chainId": 59144,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/linea/0x5FBDF89403270a1846F5ae7D113A989F850d1566.png"
+    },
+    {
+      "name": "ONEPUNCH",
+      "symbol": "ONEPUNCH",
+      "address": "0x1F63D0EC7193964142ef6B13d901462d0E5CbB50",
+      "chainId": 59144,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/linea/0x1F63D0EC7193964142ef6B13d901462d0E5CbB50.png"
     }
   ]
 }
