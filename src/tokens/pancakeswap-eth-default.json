@@ -542,6 +542,21 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x944824290CC12F31ae18Ef51216A223Ba4063092.png"
+  },
+  {
+    "name": "Mantle",
+    "symbol": "MNT",
+    "address": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x3c3a81e81dc49A522A592e7622A7E711c06bf354.png"
+  },
+  {
+    "name": "Mantle Staked Ether",
+    "symbol": "mETH",
+    "address": "0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa.png"
   }
 ]
-
