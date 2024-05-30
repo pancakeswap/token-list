@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-05-22T04:04:08.074Z",
+  "timestamp": "2024-05-30T03:28:57.906Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 21
+    "patch": 22
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -300,6 +300,62 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe.png"
+    },
+    {
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x2416092f143378750bb29b79eD961ab195CcEea5.png"
+    },
+    {
+      "name": "Fluidity",
+      "symbol": "FLY",
+      "address": "0x000F1720A263f96532D1ac2bb9CDC12b72C6f386",
+      "chainId": 42161,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x000F1720A263f96532D1ac2bb9CDC12b72C6f386.png"
+    },
+    {
+      "name": "TIA",
+      "symbol": "TIA.n",
+      "address": "0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C",
+      "chainId": 42161,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C.png"
+    },
+    {
+      "name": "Wootrade Network",
+      "symbol": "WOO",
+      "address": "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b.png"
+    },
+    {
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "address": "0xFEa7a6a0B346362BF88A9e4A88416B77a57D6c2A",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xFEa7a6a0B346362BF88A9e4A88416B77a57D6c2A.png"
+    },
+    {
+      "name": "KelpDao Restaked ETH",
+      "symbol": "rsETH",
+      "address": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x4186BFC76E2E237523CBC30FD220FE055156b41F.png"
+    },
+    {
+      "name": "ETHx",
+      "symbol": "ETHx",
+      "address": "0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7.png"
     }
   ]
 }
