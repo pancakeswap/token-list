@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-05-24T06:40:33.598Z",
+  "timestamp": "2024-06-05T03:18:33.571Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 52
+    "patch": 53
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -572,6 +572,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa.png"
+    },
+    {
+      "name": "Taiko Token",
+      "symbol": "TAIKO",
+      "address": "0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800.png"
     }
   ]
 }
