@@ -1,13 +1,16 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-05-23T06:52:18.408Z",
+  "timestamp": "2024-06-05T02:06:21.664Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 223
+    "patch": 224
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancakeswap", "extended"],
+  "keywords": [
+    "pancakeswap",
+    "extended"
+  ],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -1592,6 +1595,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
+    },
+    {
+      "name": "Lista DAO",
+      "symbol": "LISTA",
+      "address": "0xFceB31A79F71AC9CBDCF853519c1b12D379EdC46",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xFceB31A79F71AC9CBDCF853519c1b12D379EdC46.png"
     },
     {
       "name": "Lista USD",
