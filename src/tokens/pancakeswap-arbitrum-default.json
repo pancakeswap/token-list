@@ -342,5 +342,13 @@
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7.png"
+  },
+  {
+    "name": "Name: Fluid USDC",
+    "symbol": "fUSDC",
+    "address": "0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A",
+    "chainId": 42161,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A.png"
   }
 ]
