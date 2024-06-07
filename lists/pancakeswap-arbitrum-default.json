@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-05-30T03:28:57.906Z",
+  "timestamp": "2024-06-07T08:51:11.210Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 22
+    "patch": 23
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -356,6 +356,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7.png"
+    },
+    {
+      "name": "Fluid USDC",
+      "symbol": "fUSDC",
+      "address": "0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A",
+      "chainId": 42161,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A.png"
     }
   ]
 }
