@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-06-05T03:18:33.571Z",
+  "timestamp": "2024-06-07T08:29:28.583Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 53
+    "patch": 54
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -580,6 +580,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800.png"
+    },
+    {
+      "name": "Bluberry",
+      "symbol": "BLB",
+      "address": "0x904f36d74bED2Ef2729Eaa1c7A5B70dEA2966a02",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x904f36d74bED2Ef2729Eaa1c7A5B70dEA2966a02.png"
     }
   ]
 }
