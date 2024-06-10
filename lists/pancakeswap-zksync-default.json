@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Zksync Default",
-  "timestamp": "2024-05-22T06:50:47.456Z",
+  "timestamp": "2024-06-10T17:23:41.372Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 21
+    "patch": 22
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -140,6 +140,14 @@
       "chainId": 324,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0xBb8D60008A08b1828E02120F1a952D295036eF3d.png"
+    },
+    {
+      "name": "Holdstation",
+      "symbol": "HOLD",
+      "address": "0xed4040fD47629e7c8FBB7DA76bb50B3e7695F0f2",
+      "chainId": 324,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0xed4040fD47629e7c8FBB7DA76bb50B3e7695F0f2.png"
     }
   ]
 }
