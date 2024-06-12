@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-06-05T02:06:21.664Z",
+  "timestamp": "2024-06-12T05:25:05.076Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 224
+    "patch": 225
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -267,6 +267,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65.png"
+    },
+    {
+      "name": "Axelar Wrapped STARS",
+      "symbol": "axlSTARS",
+      "address": "0xC3CAC4AE38cCf6985EF9039ACC1abBc874DdcBB0",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xC3CAC4AE38cCf6985EF9039ACC1abBc874DdcBB0.png"
     },
     {
       "name": "Axelar Wrapped USDC",

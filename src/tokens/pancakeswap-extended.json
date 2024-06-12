@@ -3270,5 +3270,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x0203D275D2A65030889aF45ed91D472be3948B92.png"
+  },
+  {
+    "name": "Axelar Wrapped STARS",
+    "symbol": "axlSTARS",
+    "address": "0xC3CAC4AE38cCf6985EF9039ACC1abBc874DdcBB0",
+    "chainId": 56,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xC3CAC4AE38cCf6985EF9039ACC1abBc874DdcBB0.png"
   }
 ]
