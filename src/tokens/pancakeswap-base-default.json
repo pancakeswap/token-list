@@ -78,5 +78,45 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/base/0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452.png"
+  },
+  {
+    "name": "USD+",
+    "symbol": "USD+",
+    "address": "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
+    "chainId": 8453,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376.png"
+  },
+  {
+    "name": "Brett",
+    "symbol": "BRETT",
+    "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0x532f27101965dd16442E59d40670FaF5eBB142E4.png"
+  },
+  {
+    "name": "Degen",
+    "symbol": "DEGEN",
+    "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed.png"
+  },
+  {
+    "name": "Aerodrome",
+    "symbol": "AERO",
+    "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0x940181a94A35A4569E4529A3CDfB74e38FD98631.png"
+  },
+  {
+    "name": "OVN",
+    "symbol": "OVN",
+    "address": "0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396.png"
   }
 ]
