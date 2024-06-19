@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-06-07T08:51:11.210Z",
+  "timestamp": "2024-06-19T09:12:57.597Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 23
+    "patch": 24
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -364,6 +364,14 @@
       "chainId": 42161,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A.png"
+    },
+    {
+      "name": "LayerZero",
+      "symbol": "ZRO",
+      "address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x6985884C4392D348587B19cb9eAAf157F13271cd.png"
     }
   ]
 }
