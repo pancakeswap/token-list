@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Base Default",
-  "timestamp": "2024-06-18T05:40:23.369Z",
+  "timestamp": "2024-06-20T14:30:47.146Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 8
+    "patch": 9
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -132,6 +132,14 @@
       "chainId": 8453,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/base/0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396.png"
+    },
+    {
+      "name": "LayerZero",
+      "symbol": "ZRO",
+      "address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/base/0x6985884C4392D348587B19cb9eAAf157F13271cd.png"
     }
   ]
 }
