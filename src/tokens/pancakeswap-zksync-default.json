@@ -142,5 +142,21 @@
     "chainId": 324,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E.png"
+  },
+  {
+    "name": "ZKE",
+    "symbol": "ZKE",
+    "address": "0x7b3e1236c39ddD2e61cF6Da6ac6D11193238ccB0",
+    "chainId": 324,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x7b3e1236c39ddD2e61cF6Da6ac6D11193238ccB0.png"
+  },
+  {
+    "name": "ReactorFusion",
+    "symbol": "RF",
+    "address": "0x5f7CBcb391d33988DAD74D6Fd683AadDA1123E4D",
+    "chainId": 324,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/zksync/0x5f7CBcb391d33988DAD74D6Fd683AadDA1123E4D.png"
   }
 ]
