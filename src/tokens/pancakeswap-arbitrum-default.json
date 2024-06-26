@@ -374,5 +374,13 @@
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x8CF7e3aa6fAf6Ae180E5eC3f0fb95081C2086eBe.png"
+  },
+  {
+    "name": "Solv BTC",
+    "symbol": "SolvBTC",
+    "address": "0x3647c54c4c2C65bC7a2D63c0Da2809B399DBBDC0",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x3647c54c4c2C65bC7a2D63c0Da2809B399DBBDC0.png"
   }
 ]
