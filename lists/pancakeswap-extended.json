@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-06-20T14:30:57.059Z",
+  "timestamp": "2024-06-27T05:22:43.511Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 226
+    "patch": 227
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2597,6 +2597,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x4aae823a6a0b376De6A78e74eCC5b079d38cBCf7.png"
     },
     {
+      "name": "SolvBTC Ethena",
+      "symbol": "SolvBTC.ENA",
+      "address": "0x53E63a31fD1077f949204b94F431bCaB98F72BCE",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x53E63a31fD1077f949204b94F431bCaB98F72BCE.png"
+    },
+    {
       "name": "SPARTAN PROTOCOL TOKEN",
       "symbol": "SPARTA",
       "address": "0x3910db0600eA925F63C36DdB1351aB6E2c6eb102",
@@ -3299,14 +3307,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x6985884C4392D348587B19cb9eAAf157F13271cd.png"
-    },
-    {
-      "name": "SolvBTC Ethena",
-      "symbol": "SolvBTC.ENA",
-      "address": "0x53E63a31fD1077f949204b94F431bCaB98F72BCE",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x53E63a31fD1077f949204b94F431bCaB98F72BCE.png"
     }
   ]
 }
