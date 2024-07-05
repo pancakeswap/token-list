@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-06-27T06:13:44.597Z",
+  "timestamp": "2024-07-05T11:34:47.394Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 25
+    "patch": 26
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -404,6 +404,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xaFAfd68AFe3fe65d376eEC9Eab1802616cFacCb8.png"
+    },
+    {
+      "name": "Subsquid",
+      "symbol": "SQD",
+      "address": "0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1.png"
     }
   ]
 }
