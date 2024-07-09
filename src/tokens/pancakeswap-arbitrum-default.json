@@ -398,5 +398,13 @@
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1.png"
+  },
+  {
+    "name": "Bridged mstETH",
+    "symbol": "Bridged mstETH",
+    "address": "0xE367d4b1b9bB40e34aDCE448e1edb0141Fc6a8AC",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xE367d4b1b9bB40e34aDCE448e1edb0141Fc6a8AC.png"
   }
 ]
