@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Default",
-  "timestamp": "2023-12-26T13:02:45.805Z",
+  "timestamp": "2024-07-11T10:49:11.905Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 10
+    "patch": 11
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -115,6 +115,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "BOXY",
+      "symbol": "BOXY",
+      "address": "0x9F5d4479b783327b61718fa13B3a0583869a80c1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x9F5d4479b783327b61718fa13B3a0583869a80c1.png"
     }
   ]
 }
