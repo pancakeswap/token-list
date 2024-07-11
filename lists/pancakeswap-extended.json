@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-07-11T03:07:09.435Z",
+  "timestamp": "2024-07-11T10:56:41.566Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 228
+    "patch": 229
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -507,6 +507,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xffEecbf8D7267757c2dc3d13D730E97E15BfdF7F.png"
+    },
+    {
+      "name": "BOXY",
+      "symbol": "BOXY",
+      "address": "0x9F5d4479b783327b61718fa13B3a0583869a80c1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x9F5d4479b783327b61718fa13B3a0583869a80c1.png"
     },
     {
       "name": "BunnyPark",
