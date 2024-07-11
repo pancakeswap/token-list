@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-06-27T05:22:43.511Z",
+  "timestamp": "2024-07-11T03:07:09.435Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 227
+    "patch": 228
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -795,6 +795,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3.png"
+    },
+    {
+      "name": "DAO Maker",
+      "symbol": "DAO",
+      "address": "0x4d2d32d8652058Bf98c772953E1Df5c5c85D9F45",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x4d2d32d8652058Bf98c772953E1Df5c5c85D9F45.png"
     },
     {
       "name": "Mines of Dalarnia",
