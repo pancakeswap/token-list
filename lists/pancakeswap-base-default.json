@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Base Default",
-  "timestamp": "2024-06-20T14:30:47.146Z",
+  "timestamp": "2024-07-15T16:32:08.014Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 9
+    "patch": 10
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -140,6 +140,14 @@
       "chainId": 8453,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/base/0x6985884C4392D348587B19cb9eAAf157F13271cd.png"
+    },
+    {
+      "name": "Tether USDT",
+      "symbol": "USDT",
+      "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+      "chainId": 8453,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
     }
   ]
 }
