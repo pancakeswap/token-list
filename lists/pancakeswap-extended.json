@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-07-11T10:56:41.566Z",
+  "timestamp": "2024-07-16T10:55:48.446Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 229
+    "patch": 230
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2099,6 +2099,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xFd7B3A77848f1C2D67E05E54d78d174a0C850335.png"
+    },
+    {
+      "name": "OORT",
+      "symbol": "OORT",
+      "address": "0x5651fA7a726B9Ec0cAd00Ee140179912B6E73599",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x5651fA7a726B9Ec0cAd00Ee140179912B6E73599.png"
     },
     {
       "name": "Token Orbs",
