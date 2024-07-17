@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-07-16T10:55:48.446Z",
+  "timestamp": "2024-07-16T22:33:47.422Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 230
+    "patch": 231
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -867,6 +867,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x039cB485212f996A9DBb85A9a75d898F94d38dA6.png"
+    },
+    {
+      "name": "DeXe Token",
+      "symbol": "DEXE",
+      "address": "0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e.png"
     },
     {
       "name": "DefiDollar DAO",
