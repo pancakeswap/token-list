@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-07-17T07:30:38.041Z",
+  "timestamp": "2024-07-17T08:23:05.407Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 28
+    "patch": 29
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -444,6 +444,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34.png"
+    },
+    {
+      "name": "ETHPlus",
+      "symbol": "ETH+",
+      "address": "0x18C14C2D707b2212e17d1579789Fc06010cfca23",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x18C14C2D707b2212e17d1579789Fc06010cfca23.png"
     }
   ]
 }
