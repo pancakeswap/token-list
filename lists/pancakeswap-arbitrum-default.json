@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-07-09T10:27:38.505Z",
+  "timestamp": "2024-07-17T08:23:05.407Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 27
+    "patch": 29
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -420,6 +420,38 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xE367d4b1b9bB40e34aDCE448e1edb0141Fc6a8AC.png"
+    },
+    {
+      "name": "Tap Token",
+      "symbol": "TAP",
+      "address": "0x2C650dAb03A59332e2E0C0C4A7F726913e5028C1",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x2C650dAb03A59332e2E0C0C4A7F726913e5028C1.png"
+    },
+    {
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "address": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x9623063377AD1B27544C965cCd7342f7EA7e88C7.png"
+    },
+    {
+      "name": "USDe",
+      "symbol": "USDe",
+      "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34.png"
+    },
+    {
+      "name": "ETHPlus",
+      "symbol": "ETH+",
+      "address": "0x18C14C2D707b2212e17d1579789Fc06010cfca23",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x18C14C2D707b2212e17d1579789Fc06010cfca23.png"
     }
   ]
 }
