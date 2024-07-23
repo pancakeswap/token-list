@@ -1,10 +1,10 @@
 {
   "name": "CoinMarketCap",
-  "timestamp": "2024-07-15T23:22:36.380Z",
+  "timestamp": "2024-07-22T23:21:36.511Z",
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 35
+    "patch": 36
   },
   "logoURI": "https://ipfs.io/ipfs/QmQAGtNJ2rSGpnP6dh6PPKNSmZL8RTZXmgFwgTdy5Nz5mx",
   "keywords": [
@@ -3652,6 +3652,14 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28040.png"
     },
     {
+      "name": "Artificial intelligence staking token",
+      "symbol": "AIST",
+      "address": "0x5033B5b12980CE1b270bf3e7376B47F6Ad502eBE",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32239.png"
+    },
+    {
       "name": "AI Trader",
       "symbol": "AIT",
       "address": "0x4238E5Ccc619dCC8c00ADE4cfc5d3D9020b24898",
@@ -4418,6 +4426,14 @@
       "chainId": 56,
       "decimals": 5,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9037.png"
+    },
+    {
+      "name": "Andy",
+      "symbol": "ANDY",
+      "address": "0x8b1869f79b9abF52001314A2E6990A96F039058D",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32253.png"
     },
     {
       "name": "Artwork NFT",
@@ -5236,6 +5252,14 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/8702.png"
     },
     {
+      "name": "Argent",
+      "symbol": "ARG",
+      "address": "0x083dcB9dF5453bb81f73DD9df5fA81b128035A29",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32274.png"
+    },
+    {
       "name": "Argon",
       "symbol": "ARGON",
       "address": "0x851F7a700c5d67DB59612b871338a85526752c25",
@@ -6002,6 +6026,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14948.png"
+    },
+    {
+      "name": "Attarius Network",
+      "symbol": "ATRS",
+      "address": "0x68d4F8821731057c1b8DD4E74CD2956f4761c58C",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32263.png"
     },
     {
       "name": "Alltoscan",
@@ -8206,7 +8238,7 @@
     {
       "name": "BlackCardCoin",
       "symbol": "BCCoin",
-      "address": "0x2940566Eb50F15129238f4Dc599ADC4F742D7d8E",
+      "address": "0x450593Bf7f2d7E559E38496CfB06bDCE5E963795",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/30544.png"
@@ -11156,6 +11188,14 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/10121.png"
     },
     {
+      "name": "Balanced Dollar",
+      "symbol": "bnUSD",
+      "address": "0xc65132325bD4FcF2Ec5F3a9375487163B6999206",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11261.png"
+    },
+    {
       "name": "BinaryX",
       "symbol": "BNX",
       "address": "0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD",
@@ -12578,14 +12618,6 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9270.png"
-    },
-    {
-      "name": "BitcoinBR",
-      "symbol": "BTCBR",
-      "address": "0x55D6043859Dbe45e0a2571Ea64b3855062FD86d8",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/16251.png"
     },
     {
       "name": "Bitcoin BSC",
@@ -22252,7 +22284,7 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9643.png"
     },
     {
-      "name": "DONASWAP",
+      "name": "DonaSwap",
       "symbol": "DONA",
       "address": "0x229C32460c6BeaC113e720ac4a7495b57F53F7Cf",
       "chainId": 56,
@@ -23626,6 +23658,14 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11710.png"
+    },
+    {
+      "name": "E2P Token",
+      "symbol": "E2P",
+      "address": "0x597716022Fc149c2b89061d6EC6b5Eac4A97bC20",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11928.png"
     },
     {
       "name": "Learning Cash",
@@ -25388,14 +25428,6 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png"
     },
     {
-      "name": "ETHAN",
-      "symbol": "ETHAN",
-      "address": "0xF9F3336975a587688E6d37b0f36A4E7A0d209Abc",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14010.png"
-    },
-    {
       "name": "ETHAX",
       "symbol": "ETHAX",
       "address": "0x854F7Cd3677737241E3eED0dC3d7F33DFAF72Bc4",
@@ -25578,6 +25610,14 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/31812.png"
+    },
+    {
+      "name": "Eurodom",
+      "symbol": "EUD",
+      "address": "0x60De3AC5f725A784B2a815e8056ed22611e8F91b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14264.png"
     },
     {
       "name": "Euler Tools",
@@ -29212,6 +29252,14 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/27196.png"
     },
     {
+      "name": "Future Token",
+      "symbol": "FTR",
+      "address": "0x63F712B7EC2b9f7146b54a79133900F9458eeC6a",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14010.png"
+    },
+    {
       "name": "Fortress Lending",
       "symbol": "FTS",
       "address": "0x4437743ac02957068995c48E08465E0EE1769fBE",
@@ -30018,6 +30066,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/24210.png"
+    },
+    {
+      "name": "Global Token",
+      "symbol": "GBL",
+      "address": "0xC14A7747cFec02CfeA62E72BB93538DE6B2078E6",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/27927.png"
     },
     {
       "name": "Gbox",
@@ -36252,6 +36308,14 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/17027.png"
     },
     {
+      "name": "ITC",
+      "symbol": "ITC",
+      "address": "0x146171eB1c1E32faEfCFdABC3c470b83197AdB60",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/24443.png"
+    },
+    {
       "name": "ITEMVERSE",
       "symbol": "ITEM",
       "address": "0x517396bD11d750E4417B82F2b0FcFa62a4f2bB96",
@@ -36356,6 +36420,14 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11744.png"
     },
     {
+      "name": "IVIRSE",
+      "symbol": "IVI",
+      "address": "0x059ca11ba3099683Dc2e46f048063F5799a7f34c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22580.png"
+    },
+    {
       "name": "iVipCoin",
       "symbol": "IVIP",
       "address": "0xbdC87A65e0b6bfB631847B7dE815D2B07DEC8ee7",
@@ -36381,10 +36453,10 @@
     },
     {
       "name": "IXIR",
-      "symbol": "ixir",
-      "address": "0x17179f506B89D80291B581F200F34B17ff172CD3",
+      "symbol": "IXIR",
+      "address": "0x9ba43191A84A726cbC48716C1cEb3d13A28a4535",
       "chainId": 56,
-      "decimals": 9,
+      "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14223.png"
     },
     {
@@ -40314,14 +40386,6 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/25841.png"
-    },
-    {
-      "name": "Lokum Finance",
-      "symbol": "LKM",
-      "address": "0x1099E778846bAa6aAD3C6F26Ad42419AA7f95103",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9410.png"
     },
     {
       "name": "Lockness",
@@ -56452,6 +56516,14 @@
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/10649.png"
     },
     {
+      "name": "pumpBTC",
+      "symbol": "pumpBTC",
+      "address": "0xf9C4FF105803A77eCB5DAE300871Ad76c2794fa4",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32272.png"
+    },
+    {
       "name": "PumpIT Launchpad",
       "symbol": "PumpIT",
       "address": "0x99749058B8c5660D7f6C5322E8De9945B4f9bCBd",
@@ -56926,7 +56998,7 @@
     {
       "name": "Quidax Token",
       "symbol": "QDX",
-      "address": "0x9e3a9F1612028eeE48F85cA85f8Bed2f37d76848",
+      "address": "0x08BC237aA00F275b758542c9F5c125b568bc390A",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/10079.png"
@@ -69866,6 +69938,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/21602.png"
+    },
+    {
+      "name": "Tradehub",
+      "symbol": "TRHUB",
+      "address": "0xF46306CDC35B845ebcc823Be8363249b21F7eE63",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32246.png"
     },
     {
       "name": "TRIBE",
