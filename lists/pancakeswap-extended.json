@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-07-16T22:33:47.422Z",
+  "timestamp": "2024-07-29T15:15:13.854Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 231
+    "patch": 232
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -3155,6 +3155,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xA58950F05FeA2277d2608748412bf9F802eA4901.png"
+    },
+    {
+      "name": "WeSendit",
+      "symbol": "WSI",
+      "address": "0x837A130aED114300Bab4f9f1F4f500682f7efd48",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x837A130aED114300Bab4f9f1F4f500682f7efd48.png"
     },
     {
       "name": "Wizardia Coin",
