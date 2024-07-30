@@ -1,6 +1,6 @@
 {
   "name": "PancakeSwap Base Default",
-  "timestamp": "2024-07-30T13:23:14.146Z",
+  "timestamp": "2024-07-30T13:31:32.296Z",
   "version": {
     "major": 0,
     "minor": 0,
@@ -148,6 +148,14 @@
       "chainId": 8453,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+    },
+    {
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "address": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/base/0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A.png"
     },
     {
       "name": "Master Miggles",
