@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-07-30T13:23:06.989Z",
+  "timestamp": "2024-07-31T08:52:09.795Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 56
+    "patch": 57
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -604,6 +604,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x15700B564Ca08D9439C58cA5053166E8317aa138.png"
+    },
+    {
+      "name": "Ethena USDe",
+      "symbol": "USDe",
+      "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x4c9EDD5852cd905f086C759E8383e09bff1E68B3.png"
     }
   ]
 }
