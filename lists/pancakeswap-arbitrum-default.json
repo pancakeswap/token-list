@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-07-17T08:23:05.407Z",
+  "timestamp": "2024-08-05T10:08:56.405Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 29
+    "patch": 30
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -452,6 +452,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x18C14C2D707b2212e17d1579789Fc06010cfca23.png"
+    },
+    {
+      "name": "SolvBTC Babylon",
+      "symbol": "SolvBTC.BBN",
+      "address": "0x346c574C56e1A4aAa8dc88Cda8F7EB12b39947aB",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x346c574C56e1A4aAa8dc88Cda8F7EB12b39947aB.png"
     }
   ]
 }
