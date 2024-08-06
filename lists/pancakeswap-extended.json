@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-08-05T10:12:20.480Z",
+  "timestamp": "2024-08-06T06:57:26.841Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 233
+    "patch": 234
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2675,6 +2675,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x724A32dFFF9769A0a0e1F0515c0012d1fB14c3bd.png"
+    },
+    {
+      "name": "Lorenzo stBTC",
+      "symbol": "stBTC",
+      "address": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3.png"
     },
     {
       "name": "StargateToken",
