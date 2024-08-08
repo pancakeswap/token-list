@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-08-06T06:57:26.841Z",
+  "timestamp": "2024-08-08T10:12:49.659Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 234
+    "patch": 235
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -443,6 +443,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xCa3F508B8e4Dd382eE878A314789373D80A5190A.png"
+    },
+    {
+      "name": "BitU USD",
+      "symbol": "BITU",
+      "address": "0x654A32542A84bEA7D2c2C1A1Ed1AAAf26888E6bD",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x654A32542A84bEA7D2c2C1A1Ed1AAAf26888E6bD.png"
     },
     {
       "name": "BLINk",
