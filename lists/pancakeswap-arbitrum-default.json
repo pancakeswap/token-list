@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-08-05T10:08:56.405Z",
+  "timestamp": "2024-08-08T10:41:29.424Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 30
+    "patch": 31
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -460,6 +460,14 @@
       "chainId": 42161,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x346c574C56e1A4aAa8dc88Cda8F7EB12b39947aB.png"
+    },
+    {
+      "name": "SEED",
+      "symbol": "SEED",
+      "address": "0x86f65121804D2Cdbef79F9f072D4e0c2eEbABC08",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x86f65121804D2Cdbef79F9f072D4e0c2eEbABC08.png"
     }
   ]
 }
