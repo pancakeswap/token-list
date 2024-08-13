@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Base Default",
-  "timestamp": "2024-07-30T13:31:32.296Z",
+  "timestamp": "2024-08-12T10:55:56.541Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 12
+    "patch": 13
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -164,6 +164,14 @@
       "chainId": 8453,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/base/0xB1a03EdA10342529bBF8EB700a06C60441fEf25d.png"
+    },
+    {
+      "name": "USDz",
+      "symbol": "USDz",
+      "address": "0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/base/0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938.png"
     }
   ]
 }
