@@ -606,5 +606,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5.png"
+  },
+  {
+    "name": "swBTC",
+    "symbol": "swBTC",
+    "address": "0x8DB2350D78aBc13f5673A411D4700BCF87864dDE",
+    "chainId": 1,
+    "decimals": 8,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x8DB2350D78aBc13f5673A411D4700BCF87864dDE.png"
   }
 ]
