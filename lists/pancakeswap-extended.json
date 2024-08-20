@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-08-16T09:35:03.711Z",
+  "timestamp": "2024-08-20T09:08:48.344Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 236
+    "patch": 237
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1555,6 +1555,14 @@
       "chainId": 56,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x5F88AB06e8dfe89DF127B2430Bba4Af600866035.png"
+    },
+    {
+      "name": "Kinza Babylon Staked BTC",
+      "symbol": "kBTC",
+      "address": "0x9356f6d95b8E109F4b7Ce3E49D672967d3B48383",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x9356f6d95b8E109F4b7Ce3E49D672967d3B48383.png"
     },
     {
       "name": "Kingdom Raids",
