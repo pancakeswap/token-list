@@ -614,5 +614,13 @@
     "chainId": 1,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x8DB2350D78aBc13f5673A411D4700BCF87864dDE.png"
+  },
+  {
+    "name": "mBTC",
+    "symbol": " Liquid Staked BTC",
+    "address": "0xbDf245957992bfBC62B07e344128a1EEc7b7eE3f",
+    "chainId": 1,
+    "decimals": 8,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xbDf245957992bfBC62B07e344128a1EEc7b7eE3f.png"
   }
 ]
