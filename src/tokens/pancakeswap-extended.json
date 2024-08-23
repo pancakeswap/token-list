@@ -3374,5 +3374,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x9356f6d95b8E109F4b7Ce3E49D672967d3B48383.png"
+  },
+  {
+    "name": "Wormhole Wrapped USDT",
+    "symbol": "wxUSDT",
+    "address": "0x524bC91Dc82d6b90EF29F76A3ECAaBAffFD490Bc",
+    "chainId": 56,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x524bC91Dc82d6b90EF29F76A3ECAaBAffFD490Bc.png"
   }
 ]

@@ -158,5 +158,21 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/base/0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938.png"
+  },
+  {
+    "name": "dogwifhat",
+    "symbol": "WIF",
+    "address": "0x1fba65dE0a9cBD2D1DF82d141897042d36Bb6c86",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0x1fba65dE0a9cBD2D1DF82d141897042d36Bb6c86.png"
+  },
+  {
+    "name": "Wormhole Wrapped USDT",
+    "symbol": "wxUSDT",
+    "address": "0xFf0C62A4979400841eFaA6faADb07Ac7d5C98b27",
+    "chainId": 8453,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/base/0xFf0C62A4979400841eFaA6faADb07Ac7d5C98b27.png"
   }
 ]
