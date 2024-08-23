@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Base Default",
-  "timestamp": "2024-08-12T10:55:56.541Z",
+  "timestamp": "2024-08-23T02:33:32.060Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 13
+    "patch": 14
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -172,6 +172,14 @@
       "chainId": 8453,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/base/0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938.png"
+    },
+    {
+      "name": "Wormhole Wrapped USDT",
+      "symbol": "wxUSDT",
+      "address": "0xFf0C62A4979400841eFaA6faADb07Ac7d5C98b27",
+      "chainId": 8453,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/base/0xFf0C62A4979400841eFaA6faADb07Ac7d5C98b27.png"
     }
   ]
 }
