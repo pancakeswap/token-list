@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-08-23T02:34:45.799Z",
+  "timestamp": "2024-08-24T09:01:52.709Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 238
+    "patch": 239
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -675,6 +675,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x5C8C8D560048F34E5f7f8ad71f2f81a89DBd273e.png"
+    },
+    {
+      "name": "Simons Cat",
+      "symbol": "CAT",
+      "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x6894CDe390a3f51155ea41Ed24a33A4827d3063D.png"
     },
     {
       "name": "CEEK",
