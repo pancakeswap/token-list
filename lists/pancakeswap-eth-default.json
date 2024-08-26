@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-08-21T16:54:01.660Z",
+  "timestamp": "2024-08-26T07:08:43.324Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 60
+    "patch": 61
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -630,12 +630,20 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x8DB2350D78aBc13f5673A411D4700BCF87864dDE.png"
     },
     {
-      "name": "mBTC",
-      "symbol": " Liquid Staked BTC",
+      "name": "Liquid Staked BTC",
+      "symbol": "mBTC",
       "address": "0xbDf245957992bfBC62B07e344128a1EEc7b7eE3f",
       "chainId": 1,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xbDf245957992bfBC62B07e344128a1EEc7b7eE3f.png"
+    },
+    {
+      "name": "Orderly Network",
+      "symbol": "ORDER",
+      "address": "0xABD4C63d2616A5201454168269031355f4764337",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xABD4C63d2616A5201454168269031355f4764337.png"
     }
   ]
 }
