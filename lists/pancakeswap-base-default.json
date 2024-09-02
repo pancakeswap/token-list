@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Base Default",
-  "timestamp": "2024-08-23T02:58:51.646Z",
+  "timestamp": "2024-09-02T05:12:32.109Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 14
+    "patch": 15
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -188,6 +188,14 @@
       "chainId": 8453,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/base/0xFf0C62A4979400841eFaA6faADb07Ac7d5C98b27.png"
+    },
+    {
+      "name": "Dola USD Stablecoin",
+      "symbol": "DOLA",
+      "address": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/base/0x4621b7A9c75199271F773Ebd9A499dbd165c3191.png"
     }
   ]
 }
