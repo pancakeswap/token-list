@@ -968,14 +968,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3327.png"
   },
   {
-    "name": "Pax Dollar",
-    "symbol": "PAX",
-    "address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3330.png"
-  },
-  {
     "name": "Shard",
     "symbol": "SHARD",
     "address": "0xD8a1734945b9Ba38eB19a291b475E31F49e59877",
@@ -2638,14 +2630,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5987.png"
-  },
-  {
-    "name": "Tradeleaf",
-    "symbol": "TLF",
-    "address": "0xbb25C03bE85cA09662EcB599df0000b33C2c2c26",
-    "chainId": 56,
-    "decimals": 6,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6019.png"
   },
   {
     "name": "MDUKEY",
@@ -17130,7 +17114,7 @@
   {
     "name": "BinStarter",
     "symbol": "BSR",
-    "address": "0xab287e6D370C61f105630e656B5468ACB4D00423",
+    "address": "0x5cE12F6d9F2FcAf0b11494a1C39E09eeB16Ca7e8",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11275.png"
@@ -35280,6 +35264,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/15689.png"
   },
   {
+    "name": "WX Token",
+    "symbol": "WX",
+    "address": "0x8445B8c4982C4BFF1BF1e4783c33E5aFe1A153D7",
+    "chainId": 56,
+    "decimals": 8,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/15691.png"
+  },
+  {
     "name": "OpenStream World",
     "symbol": "OSW",
     "address": "0xA21b0F29bC488DF22BBd76B9Fda8539bA9c11fdc",
@@ -46832,14 +46824,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/18697.png"
   },
   {
-    "name": "Bitcoin Metaverse",
-    "symbol": "BITMETA",
-    "address": "0x04d9ABBa71EE36C857D8d8062382dF80537D539c",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/18700.png"
-  },
-  {
     "name": "CowCoin",
     "symbol": "CC",
     "address": "0x982de39Fb553C7B4399940a811c6078A87D4efba",
@@ -50742,6 +50726,14 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/19905.png"
+  },
+  {
+    "name": "Biometric Financial",
+    "symbol": "BioFi",
+    "address": "0x11A31b833d43853f8869C9EEc17F60e3B4d2a753",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/19907.png"
   },
   {
     "name": "LOOF",
@@ -78336,14 +78328,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/31766.png"
   },
   {
-    "name": "LFIT",
-    "symbol": "LFIT",
-    "address": "0xAD4E5E6cad6ef6c497D25e8E8056cc8F78d2f2EF",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/31782.png"
-  },
-  {
     "name": "SWAP315",
     "symbol": "S315",
     "address": "0x565D40e2ef60f0B4e5bD0136Bb2C58ACe83fDaA5",
@@ -78816,6 +78800,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32374.png"
   },
   {
+    "name": "DedaCoin",
+    "symbol": "Deda",
+    "address": "0x15F9EB4b9BEaFa9Db35341c5694c0b6573809808",
+    "chainId": 56,
+    "decimals": 8,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32381.png"
+  },
+  {
     "name": "NatronZ",
     "symbol": "NCoin",
     "address": "0x4a7E278C67543731A864C89e5EB28EaCfa8794EB",
@@ -79158,5 +79150,101 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32816.png"
+  },
+  {
+    "name": "ZAI Stablecoin",
+    "symbol": "xUSDz",
+    "address": "0x3B2A34C8A085a6cA425eA64192D9f3A0B5dFb397",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32824.png"
+  },
+  {
+    "name": "CRAZY TRUMP",
+    "symbol": "TRUMP",
+    "address": "0x4a67b2F73337D2A4f7d3084d9A117e464E55bed0",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32835.png"
+  },
+  {
+    "name": "BBC",
+    "symbol": "BBC",
+    "address": "0xe9b14E4D05eb22b47dfb8a10708bE83C17Bbcbbc",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32843.png"
+  },
+  {
+    "name": "gold coin",
+    "symbol": "GC",
+    "address": "0xc2308b29f95a819AEb51C4bc8F42A7fE3596B524",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32845.png"
+  },
+  {
+    "name": "Homer BSC",
+    "symbol": "Simpson",
+    "address": "0xE23d22D9a4B5cBaFa7Bd7137152871C0Edd6624F",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32848.png"
+  },
+  {
+    "name": "Mr Mint",
+    "symbol": "MNT",
+    "address": "0x3e81Aa8d6813Ec9D7E6ddB4e523fb1601a0e86F3",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32856.png"
+  },
+  {
+    "name": "TRUMP AI",
+    "symbol": "TRUMP",
+    "address": "0xccdF812aa7cdee4fF7cb89546d7f1718bb8d46E1",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32865.png"
+  },
+  {
+    "name": "BNBDOG",
+    "symbol": "BNBDOG",
+    "address": "0x8DF5Db27b8f88Ac41e2f2E3024dFB6C53165e8C0",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32885.png"
+  },
+  {
+    "name": "SAYCOIN",
+    "symbol": "SAY",
+    "address": "0xEf43bF8C6430A615BBa48987aE2522E3A3bE0A18",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32890.png"
+  },
+  {
+    "name": "DSC",
+    "symbol": "DSC",
+    "address": "0xa86a86B8ACDC55812bec2971a2fc8a989455858c",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32891.png"
+  },
+  {
+    "name": "FINANCIAL TRANSACTION SYSTEM",
+    "symbol": "FTS",
+    "address": "0xeAcD67fa73606320e6C842c05Df291ca0fAc4142",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32907.png"
+  },
+  {
+    "name": "BIC",
+    "symbol": "BIC",
+    "address": "0x8A452Daaf59F79fD511484B5Ce9474E32DD189ce",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32918.png"
   }
 ]
