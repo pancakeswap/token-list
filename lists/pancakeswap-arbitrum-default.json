@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-09-05T14:36:01.673Z",
+  "timestamp": "2024-09-05T14:58:02.059Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 34
+    "patch": 35
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -478,7 +478,7 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xE4728F3E48E94C6DA2B53610E677cc241DAFB134.png"
     },
     {
-      "name": "Liquid Staked BTC",
+      "name": "Babypie BTC",
       "symbol": "mBTC",
       "address": "0x2172fAD929E857dDfD7dDC31E24904438434cB0B",
       "chainId": 42161,
