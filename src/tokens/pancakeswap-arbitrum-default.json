@@ -470,5 +470,13 @@
     "chainId": 42161,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x2172fAD929E857dDfD7dDC31E24904438434cB0B.png"
+  },
+  {
+    "name": "Gains Network USDC",
+    "symbol": "gUSDC",
+    "address": "0xd3443ee1e91aF28e5FB858Fbd0D72A63bA8046E0",
+    "chainId": 42161,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xd3443ee1e91aF28e5FB858Fbd0D72A63bA8046E0.png"
   }
 ]

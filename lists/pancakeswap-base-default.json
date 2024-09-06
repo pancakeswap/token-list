@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Base Default",
-  "timestamp": "2024-09-02T05:12:32.109Z",
+  "timestamp": "2024-09-06T09:18:39.778Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 15
+    "patch": 16
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -196,6 +196,30 @@
       "chainId": 8453,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/base/0x4621b7A9c75199271F773Ebd9A499dbd165c3191.png"
+    },
+    {
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/base/0x2416092f143378750bb29b79eD961ab195CcEea5.png"
+    },
+    {
+      "name": "Mog Coin",
+      "symbol": "MOG",
+      "address": "0x2Da56AcB9Ea78330f947bD57C54119Debda7AF71",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/base/0x2Da56AcB9Ea78330f947bD57C54119Debda7AF71.png"
+    },
+    {
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "address": "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/base/0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4.png"
     }
   ]
 }
