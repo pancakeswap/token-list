@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-05T14:57:57.202Z",
+  "timestamp": "2024-09-11T02:39:26.135Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 242
+    "patch": 243
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2299,6 +2299,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xdaacB0Ab6Fb34d24E8a67BfA14BF4D95D4C7aF92.png"
+    },
+    {
+      "name": "Poolz Finance",
+      "symbol": "POOLX",
+      "address": "0xbAeA9aBA1454DF334943951d51116aE342eAB255",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xbAeA9aBA1454DF334943951d51116aE342eAB255.png"
     },
     {
       "name": "pTokens OPEN",
