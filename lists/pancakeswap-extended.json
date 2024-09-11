@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-11T02:39:26.135Z",
+  "timestamp": "2024-09-11T10:13:38.292Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 243
+    "patch": 244
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2995,6 +2995,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1.png"
+    },
+    {
+      "name": "uniBTC",
+      "symbol": "uniBTC",
+      "address": "0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a.png"
     },
     {
       "name": "unshETH Ether",
