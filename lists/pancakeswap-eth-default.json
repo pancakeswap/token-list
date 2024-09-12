@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Ethereum Default",
-  "timestamp": "2024-09-05T14:58:11.445Z",
+  "timestamp": "2024-09-12T15:42:17.909Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 62
+    "patch": 63
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -644,6 +644,14 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xABD4C63d2616A5201454168269031355f4764337.png"
+    },
+    {
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "cbBTC",
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "chainId": 1,
+      "decimals": 8,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf.png"
     }
   ]
 }

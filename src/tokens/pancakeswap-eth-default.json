@@ -630,5 +630,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xABD4C63d2616A5201454168269031355f4764337.png"
+  },
+  {
+    "name": "Coinbase Wrapped BTC",
+    "symbol": "cbBTC",
+    "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "chainId": 1,
+    "decimals": 8,
+    "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf.png"
   }
 ]
