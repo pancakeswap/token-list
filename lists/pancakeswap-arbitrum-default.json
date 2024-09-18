@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Arbitrum Default",
-  "timestamp": "2024-09-06T09:19:05.900Z",
+  "timestamp": "2024-09-18T14:07:08.814Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 37
+    "patch": 38
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -492,6 +492,14 @@
       "chainId": 42161,
       "decimals": 6,
       "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0xd3443ee1e91aF28e5FB858Fbd0D72A63bA8046E0.png"
+    },
+    {
+      "name": "Eigenpie",
+      "symbol": "EGP",
+      "address": "0x7E7a7C916c19a45769f6BDAF91087f93c6C12F78",
+      "chainId": 42161,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/arbitrum/0x7E7a7C916c19a45769f6BDAF91087f93c6C12F78.png"
     }
   ]
 }
