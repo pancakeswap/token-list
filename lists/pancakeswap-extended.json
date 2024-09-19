@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-11T10:13:38.292Z",
+  "timestamp": "2024-09-19T10:57:12.436Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 244
+    "patch": 245
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -3123,6 +3123,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c.png"
     },
     {
       "name": "Wrapped eETH",

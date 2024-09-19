@@ -3414,5 +3414,13 @@
     "chainId": 56,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a.png"
+  },
+  {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "chainId": 56,
+    "decimals": 8,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c.png"
   }
 ]
