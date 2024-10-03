@@ -60,7 +60,7 @@ export const LISTS = {
   },
   "pancakeswap-arb-mm": {
     name: "PancakeSwap Arbitrum Chain MM",
-    keywords: ["pancakeswap", "mm", "arb"],
+    keywords: ["pancakeswap", "mm", "arbitrum"],
     logoURI: "https://pancakeswap.finance/logo.png",
     sort: false,
   },
