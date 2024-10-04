@@ -3435,6 +3435,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x6985884C4392D348587B19cb9eAAf157F13271cd.png"
-    }
+    },
+    {
+    "name": "Wrapped PAW",
+    "symbol": "wPAW",
+    "address": "0xc11158c5dA9db1D553ED28f0C2BA1CbEDD42CFcb",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xc11158c5dA9db1D553ED28f0C2BA1CbEDD42CFcb.png"
+  }
   ]
 }

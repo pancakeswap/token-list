@@ -3422,5 +3422,13 @@
     "chainId": 56,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c.png"
+  },
+  {
+    "name": "Wrapped PAW",
+    "symbol": "wPAW",
+    "address": "0xc11158c5dA9db1D553ED28f0C2BA1CbEDD42CFcb",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/23404.png"
   }
 ]
