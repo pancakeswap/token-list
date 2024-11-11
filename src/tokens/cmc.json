@@ -2784,14 +2784,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6537.png"
   },
   {
-    "name": "Barter",
-    "symbol": "BRTR",
-    "address": "0x5E57f24415f37c7d304E85DF9B4C36bC08789794",
-    "chainId": 56,
-    "decimals": 8,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6543.png"
-  },
-  {
     "name": "GamerCoin",
     "symbol": "GHX",
     "address": "0xbd7B8e4de08D9b01938F7FF2058F110ee1E0E8d4",
@@ -2950,6 +2942,14 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6859.png"
+  },
+  {
+    "name": "Real Time Cash",
+    "symbol": "RTC",
+    "address": "0x4Be9Bc29c328Bb7cbCBF995e15F2EBca930B10Bf",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6863.png"
   },
   {
     "name": "OIN Finance",
@@ -3622,14 +3622,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/7560.png"
-  },
-  {
-    "name": "USDG",
-    "symbol": "YSEC",
-    "address": "0x56A0F16AF7c8098141B363094fCf864d52831326",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/7572.png"
   },
   {
     "name": "CryptoFrog.Finance",
@@ -18408,14 +18400,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11567.png"
   },
   {
-    "name": "The Recharge",
-    "symbol": "RCG",
-    "address": "0x2D94172436D869c1e3c094BeaD272508faB0d9E3",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11570.png"
-  },
-  {
     "name": "Unvest",
     "symbol": "UNV",
     "address": "0xF915fDDa4c882731C0456a4214548Cd13A822886",
@@ -27006,14 +26990,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/13826.png"
-  },
-  {
-    "name": "SavePlanetEarth",
-    "symbol": "SPE",
-    "address": "0x4ac81e3631DcDa62109e3117c4CAE7bf70BbbbD2",
-    "chainId": 56,
-    "decimals": 9,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/13827.png"
   },
   {
     "name": "Maggot",
@@ -47728,6 +47704,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/18996.png"
   },
   {
+    "name": "SingSing",
+    "symbol": "SING",
+    "address": "0x8C80c06c6F8c00d2d6f3CFd6333ebB3759d66868",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/19001.png"
+  },
+  {
     "name": "CryptoMines Reborn",
     "symbol": "CRUX",
     "address": "0xe0191fEfdd0D2B39b1a2E4E029cCDA8A481b7995",
@@ -53744,14 +53728,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/20773.png"
   },
   {
-    "name": "Mudra MDR",
-    "symbol": "MDR",
-    "address": "0x4505e2ae4F9C512fd2E7E4d99C99DC94e0E93CCB",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/20775.png"
-  },
-  {
     "name": "COMMUNIQUE",
     "symbol": "CMQ",
     "address": "0x074E91c178e4B4c6228357A5A0B6df5aD824f0d8",
@@ -59514,7 +59490,7 @@
   {
     "name": "PlayZap",
     "symbol": "PZP",
-    "address": "0x6ad9E9c098a45B2B41b519119C31c3DcB02ACcB2",
+    "address": "0xdCE40c14D5956F8b8bA912402bA73B4D4d599612",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22556.png"
@@ -60278,14 +60254,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22879.png"
-  },
-  {
-    "name": "Foundation",
-    "symbol": "FND",
-    "address": "0x03753dC0A2534f5E5cFAf793e360B9677434530C",
-    "chainId": 56,
-    "decimals": 7,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22881.png"
   },
   {
     "name": "Black Token",
@@ -63696,7 +63664,7 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/24256.png"
   },
   {
-    "name": "Legacy Network",
+    "name": "Legacy Token",
     "symbol": "LGCT",
     "address": "0xD38B305CaC06990c0887032A02C03D6839f770A8",
     "chainId": 56,
@@ -66368,7 +66336,7 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/25488.png"
   },
   {
-    "name": "Seed.Photo",
+    "name": "SEED NFT Marketplace",
     "symbol": "SEED",
     "address": "0x6730f7A6BbB7b9C8e60843948f7FEB4B6a17B7F7",
     "chainId": 56,
@@ -68814,14 +68782,6 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/26183.png"
-  },
-  {
-    "name": "Bender",
-    "symbol": "BENDER",
-    "address": "0xACEfdeeD74007837573A4c1A7E175Bc32deA832F",
-    "chainId": 56,
-    "decimals": 9,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/26185.png"
   },
   {
     "name": "Rewards BSC",
@@ -73626,7 +73586,7 @@
   {
     "name": "Agatech",
     "symbol": "AGATA",
-    "address": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
+    "address": "0x18c4AF61DbE6fD55d6470943b4ab8530777d009C",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png"
@@ -76256,6 +76216,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/29955.png"
   },
   {
+    "name": "DecideAI Dollar Cow",
+    "symbol": "DCD",
+    "address": "0xBEFE77EEbfdb823a91485c5F1754E6977964287E",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/29965.png"
+  },
+  {
     "name": "Print Cash BNB",
     "symbol": "$CASH",
     "address": "0x40c9393D4E7153199fB28615A2A0A7039AE1Df15",
@@ -78800,6 +78768,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32471.png"
   },
   {
+    "name": "Dollar",
+    "symbol": "DOLLAR",
+    "address": "0xd73887bbb51De4ef1e08dF4E61E5b54e29b4F2C0",
+    "chainId": 56,
+    "decimals": 6,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32474.png"
+  },
+  {
     "name": "BSC Layer",
     "symbol": "BSC",
     "address": "0xcB8b1A33b5569D3728B4F834d01C7DF0608fB184",
@@ -79176,7 +79152,7 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32885.png"
   },
   {
-    "name": "SAYCOIN",
+    "name": "SAY Coin",
     "symbol": "SAY",
     "address": "0xEf43bF8C6430A615BBa48987aE2522E3A3bE0A18",
     "chainId": 56,
@@ -79290,7 +79266,7 @@
   {
     "name": "Labrador",
     "symbol": "LABRA",
-    "address": "0xf8f7E072A2234Ead5208c3b02A533aeB7285F911",
+    "address": "0x205da589b2B147a348059226F4a8f68baBbA08fB",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32976.png"
@@ -79408,7 +79384,7 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33073.png"
   },
   {
-    "name": "FU coin",
+    "name": "FU Coin",
     "symbol": "Fu",
     "address": "0xED6AF21Df463c7f116A6d7d687A4c190c4cf7586",
     "chainId": 56,
@@ -79722,7 +79698,7 @@
   {
     "name": "Poor Doge",
     "symbol": "PDOGE",
-    "address": "0x8DFb7d4948049269fD68419b0389609B2BDa398B",
+    "address": "0xb299B7697D7B63b7c8616a120C0Fe7a70Db2f59B",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33518.png"
@@ -79774,5 +79750,229 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33546.png"
+  },
+  {
+    "name": "insurance",
+    "symbol": "insurance",
+    "address": "0x64E4fea6e4F3637025c7Bcd878E2B238B01f7D4e",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33553.png"
+  },
+  {
+    "name": "Fly Doge",
+    "symbol": "FYDO",
+    "address": "0xb45d46A5e10B37b60063e6F0AD4B514Ce907cBCa",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33563.png"
+  },
+  {
+    "name": "Seedworld",
+    "symbol": "SWORLD",
+    "address": "0x968bE3F7bfeF0F8eDc3c1aD90232EbB0DA0867aA",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33571.png"
+  },
+  {
+    "name": "BABY HIPPO",
+    "symbol": "BabyHippo",
+    "address": "0x5ff325Ec2CDE57373cb3DB511F96A33DC92E1986",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33589.png"
+  },
+  {
+    "name": "PICOLO",
+    "symbol": "PICOLO",
+    "address": "0x03FCbD8dfE53191422C4302F14Ad11AD1db61418",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33607.png"
+  },
+  {
+    "name": "Lightning McQueen",
+    "symbol": "LMQ",
+    "address": "0x95413d9c5a796435dc5667703D81eb3580D5bAF9",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33617.png"
+  },
+  {
+    "name": "Finanx AI",
+    "symbol": "FNXAI",
+    "address": "0xD26889f63094Ba5A9d32666CdF5Ba381acfad6A6",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33620.png"
+  },
+  {
+    "name": "King Neiro",
+    "symbol": "KingNeiro",
+    "address": "0xe5bA37d7818dAD6aAC9212F0e8A363c6E8Ea0dfB",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33638.png"
+  },
+  {
+    "name": "Tomo Cat",
+    "symbol": "TOMO",
+    "address": "0x63795ec1bdd651C90170802408778383a099FA50",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33645.png"
+  },
+  {
+    "name": "GoldenCat",
+    "symbol": "CATS",
+    "address": "0x4f7eA8F6487a7007ca054F35c4a7b961f5b18961",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33646.png"
+  },
+  {
+    "name": "Infinitar",
+    "symbol": "IGT",
+    "address": "0xD5eeEc1a534c35C418B44bb28E4d5a602f1A22DE",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33657.png"
+  },
+  {
+    "name": "GoldenRat",
+    "symbol": "RATS",
+    "address": "0x45787821a0BD5e6bba8E709783C773A386e34D65",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33659.png"
+  },
+  {
+    "name": "Golden Dog",
+    "symbol": "Dogs",
+    "address": "0x093A4b0953aCeBd68129231E40f6a05542b50828",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33660.png"
+  },
+  {
+    "name": "Blynex",
+    "symbol": "BX",
+    "address": "0xFA3a42aD2260135538e4AEf265bd2bcCF7f1D179",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33691.png"
+  },
+  {
+    "name": "Baby Goat",
+    "symbol": "BabyGoat",
+    "address": "0x00a8bc9887D40FF12575f6814E98D479afAdABE6",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33703.png"
+  },
+  {
+    "name": "SCARCITY",
+    "symbol": "SCARCITY",
+    "address": "0x0d67D1BEC77E562A73A65eEf5ED92aC46744671C",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33709.png"
+  },
+  {
+    "name": "ComCrica Token",
+    "symbol": "CCT",
+    "address": "0xfc46896BB2449c22eca689875289C82b8f91027F",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33719.png"
+  },
+  {
+    "name": "Vameon",
+    "symbol": "VON",
+    "address": "0xa4c3497b57C8b6D510F3707A1e9694fD791f45FB",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33725.png"
+  },
+  {
+    "name": "UCOIN",
+    "symbol": "U",
+    "address": "0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33726.png"
+  },
+  {
+    "name": "World of Dypians",
+    "symbol": "WoD",
+    "address": "0xb994882a1b9bd98A71Dd6ea5F61577c42848B0E8",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33746.png"
+  },
+  {
+    "name": "Trump Golden Cat",
+    "symbol": "$TrumpCats",
+    "address": "0xA3cE999C506E1AaFCAF8D67ce57537842B71b96b",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33748.png"
+  },
+  {
+    "name": "LEMON",
+    "symbol": "LEMX",
+    "address": "0x2Da91257961b87e69Fa13b2e20931D517dc97597",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33757.png"
+  },
+  {
+    "name": "alloBTC",
+    "symbol": "alloBTC",
+    "address": "0x91a87e2f274b18ffBe98371CAc12eFd50387Ca36",
+    "chainId": 56,
+    "decimals": 8,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33782.png"
+  },
+  {
+    "name": "Yieldnest Restaked BNB",
+    "symbol": "ynBNB",
+    "address": "0x304B5845b9114182ECb4495Be4C91a273b74B509",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33784.png"
+  },
+  {
+    "name": "ReflectionAI",
+    "symbol": "RECT",
+    "address": "0xb42E1E0165140321DB20eF46A2e9a240D60284b6",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33803.png"
+  },
+  {
+    "name": "MAKE",
+    "symbol": "MAKE",
+    "address": "0x8125355777a19Ba58890d71C5754ED1cc4d58Fd7",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33821.png"
+  },
+  {
+    "name": "XGP",
+    "symbol": "XGP",
+    "address": "0x7d58096e087097e3927c93e0Ba83C29397Ff0daF",
+    "chainId": 56,
+    "decimals": 15,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33822.png"
+  },
+  {
+    "name": "GicSportsNetwork",
+    "symbol": "GIC",
+    "address": "0x248430019224E4479588B3161aF49ee44155D450",
+    "chainId": 56,
+    "decimals": 9,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33848.png"
   }
 ]
