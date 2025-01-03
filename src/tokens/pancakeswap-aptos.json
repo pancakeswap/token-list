@@ -206,5 +206,29 @@
     "decimals": 6,
     "address": "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
     "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002"
+  },
+  {
+    "name": "Aptos Bitcoin",
+    "symbol": "aBTC",
+    "chainId": 1,
+    "decimals": 8,
+    "address": "0x4e1854f6d332c9525e258fb6e66f84b6af8aba687bbcb832a24768c4e175feec::abtc::ABTC",
+    "logoURI": "https://tokens.pancakeswap.finance/images/0x4e1854f6d332c9525e258fb6e66f84b6af8aba687bbcb832a24768c4e175feec::abtc::ABTC.png"
+  },
+  {
+    "name": "MOOMOO Token",
+    "symbol": "MOOMOO",
+    "chainId": 1,
+    "decimals": 8,
+    "address": "0xc5fbbcc4637aeebb4e732767abee8a21f2b0776f73b73e16ce13e7d31d6700da::MOOMOO::MOOMOO",
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xc5fbbcc4637aeebb4e732767abee8a21f2b0776f73b73e16ce13e7d31d6700da::MOOMOO::MOOMOO.png"
+  },
+  {
+    "name": "MOD Token",
+    "symbol": "MOD",
+    "chainId": 1,
+    "decimals": 8,
+    "address": "0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD",
+    "logoURI": "https://tokens.pancakeswap.finance/images/symbol/0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD.png"
   }
 ]
