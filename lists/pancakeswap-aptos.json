@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Aptos",
-  "timestamp": "2024-01-02T12:24:59.698Z",
+  "timestamp": "2025-01-03T10:57:21.973Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 24
+    "patch": 25
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -20,6 +20,14 @@
       "decimals": 8,
       "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
       "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT.png"
+    },
+    {
+      "name": "Aptos Bitcoin",
+      "symbol": "aBTC",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x4e1854f6d332c9525e258fb6e66f84b6af8aba687bbcb832a24768c4e175feec::abtc::ABTC",
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x4e1854f6d332c9525e258fb6e66f84b6af8aba687bbcb832a24768c4e175feec::abtc::ABTC.png"
     },
     {
       "name": "Amnis Finance",
@@ -142,12 +150,28 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xe9c192ff55cffab3963c695cff6dbf9dad6aff2bb5ac19a6415cad26a81860d9::mee_coin::MeeCoin.png"
     },
     {
+      "name": "MOD Token",
+      "symbol": "MOD",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD",
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD.png"
+    },
+    {
       "name": "Mojito",
       "symbol": "MOJO",
       "chainId": 1,
       "decimals": 8,
       "address": "0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO",
       "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO.png"
+    },
+    {
+      "name": "MOOMOO Token",
+      "symbol": "MOOMOO",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0xc5fbbcc4637aeebb4e732767abee8a21f2b0776f73b73e16ce13e7d31d6700da::MOOMOO::MOOMOO",
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xc5fbbcc4637aeebb4e732767abee8a21f2b0776f73b73e16ce13e7d31d6700da::MOOMOO::MOOMOO.png"
     },
     {
       "name": "BlueMove",
