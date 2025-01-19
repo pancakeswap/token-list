@@ -1,0 +1,8 @@
+{
+  "address": "0xYourTokenContractAddress",  // Replace with your contract address
+  "symbol": "SNIT",
+  "name": "Sataniite",
+  "decimals": 18,
+  "logoURI": "https://gateway.pinata.cloud/ipfs/QmYourLogoImageHash",  // Your logo IPFS URL
+  "chainId": 56
+}
