@@ -214,6 +214,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL.png"
     },
     {
+      "name": "Propbase",
+      "symbol": "PROPS",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS.png"
+    },
+    {
       "name": "Wormhole - Binance USD",
       "symbol": "whBUSD",
       "chainId": 1,
