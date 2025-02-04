@@ -230,5 +230,13 @@
     "decimals": 8,
     "address": "0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD",
     "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD.png"
+  },
+  {
+      "name": "Propbase",
+      "symbol": "PROPS",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS",
+      "logoURI": "https://tokens.pancakeswap.finance/images/aptos/0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS.png"
   }
 ]
