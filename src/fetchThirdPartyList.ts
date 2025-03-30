@@ -136,7 +136,7 @@ const fetchThirdPartyList = async (listName: string): Promise<void> => {
 
     const sanitizedTokens = tokens
       .filter((token, index, array) => {
-        const isNotDuplicate = array.findIndex((t) => t.address === token.address || t.name === token.name) === index;
+        const isNotDuplicate = array.findIndex((t) => t.address === token.address || (t.name === token.name && t.symbol === token.symbol && t.decimals === token.decimals)) === index;
         if (!isNotDuplicate) duplicates.push(token);
         const hasValidSymbol = /^[a-zA-Z0-9+\-%/$]+$/.test(realTokenSymbol.get(token.address));
         const symbolIsOk =
