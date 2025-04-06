@@ -3435,6 +3435,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x6985884C4392D348587B19cb9eAAf157F13271cd.png"
-    }
+    },
+    {
+      "name": "CashBunny",
+      "symbol": "BUNNY",
+      "address": "0x2F7c6FCE82a4845726C3744df21Dc87788112B66",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/cashbunnydotfun/assets/refs/heads/master/32x32_bunny_logo.png"
+    } 
   ]
 }
