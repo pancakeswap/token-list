@@ -102,5 +102,14 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
-  }
+  },
+  {
+  "chainId": 56,
+  "address": "0x1f18df0f2d2302047856cd6a2fa47d0573e3c362",
+  "name": "AntiHoneypot",
+  "symbol": "AHPT",
+  "decimals": 18,
+  "logoURI": "https://raw.githubusercontent.com/aleksanderszczepanik12/token-list/1a35d452c614f60b262562d9a23fe9d6a34349b9/src/tokens/bsc/logos/0x1f18df0f2d2302047856cd6a2fa47d0573e3c362.png"
+}
+
 ]
