@@ -112,6 +112,16 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
-    }
-  ]
+    },
+    {
+  "chainId": 56,
+  "address": "0x4E0654859a5336D4c8be1Ad6348104b21E28363a",
+  "name": "AstroNet",
+  "symbol": "ATN",
+  "decimals": 8,
+  "logoURI": "https://astronet.pro/img/token.png",
+  "website": "https://astronet.pro",
+  "description": "AstroNet brings real-time and historical space mission data to the blockchain. Explore. Analyze. Build.",
+  "tags": ["utility", "space", "data"]
+  }
 }
