@@ -7,10 +7,7 @@
     "patch": 245
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": [
-    "pancakeswap",
-    "extended"
-  ],
+  "keywords": ["pancakeswap", "extended"],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -3435,6 +3432,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x6985884C4392D348587B19cb9eAAf157F13271cd.png"
+    },
+    {
+      "name": "DOLA",
+      "symbol": "DOLA",
+      "address": "0x33e4C55C47EeC8bD1744e869a7283C25C231a35a",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://isatq2lobhjx5kz6gwzmwxdd3macaqe2rsefjmf35wo3getrmtrq.arweave.net/RIE4aW4J036rPjWyy1xj2wAgQJqMiFSwu-2dsxJxZOM"
     }
   ]
 }
