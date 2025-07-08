@@ -1,0 +1,28 @@
+{
+  "name": "XOXO Meme Token List",
+  "logoURI": "https://xoxo.meme/logo-200.png",
+  "keywords": ["memes"],
+  "tags": {
+    "memes": {
+      "name": "Memes",
+      "description": "Meme tokens with strong community culture"
+    }
+  },
+  "timestamp": "2025-07-08T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 56,
+      "address": "0x00F71Afe867b2DbD2Ad4bA14fD139BC6bc659CcD",
+      "symbol": "XOXO",
+      "name": "XOXO Monkey",
+      "decimals": 18,
+      "logoURI": "https://xoxo.meme/logo-200.png",
+      "tags": ["memes"]
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
