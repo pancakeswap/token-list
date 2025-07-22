@@ -3422,5 +3422,13 @@
     "chainId": 56,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c.png"
+  },
+  {
+    "name": "IOSToken",
+    "symbol": "IOST",
+    "address": "0xAf48B7e315a52518CfBF7d96C455D9dFAD94cB48",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xAf48B7e315a52518CfBF7d96C455D9dFAD94cB48.png"
   }
 ]
