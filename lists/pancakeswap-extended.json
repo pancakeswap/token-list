@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-19T10:57:12.436Z",
+  "timestamp": "2025-08-17T16:33:57.788Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 245
+    "patch": 246
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2379,6 +2379,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x4C882ec256823eE773B25b414d36F92ef58a7c0C.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x81f026456658f7c23370b367627b636A52304470",
+      "symbol": "PURG",
+      "name": "Purgatory",
+      "decimals": 18,
+      "logoURI": "https://deeplabstudio.com/PURG.png"
     },
     {
       "name": "Pirex Ether OFT",
