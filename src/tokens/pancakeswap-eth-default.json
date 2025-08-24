@@ -638,5 +638,13 @@
     "chainId": 1,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf.png"
-  }
+  },
+  {
+  "chainId": 1,
+  "address": "0x4e072E18387FDc4C5768b0a99d5FABc5a28F7296",
+  "symbol": "XTH",
+  "name": "XCOIN",
+  "decimals": 18,
+  "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x4e072E18387FDc4C5768b0a99d5FABc5a28F7296.png"
+}
 ]
