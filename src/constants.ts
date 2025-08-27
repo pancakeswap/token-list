@@ -156,4 +156,14 @@ export const LISTS = {
       skipAddressChecksum: true,
     },
   },
+  "pancakeswap-ccc": {
+    name: "PancakeSwap CCC",
+    keywords: ["pancakeswap", "ccc"],
+    logoURI: "https://pancakeswap.finance/logo.png",
+    sort: true,
+    test: {
+      skipLogo: true,
+      skipDecimals: true,
+    },
+  },
 } as const;

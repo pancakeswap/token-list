@@ -8,8 +8,11 @@
   "scripts": {
     "build": "rm -rf ./dist && rollup -c",
     "checksum": "bun run index.ts checksum",
+    "checksum pancakeswap-ccc": "bun run index.ts checksum pancakeswap-ccc",
     "generate": "bun run index.ts generate",
+    "generate pancakeswap-ccc": "bun run index.ts generate pancakeswap-ccc",
     "makelist": "bun run index.ts makelist",
+    "makelist pancakeswap-ccc": "bun run index.ts makelist pancakeswap-ccc",
     "makeindex": "bun run index.ts makeindex",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",

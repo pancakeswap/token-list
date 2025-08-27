@@ -1,0 +1,24 @@
+{
+  "name": "PancakeSwap CCC",
+  "timestamp": "2025-08-27T09:28:25.183Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 8
+  },
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": [
+    "pancakeswap",
+    "ccc"
+  ],
+  "tokens": [
+    {
+      "name": "Cyper Coin",
+      "symbol": "CCC",
+      "address": "0xdd6Abc8d9B3741DF92eb82Fb593f6Abb1203ea92",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://files.cybercrash.ai/ccc.png"
+    }
+  ]
+}
