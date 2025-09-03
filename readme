@@ -1,0 +1,56 @@
+## Project Overview
+
+This project is a ERC-20 standard token deployed on the Binance Smart Chain (BSC). The contract is implemented based on [OpenZeppelin](https://openzeppelin.com/contracts/) libraries, written in Solidity `v0.8.20`, and developed using [Hardhat](https://hardhat.org/). At present, the repository contains only the token contract.
+
+## Tech Stack
+
+- **Blockchain Network**: Binance Smart Chain (BSC)
+- **Contract Language**: Solidity 0.8.20
+- **Development Framework**: Hardhat
+- **Contract Library**: OpenZeppelin Contracts
+
+## Getting Started
+
+### Prerequisites
+
+1. Install [Node.js](https://nodejs.org/)
+2. Clone the repository and install dependencies:
+
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
+   npm install
+   ```
+
+### Compile Contracts
+
+```bash
+npx hardhat compile
+```
+
+### Deploy Contracts
+
+Set the parameters in `scripts/deploy-cctoken.js` as needed, then run:
+
+```bash
+npx hardhat run scripts/deploy-cctoken.ts --network bsc
+```
+
+(Adjust deployment scripts and configurations to your needs.)
+
+### Test Contracts
+
+```bash
+npx hardhat test
+```
+
+## Core Features
+
+- **Token Standard**: ERC-20
+- **Secure implementation based on OpenZeppelin**
+- **Standard token functions**: transfer, approve, balance query, etc.
+- **Blacklist Management**: Addresses can be added to a blacklist; blacklisted addresses are restricted from token operations
+
+## Contact & Feedback
+
+For questions or suggestions, please submit an Issue or Pull Request.
