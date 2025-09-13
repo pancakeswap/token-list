@@ -112,6 +112,20 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
-    }
+    },
+{
+  "chainId": 56,
+  "address": "0x008E12860bA1B5Ce56D6bD35d64f99942D6a56bc",
+  "name": "MUPI",
+  "symbol": "MUPI",
+  "decimals": 18,
+  "logoURI": "https://raw.githubusercontent.com/agencywhitetarget-sketch/memcoinSlavCoin-SLAV-/main/mupi-logo.png",
+  "extensions": {
+    "website": "https://mupicoin.fun",
+    "telegram": "https://t.me/mupicoin",
+    "twitter": "https://x.com/mupicoin",
+    "description": "MUPI — AI × Pepe Meme Coin on BNB Chain. 0% tax, community-first."
+  }
+}
   ]
 }
