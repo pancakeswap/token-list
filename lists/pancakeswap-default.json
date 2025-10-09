@@ -112,6 +112,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "KidKoin",
+      "symbol": "KKN",
+      "address": "0xa6749c34b80fe018fb7827b7ba0fa9554240c67",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/grivusboot/kkn-token/main/logo.png"
     }
   ]
 }
