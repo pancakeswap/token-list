@@ -112,6 +112,18 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "Dejicoin",
+      "symbol": "DEJI",
+      "address": "0xFa926A1719B80Bb0050d9225afA968C805a15465",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Dejicoin/Dejicoin/main/dejicoin/logo/dejicoin-logo.png",
+      "website": "https://www.dejicoin.com/",
+      "description": "Dejicoin (DEJI) is a decentralized digital asset designed for community-driven innovation and governance.",
+      "tags": ["defi", "community", "governance"]
     }
-  ]
-}
+ ]
+}    
+   
