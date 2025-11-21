@@ -1,5 +1,13 @@
 [
   {
+    "name": "HaTrick Token",
+    "symbol": "HTRK",
+    "address": "0x2f483Ec766c40112ad08DA3eAE60FB5073F809af",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/amer-tech/hatrick-media/refs/heads/main/HaTrick_HTRK_token_logo.svg"
+  },
+  {
     "name": "WBNB Token",
     "symbol": "WBNB",
     "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
