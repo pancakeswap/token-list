@@ -3422,5 +3422,13 @@
     "chainId": 56,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c.png"
-  }
+  },
+  {
+  "name": "Tether USDT",
+  "symbol": "USDT",
+  "address": "0x513132f0C68D014dD5FA7545C821ec8E4d86aBa3",
+  "chainId": 56,
+  "decimals": 18,
+  "logoURI": "https://github.com/lionelulisesbalaccokotting-web/proxy-assets/commit/e9f61b851f3d554c08d23f76cfe00ef9d3b47eb6"
+}
 ]
