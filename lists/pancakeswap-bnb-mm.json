@@ -1,8 +1,25 @@
 {
-  "chainId": 56,
-  "address": "0xC34bbC9cE28Bc74D116a23961083724b5675eEB6",
-  "name": "Kaltara Di Hati",
-  "symbol": "KDH",
-  "decimals": 18,
-  "logoURI": "https://raw.githubusercontent.com/NewBornPrince9/token-list/main/lists/images/symbol/0xC34bbC9cE28Bc74D116a23961083724b5675eEB6.png"
+  "name": "PancakeSwap BNB Chain MM",
+  "timestamp": "2023-06-29T21:24:06.707Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 4
+  },
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": [
+    "pancakeswap",
+    "mm",
+    "bnb"
+  ],
+  "tokens": [
+    {
+      "name": "Kaltara Di Hati",
+      "symbol": "KDH",
+      "address": "0x792c6734143d51f5e97d2045c900383816e332b9",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/pancakeswap/token-list/main/lists/images/symbol/0x792c6734143d51f5e97d2045c900383816e332b9.png"
+    }
+  ]
 }
