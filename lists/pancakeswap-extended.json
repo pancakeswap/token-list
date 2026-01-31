@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-19T10:57:12.436Z",
+  "timestamp": "2026-01-31T16:42:26.152Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 245
+    "patch": 246
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1955,6 +1955,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x9573c88aE3e37508f87649f87c4dd5373C9F31e0.png"
+    },
+    {
+      "name": "Moonini",
+      "symbol": "MOONINI",
+      "address": "0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe.png"
     },
     {
       "name": "mPendle",
