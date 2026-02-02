@@ -21,6 +21,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
+  "name": "Tether USD Bridged BEP20",
+  "symbol": "USDT.$",
+  "address": "0x08Fa658593F0EaE226D8892b2E4CB43d8912C643",
+  "chainId": 56,
+  "decimals": 18,
+  "logoURI": "https://raw.githubusercontent.com/carlos-qqqa75144/alphateam-token/refs/heads/main/root/logo.png"
+    },
+    {
       "name": "8PAY Network v2",
       "symbol": "8PAY v2",
       "address": "0x6EaDc05928ACd93eFB3FA0DFbC644D96C6Aa1Df8",
