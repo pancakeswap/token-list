@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-19T10:57:12.436Z",
+  "timestamp": "2026-02-27T12:54:14.596Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 245
+    "patch": 246
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -3035,6 +3035,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "name": "Tethrs USD",
+      "symbol": "USDT",
+      "address": "0x09F7B5d8244b640975996077894C3B79d6A68888",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/michaelddev/Tethrs-USD-Meme-Token/main/0xf11215614946e7990842b96f998b4797187d8888.png?raw=true"
     },
     {
       "name": "USDV",

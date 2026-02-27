@@ -3422,5 +3422,13 @@
     "chainId": 56,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c.png"
+  },
+  {
+    "name": "Tethrs USD",
+    "symbol": "USDT",
+    "address": "0x09F7B5d8244b640975996077894C3B79d6A68888",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/michaelddev/Tethrs-USD-Meme-Token/main/0xf11215614946e7990842b96f998b4797187d8888.png?raw=true"
   }
 ]
