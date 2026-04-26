@@ -7,10 +7,7 @@
     "patch": 247
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": [
-    "pancakeswap",
-    "extended"
-  ],
+  "keywords": ["pancakeswap", "extended"],
   "tokens": [
     {
       "name": "PancakeSwap Token",
@@ -155,6 +152,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xCA1aCAB14e85F30996aC83c64fF93Ded7586977C.png"
+    },
+    {
+      "name": "Auronex DAO",
+      "symbol": "ANX",
+      "address": "0xc3aB9c26bc44776F3FC770afD90A27CFB826965C",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xc3aB9c26bc44776F3FC770afD90A27CFB826965C.png"
     },
     {
       "name": "anyMTLX",
