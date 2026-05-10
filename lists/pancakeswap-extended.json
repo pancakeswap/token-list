@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-19T10:57:12.436Z",
+  "timestamp": "2026-05-10T05:25:51.087Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 245
+    "patch": 250
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -3035,6 +3035,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x43C19957324D403eB8DF0A6d72316a2327769Dd0",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "ipfs://bafkreiddonxxitviptn34vuxtky35hjomgtxlcrf252igoayfekyrfhzsq"
     },
     {
       "name": "USDV",
