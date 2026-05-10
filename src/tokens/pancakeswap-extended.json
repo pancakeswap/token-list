@@ -3422,5 +3422,14 @@
     "chainId": 56,
     "decimals": 8,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c.png"
-  }
+  },
+  {
+      "name": "Verdex Governance Token",
+      "symbol": "VDX",
+      "address": "0xFB2aD39cF5a002B31D2b216bd2d4a952Bd220FdE",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/aghyad99k-svg/verdex/refs/heads/main/unnamed.png"
+    }
+  
 ]
