@@ -652,6 +652,22 @@
       "chainId": 1,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf.png"
+    },
+    {
+      "name": "K9",
+      "symbol": "K9",
+      "address": "0xbc920c7Fa25D3Cd5606394aa4C6751d71DCb7930",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0xbc920c7Fa25D3Cd5606394aa4C6751d71DCb7930.png"
+    },
+    {
+      "name": "World Pup Coin",
+      "symbol": "PUPCUP",
+      "address": "0x884649f1fE3Bf3Ae0Bd720Eaf660cB561dcE39ef",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x884649f1fE3Bf3Ae0Bd720Eaf660cB561dcE39ef.png"
     }
   ]
 }
