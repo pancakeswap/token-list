@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-19T10:57:12.436Z",
+  "timestamp": "2026-05-25T13:56:52.180Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 245
+    "patch": 246
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -715,6 +715,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x7e9AB560d37E62883E882474b096643caB234B65.png"
+    },
+    {
+      "name": "CHEEKI",
+      "symbol": "CHEEKI",
+      "address": "0x0c0A5B284D3bDD42c9FD53C99502CF8b3FD9f599",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0c0A5B284D3bDD42c9FD53C99502CF8b3FD9f599.png"
     },
     {
       "name": "Tranchess",
