@@ -1,5 +1,13 @@
 [
   {
+    "name": "USDT",
+    "symbol": "USDT",
+    "address": "0xdB1abaeEDD36396392BfE7917BfD9a34f91f98cd",
+    "chainId": 56,
+    "decimals": 6,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xdB1abaeEDD36396392BfE7917BfD9a34f91f98cd.png"
+  },
+  {
     "name": "WBNB Token",
     "symbol": "WBNB",
     "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
