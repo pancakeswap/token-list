@@ -1,5 +1,13 @@
 [
   {
+    "name": "Shark Network",
+    "symbol": "SHARK",
+    "address": "0x0000000000000000000000000000000000000000",
+    "chainId": 88118,
+    "decimals": 18,
+    "logoURI": "https://swapshark.net/logo.png"
+  },
+  {
     "name": "WBNB Token",
     "symbol": "WBNB",
     "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
