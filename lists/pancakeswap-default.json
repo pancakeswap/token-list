@@ -7,7 +7,10 @@
     "patch": 10
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancakeswap", "default"],
+  "keywords": [
+    "pancakeswap",
+    "default"
+  ],
   "tokens": [
     {
       "name": "WBNB Token",
@@ -112,6 +115,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0xBB86b6D41c895622fA4Ed35C9BEe6B65c1bB7555",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xBB86b6D41c895622fA4Ed35C9BEe6B65c1bB7555.png"
     }
   ]
 }
