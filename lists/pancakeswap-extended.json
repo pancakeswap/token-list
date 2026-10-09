@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-19T10:57:12.436Z",
+  "timestamp": "2026-10-09T07:09:23.619Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 245
+    "patch": 247
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -2027,6 +2027,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x1D3437E570e93581Bd94b2fd8Fbf202d4a65654A.png"
+    },
+    {
+      "name": "Native Cheesecoin",
+      "symbol": "NCH",
+      "address": "0xa481714D92437A006f0Eee5770EE9E4380f25396",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xa481714D92437A006f0Eee5770EE9E4380f25396.png"
     },
     {
       "name": "NFPrompt Token",
