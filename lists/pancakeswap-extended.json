@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2024-09-19T10:57:12.436Z",
+  "timestamp": "2026-10-27T19:58:35.806Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 245
+    "patch": 246
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
@@ -1611,6 +1611,14 @@
       "chainId": 56,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x77d547256A2cD95F32F67aE0313E450Ac200648d.png"
+    },
+    {
+      "name": "London Entrepreneurs Network Token",
+      "symbol": "LENT",
+      "address": "0x1Ca53AB509757A4FE134709Ee53BBcDA5D4a8A6d",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1Ca53AB509757A4FE134709Ee53BBcDA5D4a8A6d.png"
     },
     {
       "name": "Level Governance Token",
